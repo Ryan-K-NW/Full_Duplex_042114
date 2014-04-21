@@ -126,10 +126,25 @@ def main():
     n = 0
     pktno = 0
     pkt_size = int(options.size)
+    
+    #Adding in RODD signaling
+    duty_cycle = int(20)
+    zero_count = 0
 
     while n < nbytes:
         if options.from_file is None:
-            data = (pkt_size - 2) * chr(pktno & 0xff) 
+            if pktno < duty_cycle:
+		print "Sending Data Packets"
+                zero_count = 0
+                data = (pkt_size - 2) * chr(pktno & 0xff)
+            else:
+                print "Sending 0 packets"
+                zero_count = zero_count + 1;
+                data = (pkt_size -2) * chr(0 & 0x00)
+                # check to see if we have added enough 0 packets
+                if zero_count > 19:
+                    duty_cycle = duty_cycle + 40 
+                  
         else:
             data = source_file.read(pkt_size - 2)
             if data == '':
