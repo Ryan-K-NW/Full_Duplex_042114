@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1filter_1_1channel__model__impl" kind="class" prot="public">
+    <compoundname>gr::filter::channel_model_impl</compoundname>
+    <basecompoundref refid="classgr_1_1filter_1_1channel__model" prot="public" virt="non-virtual">gr::filter::channel_model</basecompoundref>
+    <includes refid="channel__model__impl_8h" local="no">channel_model_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1ad77aea0476a7a54065f588adaa2680d4" prot="private" static="no" mutable="no">
+        <type>gr_sig_source_c_sptr</type>
+        <definition>gr_sig_source_c_sptr gr::filter::channel_model_impl::d_freq_offset</definition>
+        <argsstring></argsstring>
+        <name>d_freq_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="41" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1a4fa984f4a9402f0b3a7d6ce66b2d84dc" prot="private" static="no" mutable="no">
+        <type>gr_add_cc_sptr</type>
+        <definition>gr_add_cc_sptr gr::filter::channel_model_impl::d_noise_adder</definition>
+        <argsstring></argsstring>
+        <name>d_noise_adder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="42" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1ae7e4cdd8918e10e213734119a1d225a0" prot="private" static="no" mutable="no">
+        <type>gr_noise_source_c_sptr</type>
+        <definition>gr_noise_source_c_sptr gr::filter::channel_model_impl::d_noise</definition>
+        <argsstring></argsstring>
+        <name>d_noise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="43" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1a44ec18ad1a15e5165e3ef42629ef03ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_multiply_cc_sptr</ref></type>
+        <definition>gr_multiply_cc_sptr gr::filter::channel_model_impl::d_mixer_offset</definition>
+        <argsstring></argsstring>
+        <name>d_mixer_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="44" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1ad0f8ca050aa1fc829922cef98d373f3d" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1fractional__interpolator__cc_1a1597c48f16a7edb44899acd43e5507b5" kindref="member">fractional_interpolator_cc::sptr</ref></type>
+        <definition>fractional_interpolator_cc::sptr gr::filter::channel_model_impl::d_timing_offset</definition>
+        <argsstring></argsstring>
+        <name>d_timing_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="46" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1ab90cf5ca02c9616b358890ea38a8cb88" prot="private" static="no" mutable="no">
+        <type>fir_filter_ccc::sptr</type>
+        <definition>fir_filter_ccc::sptr gr::filter::channel_model_impl::d_multipath</definition>
+        <argsstring></argsstring>
+        <name>d_multipath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="47" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1channel__model__impl_1a357f433dc205ec0867b44c3a9adfc3c5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::channel_model_impl::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="49" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a92de37dca8e655f680843749bb243522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::channel_model_impl::channel_model_impl</definition>
+        <argsstring>(double noise_voltage, double frequency_offset, double epsilon, const std::vector&lt; gr_complex &gt; &amp;taps, double noise_seed)</argsstring>
+        <name>channel_model_impl</name>
+        <param>
+          <type>double</type>
+          <declname>noise_voltage</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>frequency_offset</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>noise_seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a88c5f0e669c7f9a40e0f066d47454b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::channel_model_impl::~channel_model_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~channel_model_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1afc0655df09ab898eca17b14fe7a0ea72" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::filter::channel_model_impl::set_noise_voltage</definition>
+        <argsstring>(double noise_voltage)</argsstring>
+        <name>set_noise_voltage</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1ad9b153119f03e4230b21adde3fee961c">set_noise_voltage</reimplements>
+        <param>
+          <type>double</type>
+          <declname>noise_voltage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1ac1fb71949f1473f7697271777145be9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::filter::channel_model_impl::set_frequency_offset</definition>
+        <argsstring>(double frequency_offset)</argsstring>
+        <name>set_frequency_offset</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a89781fb8145c7df4fa58970fd046e3fa">set_frequency_offset</reimplements>
+        <param>
+          <type>double</type>
+          <declname>frequency_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a2330fc5499ad1c4f4b89f0cad9a1bd20" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::filter::channel_model_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a3e4f0df645206c10681b04305a9d19d7">set_taps</reimplements>
+        <param>
+          <type>const std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a73da8f99c6b5c43292c67298038098b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::filter::channel_model_impl::set_timing_offset</definition>
+        <argsstring>(double epsilon)</argsstring>
+        <name>set_timing_offset</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a3f3ee9650c70c022d46e97e8af18ec4e">set_timing_offset</reimplements>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1af90441f72a0513cdfb4321eafc778f3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::filter::channel_model_impl::noise_voltage</definition>
+        <argsstring>() const </argsstring>
+        <name>noise_voltage</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1ae514a9e8da1e40f2650f2b9a257d66dd">noise_voltage</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a01f1df98c63f1a7c872e109a491dd447" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::filter::channel_model_impl::frequency_offset</definition>
+        <argsstring>() const </argsstring>
+        <name>frequency_offset</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a70bfec4b5d66be0b697cea18b59e665c">frequency_offset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1a31b51ee53ab17f9e51fdeb1dcf38a4f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref> &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::filter::channel_model_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a0e8d3625680a7d4711c2053753aead32">taps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1channel__model__impl_1ac39344ebc9e14131f9d8ec71b3f103a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gr::filter::channel_model_impl::timing_offset</definition>
+        <argsstring>() const </argsstring>
+        <name>timing_offset</name>
+        <reimplements refid="classgr_1_1filter_1_1channel__model_1a2eaf9d89ea6bc9b4e9f2a15299cae315">timing_offset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7253">
+        <label>gr_msg_accepter</label>
+        <link refid="classgr__msg__accepter"/>
+        <childnode refid="7254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7251">
+        <label>gr_hier_block2</label>
+        <link refid="classgr__hier__block2"/>
+        <childnode refid="7252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7254">
+        <label>gruel::msg_accepter</label>
+        <link refid="classgruel_1_1msg__accepter"/>
+      </node>
+      <node id="7250">
+        <label>gr::filter::channel_model</label>
+        <link refid="classgr_1_1filter_1_1channel__model"/>
+        <childnode refid="7251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7252">
+        <label>gr_basic_block</label>
+        <link refid="classgr__basic__block"/>
+        <childnode refid="7253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7249">
+        <label>gr::filter::channel_model_impl</label>
+        <link refid="classgr_1_1filter_1_1channel__model__impl"/>
+        <childnode refid="7250" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7267">
+        <label>T</label>
+      </node>
+      <node id="7259">
+        <label>gr_msg_accepter</label>
+        <link refid="classgr__msg__accepter"/>
+        <childnode refid="7260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7257">
+        <label>gr_hier_block2</label>
+        <link refid="classgr__hier__block2"/>
+        <childnode refid="7258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7261">
+        <label>boost::shared_ptr&lt; gr_io_signature &gt;</label>
+        <link refid="classboost_1_1shared__ptr"/>
+        <childnode refid="7262" relation="usage">
+          <edgelabel>px</edgelabel>
+        </childnode>
+      </node>
+      <node id="7264">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="7260">
+        <label>gruel::msg_accepter</label>
+        <link refid="classgruel_1_1msg__accepter"/>
+      </node>
+      <node id="7262">
+        <label>gr_io_signature</label>
+        <link refid="classgr__io__signature"/>
+      </node>
+      <node id="7256">
+        <label>gr::filter::channel_model</label>
+        <link refid="classgr_1_1filter_1_1channel__model"/>
+        <childnode refid="7257" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7258">
+        <label>gr_basic_block</label>
+        <link refid="classgr__basic__block"/>
+        <childnode refid="7259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7261" relation="usage">
+          <edgelabel>d_input_signature</edgelabel>
+          <edgelabel>d_output_signature</edgelabel>
+        </childnode>
+        <childnode refid="7263" relation="usage">
+          <edgelabel>d_symbol_alias</edgelabel>
+          <edgelabel>d_name</edgelabel>
+          <edgelabel>d_symbol_name</edgelabel>
+        </childnode>
+        <childnode refid="7265" relation="usage">
+          <edgelabel>msg_queue</edgelabel>
+        </childnode>
+      </node>
+      <node id="7265">
+        <label>std::map&lt; pmt::pmt_t, msg_queue_t, pmt::pmt_comperator &gt;</label>
+        <childnode refid="7266" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7266">
+        <label>std::deque&lt; T &gt;</label>
+        <childnode refid="7267" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7263">
+        <label>std::string</label>
+        <childnode refid="7264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7255">
+        <label>gr::filter::channel_model_impl</label>
+        <link refid="classgr_1_1filter_1_1channel__model__impl"/>
+        <childnode refid="7256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" line="39" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/channel_model_impl.h" bodystart="38" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgr__basic__block_1abc3f1986711d1d7f429bff7df1de7de4" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>_post</name></member>
+      <member refid="classgr__basic__block_1a54c38dcb817866397d15921884f581ec" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>alias</name></member>
+      <member refid="classgr__basic__block_1a043ae7d3ce7e8cc41bd2e98823f7d7d8" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>alias_pmt</name></member>
+      <member refid="classgr__basic__block_1adc8c7dc7cc8f8b1b644c5157e0153f94" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>alias_set</name></member>
+      <member refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3da0abd1c82699481ffa502e5bb8d7bdaec" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>BLACK</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a92de37dca8e655f680843749bb243522" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>channel_model_impl</name></member>
+      <member refid="classgr__basic__block_1a50a714df9c3ce8c03854a09ac84e589b" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>check_topology</name></member>
+      <member refid="classgr__basic__block_1a1cedb1704b6c00977c681b378ede384c" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>color</name></member>
+      <member refid="classgr__hier__block2_1af2eac32d80a8ead56e28835b2dbf5e9f" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>connect</name></member>
+      <member refid="classgr__hier__block2_1a48d8026ae9bd00fc5dddb6940531796d" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>connect</name></member>
+      <member refid="classgr__basic__block_1a7fb7e692e3b98a82410b396ef263bb41" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_color</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ad77aea0476a7a54065f588adaa2680d4" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_freq_offset</name></member>
+      <member refid="classgr__basic__block_1a2c8da0c28bbbfb0e759278c9b9459e96" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_input_signature</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a44ec18ad1a15e5165e3ef42629ef03ac" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_mixer_offset</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ab90cf5ca02c9616b358890ea38a8cb88" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_multipath</name></member>
+      <member refid="classgr__basic__block_1afd352cc073ef28012d4d079a863f5401" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_name</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ae7e4cdd8918e10e213734119a1d225a0" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_noise</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a4fa984f4a9402f0b3a7d6ce66b2d84dc" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_noise_adder</name></member>
+      <member refid="classgr__basic__block_1a76d64ed7a79566e3310306ae6f194d75" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_output_signature</name></member>
+      <member refid="classgr__basic__block_1a5bf3aa412f9dcf71113f992bd3020daf" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_symbol_alias</name></member>
+      <member refid="classgr__basic__block_1a5cd137be87fb1927c1ef99f7d6ad8d65" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_symbol_name</name></member>
+      <member refid="classgr__basic__block_1a4161d5da81dc9bca5de414a48ef922c3" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_symbolic_id</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a357f433dc205ec0867b44c3a9adfc3c5" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_taps</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ad0f8ca050aa1fc829922cef98d373f3d" prot="private" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_timing_offset</name></member>
+      <member refid="classgr__basic__block_1a0d2999c04f47327f93dd7def5dc704f8" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>d_unique_id</name></member>
+      <member refid="classgr__basic__block_1aa3bb86ca135907dc53c57289a523ca32" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>delete_head_blocking</name></member>
+      <member refid="classgr__basic__block_1a33756f2c97fb8b0fba71f6bc42b03d59" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>delete_head_nowait</name></member>
+      <member refid="classgr__hier__block2_1a3af3d7708f89011dfc398bc16f7222cb" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>disconnect</name></member>
+      <member refid="classgr__hier__block2_1a25407d2027f825dc5395abe3536a4ac1" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>disconnect</name></member>
+      <member refid="classgr__hier__block2_1ad695c24808d24ad09428380fd213306d" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>disconnect_all</name></member>
+      <member refid="classgr__basic__block_1ad1c5ba586a40491af5913311f4470ebe" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>empty_p</name></member>
+      <member refid="classgr__basic__block_1af4d06c2709104e08274501490bb8f7f6" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>empty_p</name></member>
+      <member refid="classgr__basic__block_1a30fe581e8b1be62abcab5ec2ed66e44b" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>erase_msg</name></member>
+      <member refid="classgr__hier__block2_1a0f7b989d0496f41e8c30b822a25eba21" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>flatten</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a01f1df98c63f1a7c872e109a491dd447" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>frequency_offset</name></member>
+      <member refid="classgr__basic__block_1aeb3a83879ff75b903d1316f8cf6e06d6" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>get_iterator</name></member>
+      <member refid="classgr__basic__block_1a84d1e93b57e52efb18a5aa90a3eaf2db" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_basic_block</name></member>
+      <member refid="classgr__basic__block_1a1183eee484f58953a2fed4c792e46245" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_basic_block</name></member>
+      <member refid="classgr__basic__block_1a69b41e361328cea911d69e1ec0bc50ff" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_flat_flowgraph</name></member>
+      <member refid="classgr__basic__block_1adf5bf4523d6dd698aa770e3da8f2b30d" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_flowgraph</name></member>
+      <member refid="classgr__hier__block2_1a9f065335f42852256617ccddcf12946e" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_hier_block2</name></member>
+      <member refid="classgr__hier__block2_1a324be02b1e3b00da10ed7b6df86f164f" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_hier_block2</name></member>
+      <member refid="classgr__msg__accepter_1a0482adcd6e89d2a441c8768737b68c21" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_msg_accepter</name></member>
+      <member refid="classgr__basic__block_1affab9e232776d20a9b3772f545559611" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>gr_tpb_thread_body</name></member>
+      <member refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3daa6cce7ec34a3f9cf917e545a743dc89f" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>GREY</name></member>
+      <member refid="classgr__hier__block2_1a5b44d6a9cb53a41f10969d2f0e86c617" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>has_msg_port</name></member>
+      <member refid="classgr__hier__block2_1a23a29338e35aa4fc45eaacbff084bdd0" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>hier_message_ports_in</name></member>
+      <member refid="classgr__hier__block2_1abde3825f28c5b4546cbd38b97f05a8e8" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>hier_message_ports_out</name></member>
+      <member refid="classgr__basic__block_1a58f6d05e85931200f3771d3e50741281" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>input_signature</name></member>
+      <member refid="classgr__basic__block_1a3606b8e99537a7c7f64d46668bf3c0a0" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>insert_tail</name></member>
+      <member refid="classgr__hier__block2_1ac99f0dc1037ec2ca81721da8127c6d25" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>lock</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a07efe42085b5e2b5c9820b6fc066073f" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>make</name></member>
+      <member refid="classgr__hier__block2_1a335237d6dff99d52414a29518c11f303" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_is_hier</name></member>
+      <member refid="classgr__hier__block2_1a37e01a8e690640902017ab08a12061f5" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_is_hier_in</name></member>
+      <member refid="classgr__hier__block2_1ab4c80eb5f0ed73a9c2a9d35231426993" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_is_hier_out</name></member>
+      <member refid="classgr__basic__block_1ad2e662133322e1ba4aa68ca004a2acb0" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_pub</name></member>
+      <member refid="classgr__hier__block2_1a90a0916c98376d5c75c571d05d0c5fca" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_register_hier_in</name></member>
+      <member refid="classgr__hier__block2_1aec3ebaed3ed4f3e8c73e05503b4cb2cb" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_register_hier_out</name></member>
+      <member refid="classgr__basic__block_1a29a04836f7bbb7ccdb8ce4057e0fb3c2" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_register_in</name></member>
+      <member refid="classgr__basic__block_1aff7deffd0983e432c3d7aee067a32a5a" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_register_out</name></member>
+      <member refid="classgr__basic__block_1ad2f0cebb65d0e47575f583146f470011" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_sub</name></member>
+      <member refid="classgr__basic__block_1af25a8788a85ab7a3a0bc697f89cd66f5" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_port_unsub</name></member>
+      <member refid="classgr__basic__block_1add58577b929acfbd4030842773d9c423" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_ports_in</name></member>
+      <member refid="classgr__basic__block_1a8a88820559d69eaf1e04ef60c872d5da" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_ports_out</name></member>
+      <member refid="classgr__basic__block_1aa0d567ada087be0c8ffda03f2848e7d6" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>message_subscribers</name></member>
+      <member refid="classgruel_1_1msg__accepter_1a501f4d98d2f933c64d00a766f26b0280" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_accepter</name></member>
+      <member refid="classgr__hier__block2_1ac29177b44a163530c7b51a302368dae6" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_connect</name></member>
+      <member refid="classgr__hier__block2_1a71127c1a24e69d80570cf4af74f67180" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_connect</name></member>
+      <member refid="classgr__hier__block2_1a5fe684a0ebf9b5b9b4f2297a07c0ea5e" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_disconnect</name></member>
+      <member refid="classgr__hier__block2_1a9bd0c134232259543caccfdb3191f955" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_disconnect</name></member>
+      <member refid="classgr__basic__block_1ad8a92aaf82c421805d78fbf2958373d1" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>msg_queue</name></member>
+      <member refid="classgr__basic__block_1aa12a20d8b8eab341da935530d29299d2" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>name</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1af90441f72a0513cdfb4321eafc778f3f" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>noise_voltage</name></member>
+      <member refid="classgr__hier__block2_1a39c600cf628c730eba5bd32cb7ccc861" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>opaque_self</name></member>
+      <member refid="classgr__basic__block_1add68b96f012dfe352700b4fd1c3a184a" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>output_signature</name></member>
+      <member refid="classgr__msg__accepter_1a466d3e63bc7272aee4d65a3f8be721b3" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>post</name></member>
+      <member refid="classgr__hier__block2_1a1106680d50c01b757d0a5af3f6f10681" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>self</name></member>
+      <member refid="classgr__basic__block_1a516a987acd197109b318859b1f2d4794" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>set_block_alias</name></member>
+      <member refid="classgr__basic__block_1a0821ef947158670d53bf0739f3c8877b" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>set_color</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ac1fb71949f1473f7697271777145be9f" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>set_frequency_offset</name></member>
+      <member refid="classgr__basic__block_1a419d0fbba0ca02d822cbc299b979de54" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>set_input_signature</name></member>
+      <member refid="classgr__basic__block_1af1a987df65146b6e58c64bd4ada2dc06" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>set_msg_handler</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1afc0655df09ab898eca17b14fe7a0ea72" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>set_noise_voltage</name></member>
+      <member refid="classgr__basic__block_1a949b6ad69ebfdf423835265db99cf63d" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>set_output_signature</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a2330fc5499ad1c4f4b89f0cad9a1bd20" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a73da8f99c6b5c43292c67298038098b9" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>set_timing_offset</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model_1a2c47e1d1a6fa57807096ea705226fa68" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>sptr</name></member>
+      <member refid="classgr__basic__block_1a2506bcf7acba35171c32ba99abac37f6" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>symbol_name</name></member>
+      <member refid="classgr__basic__block_1a8dc2fb06a1f504cd220bae7fc19256e9" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>symbolic_id</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a31b51ee53ab17f9e51fdeb1dcf38a4f0" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1ac39344ebc9e14131f9d8ec71b3f103a4" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>timing_offset</name></member>
+      <member refid="classgr__basic__block_1a87b0e931b388d349dacd6a5010b5739c" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>to_basic_block</name></member>
+      <member refid="classgr__hier__block2_1a133eb3a40da0d6355d85383ad20fd4f7" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>to_hier_block2</name></member>
+      <member refid="classgr__basic__block_1aa2a2947744d418c5470fbf4e623b58fe" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>unique_id</name></member>
+      <member refid="classgr__hier__block2_1a35d938ecc725c7992fb104cb2f321ebf" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>unlock</name></member>
+      <member refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3d" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>vcolor</name></member>
+      <member refid="classgr__basic__block_1a5c90b7c003ddd61f8df6bef2aceeab3da476d594a077e729bad0f2cfa2008c899" prot="protected" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>WHITE</name></member>
+      <member refid="classgr_1_1filter_1_1channel__model__impl_1a88c5f0e669c7f9a40e0f066d47454b07" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>~channel_model_impl</name></member>
+      <member refid="classgr__basic__block_1a5bc14d27d53b7b57a960a47cc255e3f9" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>~gr_basic_block</name></member>
+      <member refid="classgr__hier__block2_1a397a3307e074b26716401df03b5be398" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>~gr_hier_block2</name></member>
+      <member refid="classgr__msg__accepter_1ad2ee9c687b775b08ce0e27e913ed8a7d" prot="public" virt="non-virtual"><scope>gr::filter::channel_model_impl</scope><name>~gr_msg_accepter</name></member>
+      <member refid="classgruel_1_1msg__accepter_1a043f8b7de22a127df5dd9b3dfe76e2da" prot="public" virt="virtual"><scope>gr::filter::channel_model_impl</scope><name>~msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

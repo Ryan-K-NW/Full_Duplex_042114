@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="digital__clock__recovery__mm__ff_8h" kind="file">
+    <compoundname>digital_clock_recovery_mm_ff.h</compoundname>
+    <includes refid="digital__api_8h" local="no">digital_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <includes refid="gr__math_8h" local="no">gr_math.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="39312">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="39291">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39286" relation="include">
+        </childnode>
+      </node>
+      <node id="39314">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="39286">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="39284">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39285" relation="include">
+        </childnode>
+      </node>
+      <node id="39282">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="39280" relation="include">
+        </childnode>
+      </node>
+      <node id="39298">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="39278">
+        <label>digital_clock_recovery_mm_ff.h</label>
+        <link refid="digital_clock_recovery_mm_ff.h"/>
+        <childnode refid="39279" relation="include">
+        </childnode>
+        <childnode refid="39281" relation="include">
+        </childnode>
+        <childnode refid="39318" relation="include">
+        </childnode>
+        <childnode refid="39319" relation="include">
+        </childnode>
+      </node>
+      <node id="39315">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="39289">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="39290" relation="include">
+        </childnode>
+      </node>
+      <node id="39305">
+        <label>stdexcept</label>
+      </node>
+      <node id="39311">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="39279">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="39280" relation="include">
+        </childnode>
+      </node>
+      <node id="39301">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="39302" relation="include">
+        </childnode>
+        <childnode refid="39303" relation="include">
+        </childnode>
+      </node>
+      <node id="39300">
+        <label>string</label>
+      </node>
+      <node id="39283">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39284" relation="include">
+        </childnode>
+        <childnode refid="39291" relation="include">
+        </childnode>
+        <childnode refid="39292" relation="include">
+        </childnode>
+        <childnode refid="39293" relation="include">
+        </childnode>
+        <childnode refid="39294" relation="include">
+        </childnode>
+        <childnode refid="39300" relation="include">
+        </childnode>
+        <childnode refid="39307" relation="include">
+        </childnode>
+        <childnode refid="39308" relation="include">
+        </childnode>
+        <childnode refid="39309" relation="include">
+        </childnode>
+        <childnode refid="39310" relation="include">
+        </childnode>
+        <childnode refid="39315" relation="include">
+        </childnode>
+        <childnode refid="39314" relation="include">
+        </childnode>
+        <childnode refid="39316" relation="include">
+        </childnode>
+      </node>
+      <node id="39308">
+        <label>map</label>
+      </node>
+      <node id="39288">
+        <label>stddef.h</label>
+      </node>
+      <node id="39309">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39284" relation="include">
+        </childnode>
+      </node>
+      <node id="39293">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="39302">
+        <label>limits.h</label>
+      </node>
+      <node id="39281">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39283" relation="include">
+        </childnode>
+        <childnode refid="39317" relation="include">
+        </childnode>
+      </node>
+      <node id="39299">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="39295">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="39296" relation="include">
+        </childnode>
+        <childnode refid="39297" relation="include">
+        </childnode>
+        <childnode refid="39286" relation="include">
+        </childnode>
+      </node>
+      <node id="39303">
+        <label>wchar.h</label>
+      </node>
+      <node id="39313">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="39306">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="39317">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39297" relation="include">
+        </childnode>
+      </node>
+      <node id="39287">
+        <label>vector</label>
+      </node>
+      <node id="39294">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39295" relation="include">
+        </childnode>
+        <childnode refid="39297" relation="include">
+        </childnode>
+      </node>
+      <node id="39292">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="39304">
+        <label>iosfwd</label>
+      </node>
+      <node id="39297">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="39296" relation="include">
+        </childnode>
+        <childnode refid="39298" relation="include">
+        </childnode>
+        <childnode refid="39286" relation="include">
+        </childnode>
+        <childnode refid="39299" relation="include">
+        </childnode>
+        <childnode refid="39290" relation="include">
+        </childnode>
+        <childnode refid="39300" relation="include">
+        </childnode>
+        <childnode refid="39301" relation="include">
+        </childnode>
+        <childnode refid="39304" relation="include">
+        </childnode>
+        <childnode refid="39305" relation="include">
+        </childnode>
+        <childnode refid="39287" relation="include">
+        </childnode>
+        <childnode refid="39306" relation="include">
+        </childnode>
+      </node>
+      <node id="39316">
+        <label>iostream</label>
+      </node>
+      <node id="39318">
+        <label>gr_math.h</label>
+        <link refid="gr__math_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39289" relation="include">
+        </childnode>
+      </node>
+      <node id="39307">
+        <label>deque</label>
+      </node>
+      <node id="39310">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="39296" relation="include">
+        </childnode>
+        <childnode refid="39311" relation="include">
+        </childnode>
+        <childnode refid="39312" relation="include">
+        </childnode>
+        <childnode refid="39313" relation="include">
+        </childnode>
+        <childnode refid="39314" relation="include">
+        </childnode>
+      </node>
+      <node id="39280">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="39290">
+        <label>complex</label>
+      </node>
+      <node id="39319">
+        <label>stdio.h</label>
+      </node>
+      <node id="39285">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="39282" relation="include">
+        </childnode>
+        <childnode refid="39286" relation="include">
+        </childnode>
+        <childnode refid="39287" relation="include">
+        </childnode>
+        <childnode refid="39288" relation="include">
+        </childnode>
+        <childnode refid="39289" relation="include">
+        </childnode>
+      </node>
+      <node id="39296">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="39280" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classdigital__clock__recovery__mm__ff" prot="public">digital_clock_recovery_mm_ff</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="digital__clock__recovery__mm__ff_8h_1a2a0af37299df84df2c2bf57f1995d924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="digital__api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">digital_clock_recovery_mm_ff_sptr</ref></type>
+        <definition>DIGITAL_API digital_clock_recovery_mm_ff_sptr digital_make_clock_recovery_mm_ff</definition>
+        <argsstring>(float omega, float gain_omega, float mu, float gain_mu, float omega_relative_limit=0.001)</argsstring>
+        <name>digital_make_clock_recovery_mm_ff</name>
+        <param>
+          <type>float</type>
+          <declname>omega</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_omega</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_mu</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>omega_relative_limit</declname>
+          <defval>0.001</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_clock_recovery_mm_ff.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_clock_recovery_mm_ff.h"/>
+  </compounddef>
+</doxygen>

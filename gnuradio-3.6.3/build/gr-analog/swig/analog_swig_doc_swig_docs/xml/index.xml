@@ -1,0 +1,709 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.7.6.1">
+  <compound refid="classgr_1_1analog_1_1agc2__cc__impl" kind="class"><name>gr::analog::agc2_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a9caec66ad3341840eee38e6c6f63e289" kind="function"><name>agc2_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1adcb632380ded8d5222406f3eb4ef4f0a" kind="function"><name>~agc2_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1acbc31e747af5733179c1271fbdc7e2b4" kind="function"><name>attack_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a6620de3ec63357dc461fcb74b302a999" kind="function"><name>decay_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a203dac8e528bf1789cca82cfee76e2da" kind="function"><name>reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a0641187067dcc19a9c05969c75c09291" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a8d9e68919ca2ad6b7f5178b30ffe414c" kind="function"><name>max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1ad2e3e5dd6e71a4b78d7819a33b396ba5" kind="function"><name>set_attack_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1ac69cf6d2365d9a4f0d2be85773d39f5b" kind="function"><name>set_decay_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a5621beca8d36f8ccdb1e697a5931f64b" kind="function"><name>set_reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a58a70cb8e5ddb7a923eedb943a5ee56c" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a4b2341656deadc24c513d33d731366dd" kind="function"><name>set_max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__cc__impl_1a9cbc2281f88d90e6744505300df7db40" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1agc2__ff__impl" kind="class"><name>gr::analog::agc2_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a307effc0218689dcafd9c1241e7894c7" kind="function"><name>agc2_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a4478b1b43545f5f6e22204da2c91c9c6" kind="function"><name>~agc2_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a838ff27700ba6d728d63d17bc36960e6" kind="function"><name>attack_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1aa7a03257b1745e23b43f9f3d90624177" kind="function"><name>decay_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a7a272931fe172880ec2b34dfb7e8e365" kind="function"><name>reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1acfe1b4a8c16aae1c863e8819e58a0406" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1ac7a977cb9521b17cf5cc32fe54f5b9f0" kind="function"><name>max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a1432e17528d821955a799f1acf826d01" kind="function"><name>set_attack_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a01d6d6fb37f6d6395e7e434ee38129ad" kind="function"><name>set_decay_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a7a5e540cbe13cdecba484abd6e5efdd5" kind="function"><name>set_reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1ac94dd0f8944de123cdbd98f28cc6685e" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1a40cdc4f8757fae1c177457886bcdbd26" kind="function"><name>set_max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc2__ff__impl_1aa44bb397490b78bba8aaa9f283ef9401" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1agc__cc__impl" kind="class"><name>gr::analog::agc_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a37b87f54f20a4429cdb891c5b13ba302" kind="function"><name>agc_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a888261451b478d22f2fda0716267273e" kind="function"><name>~agc_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" kind="function"><name>rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" kind="function"><name>reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" kind="function"><name>max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1aa3d1263611e57f3556e10084f15b0e50" kind="function"><name>set_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a9d5c33ab5099364915f592843745900c" kind="function"><name>set_reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1ae34acc4e1aa5cf434ba581621660c124" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1aaec03fb0c5abf0892852c755393cad76" kind="function"><name>set_max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__cc__impl_1a149ad1160dcf36c0f390725d758d3dd8" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1agc__ff__impl" kind="class"><name>gr::analog::agc_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1a16c01fc6cd8689ec08c246f1d3a2dd8a" kind="function"><name>agc_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1ac68bda76184591c51e68c81c707f3f18" kind="function"><name>~agc_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1afb303ebedb84b86d68405cd0c89c2675" kind="function"><name>rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1ac0269d96db8808c817a334f3a417229b" kind="function"><name>reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1ad67a7b215e6ebcf7d109217058e5b588" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1ada9acddebf3756b2eb95dc132a56beb6" kind="function"><name>max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1a43de5dd9011e2c27f1f8af7b9a5f4fac" kind="function"><name>set_rate</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1a754774f362582f394294b1862b202e17" kind="function"><name>set_reference</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1ad22102c8c7e52b592ef28789e34ba52d" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1a0a0eea706eba05dc8d02889595a3cb39" kind="function"><name>set_max_gain</name></member>
+    <member refid="classgr_1_1analog_1_1agc__ff__impl_1a54023230173ee44cbdc1e9237c945f71" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1allocator" kind="class"><name>std::allocator</name>
+    <member refid="classstd_1_1allocator_1a55f88dab1194d6b8a34e46017c4dfd79" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1auto__ptr" kind="class"><name>std::auto_ptr</name>
+    <member refid="classstd_1_1auto__ptr_1a076c936287003dc557981f9ccec1d841" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1auto__ptr_1aa16b96ffd607af4bb6ba4738d77124f8" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1bad__alloc" kind="class"><name>std::bad_alloc</name>
+  </compound>
+  <compound refid="classstd_1_1bad__cast" kind="class"><name>std::bad_cast</name>
+  </compound>
+  <compound refid="classstd_1_1bad__exception" kind="class"><name>std::bad_exception</name>
+  </compound>
+  <compound refid="classstd_1_1bad__typeid" kind="class"><name>std::bad_typeid</name>
+  </compound>
+  <compound refid="classstd_1_1basic__fstream" kind="class"><name>std::basic_fstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ifstream" kind="class"><name>std::basic_ifstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ios" kind="class"><name>std::basic_ios</name>
+  </compound>
+  <compound refid="classstd_1_1basic__iostream" kind="class"><name>std::basic_iostream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__istream" kind="class"><name>std::basic_istream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__istringstream" kind="class"><name>std::basic_istringstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ofstream" kind="class"><name>std::basic_ofstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ostream" kind="class"><name>std::basic_ostream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ostringstream" kind="class"><name>std::basic_ostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string" kind="class"><name>std::basic_string</name>
+  </compound>
+  <compound refid="classstd_1_1basic__stringstream" kind="class"><name>std::basic_stringstream</name>
+  </compound>
+  <compound refid="classstd_1_1bitset" kind="class"><name>std::bitset</name>
+  </compound>
+  <compound refid="classstd_1_1complex" kind="class"><name>std::complex</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1const__iterator" kind="class"><name>std::map::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1const__iterator" kind="class"><name>std::basic_string::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1const__iterator" kind="class"><name>std::multiset::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1const__iterator" kind="class"><name>std::string::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1const__iterator" kind="class"><name>std::vector::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1const__iterator" kind="class"><name>std::multimap::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1const__iterator" kind="class"><name>std::set::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1const__iterator" kind="class"><name>std::wstring::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1const__iterator" kind="class"><name>std::deque::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1const__iterator" kind="class"><name>std::list::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1const__reverse__iterator" kind="class"><name>std::map::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1const__reverse__iterator" kind="class"><name>std::multimap::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1const__reverse__iterator" kind="class"><name>std::basic_string::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1const__reverse__iterator" kind="class"><name>std::multiset::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1const__reverse__iterator" kind="class"><name>std::vector::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1const__reverse__iterator" kind="class"><name>std::string::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1const__reverse__iterator" kind="class"><name>std::wstring::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1const__reverse__iterator" kind="class"><name>std::set::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1cpfsk__bc__impl" kind="class"><name>gr::analog::cpfsk_bc_impl</name>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a11b15e73ff0045f5e70d8f75d483d5cf" kind="variable"><name>d_samples_per_sym</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a30a3fdd95f4086ac98a4722875a55a15" kind="variable"><name>d_freq</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a722ae1b8487f1e450af582cfe305d1f2" kind="variable"><name>d_ampl</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1aaf5e2246fd0b26b3ae3a403f53ce3498" kind="variable"><name>d_phase</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a6bd6eb70a450f56e2d7ed45bb6df30c5" kind="function"><name>cpfsk_bc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a8bd08605add64268d8b0614f8523bded" kind="function"><name>~cpfsk_bc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a843fc2df22c579d7736abefb8d67374c" kind="function"><name>set_amplitude</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a20312e78acb11bfac3dd8a2c4bda3543" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a54b0f8b9988ba45b0faa97325dfef0a0" kind="function"><name>freq</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1ae60b58850c9884a0fc579f939073319f" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1analog_1_1cpfsk__bc__impl_1a714cebf6e71af86be5e9600e75e9fdb7" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl" kind="class"><name>gr::analog::ctcss_squelch_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1af845aa8682baaaadeaa442cd4dec62da" kind="variable"><name>d_freq</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a887efc3c096b5d3019d53fdd94b0bfeb" kind="variable"><name>d_level</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1abbd0012106601c89ae617aef9a64c059" kind="variable"><name>d_len</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a937168e2ea6e8c17bacaa749b0adbf1d" kind="variable"><name>d_mute</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a6d1ede0f8d61948f835e9aeab1d90ec9" kind="variable"><name>d_goertzel_l</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1aee95bba09079babe23d5d14904fd0dc3" kind="variable"><name>d_goertzel_c</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a97bc880102eeea471d37357e77fe96b6" kind="variable"><name>d_goertzel_r</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a5856300bf51d4b7ace41bed8ecf1b454" kind="function"><name>find_tone</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1aed2667ce69dac0b1dc41e840470e6f3a" kind="function"><name>update_state</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1ab794ab1be7efcc3c5158016e84e9be15" kind="function"><name>mute</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1ac4968e9eee2e9a2c625f0485e7f2b4d3" kind="function"><name>ctcss_squelch_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a8b1105d13bba01ff424e45ed0dd0db8e" kind="function"><name>~ctcss_squelch_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a66eb90b8591f509c1c1be763e42e1364" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1ad67b0471eb2e88ce8ac27b67bbe72a45" kind="function"><name>level</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a277ab2f06e39a425cb49c94a0d04acf9" kind="function"><name>set_level</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1afa3bd5d1630a2064ca6f8cda1868f15d" kind="function"><name>len</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a517518d291f78cb5b9a76e62ad0d8f5e" kind="function"><name>ramp</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a926e2776dfa4a88f0ab8b354e69ef340" kind="function"><name>set_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a471001b03de00a4110e243b93ed7e84f" kind="function"><name>gate</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a6f24c466656bc0a016905b2cee8692a1" kind="function"><name>set_gate</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1afe2cd762622950d80d8469e55e9c95b5" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1ctcss__squelch__ff__impl_1a136a3063a7a476359cba3ed23a63edef" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classstd_1_1deque" kind="class"><name>std::deque</name>
+    <member refid="classstd_1_1deque_1a090b92581de438d2e14bedc190f0b0f9" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1domain__error" kind="class"><name>std::domain_error</name>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1dpll__bb__impl" kind="class"><name>gr::analog::dpll_bb_impl</name>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a02015b95a457dbeefd68b15db443a57e" kind="variable"><name>d_restart</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1ad1708775ed0c3f83f2673dafbb92c22a" kind="variable"><name>d_pulse_phase</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1aee99e9c0d38866dc3f9365eda0cf7fd7" kind="variable"><name>d_pulse_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1af2e8e2b703d2195d85ed338e1c4657cd" kind="variable"><name>d_gain</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a0312d7445fe1231a1c174d0b76c5cc68" kind="variable"><name>d_decision_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a432208267f85860d2d64d88bb9ef8b19" kind="function"><name>dpll_bb_impl</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1ae022f7e66334305eb87e52c93956efa7" kind="function"><name>~dpll_bb_impl</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a3b351aa9114453623de47839d0e12435" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a1fd42ad216af22f2f0be57a28763abcc" kind="function"><name>set_decision_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a3eb3408c39b351e663c9b942419fd01b" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a8e5ef8a41ee7c40c1f4b43054b468c2f" kind="function"><name>freq</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a5a01dcfd9d18f6c103501335ff997c35" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a039897b4f2d4f4bd44fd6303b2749827" kind="function"><name>decision_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1dpll__bb__impl_1aa2094b5fb5c152b4c86009264d08c430" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1exception" kind="class"><name>std::exception</name>
+  </compound>
+  <compound refid="classstd_1_1ios__base_1_1failure" kind="class"><name>std::ios_base::failure</name>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1feedforward__agc__cc__impl" kind="class"><name>gr::analog::feedforward_agc_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1feedforward__agc__cc__impl_1aa51a49f2db498ce27ff5d7f45829065b" kind="variable"><name>d_nsamples</name></member>
+    <member refid="classgr_1_1analog_1_1feedforward__agc__cc__impl_1aebb92379020118834b02ad3dd5fb8792" kind="variable"><name>d_reference</name></member>
+    <member refid="classgr_1_1analog_1_1feedforward__agc__cc__impl_1af190a1bd4a682fdf8020a04815719d0d" kind="function"><name>feedforward_agc_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1feedforward__agc__cc__impl_1af35c7d38032dec4b52e3bafcbee09c01" kind="function"><name>~feedforward_agc_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1feedforward__agc__cc__impl_1a2eba02a6aec4a9ab50bbd8c4233c9633" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1fmdet__cf__impl" kind="class"><name>gr::analog::fmdet_cf_impl</name>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1ad42b0a4759ec8787d84af38f82d5134b" kind="variable"><name>d_S1</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1acf5d9cae34b926b97c5bed7d8e630c9d" kind="variable"><name>d_S2</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a0f8c943aebd414225b427df1b8d774e9" kind="variable"><name>d_S3</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1aff919d7a12cd2293bf2101716c35ebe0" kind="variable"><name>d_S4</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a17b18b6cf7cbcf0d9b52406963f205c5" kind="variable"><name>d_freq</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a7763eac2a45a16f09c0b80c3d5d1bf04" kind="variable"><name>d_freqlo</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a7752d69491b7854acb555367ad5c3c7f" kind="variable"><name>d_freqhi</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a1be9912da39f330f4f715356180b4ca9" kind="variable"><name>d_scl</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a830a1b3f476be5b0f7c86b7b5a0e2f63" kind="variable"><name>d_bias</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a3deffd58e4bd5ef92083f907fc9d4951" kind="function"><name>fmdet_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a3435289002943f4bc85af15fce69a3d6" kind="function"><name>~fmdet_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a088dbeaeab312c57e1903b738cbb3aec" kind="function"><name>set_scale</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a2c88ddb11ab32c8f0e17d3629efb4c47" kind="function"><name>set_freq_range</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1acfc0e15a17e874590e5bb4b06aa56d09" kind="function"><name>freq</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a7e748a588daf79ca4046458ba520ea7d" kind="function"><name>freq_high</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a643c89ebd0c34491b56d4f07f6e3d476" kind="function"><name>freq_low</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a0d050258b159a8a8161f5b96b2500971" kind="function"><name>scale</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a65fd755731c087da92763d5bbb92dad0" kind="function"><name>bias</name></member>
+    <member refid="classgr_1_1analog_1_1fmdet__cf__impl_1a2398430f197ba6755cef3be6ddf684f6" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1frequency__modulator__fc__impl" kind="class"><name>gr::analog::frequency_modulator_fc_impl</name>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a4b803faacf2d646bbcfc2f10fc1d3e5e" kind="variable"><name>d_sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab619ba226f814f56d48f58841c3b1709" kind="variable"><name>d_phase</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a68eea4cb81fb0e04737e43103fd0aea7" kind="function"><name>frequency_modulator_fc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a3c91c64b539de04204aa9f30d6d28599" kind="function"><name>~frequency_modulator_fc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a9ba9d0b52b5b30a335172dc49c32aef8" kind="function"><name>set_sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a622271df80f6a81f988c83f6ef61f413" kind="function"><name>sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab5a3ce239cfdf399b6fe0b618dc3c86a" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1fstream" kind="class"><name>std::fstream</name>
+  </compound>
+  <compound refid="classstd_1_1ifstream" kind="class"><name>std::ifstream</name>
+  </compound>
+  <compound refid="classstd_1_1invalid__argument" kind="class"><name>std::invalid_argument</name>
+  </compound>
+  <compound refid="classstd_1_1ios" kind="class"><name>std::ios</name>
+  </compound>
+  <compound refid="classstd_1_1ios__base" kind="class"><name>std::ios_base</name>
+  </compound>
+  <compound refid="classstd_1_1istream" kind="class"><name>std::istream</name>
+  </compound>
+  <compound refid="classstd_1_1istringstream" kind="class"><name>std::istringstream</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1iterator" kind="class"><name>std::multimap::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1iterator" kind="class"><name>std::multiset::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1iterator" kind="class"><name>std::vector::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1iterator" kind="class"><name>std::string::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1iterator" kind="class"><name>std::wstring::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1iterator" kind="class"><name>std::basic_string::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1iterator" kind="class"><name>std::deque::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1iterator" kind="class"><name>std::set::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1iterator" kind="class"><name>std::list::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1length__error" kind="class"><name>std::length_error</name>
+  </compound>
+  <compound refid="classstd_1_1list" kind="class"><name>std::list</name>
+    <member refid="classstd_1_1list_1a682e5c7c91eb377d0cb4f019b2b81a5d" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1logic__error" kind="class"><name>std::logic_error</name>
+  </compound>
+  <compound refid="classstd_1_1map" kind="class"><name>std::map</name>
+    <member refid="classstd_1_1map_1a8dc2b3ed44acf51fb2bd3eb30b237269" kind="variable"><name>keys</name></member>
+    <member refid="classstd_1_1map_1ac69fe575e214b796b8d9457b0c22469a" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1multimap" kind="class"><name>std::multimap</name>
+    <member refid="classstd_1_1multimap_1a4e7d19eda5925ebfcf1e3dcba085cce5" kind="variable"><name>keys</name></member>
+    <member refid="classstd_1_1multimap_1abb7a4781b562bae0a54baeb5726ac28d" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1multiset" kind="class"><name>std::multiset</name>
+    <member refid="classstd_1_1multiset_1a93eb79091066c87f6dfb9d07c6c7cbcd" kind="variable"><name>keys</name></member>
+  </compound>
+  <compound refid="classstd_1_1ofstream" kind="class"><name>std::ofstream</name>
+  </compound>
+  <compound refid="classstd_1_1ostream" kind="class"><name>std::ostream</name>
+  </compound>
+  <compound refid="classstd_1_1ostringstream" kind="class"><name>std::ostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1out__of__range" kind="class"><name>std::out_of_range</name>
+  </compound>
+  <compound refid="classstd_1_1overflow__error" kind="class"><name>std::overflow_error</name>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1phase__modulator__fc__impl" kind="class"><name>gr::analog::phase_modulator_fc_impl</name>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a456b45852db91b53786ce427c5966488" kind="variable"><name>d_sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1ae3d243938b25d85bf020954a7c1f5203" kind="variable"><name>d_phase</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a1c8b0731aea6b307ac3a2e6ba57d6d8b" kind="function"><name>phase_modulator_fc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a43bc6e4bdc9f75424370008e841c7af9" kind="function"><name>~phase_modulator_fc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a6d02b4b5ef474b0f3451496c26706206" kind="function"><name>sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1aa0b5eda637b2489047e1c5152a2d4ec2" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1ab285c2ab49d318d2e1f8bf7b453341f0" kind="function"><name>set_sensitivity</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a629e4f9829b88da637559765095c68f4" kind="function"><name>set_phase</name></member>
+    <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a680237e1e3592eb66a4d6d553cb54818" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl" kind="class"><name>gr::analog::pll_carriertracking_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9448f33ed672c4ac2cc9a79cb7bbcb32" kind="variable"><name>d_locksig</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a3cc4abf7b893d3df9b4ba8ffe9f569f8" kind="variable"><name>d_lock_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a1ab1b4312979027e5c2e2e3e7a472433" kind="variable"><name>d_squelch_enable</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1adf5e260838377a06cae7417a827eef6a" kind="function"><name>mod_2pi</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a06c89ab1f691bbc88382df9bb4f7efc0" kind="function"><name>phase_detector</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9cf173d6cec6ea73aa8c28915e8556a3" kind="function"><name>pll_carriertracking_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af330732e4cf75f067154fbcf445d51fa" kind="function"><name>~pll_carriertracking_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ad5fe0fae43173f033ca0dd8e5d9611bc" kind="function"><name>lock_detector</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa0c53872f138c6780bf22aeb0a3f735d" kind="function"><name>squelch_enable</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a0eed9caee617c9fcd6a36c0e873aa308" kind="function"><name>set_lock_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a09462cdc01803cf4812f3db20014ce7e" kind="function"><name>set_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ada7804d366883aed8b1c6492f88ff23f" kind="function"><name>set_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ac804bd92a78cb607bbef91c8cd52db4e" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a53949f8c103bc67e6f7dc8cda55e539c" kind="function"><name>set_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a4d2850eb18e49a4c29fd8c02f7809a92" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a11c10192f7cd49ac7169d7f13fccff04" kind="function"><name>set_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a903f035a85d77151f4256a5bdb24e2d2" kind="function"><name>set_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa3da0c947ace4f054acf1ec464214085" kind="function"><name>set_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af7bac6b790e09878650cd6d3ccbe5caa" kind="function"><name>get_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1abffeabf7d723f73b1ab8d2d3dd4f8a1e" kind="function"><name>get_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9b200677cacd74b96b6a95dde14e20e1" kind="function"><name>get_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a6c379d010841e45b3e88526b8da46a91" kind="function"><name>get_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a7b550cd8d741266271d5b764341ebd16" kind="function"><name>get_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a5c3b48e750bf8ee1a8c9e82a9b8b6a63" kind="function"><name>get_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a8da5bb26702887898d8f07341eb16e11" kind="function"><name>get_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ae466919720ddcd4012f91dc4d82d770d" kind="function"><name>get_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a64f6a7e0d28f36802a3e90c6ef42fab8" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1pll__freqdet__cf__impl" kind="class"><name>gr::analog::pll_freqdet_cf_impl</name>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a33ae2019add7bfb0bf998b3f7a2ec4dd" kind="function"><name>phase_detector</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a52560ff79924f915249816e13bbf3a02" kind="function"><name>pll_freqdet_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a406c7ebdebe1aa0952c59a71eba54206" kind="function"><name>~pll_freqdet_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a594eceb3318e2aaccf01bca5968d806a" kind="function"><name>mod_2pi</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a30ecd590c9a8f530bec2866f9af9a466" kind="function"><name>set_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a56ba378eff7114cb1b3bb15be9e77b0a" kind="function"><name>set_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5c01c74dec90416e9e9a71f92bd05920" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a6c21da1d8d83a7f511488ec1e9de9afe" kind="function"><name>set_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab3436ed21214cb6980147305efb709ec" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aaf5d005b93dc6c6c76ac3db12cc678f0" kind="function"><name>set_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5d8e79b4762d56c40ffed646e349d545" kind="function"><name>set_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a06be4f485bc3c98d03234f0031e2e447" kind="function"><name>set_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab47271d813890b08c75403e37cda09df" kind="function"><name>get_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a0a02c568ba9ebd7da485ad12f3b30d1c" kind="function"><name>get_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aa118d320e1ea2c6c0e5f00acbf052bb8" kind="function"><name>get_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a709fa335a59559874c1f4a84a404c592" kind="function"><name>get_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a15d34619316a7449e3836bbcadf45646" kind="function"><name>get_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a77adee133127d4e508500f5bcf6acc69" kind="function"><name>get_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a45a3c179b2913d35e87a35710a64e7f6" kind="function"><name>get_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1afc915b24d0750c6df060332c264cf547" kind="function"><name>get_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a7f463b6a8a5dbcc40200a6df96485087" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1pll__refout__cc__impl" kind="class"><name>gr::analog::pll_refout_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a1f87dabe8cea44e3749fed2c8dd6d911" kind="function"><name>mod_2pi</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1aba83f65df06f55445ce3a70d9c4f07d8" kind="function"><name>phase_detector</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a5408d29abc2af9b9363e2510c202e9a5" kind="function"><name>pll_refout_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a386a3188837f61b6eacde8c56a52b6f7" kind="function"><name>~pll_refout_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a79f33608140b1c96e0499136676fe429" kind="function"><name>set_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1ac140ebc440066cf8735c2610c30dbd5a" kind="function"><name>set_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a15688b2ce5a33034cb6b62b0f62f79be" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1abbfa0f632231cbc0c71c5538922601fe" kind="function"><name>set_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a55049dfdedb837b1d11230e764bdf585" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a2e28e236cadfffe4401bb9d304cefad2" kind="function"><name>set_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a3bd08e47c914ab43e023bbfcac2665ab" kind="function"><name>set_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a132c488dcc199a3711378cd85401d099" kind="function"><name>set_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1ab0e345e3398a0d8d546c7bec80712833" kind="function"><name>get_loop_bandwidth</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1aac15727cf0637ddffa2fdd28616f0140" kind="function"><name>get_damping_factor</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a830878665d61e906dc94bcc08afd15e2" kind="function"><name>get_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1ac49b2456a2c6fdde2df936bc9f34b3d7" kind="function"><name>get_beta</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1aa0b4233f59b89d8e1af042bdd96e6193" kind="function"><name>get_frequency</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a86cfa5550a43057e00b6e75ec0a9be1f" kind="function"><name>get_phase</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1adafa2b8c54d673539bdeeb1d0afc9671" kind="function"><name>get_min_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1a7028a64e5b013882810bba843b5a2073" kind="function"><name>get_max_freq</name></member>
+    <member refid="classgr_1_1analog_1_1pll__refout__cc__impl_1aa683a32c2305345db92f01f26f36c510" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1priority__queue" kind="class"><name>std::priority_queue</name>
+    <member refid="classstd_1_1priority__queue_1a4df2ae826d2b2caf4a6755adbd34a836" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl" kind="class"><name>gr::analog::probe_avg_mag_sqrd_c_impl</name>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1a882d66670374f25f140c6265fbd509cb" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1af134b632e3302dc1893410348a4365fc" kind="variable"><name>d_unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1abba0a2a806fa74cfa447ff80ffa1e001" kind="variable"><name>d_level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1a9766fba17044925d72cac796f3d43e5d" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1a77b6cba42623ecb8e871e958ed0fe5fe" kind="function"><name>probe_avg_mag_sqrd_c_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1ac717a77a4cc785fdcd236f1a1318945d" kind="function"><name>~probe_avg_mag_sqrd_c_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1ae4a6ead039ebd7852598956e4c553057" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1ac02f7c6fedb44a71ac2a7d43119f94a7" kind="function"><name>level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1a79d0c1bc9917bb6db5d30ce81d95ab3f" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1ad30500b282fe3988a23af45f4d9a09ec" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1a296cae0b0ed2873a5d0a7ed3b477cc7a" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl_1ab3cc6b7a5f5c82099319f8eee7b97a56" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl" kind="class"><name>gr::analog::probe_avg_mag_sqrd_cf_impl</name>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a636def74e2ddac59672929dd71e4cc6d" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a53ead46d0bb9337d64eeba773c9e90cf" kind="variable"><name>d_unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1acba9d63eebdbd58e1a876f8002162271" kind="variable"><name>d_level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1aca768890bd478aa8ab14cfbad04c5de2" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a3b974382b27ebe156a22b366de739d0f" kind="function"><name>probe_avg_mag_sqrd_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac200b26b906a93144f54013611a7e733" kind="function"><name>~probe_avg_mag_sqrd_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a6a21ecf74597b37c6724390c3a6b35de" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ae096e7816d561c0dd263e09e6e13952b" kind="function"><name>level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a58238516ba72c31d72c484287e41c10b" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1adb017ec67079b24121c67f8d3b118eb3" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a560ff1ef313344d71205b16dcd23a7b5" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac6e2ba9c02f30e33534475b527660911" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl" kind="class"><name>gr::analog::probe_avg_mag_sqrd_f_impl</name>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a512818b539c73176d2d3e453c1292a9b" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1ad26f7333c0b0bef506a7c5a6a5ca81da" kind="variable"><name>d_unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a315053c576a0778ed82cdfd1bc6190bb" kind="variable"><name>d_level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a39ee73d6d3ff5edf0c6182ebf6553e8e" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a5c3eb22be6d4076e766d41214939f676" kind="function"><name>probe_avg_mag_sqrd_f_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1ad85c9eb076386cbee8266b5e089f8d3e" kind="function"><name>~probe_avg_mag_sqrd_f_impl</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a5d5ce9fb4f83010713575cb724c0813c" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a5587fea06ab04b0c9d3357109c7165ca" kind="function"><name>level</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a940a7d407f0355b8a7ee81deba7aecba" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a0ad08482f417b124e45b3d14061ec628" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1a178d04cecbef87b2135d615fcb35c54d" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl_1aed499c685965227c236b84eb1abe4209" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1pwr__squelch__cc__impl" kind="class"><name>gr::analog::pwr_squelch_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a52b474bf4a989e13f9488d894a5eccaf" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a4a7ad29fb14997b8f000d4f616eaaf07" kind="variable"><name>d_pwr</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a057e19096155c01c41efd784a9ab0ec5" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1ad36ead3a23cc5c50e27c017eb6e53aaa" kind="function"><name>update_state</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a8ba2da51d0f25f4342c42e5dbf488b70" kind="function"><name>mute</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a70e0e97886899c933901fe9b0ebde139" kind="function"><name>pwr_squelch_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1aa01d57d6f2dc119e9626c76e076649e6" kind="function"><name>~pwr_squelch_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1ada0e521c826e3f2330fcb648a041efc8" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a101580b83206ce906a03b8980319d787" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1aeb738f1ca5f0ec45f42c2ead68a1a740" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a8305235e772f5e9007ce9d8d812aeac9" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a456f9901c7a335611a3ca27639799605" kind="function"><name>ramp</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1aa3fb911db093026f68fb2b8540ee51f5" kind="function"><name>set_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1abc74c7ef38a231e699193ca671718427" kind="function"><name>gate</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a86e6c8394273d050718ff67cce781f89" kind="function"><name>set_gate</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1a5e1035cdda2ae95d3d85eb9441a82ec7" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__cc__impl_1ae05fc0c53e6cd5bb1108aa9d4d58db6b" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1pwr__squelch__ff__impl" kind="class"><name>gr::analog::pwr_squelch_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a53913352bcdd5d294612540ffaabeef8" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1afb3f7ac272488ef9f6144b2677705e1b" kind="variable"><name>d_pwr</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a2e1d814d43e5fc28b5e60589bb61664a" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a677d4b7b53a6594e776e57edf7958678" kind="function"><name>update_state</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af5d2c2df8d91139496a23df0ada24211" kind="function"><name>mute</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ae8ff7d91007a484df7ea229356620cd4" kind="function"><name>pwr_squelch_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a5040c08f347aa4d79e5c026f72499826" kind="function"><name>~pwr_squelch_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a9b9710f1037a9072e3b6c1152003df1c" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a62992c071edb809a4b7e342d8adbcb26" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7bc29eadb73cb94f1c83ed6af1f04295" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ad853cfeb78e347e86ccd625fad411554" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1abfbc8fc8801364edf48d7ab8a192ed82" kind="function"><name>ramp</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af86c116453c5e9a0d85061a3a826d0c0" kind="function"><name>set_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ab20205649fdc6b195653c6f8b9871ed2" kind="function"><name>gate</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7be0e4ff474a43692f70a7df4653315b" kind="function"><name>set_gate</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a256de032da7311adf5ead2f676dfa02b" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7462cd0cf6a560de061243ce7dd40b8e" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classqa__gr__analog" kind="class"><name>qa_gr_analog</name>
+    <member refid="classqa__gr__analog_1a91254985a8613c4f15ae2047ab552dd3" kind="function"><name>suite</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1qa__rotator" kind="class"><name>gr::analog::qa_rotator</name>
+    <member refid="classgr_1_1analog_1_1qa__rotator_1a687330bbbe5800f41196c73f1af5c952" kind="function"><name>CPPUNIT_TEST_SUITE</name></member>
+    <member refid="classgr_1_1analog_1_1qa__rotator_1a67cd754e2572982730e74c4b8fe574a7" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classgr_1_1analog_1_1qa__rotator_1a97fe0e49030464b9be0d2ab853ac5321" kind="function"><name>CPPUNIT_TEST_SUITE_END</name></member>
+    <member refid="classgr_1_1analog_1_1qa__rotator_1a0c8a505a67c1fb101c5b9041d7b594cc" kind="function"><name>t1</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1qa__sincos" kind="class"><name>gr::analog::qa_sincos</name>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1a65ecd1ef48463a0b1370377a133dff0a" kind="function"><name>CPPUNIT_TEST_SUITE</name></member>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1a7ea73791d5d8c1280b93e6b6d961d8a7" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1a6c8cb588bb8c93ed3cc834609dd87f57" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1ad3c2e8a608dc25cfcf68353dadafb8dc" kind="function"><name>CPPUNIT_TEST_SUITE_END</name></member>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1a024cfb1e16cf1afd2e33ca2fec614446" kind="function"><name>t1</name></member>
+    <member refid="classgr_1_1analog_1_1qa__sincos_1ab8993f17c57a6e5451bd107de50aa5c6" kind="function"><name>t2</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1quadrature__demod__cf__impl" kind="class"><name>gr::analog::quadrature_demod_cf_impl</name>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a09b4983a6be98d53101bbb224d6b9de5" kind="variable"><name>d_gain</name></member>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a961a645f3bc712297cfd8f165ad40d86" kind="function"><name>quadrature_demod_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a7682c45a83053e91d21a1fa02bbe400c" kind="function"><name>~quadrature_demod_cf_impl</name></member>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a1b34e28639b8c276fbdb997313b63df1" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a40e4f1f660d00572d187202216d375bf" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1analog_1_1quadrature__demod__cf__impl_1a62f93bfae5100d2d4c740734f5bc23c3" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1queue" kind="class"><name>std::queue</name>
+    <member refid="classstd_1_1queue_1aebacc4dcb935c5e54144e881eb41e356" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1rail__ff__impl" kind="class"><name>gr::analog::rail_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a31e0b4c5614a38803c0ca88987731e9b" kind="variable"><name>d_lo</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7b829d0102cd68f8f04adac440e8b07c" kind="variable"><name>d_hi</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7ebbaa32d16dd3d5491ec1e8b222258d" kind="variable"><name>d_mid</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a3ec5ea63305f04153cdaf0ef9498a721" kind="variable"><name>d_clip</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a8c3efc3e2ddd3263395fdf3c42fcda8c" kind="function"><name>set_clipping</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1afc4059ed2d30017a9b239c683cc0c4b2" kind="function"><name>rail_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a5a74836490a62df0491d9c0eb1a1001d" kind="function"><name>~rail_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a3905fb6e1eb817c20ec3ea8c9ee4e85a" kind="function"><name>lo</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a68d2b4bfdc036cbc4d918bb4876dae1e" kind="function"><name>hi</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1ac50b48f42dc13cbc495c78fab040f64f" kind="function"><name>set_lo</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7770775aac5cd155d944bb9531799941" kind="function"><name>set_hi</name></member>
+    <member refid="classgr_1_1analog_1_1rail__ff__impl_1a77edc219610688ed981479bfc5cf3b15" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1range__error" kind="class"><name>std::range_error</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1reverse__iterator" kind="class"><name>std::deque::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1reverse__iterator" kind="class"><name>std::set::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1reverse__iterator" kind="class"><name>std::basic_string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1runtime__error" kind="class"><name>std::runtime_error</name>
+  </compound>
+  <compound refid="classstd_1_1set" kind="class"><name>std::set</name>
+    <member refid="classstd_1_1set_1a7f92ca6d6e5216b9c4be631bd87f1df4" kind="variable"><name>keys</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1simple__squelch__cc__impl" kind="class"><name>gr::analog::simple_squelch_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a51a5729ca6d346c71e8dd4e1581e888d" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a3ab6812fe81a45e089bce3a74465a083" kind="variable"><name>d_unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a58def4056393bc8e87cfb692e976e129" kind="variable"><name>d_iir</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1af94175ca0538464be1ef3bb8c95809a6" kind="function"><name>simple_squelch_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1aaf0ee094a6cd5fb2524ba27d41ecbea5" kind="function"><name>~simple_squelch_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a65774f87a40dc35613e291b12cf38dcd" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a8c48ba83e0d86dfa541fe893b88c4a22" kind="function"><name>set_alpha</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a19e3231d686924746bf87b3c18f1d6d1" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a387d7d06bdbe7abc6d3488169412051d" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a9c67feb63bc21a9b695f6c12ec761567" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1aacda37651725cedcdfcf800da7c42b14" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1smart__ptr" kind="class"><name>std::smart_ptr</name>
+    <member refid="classstd_1_1smart__ptr_1a28b08019309e26ad374ef88cd2641ea3" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1smart__ptr_1a34adc9f82172f037139e4b916c275e90" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1squelch__base__cc__impl" kind="class"><name>gr::analog::squelch_base_cc_impl</name>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a84dcd4f06002b88153486b692ea6a2ac" kind="enum"><name>@0</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a84dcd4f06002b88153486b692ea6a2aca654f6481b78b5c25e14f9e70ebf7786d" kind="enumvalue"><name>ST_MUTED</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a84dcd4f06002b88153486b692ea6a2aca926eeda8aad37a8f76fefa3202f16ee8" kind="enumvalue"><name>ST_ATTACK</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a84dcd4f06002b88153486b692ea6a2aca0de17f374b6bd83260cc57d755f1f45b" kind="enumvalue"><name>ST_UNMUTED</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a84dcd4f06002b88153486b692ea6a2aca81aad07b7f02dbef1202166912dab8a6" kind="enumvalue"><name>ST_DECAY</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1aed4eb32a45eff35efbc0077dbed67dc7" kind="variable"><name>d_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a86a7e6dc804a380424dcfd113a07d73a" kind="variable"><name>d_ramped</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1ad59189e0b13b2aece53250a7ad597fa5" kind="variable"><name>d_gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a0a27e52ac0454665161a4c6c32829bc6" kind="variable"><name>d_envelope</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a4491dd9926db5978ab6f68f4f152cdfa" kind="variable"><name>d_state</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a22f4291a3e6ce0c26900120e5720f5f7" kind="function"><name>update_state</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1ade9af40c2e55154d97afa610ed561d53" kind="function"><name>mute</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1adc9d7d568c532fe420524439331fe987" kind="function"><name>squelch_base_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a323c8176d0a1e5c95a433e6801c739c2" kind="function"><name>~squelch_base_cc_impl</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a6c1caf4cffa1e61c75bb18f0bf6f3991" kind="function"><name>ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a022cffd12e277c521a7f4949fe214593" kind="function"><name>set_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1aa9e3c51bd9bfa96553dc58b6aff2a56a" kind="function"><name>gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1abf362594315552ffda42aaf45cce0cd8" kind="function"><name>set_gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1aa6d01e3128548107369b1425c45355b0" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a6a00870c08aa982ca1145bd72753adc9" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__cc__impl_1a9a617d9224b6d6a0ebb9d7753599a4db" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1analog_1_1squelch__base__ff__impl" kind="class"><name>gr::analog::squelch_base_ff_impl</name>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1aae38691e4e208631ece401c318082f9f" kind="enum"><name>@1</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1aae38691e4e208631ece401c318082f9fa7fa3e15bfe1e844f2e77188e150b5b49" kind="enumvalue"><name>ST_MUTED</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1aae38691e4e208631ece401c318082f9fa6812a96b68687d73ef77d06cbdabe4e7" kind="enumvalue"><name>ST_ATTACK</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1aae38691e4e208631ece401c318082f9fa5370e0ecb0c87cde257ba0353a61cfa9" kind="enumvalue"><name>ST_UNMUTED</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1aae38691e4e208631ece401c318082f9fa5bb20d11bf8da35610710ce39adaf183" kind="enumvalue"><name>ST_DECAY</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5927eabf2018b596305691b81798ca32" kind="variable"><name>d_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a9bcd87b9f935b781ebc16f840bd45e93" kind="variable"><name>d_ramped</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1adc42a5841e3c86533cd7decce62228e2" kind="variable"><name>d_gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1abdfa95d7bbdd175b86923d848938b839" kind="variable"><name>d_envelope</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a92e5c59aab68f68493b176b0ee8e7641" kind="variable"><name>d_state</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5400534e2fd35ffc6854f35ba31eb7ba" kind="function"><name>update_state</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1ad5341b33dd8c9e970cd9043e2fc05c38" kind="function"><name>mute</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a6bb9d114d50e2d589c019af3ff41edbd" kind="function"><name>squelch_base_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a099f19f9d64f6ce3cb11b7ebd6241ca9" kind="function"><name>~squelch_base_ff_impl</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a75a8835e53745899cae1d9acdddbfe2c" kind="function"><name>ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a776165972cd750e8fe0a766af8f51961" kind="function"><name>set_ramp</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5574dd32d86a027529f104fb4a61bfcf" kind="function"><name>gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1abbde42ce7cb4b09577ef27379c285511" kind="function"><name>set_gate</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1afb05f6853db20f72a9345712b5339f38" kind="function"><name>unmuted</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a36ae4b9f3c929bbfd7d5f4a6e9b520c0" kind="function"><name>squelch_range</name></member>
+    <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5055f89a8fa3887a79a84c2e56417a73" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classstd_1_1stack" kind="class"><name>std::stack</name>
+    <member refid="classstd_1_1stack_1a020dde37186e898d2aacda2c136aef0f" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1string" kind="class"><name>std::string</name>
+  </compound>
+  <compound refid="classstd_1_1stringstream" kind="class"><name>std::stringstream</name>
+  </compound>
+  <compound refid="classstd_1_1underflow__error" kind="class"><name>std::underflow_error</name>
+  </compound>
+  <compound refid="classstd_1_1unique__ptr" kind="class"><name>std::unique_ptr</name>
+    <member refid="classstd_1_1unique__ptr_1adae741234450c126c1260d389e1720b9" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1unique__ptr_1a94e5fed358ff2ef440499ac836dd68f2" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1valarray" kind="class"><name>std::valarray</name>
+    <member refid="classstd_1_1valarray_1adce3a23af4e9d36342f49f58300d8568" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1vector" kind="class"><name>std::vector</name>
+    <member refid="classstd_1_1vector_1a2396209900e8f592db1f0b2467f7d899" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1weak__ptr" kind="class"><name>std::weak_ptr</name>
+    <member refid="classstd_1_1weak__ptr_1a2346c22e2352ad88a4973f2c8aab91a5" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1weak__ptr_1a3385d327d4804d675b2a052265651a7b" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1wfstream" kind="class"><name>std::wfstream</name>
+  </compound>
+  <compound refid="classstd_1_1wifstream" kind="class"><name>std::wifstream</name>
+  </compound>
+  <compound refid="classstd_1_1wios" kind="class"><name>std::wios</name>
+  </compound>
+  <compound refid="classstd_1_1wistream" kind="class"><name>std::wistream</name>
+  </compound>
+  <compound refid="classstd_1_1wistringstream" kind="class"><name>std::wistringstream</name>
+  </compound>
+  <compound refid="classstd_1_1wofstream" kind="class"><name>std::wofstream</name>
+  </compound>
+  <compound refid="classstd_1_1wostream" kind="class"><name>std::wostream</name>
+  </compound>
+  <compound refid="classstd_1_1wostringstream" kind="class"><name>std::wostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1wstring" kind="class"><name>std::wstring</name>
+  </compound>
+  <compound refid="classstd_1_1wstringstream" kind="class"><name>std::wstringstream</name>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1analog" kind="namespace"><name>gr::analog</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="agc2__cc__impl_8h" kind="file"><name>agc2_cc_impl.h</name>
+  </compound>
+  <compound refid="agc2__ff__impl_8h" kind="file"><name>agc2_ff_impl.h</name>
+  </compound>
+  <compound refid="agc__cc__impl_8h" kind="file"><name>agc_cc_impl.h</name>
+  </compound>
+  <compound refid="agc__ff__impl_8h" kind="file"><name>agc_ff_impl.h</name>
+  </compound>
+  <compound refid="cpfsk__bc__impl_8h" kind="file"><name>cpfsk_bc_impl.h</name>
+  </compound>
+  <compound refid="ctcss__squelch__ff__impl_8h" kind="file"><name>ctcss_squelch_ff_impl.h</name>
+  </compound>
+  <compound refid="dpll__bb__impl_8h" kind="file"><name>dpll_bb_impl.h</name>
+  </compound>
+  <compound refid="feedforward__agc__cc__impl_8h" kind="file"><name>feedforward_agc_cc_impl.h</name>
+  </compound>
+  <compound refid="fmdet__cf__impl_8h" kind="file"><name>fmdet_cf_impl.h</name>
+  </compound>
+  <compound refid="frequency__modulator__fc__impl_8h" kind="file"><name>frequency_modulator_fc_impl.h</name>
+  </compound>
+  <compound refid="phase__modulator__fc__impl_8h" kind="file"><name>phase_modulator_fc_impl.h</name>
+  </compound>
+  <compound refid="pll__carriertracking__cc__impl_8h" kind="file"><name>pll_carriertracking_cc_impl.h</name>
+  </compound>
+  <compound refid="pll__freqdet__cf__impl_8h" kind="file"><name>pll_freqdet_cf_impl.h</name>
+  </compound>
+  <compound refid="pll__refout__cc__impl_8h" kind="file"><name>pll_refout_cc_impl.h</name>
+  </compound>
+  <compound refid="probe__avg__mag__sqrd__c__impl_8h" kind="file"><name>probe_avg_mag_sqrd_c_impl.h</name>
+  </compound>
+  <compound refid="probe__avg__mag__sqrd__cf__impl_8h" kind="file"><name>probe_avg_mag_sqrd_cf_impl.h</name>
+  </compound>
+  <compound refid="probe__avg__mag__sqrd__f__impl_8h" kind="file"><name>probe_avg_mag_sqrd_f_impl.h</name>
+  </compound>
+  <compound refid="pwr__squelch__cc__impl_8h" kind="file"><name>pwr_squelch_cc_impl.h</name>
+  </compound>
+  <compound refid="pwr__squelch__ff__impl_8h" kind="file"><name>pwr_squelch_ff_impl.h</name>
+  </compound>
+  <compound refid="qa__analog_8h" kind="file"><name>qa_analog.h</name>
+  </compound>
+  <compound refid="qa__rotator_8h" kind="file"><name>qa_rotator.h</name>
+  </compound>
+  <compound refid="qa__sincos_8h" kind="file"><name>qa_sincos.h</name>
+  </compound>
+  <compound refid="quadrature__demod__cf__impl_8h" kind="file"><name>quadrature_demod_cf_impl.h</name>
+  </compound>
+  <compound refid="rail__ff__impl_8h" kind="file"><name>rail_ff_impl.h</name>
+  </compound>
+  <compound refid="simple__squelch__cc__impl_8h" kind="file"><name>simple_squelch_cc_impl.h</name>
+  </compound>
+  <compound refid="squelch__base__cc__impl_8h" kind="file"><name>squelch_base_cc_impl.h</name>
+  </compound>
+  <compound refid="squelch__base__ff__impl_8h" kind="file"><name>squelch_base_ff_impl.h</name>
+  </compound>
+  <compound refid="dir_4dc7e76fa602c193a3e269c3ab50a18d" kind="dir"><name>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/</name>
+  </compound>
+  <compound refid="dir_d282891910f21ce8c2835e2d657db274" kind="dir"><name>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/</name>
+  </compound>
+</doxygenindex>

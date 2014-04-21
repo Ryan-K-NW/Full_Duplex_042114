@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_6e43716580b9ab4b2bf6dde6e5fc3677" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-uhd/</compoundname>
+    <innerdir refid="dir_3fa8c5edd2658dc02075b4c129349e2b">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-uhd/include/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-uhd/"/>
+  </compounddef>
+</doxygen>

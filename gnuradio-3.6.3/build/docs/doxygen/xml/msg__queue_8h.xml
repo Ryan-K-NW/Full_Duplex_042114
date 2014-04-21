@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="msg__queue_8h" kind="file">
+    <compoundname>msg_queue.h</compoundname>
+    <includes refid="gruel_2src_2include_2gruel_2api_8h" local="no">gruel/api.h</includes>
+    <includes refid="thread_8h" local="no">gruel/thread.h</includes>
+    <includes refid="pmt_8h" local="no">gruel/pmt.h</includes>
+    <includes local="no">deque</includes>
+    <includedby refid="msg__accepter__msgq_8h" local="no">msg_accepter_msgq.h</includedby>
+    <incdepgraph>
+      <node id="58710">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="58712">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="58715">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="58714">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="58723">
+        <label>stdexcept</label>
+      </node>
+      <node id="58709">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="58719">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="58720" relation="include">
+        </childnode>
+        <childnode refid="58721" relation="include">
+        </childnode>
+      </node>
+      <node id="58718">
+        <label>string</label>
+      </node>
+      <node id="58720">
+        <label>limits.h</label>
+      </node>
+      <node id="58716">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="58721">
+        <label>wchar.h</label>
+      </node>
+      <node id="58711">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="58725">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="58724">
+        <label>vector</label>
+      </node>
+      <node id="58722">
+        <label>iosfwd</label>
+      </node>
+      <node id="58713">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="58706" relation="include">
+        </childnode>
+        <childnode refid="58714" relation="include">
+        </childnode>
+        <childnode refid="58715" relation="include">
+        </childnode>
+        <childnode refid="58716" relation="include">
+        </childnode>
+        <childnode refid="58717" relation="include">
+        </childnode>
+        <childnode refid="58718" relation="include">
+        </childnode>
+        <childnode refid="58719" relation="include">
+        </childnode>
+        <childnode refid="58722" relation="include">
+        </childnode>
+        <childnode refid="58723" relation="include">
+        </childnode>
+        <childnode refid="58724" relation="include">
+        </childnode>
+        <childnode refid="58725" relation="include">
+        </childnode>
+      </node>
+      <node id="58705">
+        <label>msg_queue.h</label>
+        <link refid="msg_queue.h"/>
+        <childnode refid="58706" relation="include">
+        </childnode>
+        <childnode refid="58708" relation="include">
+        </childnode>
+        <childnode refid="58713" relation="include">
+        </childnode>
+        <childnode refid="58726" relation="include">
+        </childnode>
+      </node>
+      <node id="58726">
+        <label>deque</label>
+      </node>
+      <node id="58708">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="58706" relation="include">
+        </childnode>
+        <childnode refid="58709" relation="include">
+        </childnode>
+        <childnode refid="58710" relation="include">
+        </childnode>
+        <childnode refid="58711" relation="include">
+        </childnode>
+        <childnode refid="58712" relation="include">
+        </childnode>
+      </node>
+      <node id="58707">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="58717">
+        <label>complex</label>
+      </node>
+      <node id="58706">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="58707" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="58727">
+        <label>msg_queue.h</label>
+        <link refid="msg_queue.h"/>
+        <childnode refid="58728" relation="include">
+        </childnode>
+      </node>
+      <node id="58728">
+        <label>msg_accepter_msgq.h</label>
+        <link refid="msg__accepter__msgq_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgruel_1_1msg__queue" prot="public">gruel::msg_queue</innerclass>
+    <innernamespace refid="namespacegruel">gruel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gruel/src/include/gruel/msg_queue.h"/>
+  </compounddef>
+</doxygen>

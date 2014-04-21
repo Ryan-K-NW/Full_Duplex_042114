@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__64f__x2__min__64f__a_8h" kind="file">
+    <compoundname>volk_64f_x2_min_64f_a.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="66962">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66963" relation="include">
+        </childnode>
+      </node>
+      <node id="66963">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66964" relation="include">
+        </childnode>
+        <childnode refid="66965" relation="include">
+        </childnode>
+      </node>
+      <node id="66964">
+        <label>limits.h</label>
+      </node>
+      <node id="66965">
+        <label>wchar.h</label>
+      </node>
+      <node id="66961">
+        <label>volk_64f_x2_min_64f_a.h</label>
+        <link refid="volk_64f_x2_min_64f_a.h"/>
+        <childnode refid="66962" relation="include">
+        </childnode>
+        <childnode refid="66966" relation="include">
+        </childnode>
+      </node>
+      <node id="66966">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/include/volk/volk_64f_x2_min_64f_a.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_6197afa30707e6cd70db3e714118477a" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fft/include/</compoundname>
+    <innerdir refid="dir_39c0822fdc5d8393694fa4b1ca72082b">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fft/include/fft/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fft/include/"/>
+  </compounddef>
+</doxygen>

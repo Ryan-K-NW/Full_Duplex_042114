@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classstd_1_1ios__base" kind="class" prot="public">
+    <compoundname>std::ios_base</compoundname>
+    <derivedcompoundref refid="classstd_1_1basic__ios" prot="public" virt="non-virtual">std::basic_ios&lt; char &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classstd_1_1basic__ios" prot="public" virt="non-virtual">std::basic_ios&lt; wchar_t &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classstd_1_1basic__ios" prot="public" virt="non-virtual">std::basic_ios&lt; Char &gt;</derivedcompoundref>
+    <innerclass refid="classstd_1_1ios__base_1_1failure" prot="public">std::ios_base::failure</innerclass>
+    <briefdescription>
+<para>STL class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15997">
+        <label>basic_istringstream&lt; wchar_t &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16002">
+        <label>basic_fstream&lt; char &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16019">
+        <label>basic_ofstream&lt; wchar_t &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16005">
+        <label>basic_stringstream&lt; wchar_t &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16028">
+        <label>std::ostream&lt; char &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16026">
+        <label>std::ostringstream&lt; char &gt;</label>
+        <childnode refid="16025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15998">
+        <label>std::basic_ifstream&lt; Char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16029">
+        <label>std::wostream&lt; wchar_t &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15991">
+        <label>std::basic_istream&lt; Char &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16031">
+        <label>std::wios&lt; wchar_t &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16010">
+        <label>std::stringstream&lt; char &gt;</label>
+        <childnode refid="16009" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16001">
+        <label>std::basic_iostream&lt; Char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16011">
+        <label>std::wstringstream&lt; wchar_t &gt;</label>
+        <childnode refid="16009" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15989">
+        <label>basic_ostream&lt; char &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16014">
+        <label>std::wistringstream&lt; wchar_t &gt;</label>
+        <childnode refid="16012" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15996">
+        <label>basic_istringstream&lt; char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15999">
+        <label>std::ifstream&lt; char &gt;</label>
+        <childnode refid="15998" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16022">
+        <label>std::basic_ofstream&lt; Char &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16000">
+        <label>std::wifstream&lt; wchar_t &gt;</label>
+        <childnode refid="15998" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15988">
+        <label>basic_istream&lt; wchar_t &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16025">
+        <label>std::basic_ostringstream&lt; Char &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16018">
+        <label>basic_ofstream&lt; char &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16007">
+        <label>std::fstream&lt; char &gt;</label>
+        <childnode refid="16006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16004">
+        <label>basic_stringstream&lt; char &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15984">
+        <label>std::basic_ios&lt; char &gt;</label>
+        <childnode refid="15983" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15985">
+        <label>std::basic_ios&lt; wchar_t &gt;</label>
+        <childnode refid="15983" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16023">
+        <label>std::ofstream&lt; char &gt;</label>
+        <childnode refid="16022" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16030">
+        <label>std::ios&lt; char &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15995">
+        <label>basic_iostream&lt; wchar_t &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16015">
+        <label>std::istream&lt; char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15992">
+        <label>basic_ifstream&lt; char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16013">
+        <label>std::istringstream&lt; char &gt;</label>
+        <childnode refid="16012" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16021">
+        <label>basic_ostringstream&lt; wchar_t &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16017">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15986">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="15983" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16016">
+        <label>std::wistream&lt; wchar_t &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15993">
+        <label>basic_ifstream&lt; wchar_t &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15983">
+        <label>std::ios_base</label>
+      </node>
+      <node id="15990">
+        <label>basic_ostream&lt; wchar_t &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15987">
+        <label>basic_istream&lt; char &gt;</label>
+        <childnode refid="15986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15994">
+        <label>basic_iostream&lt; char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16020">
+        <label>basic_ostringstream&lt; char &gt;</label>
+        <childnode refid="16017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16009">
+        <label>std::basic_stringstream&lt; Char &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16027">
+        <label>std::wostringstream&lt; wchar_t &gt;</label>
+        <childnode refid="16025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16003">
+        <label>basic_fstream&lt; wchar_t &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16008">
+        <label>std::wfstream&lt; wchar_t &gt;</label>
+        <childnode refid="16006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16012">
+        <label>std::basic_istringstream&lt; Char &gt;</label>
+        <childnode refid="15991" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16006">
+        <label>std::basic_fstream&lt; Char &gt;</label>
+        <childnode refid="16001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16024">
+        <label>std::wofstream&lt; wchar_t &gt;</label>
+        <childnode refid="16022" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="[STL]" line="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

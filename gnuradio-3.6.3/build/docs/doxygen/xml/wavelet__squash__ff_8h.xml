@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="wavelet__squash__ff_8h" kind="file">
+    <compoundname>wavelet_squash_ff.h</compoundname>
+    <includes refid="wavelet__api_8h" local="no">wavelet_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includedby refid="wavelet__squash__ff__impl_8h" local="no">wavelet_squash_ff_impl.h</includedby>
+    <incdepgraph>
+      <node id="67254">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="67219">
+        <label>wavelet_squash_ff.h</label>
+        <link refid="wavelet_squash_ff.h"/>
+        <childnode refid="67220" relation="include">
+        </childnode>
+        <childnode refid="67222" relation="include">
+        </childnode>
+      </node>
+      <node id="67233">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67228" relation="include">
+        </childnode>
+      </node>
+      <node id="67256">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="67228">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="67226">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67227" relation="include">
+        </childnode>
+      </node>
+      <node id="67223">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="67221" relation="include">
+        </childnode>
+      </node>
+      <node id="67240">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="67257">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="67231">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="67232" relation="include">
+        </childnode>
+      </node>
+      <node id="67247">
+        <label>stdexcept</label>
+      </node>
+      <node id="67253">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="67243">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="67244" relation="include">
+        </childnode>
+        <childnode refid="67245" relation="include">
+        </childnode>
+      </node>
+      <node id="67242">
+        <label>string</label>
+      </node>
+      <node id="67225">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67226" relation="include">
+        </childnode>
+        <childnode refid="67233" relation="include">
+        </childnode>
+        <childnode refid="67234" relation="include">
+        </childnode>
+        <childnode refid="67235" relation="include">
+        </childnode>
+        <childnode refid="67236" relation="include">
+        </childnode>
+        <childnode refid="67242" relation="include">
+        </childnode>
+        <childnode refid="67249" relation="include">
+        </childnode>
+        <childnode refid="67250" relation="include">
+        </childnode>
+        <childnode refid="67251" relation="include">
+        </childnode>
+        <childnode refid="67252" relation="include">
+        </childnode>
+        <childnode refid="67257" relation="include">
+        </childnode>
+        <childnode refid="67256" relation="include">
+        </childnode>
+        <childnode refid="67258" relation="include">
+        </childnode>
+      </node>
+      <node id="67250">
+        <label>map</label>
+      </node>
+      <node id="67230">
+        <label>stddef.h</label>
+      </node>
+      <node id="67220">
+        <label>wavelet_api.h</label>
+        <link refid="wavelet__api_8h"/>
+        <childnode refid="67221" relation="include">
+        </childnode>
+      </node>
+      <node id="67251">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67226" relation="include">
+        </childnode>
+      </node>
+      <node id="67235">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="67244">
+        <label>limits.h</label>
+      </node>
+      <node id="67224">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67225" relation="include">
+        </childnode>
+        <childnode refid="67259" relation="include">
+        </childnode>
+      </node>
+      <node id="67241">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="67237">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="67238" relation="include">
+        </childnode>
+        <childnode refid="67239" relation="include">
+        </childnode>
+        <childnode refid="67228" relation="include">
+        </childnode>
+      </node>
+      <node id="67245">
+        <label>wchar.h</label>
+      </node>
+      <node id="67255">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="67248">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="67259">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67239" relation="include">
+        </childnode>
+      </node>
+      <node id="67229">
+        <label>vector</label>
+      </node>
+      <node id="67236">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67237" relation="include">
+        </childnode>
+        <childnode refid="67239" relation="include">
+        </childnode>
+      </node>
+      <node id="67234">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="67222">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67224" relation="include">
+        </childnode>
+      </node>
+      <node id="67246">
+        <label>iosfwd</label>
+      </node>
+      <node id="67239">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="67238" relation="include">
+        </childnode>
+        <childnode refid="67240" relation="include">
+        </childnode>
+        <childnode refid="67228" relation="include">
+        </childnode>
+        <childnode refid="67241" relation="include">
+        </childnode>
+        <childnode refid="67232" relation="include">
+        </childnode>
+        <childnode refid="67242" relation="include">
+        </childnode>
+        <childnode refid="67243" relation="include">
+        </childnode>
+        <childnode refid="67246" relation="include">
+        </childnode>
+        <childnode refid="67247" relation="include">
+        </childnode>
+        <childnode refid="67229" relation="include">
+        </childnode>
+        <childnode refid="67248" relation="include">
+        </childnode>
+      </node>
+      <node id="67258">
+        <label>iostream</label>
+      </node>
+      <node id="67249">
+        <label>deque</label>
+      </node>
+      <node id="67252">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="67238" relation="include">
+        </childnode>
+        <childnode refid="67253" relation="include">
+        </childnode>
+        <childnode refid="67254" relation="include">
+        </childnode>
+        <childnode refid="67255" relation="include">
+        </childnode>
+        <childnode refid="67256" relation="include">
+        </childnode>
+      </node>
+      <node id="67221">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="67232">
+        <label>complex</label>
+      </node>
+      <node id="67227">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="67223" relation="include">
+        </childnode>
+        <childnode refid="67228" relation="include">
+        </childnode>
+        <childnode refid="67229" relation="include">
+        </childnode>
+        <childnode refid="67230" relation="include">
+        </childnode>
+        <childnode refid="67231" relation="include">
+        </childnode>
+      </node>
+      <node id="67238">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="67221" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="67260">
+        <label>wavelet_squash_ff.h</label>
+        <link refid="wavelet_squash_ff.h"/>
+        <childnode refid="67261" relation="include">
+        </childnode>
+      </node>
+      <node id="67261">
+        <label>wavelet_squash_ff_impl.h</label>
+        <link refid="wavelet__squash__ff__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classwavelet__squash__ff" prot="public">wavelet_squash_ff</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="wavelet__squash__ff_8h_1ae43a28147189a5e47f8f344842bca3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="wavelet__api_8h_1a9c8352ab43d3afa0c97ee932687f7a1e" kindref="member">WAVELET_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">wavelet_squash_ff_sptr</ref></type>
+        <definition>WAVELET_API wavelet_squash_ff_sptr wavelet_make_squash_ff</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;igrid, const std::vector&lt; float &gt; &amp;ogrid)</argsstring>
+        <name>wavelet_make_squash_ff</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>igrid</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>ogrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-wavelet/include/wavelet/wavelet_squash_ff.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-wavelet/include/wavelet/wavelet_squash_ff.h"/>
+  </compounddef>
+</doxygen>

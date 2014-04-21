@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classgr_1_1filter_1_1channel__model.html" title="channel simulatorThis block implements a basic channel model simulator that can be used to help evalu..." alt="" coords="21,326,187,357"/>
+<area shape="rect" id="node4" href="$classgr__hier__block2.html" title="Hierarchical container class for gr_block&#39;s and gr_hier_block2&#39;s." alt="" coords="49,246,159,277"/>
+<area shape="rect" id="node6" href="$classgr__basic__block.html" title="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ..." alt="" coords="48,166,160,197"/>
+<area shape="rect" id="node8" href="$classgr__msg__accepter.html" title="Accepts messages and inserts them into a message queue, then notifies subclass gr_basic_block there i..." alt="" coords="41,86,167,117"/>
+<area shape="rect" id="node10" href="$classgruel_1_1msg__accepter.html" title="Virtual base class that accepts messages." alt="" coords="32,6,176,37"/>
+</map>

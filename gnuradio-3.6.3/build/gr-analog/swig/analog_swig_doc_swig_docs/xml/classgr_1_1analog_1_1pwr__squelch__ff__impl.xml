@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1pwr__squelch__ff__impl" kind="class" prot="public">
+    <compoundname>gr::analog::pwr_squelch_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1analog_1_1squelch__base__ff__impl" prot="private" virt="non-virtual">gr::analog::squelch_base_ff_impl</basecompoundref>
+    <includes refid="pwr__squelch__ff__impl_8h" local="no">pwr_squelch_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a53913352bcdd5d294612540ffaabeef8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::pwr_squelch_ff_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="38" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1afb3f7ac272488ef9f6144b2677705e1b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::pwr_squelch_ff_impl::d_pwr</definition>
+        <argsstring></argsstring>
+        <name>d_pwr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="39" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a2e1d814d43e5fc28b5e60589bb61664a" prot="private" static="no" mutable="no">
+        <type>filter::single_pole_iir&lt; double, double, double &gt;</type>
+        <definition>filter::single_pole_iir&lt;double,double,double&gt; gr::analog::pwr_squelch_ff_impl::d_iir</definition>
+        <argsstring></argsstring>
+        <name>d_iir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="40" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a677d4b7b53a6594e776e57edf7958678" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::analog::pwr_squelch_ff_impl::update_state</definition>
+        <argsstring>(const float &amp;in)</argsstring>
+        <name>update_state</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5400534e2fd35ffc6854f35ba31eb7ba">update_state</reimplements>
+        <param>
+          <type>const float &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af5d2c2df8d91139496a23df0ada24211" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool gr::analog::pwr_squelch_ff_impl::mute</definition>
+        <argsstring>() const </argsstring>
+        <name>mute</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1ad5341b33dd8c9e970cd9043e2fc05c38">mute</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="44" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ae8ff7d91007a484df7ea229356620cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pwr_squelch_ff_impl::pwr_squelch_ff_impl</definition>
+        <argsstring>(double db, double alpha=0.0001, int ramp=0, bool gate=false)</argsstring>
+        <name>pwr_squelch_ff_impl</name>
+        <param>
+          <type>double</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+          <defval>0.0001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ramp</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gate</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a5040c08f347aa4d79e5c026f72499826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pwr_squelch_ff_impl::~pwr_squelch_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pwr_squelch_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a9b9710f1037a9072e3b6c1152003df1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::analog::pwr_squelch_ff_impl::squelch_range</definition>
+        <argsstring>() const </argsstring>
+        <name>squelch_range</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a36ae4b9f3c929bbfd7d5f4a6e9b520c0">squelch_range</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a62992c071edb809a4b7e342d8adbcb26" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::pwr_squelch_ff_impl::threshold</definition>
+        <argsstring>() const </argsstring>
+        <name>threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="53" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7bc29eadb73cb94f1c83ed6af1f04295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pwr_squelch_ff_impl::set_threshold</definition>
+        <argsstring>(double db)</argsstring>
+        <name>set_threshold</name>
+        <param>
+          <type>double</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="54" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ad853cfeb78e347e86ccd625fad411554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pwr_squelch_ff_impl::set_alpha</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>set_alpha</name>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="55" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1abfbc8fc8801364edf48d7ab8a192ed82" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::pwr_squelch_ff_impl::ramp</definition>
+        <argsstring>() const </argsstring>
+        <name>ramp</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a75a8835e53745899cae1d9acdddbfe2c">ramp</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="57" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af86c116453c5e9a0d85061a3a826d0c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pwr_squelch_ff_impl::set_ramp</definition>
+        <argsstring>(int ramp)</argsstring>
+        <name>set_ramp</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a776165972cd750e8fe0a766af8f51961">set_ramp</reimplements>
+        <param>
+          <type>int</type>
+          <declname>ramp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="58" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ab20205649fdc6b195653c6f8b9871ed2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::pwr_squelch_ff_impl::gate</definition>
+        <argsstring>() const </argsstring>
+        <name>gate</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5574dd32d86a027529f104fb4a61bfcf">gate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="59" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7be0e4ff474a43692f70a7df4653315b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pwr_squelch_ff_impl::set_gate</definition>
+        <argsstring>(bool gate)</argsstring>
+        <name>set_gate</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1abbde42ce7cb4b09577ef27379c285511">set_gate</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>gate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="60" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a256de032da7311adf5ead2f676dfa02b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::pwr_squelch_ff_impl::unmuted</definition>
+        <argsstring>() const </argsstring>
+        <name>unmuted</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1afb05f6853db20f72a9345712b5339f38">unmuted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="61" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7462cd0cf6a560de061243ce7dd40b8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::pwr_squelch_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <reimplements refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a5055f89a8fa3887a79a84c2e56417a73">general_work</reimplements>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="67" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="63" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="533">
+        <label>gr::analog::pwr_squelch_ff_impl</label>
+        <link refid="classgr_1_1analog_1_1pwr__squelch__ff__impl"/>
+        <childnode refid="534" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>gr::analog::squelch_base_ff_impl</label>
+        <link refid="classgr_1_1analog_1_1squelch__base__ff__impl"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="535">
+        <label>gr::analog::pwr_squelch_ff_impl</label>
+        <link refid="classgr_1_1analog_1_1pwr__squelch__ff__impl"/>
+        <childnode refid="536" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>gr::analog::squelch_base_ff_impl</label>
+        <link refid="classgr_1_1analog_1_1squelch__base__ff__impl"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pwr_squelch_ff_impl.h" bodystart="34" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a2e1d814d43e5fc28b5e60589bb61664a" prot="private" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>d_iir</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1afb3f7ac272488ef9f6144b2677705e1b" prot="private" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>d_pwr</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a53913352bcdd5d294612540ffaabeef8" prot="private" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ab20205649fdc6b195653c6f8b9871ed2" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>gate</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7462cd0cf6a560de061243ce7dd40b8e" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af5d2c2df8d91139496a23df0ada24211" prot="protected" virt="virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>mute</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ae8ff7d91007a484df7ea229356620cd4" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>pwr_squelch_ff_impl</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1abfbc8fc8801364edf48d7ab8a192ed82" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>ramp</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1ad853cfeb78e347e86ccd625fad411554" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7be0e4ff474a43692f70a7df4653315b" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>set_gate</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1af86c116453c5e9a0d85061a3a826d0c0" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>set_ramp</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a7bc29eadb73cb94f1c83ed6af1f04295" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a6bb9d114d50e2d589c019af3ff41edbd" prot="private" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>squelch_base_ff_impl</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a9b9710f1037a9072e3b6c1152003df1c" prot="public" virt="virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>squelch_range</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a62992c071edb809a4b7e342d8adbcb26" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>threshold</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a256de032da7311adf5ead2f676dfa02b" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>unmuted</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a677d4b7b53a6594e776e57edf7958678" prot="protected" virt="virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>update_state</name></member>
+      <member refid="classgr_1_1analog_1_1pwr__squelch__ff__impl_1a5040c08f347aa4d79e5c026f72499826" prot="public" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>~pwr_squelch_ff_impl</name></member>
+      <member refid="classgr_1_1analog_1_1squelch__base__ff__impl_1a099f19f9d64f6ce3cb11b7ebd6241ca9" prot="private" virt="non-virtual"><scope>gr::analog::pwr_squelch_ff_impl</scope><name>~squelch_base_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

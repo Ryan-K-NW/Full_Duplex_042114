@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1kernel_1_1agc2__cc" kind="class" prot="public">
+    <compoundname>gr::analog::kernel::agc2_cc</compoundname>
+    <derivedcompoundref refid="classgr_1_1analog_1_1agc2__cc__impl" prot="private" virt="non-virtual">gr::analog::agc2_cc_impl</derivedcompoundref>
+    <includes refid="agc2_8h" local="no">agc2.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a114ad71879b0d05dafa23eb11226e0cc" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::_attack_rate</definition>
+        <argsstring></argsstring>
+        <name>_attack_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="91" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a9de1e4d538c98d41c335f5d36ded182c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::_decay_rate</definition>
+        <argsstring></argsstring>
+        <name>_decay_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="92" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a25cdb0cf1019bc3b2339ad78490feaec" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::_reference</definition>
+        <argsstring></argsstring>
+        <name>_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="93" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a6383da510ddcf588e1290094330c4cb4" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::_gain</definition>
+        <argsstring></argsstring>
+        <name>_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="94" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1aeda58f668d577357afcb0ccc32a58536" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::_max_gain</definition>
+        <argsstring></argsstring>
+        <name>_max_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="95" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2754372ff75ae63e7bd82146488d05d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::kernel::agc2_cc::agc2_cc</definition>
+        <argsstring>(float attack_rate=1e-1, float decay_rate=1e-2, float reference=1.0, float gain=1.0, float max_gain=0.0)</argsstring>
+        <name>agc2_cc</name>
+        <param>
+          <type>float</type>
+          <declname>attack_rate</declname>
+          <defval>1e-1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>decay_rate</declname>
+          <defval>1e-2</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>reference</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_gain</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="47" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a78242a283a6d0eb6018180673abc2abb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::decay_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>decay_rate</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a6620de3ec63357dc461fcb74b302a999">decay_rate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="49" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2896b1cc01e844df5b3a797b4ddba4cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::attack_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>attack_rate</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1acbc31e747af5733179c1271fbdc7e2b4">attack_rate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="50" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a94c96aa0c0cd147c7cf6205c76f4fa26" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::reference</definition>
+        <argsstring>() const </argsstring>
+        <name>reference</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a203dac8e528bf1789cca82cfee76e2da">reference</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="51" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1ae8804e3f57ff781e1f0d236198abc72d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::gain</definition>
+        <argsstring>() const </argsstring>
+        <name>gain</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a0641187067dcc19a9c05969c75c09291">gain</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="52" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a3ea7c8cb4fc1553877f62a0f7ee38618" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::kernel::agc2_cc::max_gain</definition>
+        <argsstring>() const </argsstring>
+        <name>max_gain</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a8d9e68919ca2ad6b7f5178b30ffe414c">max_gain</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="53" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a184b99e4bb0e6b62cdf146e49361ee22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::set_decay_rate</definition>
+        <argsstring>(float rate)</argsstring>
+        <name>set_decay_rate</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1ac69cf6d2365d9a4f0d2be85773d39f5b">set_decay_rate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="55" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a1531d1da78edcde03f2526ce426c202b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::set_attack_rate</definition>
+        <argsstring>(float rate)</argsstring>
+        <name>set_attack_rate</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1ad2e3e5dd6e71a4b78d7819a33b396ba5">set_attack_rate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="56" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1aa497ed0f051f109fa9fc8723fec0b65c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::set_reference</definition>
+        <argsstring>(float reference)</argsstring>
+        <name>set_reference</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a5621beca8d36f8ccdb1e697a5931f64b">set_reference</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="57" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a0ed4016c23ddefdb7a4920668e348afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a58a70cb8e5ddb7a923eedb943a5ee56c">set_gain</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="58" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a8fc69e6c11c20e961136e4f296a9200d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::set_max_gain</definition>
+        <argsstring>(float max_gain)</argsstring>
+        <name>set_max_gain</name>
+        <reimplementedby refid="classgr_1_1analog_1_1agc2__cc__impl_1a4b2341656deadc24c513d33d731366dd">set_max_gain</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>max_gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="59" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2db5a89c5312e1128653a259a0ffd2fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+        <definition>gr_complex gr::analog::kernel::agc2_cc::scale</definition>
+        <argsstring>(gr_complex input)</argsstring>
+        <name>scale</name>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="62" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="61" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a355b4d504aa80fc63933c46c959b328f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::kernel::agc2_cc::scaleN</definition>
+        <argsstring>(gr_complex output[], const gr_complex input[], unsigned n)</argsstring>
+        <name>scaleN</name>
+        <param>
+          <type><ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>output</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const <ref refid="gr__complex_8h_1aec4bfe41433369afae9327f1b0bc9109" kindref="member">gr_complex</ref></type>
+          <declname>input</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="85" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="84" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>high performance Automatic Gain Control class </para>    </briefdescription>
+    <detaileddescription>
+<para>For Power the absolute value of the complex number is used. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6051">
+        <label>gr::analog::kernel::agc2_cc</label>
+        <link refid="classgr_1_1analog_1_1kernel_1_1agc2__cc"/>
+      </node>
+      <node id="6052">
+        <label>gr::analog::agc2_cc_impl</label>
+        <link refid="classgr_1_1analog_1_1agc2__cc__impl"/>
+        <childnode refid="6051" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" line="40" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/agc2.h" bodystart="39" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a114ad71879b0d05dafa23eb11226e0cc" prot="protected" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>_attack_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a9de1e4d538c98d41c335f5d36ded182c" prot="protected" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>_decay_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a6383da510ddcf588e1290094330c4cb4" prot="protected" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>_gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1aeda58f668d577357afcb0ccc32a58536" prot="protected" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>_max_gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a25cdb0cf1019bc3b2339ad78490feaec" prot="protected" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>_reference</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2754372ff75ae63e7bd82146488d05d7" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>agc2_cc</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2896b1cc01e844df5b3a797b4ddba4cf" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>attack_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a78242a283a6d0eb6018180673abc2abb" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>decay_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1ae8804e3f57ff781e1f0d236198abc72d" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a3ea7c8cb4fc1553877f62a0f7ee38618" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>max_gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a94c96aa0c0cd147c7cf6205c76f4fa26" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>reference</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a2db5a89c5312e1128653a259a0ffd2fb" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>scale</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a355b4d504aa80fc63933c46c959b328f" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>scaleN</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a1531d1da78edcde03f2526ce426c202b" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>set_attack_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a184b99e4bb0e6b62cdf146e49361ee22" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>set_decay_rate</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a0ed4016c23ddefdb7a4920668e348afc" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1a8fc69e6c11c20e961136e4f296a9200d" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>set_max_gain</name></member>
+      <member refid="classgr_1_1analog_1_1kernel_1_1agc2__cc_1aa497ed0f051f109fa9fc8723fec0b65c" prot="public" virt="non-virtual"><scope>gr::analog::kernel::agc2_cc</scope><name>set_reference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

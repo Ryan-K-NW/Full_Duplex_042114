@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="fcd__api_8h" kind="file">
+    <compoundname>fcd_api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gruel/attributes.h</includes>
+    <includedby refid="fcd__source__c_8h" local="no">fcd_source_c.h</includedby>
+    <includedby refid="fcd_8h" local="no">fcd.h</includedby>
+    <incdepgraph>
+      <node id="41044">
+        <label>fcd_api.h</label>
+        <link refid="fcd_api.h"/>
+        <childnode refid="41045" relation="include">
+        </childnode>
+      </node>
+      <node id="41045">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="41048">
+        <label>fcd_source_c_impl.h</label>
+        <link refid="fcd__source__c__impl_8h"/>
+      </node>
+      <node id="41047">
+        <label>fcd_source_c.h</label>
+        <link refid="fcd__source__c_8h"/>
+        <childnode refid="41048" relation="include">
+        </childnode>
+      </node>
+      <node id="41049">
+        <label>fcd.h</label>
+        <link refid="fcd_8h"/>
+      </node>
+      <node id="41046">
+        <label>fcd_api.h</label>
+        <link refid="fcd_api.h"/>
+        <childnode refid="41047" relation="include">
+        </childnode>
+        <childnode refid="41049" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="fcd__api_8h_1ad489a1c52387ece46b65f42f0681814f" prot="public" static="no">
+        <name>FCD_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fcd/include/fcd/fcd_api.h" line="30" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fcd/include/fcd/fcd_api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-fcd/include/fcd/fcd_api.h"/>
+  </compounddef>
+</doxygen>

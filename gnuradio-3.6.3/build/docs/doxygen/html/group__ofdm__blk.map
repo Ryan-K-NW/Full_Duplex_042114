@@ -1,0 +1,7 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__demodulation__blk.html" title="Signal Demodulation" alt="" coords="679,5,825,35"/>
+<area shape="rect" id="node2" href="$group__modulation__blk.html" title="Signal Modulation" alt="" coords="687,58,817,89"/>
+<area shape="rect" id="node3" href="$group__block.html" title="All C++ blocks that can be used in GR graphs are listed here or in the subcategories below..." alt="" coords="5,93,285,123"/>
+<area shape="rect" id="node4" href="$group__sink__blk.html" title="Signal Sinks" alt="" coords="704,126,800,157"/>
+<area shape="rect" id="node6" href="$group__sync__blk.html" title="Synchronization" alt="" coords="695,179,809,210"/>
+</map>

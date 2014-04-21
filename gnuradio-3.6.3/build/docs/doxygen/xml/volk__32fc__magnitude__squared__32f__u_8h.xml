@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__magnitude__squared__32f__u_8h" kind="file">
+    <compoundname>volk_32fc_magnitude_squared_32f_u.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="66706">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66707" relation="include">
+        </childnode>
+      </node>
+      <node id="66707">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66708" relation="include">
+        </childnode>
+        <childnode refid="66709" relation="include">
+        </childnode>
+      </node>
+      <node id="66708">
+        <label>limits.h</label>
+      </node>
+      <node id="66709">
+        <label>wchar.h</label>
+      </node>
+      <node id="66711">
+        <label>math.h</label>
+      </node>
+      <node id="66710">
+        <label>stdio.h</label>
+      </node>
+      <node id="66705">
+        <label>volk_32fc_magnitude_squared_32f_u.h</label>
+        <link refid="volk_32fc_magnitude_squared_32f_u.h"/>
+        <childnode refid="66706" relation="include">
+        </childnode>
+        <childnode refid="66710" relation="include">
+        </childnode>
+        <childnode refid="66711" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/include/volk/volk_32fc_magnitude_squared_32f_u.h"/>
+  </compounddef>
+</doxygen>

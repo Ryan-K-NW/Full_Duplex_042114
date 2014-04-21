@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1rail__ff__impl" kind="class" prot="public">
+    <compoundname>gr::analog::rail_ff_impl</compoundname>
+    <includes refid="rail__ff__impl_8h" local="no">rail_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1rail__ff__impl_1a31e0b4c5614a38803c0ca88987731e9b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::d_lo</definition>
+        <argsstring></argsstring>
+        <name>d_lo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1rail__ff__impl_1a7b829d0102cd68f8f04adac440e8b07c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::d_hi</definition>
+        <argsstring></argsstring>
+        <name>d_hi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1rail__ff__impl_1a7ebbaa32d16dd3d5491ec1e8b222258d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::d_mid</definition>
+        <argsstring></argsstring>
+        <name>d_mid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1rail__ff__impl_1a3ec5ea63305f04153cdaf0ef9498a721" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::d_clip</definition>
+        <argsstring></argsstring>
+        <name>d_clip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a8c3efc3e2ddd3263395fdf3c42fcda8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::rail_ff_impl::set_clipping</definition>
+        <argsstring>()</argsstring>
+        <name>set_clipping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1afc4059ed2d30017a9b239c683cc0c4b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::rail_ff_impl::rail_ff_impl</definition>
+        <argsstring>(float lo, float hi)</argsstring>
+        <name>rail_ff_impl</name>
+        <param>
+          <type>float</type>
+          <declname>lo</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>hi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a5a74836490a62df0491d9c0eb1a1001d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::rail_ff_impl::~rail_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rail_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a3905fb6e1eb817c20ec3ea8c9ee4e85a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::lo</definition>
+        <argsstring>() const </argsstring>
+        <name>lo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="43" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a68d2b4bfdc036cbc4d918bb4876dae1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::rail_ff_impl::hi</definition>
+        <argsstring>() const </argsstring>
+        <name>hi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="44" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1ac50b48f42dc13cbc495c78fab040f64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::rail_ff_impl::set_lo</definition>
+        <argsstring>(float lo)</argsstring>
+        <name>set_lo</name>
+        <param>
+          <type>float</type>
+          <declname>lo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a7770775aac5cd155d944bb9531799941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::rail_ff_impl::set_hi</definition>
+        <argsstring>(float hi)</argsstring>
+        <name>set_hi</name>
+        <param>
+          <type>float</type>
+          <declname>hi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1rail__ff__impl_1a77edc219610688ed981479bfc5cf3b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::rail_ff_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" line="32" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/rail_ff_impl.h" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a3ec5ea63305f04153cdaf0ef9498a721" prot="private" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>d_clip</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7b829d0102cd68f8f04adac440e8b07c" prot="private" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>d_hi</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a31e0b4c5614a38803c0ca88987731e9b" prot="private" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>d_lo</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7ebbaa32d16dd3d5491ec1e8b222258d" prot="private" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>d_mid</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a68d2b4bfdc036cbc4d918bb4876dae1e" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>hi</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a3905fb6e1eb817c20ec3ea8c9ee4e85a" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>lo</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1afc4059ed2d30017a9b239c683cc0c4b2" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>rail_ff_impl</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a8c3efc3e2ddd3263395fdf3c42fcda8c" prot="private" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>set_clipping</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a7770775aac5cd155d944bb9531799941" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>set_hi</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1ac50b48f42dc13cbc495c78fab040f64f" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>set_lo</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a77edc219610688ed981479bfc5cf3b15" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1rail__ff__impl_1a5a74836490a62df0491d9c0eb1a1001d" prot="public" virt="non-virtual"><scope>gr::analog::rail_ff_impl</scope><name>~rail_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

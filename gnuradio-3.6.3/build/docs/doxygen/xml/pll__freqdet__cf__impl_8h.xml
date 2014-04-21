@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pll__freqdet__cf__impl_8h" kind="file">
+    <compoundname>pll_freqdet_cf_impl.h</compoundname>
+    <includes refid="pll__freqdet__cf_8h" local="no">analog/pll_freqdet_cf.h</includes>
+    <includes refid="gri__control__loop_8h" local="no">gri_control_loop.h</includes>
+    <incdepgraph>
+      <node id="60475">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="60454">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60449" relation="include">
+        </childnode>
+      </node>
+      <node id="60477">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="60449">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="60447">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60448" relation="include">
+        </childnode>
+      </node>
+      <node id="60444">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="60442" relation="include">
+        </childnode>
+      </node>
+      <node id="60461">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="60478">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="60481">
+        <label>gri_control_loop.h</label>
+        <link refid="gri__control__loop_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+      </node>
+      <node id="60452">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="60453" relation="include">
+        </childnode>
+      </node>
+      <node id="60468">
+        <label>stdexcept</label>
+      </node>
+      <node id="60474">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="60464">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="60465" relation="include">
+        </childnode>
+        <childnode refid="60466" relation="include">
+        </childnode>
+      </node>
+      <node id="60463">
+        <label>string</label>
+      </node>
+      <node id="60446">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60447" relation="include">
+        </childnode>
+        <childnode refid="60454" relation="include">
+        </childnode>
+        <childnode refid="60455" relation="include">
+        </childnode>
+        <childnode refid="60456" relation="include">
+        </childnode>
+        <childnode refid="60457" relation="include">
+        </childnode>
+        <childnode refid="60463" relation="include">
+        </childnode>
+        <childnode refid="60470" relation="include">
+        </childnode>
+        <childnode refid="60471" relation="include">
+        </childnode>
+        <childnode refid="60472" relation="include">
+        </childnode>
+        <childnode refid="60473" relation="include">
+        </childnode>
+        <childnode refid="60478" relation="include">
+        </childnode>
+        <childnode refid="60477" relation="include">
+        </childnode>
+        <childnode refid="60479" relation="include">
+        </childnode>
+      </node>
+      <node id="60441">
+        <label>analog/api.h</label>
+        <link refid="gr-analog_2include_2analog_2api_8h"/>
+        <childnode refid="60442" relation="include">
+        </childnode>
+      </node>
+      <node id="60471">
+        <label>map</label>
+      </node>
+      <node id="60451">
+        <label>stddef.h</label>
+      </node>
+      <node id="60472">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60447" relation="include">
+        </childnode>
+      </node>
+      <node id="60440">
+        <label>analog/pll_freqdet_cf.h</label>
+        <link refid="pll__freqdet__cf_8h"/>
+        <childnode refid="60441" relation="include">
+        </childnode>
+        <childnode refid="60443" relation="include">
+        </childnode>
+      </node>
+      <node id="60456">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="60465">
+        <label>limits.h</label>
+      </node>
+      <node id="60445">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60446" relation="include">
+        </childnode>
+        <childnode refid="60480" relation="include">
+        </childnode>
+      </node>
+      <node id="60462">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="60458">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="60459" relation="include">
+        </childnode>
+        <childnode refid="60460" relation="include">
+        </childnode>
+        <childnode refid="60449" relation="include">
+        </childnode>
+      </node>
+      <node id="60466">
+        <label>wchar.h</label>
+      </node>
+      <node id="60476">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="60469">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="60480">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60460" relation="include">
+        </childnode>
+      </node>
+      <node id="60450">
+        <label>vector</label>
+      </node>
+      <node id="60457">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60458" relation="include">
+        </childnode>
+        <childnode refid="60460" relation="include">
+        </childnode>
+      </node>
+      <node id="60455">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="60443">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60445" relation="include">
+        </childnode>
+      </node>
+      <node id="60467">
+        <label>iosfwd</label>
+      </node>
+      <node id="60460">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="60459" relation="include">
+        </childnode>
+        <childnode refid="60461" relation="include">
+        </childnode>
+        <childnode refid="60449" relation="include">
+        </childnode>
+        <childnode refid="60462" relation="include">
+        </childnode>
+        <childnode refid="60453" relation="include">
+        </childnode>
+        <childnode refid="60463" relation="include">
+        </childnode>
+        <childnode refid="60464" relation="include">
+        </childnode>
+        <childnode refid="60467" relation="include">
+        </childnode>
+        <childnode refid="60468" relation="include">
+        </childnode>
+        <childnode refid="60450" relation="include">
+        </childnode>
+        <childnode refid="60469" relation="include">
+        </childnode>
+      </node>
+      <node id="60479">
+        <label>iostream</label>
+      </node>
+      <node id="60470">
+        <label>deque</label>
+      </node>
+      <node id="60473">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="60459" relation="include">
+        </childnode>
+        <childnode refid="60474" relation="include">
+        </childnode>
+        <childnode refid="60475" relation="include">
+        </childnode>
+        <childnode refid="60476" relation="include">
+        </childnode>
+        <childnode refid="60477" relation="include">
+        </childnode>
+      </node>
+      <node id="60442">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="60453">
+        <label>complex</label>
+      </node>
+      <node id="60439">
+        <label>pll_freqdet_cf_impl.h</label>
+        <link refid="pll_freqdet_cf_impl.h"/>
+        <childnode refid="60440" relation="include">
+        </childnode>
+        <childnode refid="60481" relation="include">
+        </childnode>
+      </node>
+      <node id="60448">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="60444" relation="include">
+        </childnode>
+        <childnode refid="60449" relation="include">
+        </childnode>
+        <childnode refid="60450" relation="include">
+        </childnode>
+        <childnode refid="60451" relation="include">
+        </childnode>
+        <childnode refid="60452" relation="include">
+        </childnode>
+      </node>
+      <node id="60459">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="60442" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1analog_1_1pll__freqdet__cf__impl" prot="public">gr::analog::pll_freqdet_cf_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1analog">gr::analog</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h"/>
+  </compounddef>
+</doxygen>

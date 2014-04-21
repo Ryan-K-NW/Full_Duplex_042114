@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__converter__blk.html" title="Type Conversions" alt="" coords="815,18,948,49"/>
+<area shape="rect" id="node2" href="$group__eq__blk.html" title="Equalization" alt="" coords="835,105,928,135"/>
+<area shape="rect" id="node3" href="$group__modulation__blk.html" title="Signal Modulation" alt="" coords="816,171,947,202"/>
+<area shape="rect" id="node4" href="$group__block.html" title="All C++ blocks that can be used in GR graphs are listed here or in the subcategories below..." alt="" coords="5,173,285,203"/>
+<area shape="rect" id="node6" href="$group__coding__blk.html" title="Information Coding and Decoding" alt="" coords="769,225,993,255"/>
+<area shape="rect" id="node7" href="$group__sync__blk.html" title="Synchronization" alt="" coords="824,347,939,378"/>
+</map>

@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1dpll__bb__impl" kind="class" prot="public">
+    <compoundname>gr::analog::dpll_bb_impl</compoundname>
+    <includes refid="dpll__bb__impl_8h" local="no">dpll_bb_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1dpll__bb__impl_1a02015b95a457dbeefd68b15db443a57e" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::analog::dpll_bb_impl::d_restart</definition>
+        <argsstring></argsstring>
+        <name>d_restart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1dpll__bb__impl_1ad1708775ed0c3f83f2673dafbb92c22a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::d_pulse_phase</definition>
+        <argsstring></argsstring>
+        <name>d_pulse_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1dpll__bb__impl_1aee99e9c0d38866dc3f9365eda0cf7fd7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::d_pulse_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_pulse_frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1dpll__bb__impl_1af2e8e2b703d2195d85ed338e1c4657cd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::d_gain</definition>
+        <argsstring></argsstring>
+        <name>d_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1dpll__bb__impl_1a0312d7445fe1231a1c174d0b76c5cc68" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::d_decision_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_decision_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a432208267f85860d2d64d88bb9ef8b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::dpll_bb_impl::dpll_bb_impl</definition>
+        <argsstring>(float period, float gain)</argsstring>
+        <name>dpll_bb_impl</name>
+        <param>
+          <type>float</type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1ae022f7e66334305eb87e52c93956efa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::dpll_bb_impl::~dpll_bb_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~dpll_bb_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a3b351aa9114453623de47839d0e12435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::dpll_bb_impl::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="42" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a1fd42ad216af22f2f0be57a28763abcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::dpll_bb_impl::set_decision_threshold</definition>
+        <argsstring>(float thresh)</argsstring>
+        <name>set_decision_threshold</name>
+        <param>
+          <type>float</type>
+          <declname>thresh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="43" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a3eb3408c39b351e663c9b942419fd01b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::gain</definition>
+        <argsstring>() const </argsstring>
+        <name>gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="45" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a8e5ef8a41ee7c40c1f4b43054b468c2f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::freq</definition>
+        <argsstring>() const </argsstring>
+        <name>freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="46" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a5a01dcfd9d18f6c103501335ff997c35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::phase</definition>
+        <argsstring>() const </argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="47" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1a039897b4f2d4f4bd44fd6303b2749827" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::dpll_bb_impl::decision_threshold</definition>
+        <argsstring>() const </argsstring>
+        <name>decision_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="48" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1dpll__bb__impl_1aa2094b5fb5c152b4c86009264d08c430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::dpll_bb_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" line="32" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/dpll_bb_impl.h" bodystart="31" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a0312d7445fe1231a1c174d0b76c5cc68" prot="private" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>d_decision_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1af2e8e2b703d2195d85ed338e1c4657cd" prot="private" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>d_gain</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1aee99e9c0d38866dc3f9365eda0cf7fd7" prot="private" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>d_pulse_frequency</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1ad1708775ed0c3f83f2673dafbb92c22a" prot="private" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>d_pulse_phase</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a02015b95a457dbeefd68b15db443a57e" prot="private" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>d_restart</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a039897b4f2d4f4bd44fd6303b2749827" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>decision_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a432208267f85860d2d64d88bb9ef8b19" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>dpll_bb_impl</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a8e5ef8a41ee7c40c1f4b43054b468c2f" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>freq</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a3eb3408c39b351e663c9b942419fd01b" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>gain</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a5a01dcfd9d18f6c103501335ff997c35" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a1fd42ad216af22f2f0be57a28763abcc" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>set_decision_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1a3b351aa9114453623de47839d0e12435" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1aa2094b5fb5c152b4c86009264d08c430" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1dpll__bb__impl_1ae022f7e66334305eb87e52c93956efa7" prot="public" virt="non-virtual"><scope>gr::analog::dpll_bb_impl</scope><name>~dpll_bb_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

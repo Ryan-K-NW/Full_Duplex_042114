@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32f__stddev__and__mean__32f__x2__a_8h" kind="file">
+    <compoundname>volk_32f_stddev_and_mean_32f_x2_a.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="66490">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66491" relation="include">
+        </childnode>
+      </node>
+      <node id="66488">
+        <label>volk_32f_stddev_and_mean_32f_x2_a.h</label>
+        <link refid="volk_32f_stddev_and_mean_32f_x2_a.h"/>
+        <childnode refid="66489" relation="include">
+        </childnode>
+        <childnode refid="66490" relation="include">
+        </childnode>
+        <childnode refid="66494" relation="include">
+        </childnode>
+        <childnode refid="66495" relation="include">
+        </childnode>
+      </node>
+      <node id="66489">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="66490" relation="include">
+        </childnode>
+      </node>
+      <node id="66491">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66492" relation="include">
+        </childnode>
+        <childnode refid="66493" relation="include">
+        </childnode>
+      </node>
+      <node id="66492">
+        <label>limits.h</label>
+      </node>
+      <node id="66493">
+        <label>wchar.h</label>
+      </node>
+      <node id="66495">
+        <label>math.h</label>
+      </node>
+      <node id="66494">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/include/volk/volk_32f_stddev_and_mean_32f_x2_a.h"/>
+  </compounddef>
+</doxygen>

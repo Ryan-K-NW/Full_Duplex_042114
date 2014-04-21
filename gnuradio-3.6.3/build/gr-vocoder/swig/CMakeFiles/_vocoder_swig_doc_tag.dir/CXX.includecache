@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/build/gr-vocoder/swig/_vocoder_swig_doc_tag.cpp
+

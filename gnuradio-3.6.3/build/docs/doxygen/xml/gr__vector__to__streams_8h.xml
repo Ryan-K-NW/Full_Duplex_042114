@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__vector__to__streams_8h" kind="file">
+    <compoundname>gr_vector_to_streams.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__interpolator_8h" local="no">gr_sync_interpolator.h</includes>
+    <incdepgraph>
+      <node id="56933">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="56912">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56907" relation="include">
+        </childnode>
+      </node>
+      <node id="56935">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="56907">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="56905">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56906" relation="include">
+        </childnode>
+      </node>
+      <node id="56899">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="56900" relation="include">
+        </childnode>
+      </node>
+      <node id="56919">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="56936">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="56910">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="56911" relation="include">
+        </childnode>
+      </node>
+      <node id="56926">
+        <label>stdexcept</label>
+      </node>
+      <node id="56932">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="56922">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="56923" relation="include">
+        </childnode>
+        <childnode refid="56924" relation="include">
+        </childnode>
+      </node>
+      <node id="56921">
+        <label>string</label>
+      </node>
+      <node id="56904">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56905" relation="include">
+        </childnode>
+        <childnode refid="56912" relation="include">
+        </childnode>
+        <childnode refid="56913" relation="include">
+        </childnode>
+        <childnode refid="56914" relation="include">
+        </childnode>
+        <childnode refid="56915" relation="include">
+        </childnode>
+        <childnode refid="56921" relation="include">
+        </childnode>
+        <childnode refid="56928" relation="include">
+        </childnode>
+        <childnode refid="56929" relation="include">
+        </childnode>
+        <childnode refid="56930" relation="include">
+        </childnode>
+        <childnode refid="56931" relation="include">
+        </childnode>
+        <childnode refid="56936" relation="include">
+        </childnode>
+        <childnode refid="56935" relation="include">
+        </childnode>
+        <childnode refid="56937" relation="include">
+        </childnode>
+      </node>
+      <node id="56929">
+        <label>map</label>
+      </node>
+      <node id="56909">
+        <label>stddef.h</label>
+      </node>
+      <node id="56930">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56905" relation="include">
+        </childnode>
+      </node>
+      <node id="56914">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="56923">
+        <label>limits.h</label>
+      </node>
+      <node id="56903">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56904" relation="include">
+        </childnode>
+        <childnode refid="56938" relation="include">
+        </childnode>
+      </node>
+      <node id="56920">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="56916">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="56917" relation="include">
+        </childnode>
+        <childnode refid="56918" relation="include">
+        </childnode>
+        <childnode refid="56907" relation="include">
+        </childnode>
+      </node>
+      <node id="56924">
+        <label>wchar.h</label>
+      </node>
+      <node id="56901">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr__sync__interpolator_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56902" relation="include">
+        </childnode>
+      </node>
+      <node id="56934">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="56927">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="56938">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56918" relation="include">
+        </childnode>
+      </node>
+      <node id="56908">
+        <label>vector</label>
+      </node>
+      <node id="56915">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56916" relation="include">
+        </childnode>
+        <childnode refid="56918" relation="include">
+        </childnode>
+      </node>
+      <node id="56913">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="56902">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56903" relation="include">
+        </childnode>
+      </node>
+      <node id="56925">
+        <label>iosfwd</label>
+      </node>
+      <node id="56898">
+        <label>gr_vector_to_streams.h</label>
+        <link refid="gr_vector_to_streams.h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56901" relation="include">
+        </childnode>
+      </node>
+      <node id="56918">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="56917" relation="include">
+        </childnode>
+        <childnode refid="56919" relation="include">
+        </childnode>
+        <childnode refid="56907" relation="include">
+        </childnode>
+        <childnode refid="56920" relation="include">
+        </childnode>
+        <childnode refid="56911" relation="include">
+        </childnode>
+        <childnode refid="56921" relation="include">
+        </childnode>
+        <childnode refid="56922" relation="include">
+        </childnode>
+        <childnode refid="56925" relation="include">
+        </childnode>
+        <childnode refid="56926" relation="include">
+        </childnode>
+        <childnode refid="56908" relation="include">
+        </childnode>
+        <childnode refid="56927" relation="include">
+        </childnode>
+      </node>
+      <node id="56937">
+        <label>iostream</label>
+      </node>
+      <node id="56928">
+        <label>deque</label>
+      </node>
+      <node id="56931">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="56917" relation="include">
+        </childnode>
+        <childnode refid="56932" relation="include">
+        </childnode>
+        <childnode refid="56933" relation="include">
+        </childnode>
+        <childnode refid="56934" relation="include">
+        </childnode>
+        <childnode refid="56935" relation="include">
+        </childnode>
+      </node>
+      <node id="56900">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="56911">
+        <label>complex</label>
+      </node>
+      <node id="56906">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="56899" relation="include">
+        </childnode>
+        <childnode refid="56907" relation="include">
+        </childnode>
+        <childnode refid="56908" relation="include">
+        </childnode>
+        <childnode refid="56909" relation="include">
+        </childnode>
+        <childnode refid="56910" relation="include">
+        </childnode>
+      </node>
+      <node id="56917">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="56900" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__vector__to__streams" prot="public">gr_vector_to_streams</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__vector__to__streams_8h_1ac753fd9e10558c8482393184d71889cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_vector_to_streams_sptr</ref></type>
+        <definition>GR_CORE_API gr_vector_to_streams_sptr gr_make_vector_to_streams</definition>
+        <argsstring>(size_t item_size, size_t nstreams)</argsstring>
+        <name>gr_make_vector_to_streams</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nstreams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_vector_to_streams.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_vector_to_streams.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$vocoder__alaw__decode__bs_8h.html" title="vocoder_alaw_decode_bs.h" alt="" coords="5,86,197,117"/>
+<area shape="rect" id="node5" href="$vocoder__alaw__encode__sb_8h.html" title="vocoder_alaw_encode_sb.h" alt="" coords="221,86,413,117"/>
+<area shape="rect" id="node7" href="$vocoder__codec2__decode__ps_8h.html" title="vocoder_codec2_decode_ps.h" alt="" coords="437,86,645,117"/>
+<area shape="rect" id="node9" href="$vocoder__codec2__encode__sp_8h.html" title="vocoder_codec2_encode_sp.h" alt="" coords="669,86,877,117"/>
+<area shape="rect" id="node11" href="$vocoder__cvsd__decode__bs_8h.html" title="vocoder_cvsd_decode_bs.h" alt="" coords="901,86,1093,117"/>
+<area shape="rect" id="node13" href="$vocoder__cvsd__encode__sb_8h.html" title="vocoder_cvsd_encode_sb.h" alt="" coords="1117,86,1309,117"/>
+<area shape="rect" id="node15" href="$vocoder__g721__decode__bs_8h.html" title="vocoder_g721_decode_bs.h" alt="" coords="1333,86,1525,117"/>
+<area shape="rect" id="node17" href="$vocoder__g721__encode__sb_8h.html" title="vocoder_g721_encode_sb.h" alt="" coords="1549,86,1741,117"/>
+<area shape="rect" id="node19" href="$vocoder__g723__24__decode__bs_8h.html" title="vocoder_g723_24_decode_bs.h" alt="" coords="1765,86,1979,117"/>
+<area shape="rect" id="node21" href="$vocoder__g723__24__encode__sb_8h.html" title="vocoder_g723_24_encode_sb.h" alt="" coords="2003,86,2216,117"/>
+<area shape="rect" id="node23" href="$vocoder__g723__40__decode__bs_8h.html" title="vocoder_g723_40_decode_bs.h" alt="" coords="2240,86,2453,117"/>
+<area shape="rect" id="node25" href="$vocoder__g723__40__encode__sb_8h.html" title="vocoder_g723_40_encode_sb.h" alt="" coords="2477,86,2691,117"/>
+<area shape="rect" id="node27" href="$vocoder__gsm__fr__decode__ps_8h.html" title="vocoder_gsm_fr_decode_ps.h" alt="" coords="2715,86,2917,117"/>
+<area shape="rect" id="node29" href="$vocoder__gsm__fr__encode__sp_8h.html" title="vocoder_gsm_fr_encode_sp.h" alt="" coords="2941,86,3144,117"/>
+<area shape="rect" id="node31" href="$vocoder__ulaw__decode__bs_8h.html" title="vocoder_ulaw_decode_bs.h" alt="" coords="3168,86,3360,117"/>
+<area shape="rect" id="node33" href="$vocoder__ulaw__encode__sb_8h.html" title="vocoder_ulaw_encode_sb.h" alt="" coords="3384,86,3573,117"/>
+</map>

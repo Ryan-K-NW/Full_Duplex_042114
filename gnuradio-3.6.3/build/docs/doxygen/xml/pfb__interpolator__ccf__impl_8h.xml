@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pfb__interpolator__ccf__impl_8h" kind="file">
+    <compoundname>pfb_interpolator_ccf_impl.h</compoundname>
+    <includes refid="pfb__interpolator__ccf_8h" local="no">filter/pfb_interpolator_ccf.h</includes>
+    <includes refid="polyphase__filterbank_8h" local="no">filter/polyphase_filterbank.h</includes>
+    <includes refid="fir__filter_8h" local="no">filter/fir_filter.h</includes>
+    <includes refid="gr-fft_2include_2fft_2fft_8h" local="no">fft/fft.h</includes>
+    <includes refid="thread_8h" local="no">gruel/thread.h</includes>
+    <incdepgraph>
+      <node id="60124">
+        <label>fft/api.h</label>
+        <link refid="gr-fft_2include_2fft_2api_8h"/>
+        <childnode refid="60081" relation="include">
+        </childnode>
+      </node>
+      <node id="60115">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="60094">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60089" relation="include">
+        </childnode>
+      </node>
+      <node id="60117">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="60089">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="60087">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60088" relation="include">
+        </childnode>
+      </node>
+      <node id="60083">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="60081" relation="include">
+        </childnode>
+      </node>
+      <node id="60101">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="60122">
+        <label>filter/fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="60080" relation="include">
+        </childnode>
+        <childnode refid="60090" relation="include">
+        </childnode>
+        <childnode refid="60092" relation="include">
+        </childnode>
+      </node>
+      <node id="60118">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="60092">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="60093" relation="include">
+        </childnode>
+      </node>
+      <node id="60080">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="60081" relation="include">
+        </childnode>
+      </node>
+      <node id="60108">
+        <label>stdexcept</label>
+      </node>
+      <node id="60121">
+        <label>filter/polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+        <childnode refid="60080" relation="include">
+        </childnode>
+        <childnode refid="60122" relation="include">
+        </childnode>
+        <childnode refid="60123" relation="include">
+        </childnode>
+      </node>
+      <node id="60114">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="60104">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="60105" relation="include">
+        </childnode>
+        <childnode refid="60106" relation="include">
+        </childnode>
+      </node>
+      <node id="60103">
+        <label>string</label>
+      </node>
+      <node id="60086">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60087" relation="include">
+        </childnode>
+        <childnode refid="60094" relation="include">
+        </childnode>
+        <childnode refid="60095" relation="include">
+        </childnode>
+        <childnode refid="60096" relation="include">
+        </childnode>
+        <childnode refid="60097" relation="include">
+        </childnode>
+        <childnode refid="60103" relation="include">
+        </childnode>
+        <childnode refid="60110" relation="include">
+        </childnode>
+        <childnode refid="60111" relation="include">
+        </childnode>
+        <childnode refid="60112" relation="include">
+        </childnode>
+        <childnode refid="60113" relation="include">
+        </childnode>
+        <childnode refid="60118" relation="include">
+        </childnode>
+        <childnode refid="60117" relation="include">
+        </childnode>
+        <childnode refid="60119" relation="include">
+        </childnode>
+      </node>
+      <node id="60111">
+        <label>map</label>
+      </node>
+      <node id="60125">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="60091">
+        <label>stddef.h</label>
+      </node>
+      <node id="60112">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60087" relation="include">
+        </childnode>
+      </node>
+      <node id="60096">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="60105">
+        <label>limits.h</label>
+      </node>
+      <node id="60085">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60086" relation="include">
+        </childnode>
+        <childnode refid="60120" relation="include">
+        </childnode>
+      </node>
+      <node id="60102">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="60098">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="60099" relation="include">
+        </childnode>
+        <childnode refid="60100" relation="include">
+        </childnode>
+        <childnode refid="60089" relation="include">
+        </childnode>
+      </node>
+      <node id="60123">
+        <label>fft/fft.h</label>
+        <link refid="gr-fft_2include_2fft_2fft_8h"/>
+        <childnode refid="60124" relation="include">
+        </childnode>
+        <childnode refid="60092" relation="include">
+        </childnode>
+        <childnode refid="60125" relation="include">
+        </childnode>
+      </node>
+      <node id="60079">
+        <label>filter/pfb_interpolator_ccf.h</label>
+        <link refid="pfb__interpolator__ccf_8h"/>
+        <childnode refid="60080" relation="include">
+        </childnode>
+        <childnode refid="60082" relation="include">
+        </childnode>
+      </node>
+      <node id="60106">
+        <label>wchar.h</label>
+      </node>
+      <node id="60082">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr__sync__interpolator_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60084" relation="include">
+        </childnode>
+      </node>
+      <node id="60116">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="60109">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="60120">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60100" relation="include">
+        </childnode>
+      </node>
+      <node id="60090">
+        <label>vector</label>
+      </node>
+      <node id="60097">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60098" relation="include">
+        </childnode>
+        <childnode refid="60100" relation="include">
+        </childnode>
+      </node>
+      <node id="60095">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="60084">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60085" relation="include">
+        </childnode>
+      </node>
+      <node id="60107">
+        <label>iosfwd</label>
+      </node>
+      <node id="60078">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb_interpolator_ccf_impl.h"/>
+        <childnode refid="60079" relation="include">
+        </childnode>
+        <childnode refid="60121" relation="include">
+        </childnode>
+        <childnode refid="60122" relation="include">
+        </childnode>
+        <childnode refid="60123" relation="include">
+        </childnode>
+        <childnode refid="60113" relation="include">
+        </childnode>
+      </node>
+      <node id="60100">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="60099" relation="include">
+        </childnode>
+        <childnode refid="60101" relation="include">
+        </childnode>
+        <childnode refid="60089" relation="include">
+        </childnode>
+        <childnode refid="60102" relation="include">
+        </childnode>
+        <childnode refid="60093" relation="include">
+        </childnode>
+        <childnode refid="60103" relation="include">
+        </childnode>
+        <childnode refid="60104" relation="include">
+        </childnode>
+        <childnode refid="60107" relation="include">
+        </childnode>
+        <childnode refid="60108" relation="include">
+        </childnode>
+        <childnode refid="60090" relation="include">
+        </childnode>
+        <childnode refid="60109" relation="include">
+        </childnode>
+      </node>
+      <node id="60119">
+        <label>iostream</label>
+      </node>
+      <node id="60110">
+        <label>deque</label>
+      </node>
+      <node id="60113">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="60099" relation="include">
+        </childnode>
+        <childnode refid="60114" relation="include">
+        </childnode>
+        <childnode refid="60115" relation="include">
+        </childnode>
+        <childnode refid="60116" relation="include">
+        </childnode>
+        <childnode refid="60117" relation="include">
+        </childnode>
+      </node>
+      <node id="60081">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="60093">
+        <label>complex</label>
+      </node>
+      <node id="60088">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="60083" relation="include">
+        </childnode>
+        <childnode refid="60089" relation="include">
+        </childnode>
+        <childnode refid="60090" relation="include">
+        </childnode>
+        <childnode refid="60091" relation="include">
+        </childnode>
+        <childnode refid="60092" relation="include">
+        </childnode>
+      </node>
+      <node id="60099">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="60081" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1pfb__interpolator__ccf__impl" prot="public">gr::filter::pfb_interpolator_ccf_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/lib/pfb_interpolator_ccf_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__ofdm__bpsk__demapper_8h" kind="file">
+    <compoundname>gr_ofdm_bpsk_demapper.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="50792">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="50771">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50766" relation="include">
+        </childnode>
+      </node>
+      <node id="50794">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="50766">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="50764">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50765" relation="include">
+        </childnode>
+      </node>
+      <node id="50760">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="50761" relation="include">
+        </childnode>
+      </node>
+      <node id="50778">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="50795">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="50769">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="50770" relation="include">
+        </childnode>
+      </node>
+      <node id="50785">
+        <label>stdexcept</label>
+      </node>
+      <node id="50791">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="50781">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="50782" relation="include">
+        </childnode>
+        <childnode refid="50783" relation="include">
+        </childnode>
+      </node>
+      <node id="50780">
+        <label>string</label>
+      </node>
+      <node id="50763">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50764" relation="include">
+        </childnode>
+        <childnode refid="50771" relation="include">
+        </childnode>
+        <childnode refid="50772" relation="include">
+        </childnode>
+        <childnode refid="50773" relation="include">
+        </childnode>
+        <childnode refid="50774" relation="include">
+        </childnode>
+        <childnode refid="50780" relation="include">
+        </childnode>
+        <childnode refid="50787" relation="include">
+        </childnode>
+        <childnode refid="50788" relation="include">
+        </childnode>
+        <childnode refid="50789" relation="include">
+        </childnode>
+        <childnode refid="50790" relation="include">
+        </childnode>
+        <childnode refid="50795" relation="include">
+        </childnode>
+        <childnode refid="50794" relation="include">
+        </childnode>
+        <childnode refid="50796" relation="include">
+        </childnode>
+      </node>
+      <node id="50788">
+        <label>map</label>
+      </node>
+      <node id="50768">
+        <label>stddef.h</label>
+      </node>
+      <node id="50759">
+        <label>gr_ofdm_bpsk_demapper.h</label>
+        <link refid="gr_ofdm_bpsk_demapper.h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50762" relation="include">
+        </childnode>
+        <childnode refid="50767" relation="include">
+        </childnode>
+      </node>
+      <node id="50789">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50764" relation="include">
+        </childnode>
+      </node>
+      <node id="50773">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="50782">
+        <label>limits.h</label>
+      </node>
+      <node id="50762">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50763" relation="include">
+        </childnode>
+        <childnode refid="50797" relation="include">
+        </childnode>
+      </node>
+      <node id="50779">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="50775">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="50776" relation="include">
+        </childnode>
+        <childnode refid="50777" relation="include">
+        </childnode>
+        <childnode refid="50766" relation="include">
+        </childnode>
+      </node>
+      <node id="50783">
+        <label>wchar.h</label>
+      </node>
+      <node id="50793">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="50786">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="50797">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50777" relation="include">
+        </childnode>
+      </node>
+      <node id="50767">
+        <label>vector</label>
+      </node>
+      <node id="50774">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50775" relation="include">
+        </childnode>
+        <childnode refid="50777" relation="include">
+        </childnode>
+      </node>
+      <node id="50772">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="50784">
+        <label>iosfwd</label>
+      </node>
+      <node id="50777">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="50776" relation="include">
+        </childnode>
+        <childnode refid="50778" relation="include">
+        </childnode>
+        <childnode refid="50766" relation="include">
+        </childnode>
+        <childnode refid="50779" relation="include">
+        </childnode>
+        <childnode refid="50770" relation="include">
+        </childnode>
+        <childnode refid="50780" relation="include">
+        </childnode>
+        <childnode refid="50781" relation="include">
+        </childnode>
+        <childnode refid="50784" relation="include">
+        </childnode>
+        <childnode refid="50785" relation="include">
+        </childnode>
+        <childnode refid="50767" relation="include">
+        </childnode>
+        <childnode refid="50786" relation="include">
+        </childnode>
+      </node>
+      <node id="50796">
+        <label>iostream</label>
+      </node>
+      <node id="50787">
+        <label>deque</label>
+      </node>
+      <node id="50790">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="50776" relation="include">
+        </childnode>
+        <childnode refid="50791" relation="include">
+        </childnode>
+        <childnode refid="50792" relation="include">
+        </childnode>
+        <childnode refid="50793" relation="include">
+        </childnode>
+        <childnode refid="50794" relation="include">
+        </childnode>
+      </node>
+      <node id="50761">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="50770">
+        <label>complex</label>
+      </node>
+      <node id="50765">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="50760" relation="include">
+        </childnode>
+        <childnode refid="50766" relation="include">
+        </childnode>
+        <childnode refid="50767" relation="include">
+        </childnode>
+        <childnode refid="50768" relation="include">
+        </childnode>
+        <childnode refid="50769" relation="include">
+        </childnode>
+      </node>
+      <node id="50776">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="50761" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__ofdm__bpsk__demapper" prot="public">gr_ofdm_bpsk_demapper</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__ofdm__bpsk__demapper_8h_1a4726af807e8951f1c9e4645ed3c629aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_ofdm_bpsk_demapper_sptr</ref></type>
+        <definition>GR_CORE_API gr_ofdm_bpsk_demapper_sptr gr_make_ofdm_bpsk_demapper</definition>
+        <argsstring>(unsigned int occupied_carriers)</argsstring>
+        <name>gr_make_ofdm_bpsk_demapper</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_ofdm_bpsk_demapper.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_ofdm_bpsk_demapper.h"/>
+  </compounddef>
+</doxygen>

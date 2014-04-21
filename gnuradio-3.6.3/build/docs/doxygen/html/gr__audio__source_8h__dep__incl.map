@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$audio__alsa__source_8h.html" title="audio_alsa_source.h" alt="" coords="5,86,152,117"/>
+<area shape="rect" id="node5" href="$gr__audio__registry_8h.html" title="gr_audio_registry.h" alt="" coords="176,86,312,117"/>
+<area shape="rect" id="node7" href="$audio__jack__source_8h.html" title="audio_jack_source.h" alt="" coords="336,86,483,117"/>
+<area shape="rect" id="node9" href="$audio__oss__source_8h.html" title="audio_oss_source.h" alt="" coords="507,86,648,117"/>
+<area shape="rect" id="node11" href="$audio__osx__source_8h.html" title="audio_osx_source.h" alt="" coords="672,86,813,117"/>
+<area shape="rect" id="node13" href="$audio__portaudio__source_8h.html" title="audio_portaudio_source.h" alt="" coords="837,86,1013,117"/>
+<area shape="rect" id="node15" href="$audio__windows__source_8h.html" title="audio_windows_source.h" alt="" coords="1037,86,1211,117"/>
+<area shape="rect" id="node17" href="$fcd__source__c__impl_8h.html" title="fcd_source_c_impl.h" alt="" coords="1235,86,1376,117"/>
+</map>

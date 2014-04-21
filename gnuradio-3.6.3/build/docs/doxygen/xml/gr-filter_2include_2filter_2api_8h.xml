@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr-filter_2include_2filter_2api_8h" kind="file">
+    <compoundname>gr-filter/include/filter/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gruel/attributes.h</includes>
+    <includedby refid="adaptive__fir__ccc_8h" local="no">adaptive_fir_ccc.h</includedby>
+    <includedby refid="adaptive__fir__ccf_8h" local="no">adaptive_fir_ccf.h</includedby>
+    <includedby refid="channel__model_8h" local="no">channel_model.h</includedby>
+    <includedby refid="dc__blocker__cc_8h" local="no">dc_blocker_cc.h</includedby>
+    <includedby refid="dc__blocker__ff_8h" local="no">dc_blocker_ff.h</includedby>
+    <includedby refid="fft__filter_8h" local="no">fft_filter.h</includedby>
+    <includedby refid="fft__filter__ccc_8h" local="no">fft_filter_ccc.h</includedby>
+    <includedby refid="fft__filter__fff_8h" local="no">fft_filter_fff.h</includedby>
+    <includedby refid="filter__delay__fc_8h" local="no">filter_delay_fc.h</includedby>
+    <includedby refid="fir__filter_8h" local="no">fir_filter.h</includedby>
+    <includedby refid="fir__filter__with__buffer_8h" local="no">fir_filter_with_buffer.h</includedby>
+    <includedby refid="firdes_8h" local="no">firdes.h</includedby>
+    <includedby refid="fractional__interpolator__cc_8h" local="no">fractional_interpolator_cc.h</includedby>
+    <includedby refid="fractional__interpolator__ff_8h" local="no">fractional_interpolator_ff.h</includedby>
+    <includedby refid="hilbert__fc_8h" local="no">hilbert_fc.h</includedby>
+    <includedby refid="iir__filter_8h" local="no">iir_filter.h</includedby>
+    <includedby refid="iir__filter__ffd_8h" local="no">iir_filter_ffd.h</includedby>
+    <includedby refid="mmse__fir__interpolator__cc_8h" local="no">mmse_fir_interpolator_cc.h</includedby>
+    <includedby refid="mmse__fir__interpolator__ff_8h" local="no">mmse_fir_interpolator_ff.h</includedby>
+    <includedby refid="pfb__arb__resampler__ccf_8h" local="no">pfb_arb_resampler_ccf.h</includedby>
+    <includedby refid="pfb__arb__resampler__fff_8h" local="no">pfb_arb_resampler_fff.h</includedby>
+    <includedby refid="pfb__channelizer__ccf_8h" local="no">pfb_channelizer_ccf.h</includedby>
+    <includedby refid="pfb__decimator__ccf_8h" local="no">pfb_decimator_ccf.h</includedby>
+    <includedby refid="pfb__interpolator__ccf_8h" local="no">pfb_interpolator_ccf.h</includedby>
+    <includedby refid="pfb__synthesizer__ccf_8h" local="no">pfb_synthesizer_ccf.h</includedby>
+    <includedby refid="pm__remez_8h" local="no">pm_remez.h</includedby>
+    <includedby refid="polyphase__filterbank_8h" local="no">polyphase_filterbank.h</includedby>
+    <includedby refid="single__pole__iir_8h" local="no">single_pole_iir.h</includedby>
+    <includedby refid="single__pole__iir__filter__cc_8h" local="no">single_pole_iir_filter_cc.h</includedby>
+    <includedby refid="single__pole__iir__filter__ff_8h" local="no">single_pole_iir_filter_ff.h</includedby>
+    <includedby refid="fft__filter__ccc__impl_8h" local="no">fft_filter_ccc_impl.h</includedby>
+    <includedby refid="fft__filter__fff__impl_8h" local="no">fft_filter_fff_impl.h</includedby>
+    <incdepgraph>
+      <node id="34575">
+        <label>api.h</label>
+        <link refid="gr-filter/include/filter/api.h"/>
+        <childnode refid="34576" relation="include">
+        </childnode>
+      </node>
+      <node id="34576">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="34590">
+        <label>fft_filter_fff_impl.h</label>
+        <link refid="fft__filter__fff__impl_8h"/>
+      </node>
+      <node id="34580">
+        <label>adaptive_fir_ccf.h</label>
+        <link refid="adaptive__fir__ccf_8h"/>
+        <childnode refid="34581" relation="include">
+        </childnode>
+      </node>
+      <node id="34598">
+        <label>mmse_fir_interpolator_ff.h</label>
+        <link refid="mmse__fir__interpolator__ff_8h"/>
+        <childnode refid="34599" relation="include">
+        </childnode>
+      </node>
+      <node id="34633">
+        <label>single_pole_iir_filter_ff_impl.h</label>
+        <link refid="single__pole__iir__filter__ff__impl_8h"/>
+      </node>
+      <node id="34611">
+        <label>fractional_interpolator_ff.h</label>
+        <link refid="fractional__interpolator__ff_8h"/>
+        <childnode refid="34599" relation="include">
+        </childnode>
+      </node>
+      <node id="34614">
+        <label>iir_filter_ffd_impl.h</label>
+        <link refid="iir__filter__ffd__impl_8h"/>
+      </node>
+      <node id="34589">
+        <label>fft_filter_ccc_impl.h</label>
+        <link refid="fft__filter__ccc__impl_8h"/>
+      </node>
+      <node id="34607">
+        <label>fir_filter_with_buffer.h</label>
+        <link refid="fir__filter__with__buffer_8h"/>
+        <childnode refid="34608" relation="include">
+        </childnode>
+      </node>
+      <node id="34596">
+        <label>mmse_fir_interpolator_cc.h</label>
+        <link refid="mmse__fir__interpolator__cc_8h"/>
+        <childnode refid="34597" relation="include">
+        </childnode>
+      </node>
+      <node id="34599">
+        <label>fractional_interpolator_ff_impl.h</label>
+        <link refid="fractional__interpolator__ff__impl_8h"/>
+      </node>
+      <node id="34629">
+        <label>simple_squelch_cc_impl.h</label>
+        <link refid="simple__squelch__cc__impl_8h"/>
+      </node>
+      <node id="34625">
+        <label>probe_avg_mag_sqrd_cf_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__cf__impl_8h"/>
+      </node>
+      <node id="34627">
+        <label>pwr_squelch_cc_impl.h</label>
+        <link refid="pwr__squelch__cc__impl_8h"/>
+      </node>
+      <node id="34613">
+        <label>iir_filter.h</label>
+        <link refid="iir__filter_8h"/>
+        <childnode refid="34614" relation="include">
+        </childnode>
+      </node>
+      <node id="34608">
+        <label>pfb_synthesizer_ccf_impl.h</label>
+        <link refid="pfb__synthesizer__ccf__impl_8h"/>
+      </node>
+      <node id="34597">
+        <label>fractional_interpolator_cc_impl.h</label>
+        <link refid="fractional__interpolator__cc__impl_8h"/>
+      </node>
+      <node id="34595">
+        <label>fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="34578" relation="include">
+        </childnode>
+        <childnode refid="34596" relation="include">
+        </childnode>
+        <childnode refid="34598" relation="include">
+        </childnode>
+        <childnode refid="34600" relation="include">
+        </childnode>
+        <childnode refid="34579" relation="include">
+        </childnode>
+        <childnode refid="34581" relation="include">
+        </childnode>
+        <childnode refid="34594" relation="include">
+        </childnode>
+        <childnode refid="34604" relation="include">
+        </childnode>
+        <childnode refid="34605" relation="include">
+        </childnode>
+        <childnode refid="34606" relation="include">
+        </childnode>
+        <childnode refid="34601" relation="include">
+        </childnode>
+        <childnode refid="34602" relation="include">
+        </childnode>
+        <childnode refid="34603" relation="include">
+        </childnode>
+      </node>
+      <node id="34605">
+        <label>pfb_arb_resampler_ccf_impl.h</label>
+        <link refid="pfb__arb__resampler__ccf__impl_8h"/>
+      </node>
+      <node id="34577">
+        <label>api.h</label>
+        <link refid="gr-filter/include/filter/api.h"/>
+        <childnode refid="34578" relation="include">
+        </childnode>
+        <childnode refid="34580" relation="include">
+        </childnode>
+        <childnode refid="34582" relation="include">
+        </childnode>
+        <childnode refid="34584" relation="include">
+        </childnode>
+        <childnode refid="34586" relation="include">
+        </childnode>
+        <childnode refid="34588" relation="include">
+        </childnode>
+        <childnode refid="34591" relation="include">
+        </childnode>
+        <childnode refid="34592" relation="include">
+        </childnode>
+        <childnode refid="34593" relation="include">
+        </childnode>
+        <childnode refid="34595" relation="include">
+        </childnode>
+        <childnode refid="34607" relation="include">
+        </childnode>
+        <childnode refid="34609" relation="include">
+        </childnode>
+        <childnode refid="34610" relation="include">
+        </childnode>
+        <childnode refid="34611" relation="include">
+        </childnode>
+        <childnode refid="34612" relation="include">
+        </childnode>
+        <childnode refid="34613" relation="include">
+        </childnode>
+        <childnode refid="34615" relation="include">
+        </childnode>
+        <childnode refid="34596" relation="include">
+        </childnode>
+        <childnode refid="34598" relation="include">
+        </childnode>
+        <childnode refid="34616" relation="include">
+        </childnode>
+        <childnode refid="34617" relation="include">
+        </childnode>
+        <childnode refid="34618" relation="include">
+        </childnode>
+        <childnode refid="34619" relation="include">
+        </childnode>
+        <childnode refid="34620" relation="include">
+        </childnode>
+        <childnode refid="34621" relation="include">
+        </childnode>
+        <childnode refid="34622" relation="include">
+        </childnode>
+        <childnode refid="34600" relation="include">
+        </childnode>
+        <childnode refid="34623" relation="include">
+        </childnode>
+        <childnode refid="34630" relation="include">
+        </childnode>
+        <childnode refid="34632" relation="include">
+        </childnode>
+        <childnode refid="34589" relation="include">
+        </childnode>
+        <childnode refid="34590" relation="include">
+        </childnode>
+      </node>
+      <node id="34594">
+        <label>filter_delay_fc_impl.h</label>
+        <link refid="filter__delay__fc__impl_8h"/>
+      </node>
+      <node id="34600">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase__filterbank_8h"/>
+        <childnode refid="34601" relation="include">
+        </childnode>
+        <childnode refid="34602" relation="include">
+        </childnode>
+        <childnode refid="34603" relation="include">
+        </childnode>
+      </node>
+      <node id="34621">
+        <label>pfb_synthesizer_ccf.h</label>
+        <link refid="pfb__synthesizer__ccf_8h"/>
+        <childnode refid="34608" relation="include">
+        </childnode>
+      </node>
+      <node id="34578">
+        <label>adaptive_fir_ccc.h</label>
+        <link refid="adaptive__fir__ccc_8h"/>
+        <childnode refid="34579" relation="include">
+        </childnode>
+      </node>
+      <node id="34617">
+        <label>pfb_arb_resampler_fff.h</label>
+        <link refid="pfb__arb__resampler__fff_8h"/>
+        <childnode refid="34606" relation="include">
+        </childnode>
+      </node>
+      <node id="34623">
+        <label>single_pole_iir.h</label>
+        <link refid="single__pole__iir_8h"/>
+        <childnode refid="34624" relation="include">
+        </childnode>
+        <childnode refid="34625" relation="include">
+        </childnode>
+        <childnode refid="34626" relation="include">
+        </childnode>
+        <childnode refid="34627" relation="include">
+        </childnode>
+        <childnode refid="34628" relation="include">
+        </childnode>
+        <childnode refid="34629" relation="include">
+        </childnode>
+        <childnode refid="34630" relation="include">
+        </childnode>
+        <childnode refid="34632" relation="include">
+        </childnode>
+        <childnode refid="34631" relation="include">
+        </childnode>
+        <childnode refid="34633" relation="include">
+        </childnode>
+      </node>
+      <node id="34615">
+        <label>iir_filter_ffd.h</label>
+        <link refid="iir__filter__ffd_8h"/>
+        <childnode refid="34614" relation="include">
+        </childnode>
+      </node>
+      <node id="34593">
+        <label>filter_delay_fc.h</label>
+        <link refid="filter__delay__fc_8h"/>
+        <childnode refid="34594" relation="include">
+        </childnode>
+      </node>
+      <node id="34632">
+        <label>single_pole_iir_filter_ff.h</label>
+        <link refid="single__pole__iir__filter__ff_8h"/>
+        <childnode refid="34633" relation="include">
+        </childnode>
+      </node>
+      <node id="34591">
+        <label>fft_filter_ccc.h</label>
+        <link refid="fft__filter__ccc_8h"/>
+        <childnode refid="34589" relation="include">
+        </childnode>
+      </node>
+      <node id="34620">
+        <label>pfb_interpolator_ccf.h</label>
+        <link refid="pfb__interpolator__ccf_8h"/>
+        <childnode refid="34603" relation="include">
+        </childnode>
+      </node>
+      <node id="34628">
+        <label>pwr_squelch_ff_impl.h</label>
+        <link refid="pwr__squelch__ff__impl_8h"/>
+      </node>
+      <node id="34618">
+        <label>pfb_channelizer_ccf.h</label>
+        <link refid="pfb__channelizer__ccf_8h"/>
+        <childnode refid="34601" relation="include">
+        </childnode>
+      </node>
+      <node id="34602">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="34584">
+        <label>dc_blocker_cc.h</label>
+        <link refid="dc__blocker__cc_8h"/>
+        <childnode refid="34585" relation="include">
+        </childnode>
+      </node>
+      <node id="34582">
+        <label>channel_model.h</label>
+        <link refid="channel__model_8h"/>
+        <childnode refid="34583" relation="include">
+        </childnode>
+      </node>
+      <node id="34612">
+        <label>hilbert_fc.h</label>
+        <link refid="hilbert__fc_8h"/>
+        <childnode refid="34604" relation="include">
+        </childnode>
+      </node>
+      <node id="34588">
+        <label>fft_filter.h</label>
+        <link refid="fft__filter_8h"/>
+        <childnode refid="34589" relation="include">
+        </childnode>
+        <childnode refid="34590" relation="include">
+        </childnode>
+      </node>
+      <node id="34609">
+        <label>firdes.h</label>
+        <link refid="firdes_8h"/>
+      </node>
+      <node id="34586">
+        <label>dc_blocker_ff.h</label>
+        <link refid="dc__blocker__ff_8h"/>
+        <childnode refid="34587" relation="include">
+        </childnode>
+      </node>
+      <node id="34631">
+        <label>single_pole_iir_filter_cc_impl.h</label>
+        <link refid="single__pole__iir__filter__cc__impl_8h"/>
+      </node>
+      <node id="34585">
+        <label>dc_blocker_cc_impl.h</label>
+        <link refid="dc__blocker__cc__impl_8h"/>
+      </node>
+      <node id="34610">
+        <label>fractional_interpolator_cc.h</label>
+        <link refid="fractional__interpolator__cc_8h"/>
+        <childnode refid="34583" relation="include">
+        </childnode>
+        <childnode refid="34597" relation="include">
+        </childnode>
+      </node>
+      <node id="34606">
+        <label>pfb_arb_resampler_fff_impl.h</label>
+        <link refid="pfb__arb__resampler__fff__impl_8h"/>
+      </node>
+      <node id="34604">
+        <label>hilbert_fc_impl.h</label>
+        <link refid="hilbert__fc__impl_8h"/>
+      </node>
+      <node id="34603">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="34601">
+        <label>pfb_channelizer_ccf_impl.h</label>
+        <link refid="pfb__channelizer__ccf__impl_8h"/>
+      </node>
+      <node id="34592">
+        <label>fft_filter_fff.h</label>
+        <link refid="fft__filter__fff_8h"/>
+        <childnode refid="34590" relation="include">
+        </childnode>
+      </node>
+      <node id="34616">
+        <label>pfb_arb_resampler_ccf.h</label>
+        <link refid="pfb__arb__resampler__ccf_8h"/>
+        <childnode refid="34605" relation="include">
+        </childnode>
+      </node>
+      <node id="34583">
+        <label>channel_model_impl.h</label>
+        <link refid="channel__model__impl_8h"/>
+      </node>
+      <node id="34619">
+        <label>pfb_decimator_ccf.h</label>
+        <link refid="pfb__decimator__ccf_8h"/>
+        <childnode refid="34602" relation="include">
+        </childnode>
+      </node>
+      <node id="34630">
+        <label>single_pole_iir_filter_cc.h</label>
+        <link refid="single__pole__iir__filter__cc_8h"/>
+        <childnode refid="34631" relation="include">
+        </childnode>
+      </node>
+      <node id="34624">
+        <label>probe_avg_mag_sqrd_c_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__c__impl_8h"/>
+      </node>
+      <node id="34587">
+        <label>dc_blocker_ff_impl.h</label>
+        <link refid="dc__blocker__ff__impl_8h"/>
+      </node>
+      <node id="34626">
+        <label>probe_avg_mag_sqrd_f_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__f__impl_8h"/>
+      </node>
+      <node id="34579">
+        <label>adaptive_fir_ccc_impl.h</label>
+        <link refid="adaptive__fir__ccc__impl_8h"/>
+      </node>
+      <node id="34581">
+        <label>adaptive_fir_ccf_impl.h</label>
+        <link refid="adaptive__fir__ccf__impl_8h"/>
+      </node>
+      <node id="34622">
+        <label>pm_remez.h</label>
+        <link refid="pm__remez_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-filter_2include_2filter_2api_8h_1a7d33c890adb08fbd7c1c524f2c889357" prot="public" static="no">
+        <name>FILTER_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/api.h" line="30" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/api.h"/>
+  </compounddef>
+</doxygen>

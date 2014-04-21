@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="digital__diff__phasor__cc_8h" kind="file">
+    <compoundname>digital_diff_phasor_cc.h</compoundname>
+    <includes refid="digital__api_8h" local="no">digital_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="39821">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="39800">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39795" relation="include">
+        </childnode>
+      </node>
+      <node id="39823">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="39795">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="39793">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39794" relation="include">
+        </childnode>
+      </node>
+      <node id="39790">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="39788" relation="include">
+        </childnode>
+      </node>
+      <node id="39807">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="39824">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="39798">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="39799" relation="include">
+        </childnode>
+      </node>
+      <node id="39814">
+        <label>stdexcept</label>
+      </node>
+      <node id="39820">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="39787">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="39788" relation="include">
+        </childnode>
+      </node>
+      <node id="39810">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="39811" relation="include">
+        </childnode>
+        <childnode refid="39812" relation="include">
+        </childnode>
+      </node>
+      <node id="39809">
+        <label>string</label>
+      </node>
+      <node id="39792">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39793" relation="include">
+        </childnode>
+        <childnode refid="39800" relation="include">
+        </childnode>
+        <childnode refid="39801" relation="include">
+        </childnode>
+        <childnode refid="39802" relation="include">
+        </childnode>
+        <childnode refid="39803" relation="include">
+        </childnode>
+        <childnode refid="39809" relation="include">
+        </childnode>
+        <childnode refid="39816" relation="include">
+        </childnode>
+        <childnode refid="39817" relation="include">
+        </childnode>
+        <childnode refid="39818" relation="include">
+        </childnode>
+        <childnode refid="39819" relation="include">
+        </childnode>
+        <childnode refid="39824" relation="include">
+        </childnode>
+        <childnode refid="39823" relation="include">
+        </childnode>
+        <childnode refid="39825" relation="include">
+        </childnode>
+      </node>
+      <node id="39817">
+        <label>map</label>
+      </node>
+      <node id="39797">
+        <label>stddef.h</label>
+      </node>
+      <node id="39818">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39793" relation="include">
+        </childnode>
+      </node>
+      <node id="39802">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="39811">
+        <label>limits.h</label>
+      </node>
+      <node id="39791">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39792" relation="include">
+        </childnode>
+        <childnode refid="39826" relation="include">
+        </childnode>
+      </node>
+      <node id="39808">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="39804">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="39805" relation="include">
+        </childnode>
+        <childnode refid="39806" relation="include">
+        </childnode>
+        <childnode refid="39795" relation="include">
+        </childnode>
+      </node>
+      <node id="39812">
+        <label>wchar.h</label>
+      </node>
+      <node id="39822">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="39815">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="39826">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39806" relation="include">
+        </childnode>
+      </node>
+      <node id="39786">
+        <label>digital_diff_phasor_cc.h</label>
+        <link refid="digital_diff_phasor_cc.h"/>
+        <childnode refid="39787" relation="include">
+        </childnode>
+        <childnode refid="39789" relation="include">
+        </childnode>
+      </node>
+      <node id="39796">
+        <label>vector</label>
+      </node>
+      <node id="39803">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39804" relation="include">
+        </childnode>
+        <childnode refid="39806" relation="include">
+        </childnode>
+      </node>
+      <node id="39801">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="39789">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39791" relation="include">
+        </childnode>
+      </node>
+      <node id="39813">
+        <label>iosfwd</label>
+      </node>
+      <node id="39806">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="39805" relation="include">
+        </childnode>
+        <childnode refid="39807" relation="include">
+        </childnode>
+        <childnode refid="39795" relation="include">
+        </childnode>
+        <childnode refid="39808" relation="include">
+        </childnode>
+        <childnode refid="39799" relation="include">
+        </childnode>
+        <childnode refid="39809" relation="include">
+        </childnode>
+        <childnode refid="39810" relation="include">
+        </childnode>
+        <childnode refid="39813" relation="include">
+        </childnode>
+        <childnode refid="39814" relation="include">
+        </childnode>
+        <childnode refid="39796" relation="include">
+        </childnode>
+        <childnode refid="39815" relation="include">
+        </childnode>
+      </node>
+      <node id="39825">
+        <label>iostream</label>
+      </node>
+      <node id="39816">
+        <label>deque</label>
+      </node>
+      <node id="39819">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="39805" relation="include">
+        </childnode>
+        <childnode refid="39820" relation="include">
+        </childnode>
+        <childnode refid="39821" relation="include">
+        </childnode>
+        <childnode refid="39822" relation="include">
+        </childnode>
+        <childnode refid="39823" relation="include">
+        </childnode>
+      </node>
+      <node id="39788">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="39799">
+        <label>complex</label>
+      </node>
+      <node id="39794">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="39790" relation="include">
+        </childnode>
+        <childnode refid="39795" relation="include">
+        </childnode>
+        <childnode refid="39796" relation="include">
+        </childnode>
+        <childnode refid="39797" relation="include">
+        </childnode>
+        <childnode refid="39798" relation="include">
+        </childnode>
+      </node>
+      <node id="39805">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="39788" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classdigital__diff__phasor__cc" prot="public">digital_diff_phasor_cc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="digital__diff__phasor__cc_8h_1a1a0d9392a9f12a1569624a98af549f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="digital__api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">digital_diff_phasor_cc_sptr</ref></type>
+        <definition>DIGITAL_API digital_diff_phasor_cc_sptr digital_make_diff_phasor_cc</definition>
+        <argsstring>()</argsstring>
+        <name>digital_make_diff_phasor_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_diff_phasor_cc.h" line="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_diff_phasor_cc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="wavelet__wavelet__ff__impl_8h" kind="file">
+    <compoundname>wavelet_wavelet_ff_impl.h</compoundname>
+    <includes refid="wavelet__wavelet__ff_8h" local="no">wavelet_wavelet_ff.h</includes>
+    <includes local="no">gsl/gsl_errno.h</includes>
+    <includes local="no">gsl/gsl_wavelet.h</includes>
+    <incdepgraph>
+      <node id="67387">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="67366">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67361" relation="include">
+        </childnode>
+      </node>
+      <node id="67389">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="67361">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="67359">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67360" relation="include">
+        </childnode>
+      </node>
+      <node id="67356">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="67354" relation="include">
+        </childnode>
+      </node>
+      <node id="67373">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="67351">
+        <label>wavelet_wavelet_ff_impl.h</label>
+        <link refid="wavelet_wavelet_ff_impl.h"/>
+        <childnode refid="67352" relation="include">
+        </childnode>
+        <childnode refid="67393" relation="include">
+        </childnode>
+        <childnode refid="67394" relation="include">
+        </childnode>
+      </node>
+      <node id="67390">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="67364">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="67365" relation="include">
+        </childnode>
+      </node>
+      <node id="67380">
+        <label>stdexcept</label>
+      </node>
+      <node id="67386">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="67376">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="67377" relation="include">
+        </childnode>
+        <childnode refid="67378" relation="include">
+        </childnode>
+      </node>
+      <node id="67375">
+        <label>string</label>
+      </node>
+      <node id="67358">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67359" relation="include">
+        </childnode>
+        <childnode refid="67366" relation="include">
+        </childnode>
+        <childnode refid="67367" relation="include">
+        </childnode>
+        <childnode refid="67368" relation="include">
+        </childnode>
+        <childnode refid="67369" relation="include">
+        </childnode>
+        <childnode refid="67375" relation="include">
+        </childnode>
+        <childnode refid="67382" relation="include">
+        </childnode>
+        <childnode refid="67383" relation="include">
+        </childnode>
+        <childnode refid="67384" relation="include">
+        </childnode>
+        <childnode refid="67385" relation="include">
+        </childnode>
+        <childnode refid="67390" relation="include">
+        </childnode>
+        <childnode refid="67389" relation="include">
+        </childnode>
+        <childnode refid="67391" relation="include">
+        </childnode>
+      </node>
+      <node id="67383">
+        <label>map</label>
+      </node>
+      <node id="67363">
+        <label>stddef.h</label>
+      </node>
+      <node id="67353">
+        <label>wavelet_api.h</label>
+        <link refid="wavelet__api_8h"/>
+        <childnode refid="67354" relation="include">
+        </childnode>
+      </node>
+      <node id="67384">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67359" relation="include">
+        </childnode>
+      </node>
+      <node id="67368">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="67377">
+        <label>limits.h</label>
+      </node>
+      <node id="67357">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67358" relation="include">
+        </childnode>
+        <childnode refid="67392" relation="include">
+        </childnode>
+      </node>
+      <node id="67374">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="67370">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="67371" relation="include">
+        </childnode>
+        <childnode refid="67372" relation="include">
+        </childnode>
+        <childnode refid="67361" relation="include">
+        </childnode>
+      </node>
+      <node id="67378">
+        <label>wchar.h</label>
+      </node>
+      <node id="67388">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="67381">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="67392">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67372" relation="include">
+        </childnode>
+      </node>
+      <node id="67362">
+        <label>vector</label>
+      </node>
+      <node id="67394">
+        <label>gsl/gsl_wavelet.h</label>
+      </node>
+      <node id="67352">
+        <label>wavelet_wavelet_ff.h</label>
+        <link refid="wavelet__wavelet__ff_8h"/>
+        <childnode refid="67353" relation="include">
+        </childnode>
+        <childnode refid="67355" relation="include">
+        </childnode>
+      </node>
+      <node id="67369">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67370" relation="include">
+        </childnode>
+        <childnode refid="67372" relation="include">
+        </childnode>
+      </node>
+      <node id="67367">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="67355">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67357" relation="include">
+        </childnode>
+      </node>
+      <node id="67379">
+        <label>iosfwd</label>
+      </node>
+      <node id="67372">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="67371" relation="include">
+        </childnode>
+        <childnode refid="67373" relation="include">
+        </childnode>
+        <childnode refid="67361" relation="include">
+        </childnode>
+        <childnode refid="67374" relation="include">
+        </childnode>
+        <childnode refid="67365" relation="include">
+        </childnode>
+        <childnode refid="67375" relation="include">
+        </childnode>
+        <childnode refid="67376" relation="include">
+        </childnode>
+        <childnode refid="67379" relation="include">
+        </childnode>
+        <childnode refid="67380" relation="include">
+        </childnode>
+        <childnode refid="67362" relation="include">
+        </childnode>
+        <childnode refid="67381" relation="include">
+        </childnode>
+      </node>
+      <node id="67391">
+        <label>iostream</label>
+      </node>
+      <node id="67382">
+        <label>deque</label>
+      </node>
+      <node id="67385">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="67371" relation="include">
+        </childnode>
+        <childnode refid="67386" relation="include">
+        </childnode>
+        <childnode refid="67387" relation="include">
+        </childnode>
+        <childnode refid="67388" relation="include">
+        </childnode>
+        <childnode refid="67389" relation="include">
+        </childnode>
+      </node>
+      <node id="67354">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="67365">
+        <label>complex</label>
+      </node>
+      <node id="67360">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="67356" relation="include">
+        </childnode>
+        <childnode refid="67361" relation="include">
+        </childnode>
+        <childnode refid="67362" relation="include">
+        </childnode>
+        <childnode refid="67363" relation="include">
+        </childnode>
+        <childnode refid="67364" relation="include">
+        </childnode>
+      </node>
+      <node id="67371">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="67354" relation="include">
+        </childnode>
+      </node>
+      <node id="67393">
+        <label>gsl/gsl_errno.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classwavelet__wavelet__ff__impl" prot="public">wavelet_wavelet_ff_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-wavelet/lib/wavelet_wavelet_ff_impl.h"/>
+  </compounddef>
+</doxygen>

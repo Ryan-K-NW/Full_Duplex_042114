@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__cpu_8h" kind="file">
+    <compoundname>gr_cpu.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <incdepgraph>
+      <node id="46532">
+        <label>gr_cpu.h</label>
+        <link refid="gr_cpu.h"/>
+        <childnode refid="46533" relation="include">
+        </childnode>
+      </node>
+      <node id="46533">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="46534" relation="include">
+        </childnode>
+      </node>
+      <node id="46534">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgr__cpu" prot="public">gr_cpu</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/filter/gr_cpu.h"/>
+  </compounddef>
+</doxygen>

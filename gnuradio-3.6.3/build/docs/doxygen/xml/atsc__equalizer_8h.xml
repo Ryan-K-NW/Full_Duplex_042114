@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="atsc__equalizer_8h" kind="file">
+    <compoundname>atsc_equalizer.h</compoundname>
+    <includes refid="atsc__api_8h" local="no">atsc_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes refid="atsci__equalizer_8h" local="no">atsci_equalizer.h</includes>
+    <incdepgraph>
+      <node id="35481">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="35460">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35455" relation="include">
+        </childnode>
+      </node>
+      <node id="35483">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="35455">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="35453">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35454" relation="include">
+        </childnode>
+      </node>
+      <node id="35450">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="35448" relation="include">
+        </childnode>
+      </node>
+      <node id="35467">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="35447">
+        <label>atsc_api.h</label>
+        <link refid="atsc__api_8h"/>
+        <childnode refid="35448" relation="include">
+        </childnode>
+      </node>
+      <node id="35484">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="35458">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="35459" relation="include">
+        </childnode>
+      </node>
+      <node id="35474">
+        <label>stdexcept</label>
+      </node>
+      <node id="35480">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="35470">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="35471" relation="include">
+        </childnode>
+        <childnode refid="35472" relation="include">
+        </childnode>
+      </node>
+      <node id="35469">
+        <label>string</label>
+      </node>
+      <node id="35452">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35453" relation="include">
+        </childnode>
+        <childnode refid="35460" relation="include">
+        </childnode>
+        <childnode refid="35461" relation="include">
+        </childnode>
+        <childnode refid="35462" relation="include">
+        </childnode>
+        <childnode refid="35463" relation="include">
+        </childnode>
+        <childnode refid="35469" relation="include">
+        </childnode>
+        <childnode refid="35476" relation="include">
+        </childnode>
+        <childnode refid="35477" relation="include">
+        </childnode>
+        <childnode refid="35478" relation="include">
+        </childnode>
+        <childnode refid="35479" relation="include">
+        </childnode>
+        <childnode refid="35484" relation="include">
+        </childnode>
+        <childnode refid="35483" relation="include">
+        </childnode>
+        <childnode refid="35485" relation="include">
+        </childnode>
+      </node>
+      <node id="35477">
+        <label>map</label>
+      </node>
+      <node id="35457">
+        <label>stddef.h</label>
+      </node>
+      <node id="35478">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35453" relation="include">
+        </childnode>
+      </node>
+      <node id="35462">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="35471">
+        <label>limits.h</label>
+      </node>
+      <node id="35451">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35452" relation="include">
+        </childnode>
+        <childnode refid="35486" relation="include">
+        </childnode>
+      </node>
+      <node id="35468">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="35464">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="35465" relation="include">
+        </childnode>
+        <childnode refid="35466" relation="include">
+        </childnode>
+        <childnode refid="35455" relation="include">
+        </childnode>
+      </node>
+      <node id="35472">
+        <label>wchar.h</label>
+      </node>
+      <node id="35487">
+        <label>atsci_equalizer.h</label>
+        <link refid="atsci__equalizer_8h"/>
+        <childnode refid="35447" relation="include">
+        </childnode>
+        <childnode refid="35488" relation="include">
+        </childnode>
+      </node>
+      <node id="35482">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="35475">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="35486">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35466" relation="include">
+        </childnode>
+      </node>
+      <node id="35456">
+        <label>vector</label>
+      </node>
+      <node id="35463">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35464" relation="include">
+        </childnode>
+        <childnode refid="35466" relation="include">
+        </childnode>
+      </node>
+      <node id="35461">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="35449">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35451" relation="include">
+        </childnode>
+      </node>
+      <node id="35473">
+        <label>iosfwd</label>
+      </node>
+      <node id="35466">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="35465" relation="include">
+        </childnode>
+        <childnode refid="35467" relation="include">
+        </childnode>
+        <childnode refid="35455" relation="include">
+        </childnode>
+        <childnode refid="35468" relation="include">
+        </childnode>
+        <childnode refid="35459" relation="include">
+        </childnode>
+        <childnode refid="35469" relation="include">
+        </childnode>
+        <childnode refid="35470" relation="include">
+        </childnode>
+        <childnode refid="35473" relation="include">
+        </childnode>
+        <childnode refid="35474" relation="include">
+        </childnode>
+        <childnode refid="35456" relation="include">
+        </childnode>
+        <childnode refid="35475" relation="include">
+        </childnode>
+      </node>
+      <node id="35485">
+        <label>iostream</label>
+      </node>
+      <node id="35476">
+        <label>deque</label>
+      </node>
+      <node id="35479">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="35465" relation="include">
+        </childnode>
+        <childnode refid="35480" relation="include">
+        </childnode>
+        <childnode refid="35481" relation="include">
+        </childnode>
+        <childnode refid="35482" relation="include">
+        </childnode>
+        <childnode refid="35483" relation="include">
+        </childnode>
+      </node>
+      <node id="35448">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="35459">
+        <label>complex</label>
+      </node>
+      <node id="35446">
+        <label>atsc_equalizer.h</label>
+        <link refid="atsc_equalizer.h"/>
+        <childnode refid="35447" relation="include">
+        </childnode>
+        <childnode refid="35449" relation="include">
+        </childnode>
+        <childnode refid="35487" relation="include">
+        </childnode>
+      </node>
+      <node id="35488">
+        <label>atsci_syminfo.h</label>
+        <link refid="atsci__syminfo_8h"/>
+      </node>
+      <node id="35454">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="35450" relation="include">
+        </childnode>
+        <childnode refid="35455" relation="include">
+        </childnode>
+        <childnode refid="35456" relation="include">
+        </childnode>
+        <childnode refid="35457" relation="include">
+        </childnode>
+        <childnode refid="35458" relation="include">
+        </childnode>
+      </node>
+      <node id="35465">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="35448" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classatsc__equalizer" prot="public">atsc_equalizer</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="atsc__equalizer_8h_1a96e7dad599762551050d0d07b51cc47b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classboost_1_1shared__ptr" kindref="compound">atsc_equalizer_sptr</ref> <ref refid="atsc__api_8h_1a5c987bdbab9053a0d6650b8035e8662a" kindref="member">ATSC_API</ref></type>
+        <definition>atsc_equalizer_sptr ATSC_API atsc_make_equalizer</definition>
+        <argsstring>()</argsstring>
+        <name>atsc_make_equalizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-atsc/src/lib/atsc_equalizer.h" line="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-atsc/src/lib/atsc_equalizer.h"/>
+  </compounddef>
+</doxygen>

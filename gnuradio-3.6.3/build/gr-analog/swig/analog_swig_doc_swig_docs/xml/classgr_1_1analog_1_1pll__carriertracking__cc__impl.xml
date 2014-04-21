@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1pll__carriertracking__cc__impl" kind="class" prot="public">
+    <compoundname>gr::analog::pll_carriertracking_cc_impl</compoundname>
+    <includes refid="pll__carriertracking__cc__impl_8h" local="no">pll_carriertracking_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9448f33ed672c4ac2cc9a79cb7bbcb32" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::d_locksig</definition>
+        <argsstring></argsstring>
+        <name>d_locksig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a3cc4abf7b893d3df9b4ba8ffe9f569f8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::d_lock_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_lock_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a1ab1b4312979027e5c2e2e3e7a472433" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::analog::pll_carriertracking_cc_impl::d_squelch_enable</definition>
+        <argsstring></argsstring>
+        <name>d_squelch_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="37" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1adf5e260838377a06cae7417a827eef6a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::mod_2pi</definition>
+        <argsstring>(float in)</argsstring>
+        <name>mod_2pi</name>
+        <param>
+          <type>float</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a06c89ab1f691bbc88382df9bb4f7efc0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::phase_detector</definition>
+        <argsstring>(gr_complex sample, float ref_phase)</argsstring>
+        <name>phase_detector</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ref_phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9cf173d6cec6ea73aa8c28915e8556a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pll_carriertracking_cc_impl::pll_carriertracking_cc_impl</definition>
+        <argsstring>(float loop_bw, float max_freq, float min_freq)</argsstring>
+        <name>pll_carriertracking_cc_impl</name>
+        <param>
+          <type>float</type>
+          <declname>loop_bw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af330732e4cf75f067154fbcf445d51fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pll_carriertracking_cc_impl::~pll_carriertracking_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pll_carriertracking_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ad5fe0fae43173f033ca0dd8e5d9611bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::pll_carriertracking_cc_impl::lock_detector</definition>
+        <argsstring>(void)</argsstring>
+        <name>lock_detector</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa0c53872f138c6780bf22aeb0a3f735d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::pll_carriertracking_cc_impl::squelch_enable</definition>
+        <argsstring>(bool)</argsstring>
+        <name>squelch_enable</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a0eed9caee617c9fcd6a36c0e873aa308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::set_lock_threshold</definition>
+        <argsstring>(float)</argsstring>
+        <name>set_lock_threshold</name>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a09462cdc01803cf4812f3db20014ce7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_loop_bandwidth</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_loop_bandwidth</name>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ada7804d366883aed8b1c6492f88ff23f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_damping_factor</definition>
+        <argsstring>(float df)</argsstring>
+        <name>set_damping_factor</name>
+        <param>
+          <type>float</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ac804bd92a78cb607bbef91c8cd52db4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_alpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>set_alpha</name>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a53949f8c103bc67e6f7dc8cda55e539c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_beta</definition>
+        <argsstring>(float beta)</argsstring>
+        <name>set_beta</name>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a4d2850eb18e49a4c29fd8c02f7809a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_frequency</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_frequency</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a11c10192f7cd49ac7169d7f13fccff04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_phase</definition>
+        <argsstring>(float phase)</argsstring>
+        <name>set_phase</name>
+        <param>
+          <type>float</type>
+          <declname>phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a903f035a85d77151f4256a5bdb24e2d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_min_freq</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_min_freq</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa3da0c947ace4f054acf1ec464214085" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_carriertracking_cc_impl::set_max_freq</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_max_freq</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af7bac6b790e09878650cd6d3ccbe5caa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_loop_bandwidth</definition>
+        <argsstring>() const </argsstring>
+        <name>get_loop_bandwidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1abffeabf7d723f73b1ab8d2d3dd4f8a1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_damping_factor</definition>
+        <argsstring>() const </argsstring>
+        <name>get_damping_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9b200677cacd74b96b6a95dde14e20e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_alpha</definition>
+        <argsstring>() const </argsstring>
+        <name>get_alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a6c379d010841e45b3e88526b8da46a91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_beta</definition>
+        <argsstring>() const </argsstring>
+        <name>get_beta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a7b550cd8d741266271d5b764341ebd16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_frequency</definition>
+        <argsstring>() const </argsstring>
+        <name>get_frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a5c3b48e750bf8ee1a8c9e82a9b8b6a63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_phase</definition>
+        <argsstring>() const </argsstring>
+        <name>get_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a8da5bb26702887898d8f07341eb16e11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_min_freq</definition>
+        <argsstring>() const </argsstring>
+        <name>get_min_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ae466919720ddcd4012f91dc4d82d770d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_carriertracking_cc_impl::get_max_freq</definition>
+        <argsstring>() const </argsstring>
+        <name>get_max_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a64f6a7e0d28f36802a3e90c6ef42fab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::pll_carriertracking_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_carriertracking_cc_impl.h" bodystart="32" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a3cc4abf7b893d3df9b4ba8ffe9f569f8" prot="private" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>d_lock_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9448f33ed672c4ac2cc9a79cb7bbcb32" prot="private" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>d_locksig</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a1ab1b4312979027e5c2e2e3e7a472433" prot="private" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>d_squelch_enable</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9b200677cacd74b96b6a95dde14e20e1" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a6c379d010841e45b3e88526b8da46a91" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_beta</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1abffeabf7d723f73b1ab8d2d3dd4f8a1e" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_damping_factor</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a7b550cd8d741266271d5b764341ebd16" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_frequency</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af7bac6b790e09878650cd6d3ccbe5caa" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_loop_bandwidth</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ae466919720ddcd4012f91dc4d82d770d" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_max_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a8da5bb26702887898d8f07341eb16e11" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_min_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a5c3b48e750bf8ee1a8c9e82a9b8b6a63" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>get_phase</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ad5fe0fae43173f033ca0dd8e5d9611bc" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>lock_detector</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1adf5e260838377a06cae7417a827eef6a" prot="private" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>mod_2pi</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a06c89ab1f691bbc88382df9bb4f7efc0" prot="private" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>phase_detector</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a9cf173d6cec6ea73aa8c28915e8556a3" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>pll_carriertracking_cc_impl</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ac804bd92a78cb607bbef91c8cd52db4e" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a53949f8c103bc67e6f7dc8cda55e539c" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_beta</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1ada7804d366883aed8b1c6492f88ff23f" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_damping_factor</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a4d2850eb18e49a4c29fd8c02f7809a92" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a0eed9caee617c9fcd6a36c0e873aa308" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_lock_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a09462cdc01803cf4812f3db20014ce7e" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_loop_bandwidth</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa3da0c947ace4f054acf1ec464214085" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_max_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a903f035a85d77151f4256a5bdb24e2d2" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_min_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a11c10192f7cd49ac7169d7f13fccff04" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1aa0c53872f138c6780bf22aeb0a3f735d" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>squelch_enable</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1a64f6a7e0d28f36802a3e90c6ef42fab8" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1pll__carriertracking__cc__impl_1af330732e4cf75f067154fbcf445d51fa" prot="public" virt="non-virtual"><scope>gr::analog::pll_carriertracking_cc_impl</scope><name>~pll_carriertracking_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

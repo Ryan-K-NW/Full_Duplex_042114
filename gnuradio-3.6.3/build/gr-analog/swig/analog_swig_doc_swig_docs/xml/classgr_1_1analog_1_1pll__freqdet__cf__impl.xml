@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1pll__freqdet__cf__impl" kind="class" prot="public">
+    <compoundname>gr::analog::pll_freqdet_cf_impl</compoundname>
+    <includes refid="pll__freqdet__cf__impl_8h" local="no">pll_freqdet_cf_impl.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a33ae2019add7bfb0bf998b3f7a2ec4dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::phase_detector</definition>
+        <argsstring>(gr_complex sample, float ref_phase)</argsstring>
+        <name>phase_detector</name>
+        <param>
+          <type>gr_complex</type>
+          <declname>sample</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ref_phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a52560ff79924f915249816e13bbf3a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pll_freqdet_cf_impl::pll_freqdet_cf_impl</definition>
+        <argsstring>(float loop_bw, float max_freq, float min_freq)</argsstring>
+        <name>pll_freqdet_cf_impl</name>
+        <param>
+          <type>float</type>
+          <declname>loop_bw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a406c7ebdebe1aa0952c59a71eba54206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::pll_freqdet_cf_impl::~pll_freqdet_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pll_freqdet_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a594eceb3318e2aaccf01bca5968d806a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::mod_2pi</definition>
+        <argsstring>(float in)</argsstring>
+        <name>mod_2pi</name>
+        <param>
+          <type>float</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a30ecd590c9a8f530bec2866f9af9a466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_loop_bandwidth</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_loop_bandwidth</name>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a56ba378eff7114cb1b3bb15be9e77b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_damping_factor</definition>
+        <argsstring>(float df)</argsstring>
+        <name>set_damping_factor</name>
+        <param>
+          <type>float</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5c01c74dec90416e9e9a71f92bd05920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_alpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>set_alpha</name>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a6c21da1d8d83a7f511488ec1e9de9afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_beta</definition>
+        <argsstring>(float beta)</argsstring>
+        <name>set_beta</name>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab3436ed21214cb6980147305efb709ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_frequency</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_frequency</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aaf5d005b93dc6c6c76ac3db12cc678f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_phase</definition>
+        <argsstring>(float phase)</argsstring>
+        <name>set_phase</name>
+        <param>
+          <type>float</type>
+          <declname>phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5d8e79b4762d56c40ffed646e349d545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_min_freq</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_min_freq</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a06be4f485bc3c98d03234f0031e2e447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::pll_freqdet_cf_impl::set_max_freq</definition>
+        <argsstring>(float freq)</argsstring>
+        <name>set_max_freq</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab47271d813890b08c75403e37cda09df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_loop_bandwidth</definition>
+        <argsstring>() const </argsstring>
+        <name>get_loop_bandwidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a0a02c568ba9ebd7da485ad12f3b30d1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_damping_factor</definition>
+        <argsstring>() const </argsstring>
+        <name>get_damping_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aa118d320e1ea2c6c0e5f00acbf052bb8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_alpha</definition>
+        <argsstring>() const </argsstring>
+        <name>get_alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a709fa335a59559874c1f4a84a404c592" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_beta</definition>
+        <argsstring>() const </argsstring>
+        <name>get_beta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a15d34619316a7449e3836bbcadf45646" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_frequency</definition>
+        <argsstring>() const </argsstring>
+        <name>get_frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a77adee133127d4e508500f5bcf6acc69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_phase</definition>
+        <argsstring>() const </argsstring>
+        <name>get_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a45a3c179b2913d35e87a35710a64e7f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_min_freq</definition>
+        <argsstring>() const </argsstring>
+        <name>get_min_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1afc915b24d0750c6df060332c264cf547" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::pll_freqdet_cf_impl::get_max_freq</definition>
+        <argsstring>() const </argsstring>
+        <name>get_max_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a7f463b6a8a5dbcc40200a6df96485087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::pll_freqdet_cf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/pll_freqdet_cf_impl.h" bodystart="32" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aa118d320e1ea2c6c0e5f00acbf052bb8" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a709fa335a59559874c1f4a84a404c592" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_beta</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a0a02c568ba9ebd7da485ad12f3b30d1c" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_damping_factor</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a15d34619316a7449e3836bbcadf45646" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_frequency</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab47271d813890b08c75403e37cda09df" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_loop_bandwidth</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1afc915b24d0750c6df060332c264cf547" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_max_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a45a3c179b2913d35e87a35710a64e7f6" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_min_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a77adee133127d4e508500f5bcf6acc69" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>get_phase</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a594eceb3318e2aaccf01bca5968d806a" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>mod_2pi</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a33ae2019add7bfb0bf998b3f7a2ec4dd" prot="private" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>phase_detector</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a52560ff79924f915249816e13bbf3a02" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>pll_freqdet_cf_impl</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5c01c74dec90416e9e9a71f92bd05920" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a6c21da1d8d83a7f511488ec1e9de9afe" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_beta</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a56ba378eff7114cb1b3bb15be9e77b0a" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_damping_factor</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1ab3436ed21214cb6980147305efb709ec" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a30ecd590c9a8f530bec2866f9af9a466" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_loop_bandwidth</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a06be4f485bc3c98d03234f0031e2e447" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_max_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a5d8e79b4762d56c40ffed646e349d545" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_min_freq</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1aaf5d005b93dc6c6c76ac3db12cc678f0" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a7f463b6a8a5dbcc40200a6df96485087" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1pll__freqdet__cf__impl_1a406c7ebdebe1aa0952c59a71eba54206" prot="public" virt="non-virtual"><scope>gr::analog::pll_freqdet_cf_impl</scope><name>~pll_freqdet_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

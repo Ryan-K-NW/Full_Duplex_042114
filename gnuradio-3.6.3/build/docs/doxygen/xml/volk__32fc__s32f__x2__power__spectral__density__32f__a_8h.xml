@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__32fc__s32f__x2__power__spectral__density__32f__a_8h" kind="file">
+    <compoundname>volk_32fc_s32f_x2_power_spectral_density_32f_a.h</compoundname>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="66755">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66756" relation="include">
+        </childnode>
+      </node>
+      <node id="66754">
+        <label>volk_32fc_s32f_x2_power_spectral_density_32f_a.h</label>
+        <link refid="volk_32fc_s32f_x2_power_spectral_density_32f_a.h"/>
+        <childnode refid="66755" relation="include">
+        </childnode>
+        <childnode refid="66759" relation="include">
+        </childnode>
+        <childnode refid="66760" relation="include">
+        </childnode>
+      </node>
+      <node id="66756">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66757" relation="include">
+        </childnode>
+        <childnode refid="66758" relation="include">
+        </childnode>
+      </node>
+      <node id="66757">
+        <label>limits.h</label>
+      </node>
+      <node id="66758">
+        <label>wchar.h</label>
+      </node>
+      <node id="66760">
+        <label>math.h</label>
+      </node>
+      <node id="66759">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/include/volk/volk_32fc_s32f_x2_power_spectral_density_32f_a.h"/>
+  </compounddef>
+</doxygen>

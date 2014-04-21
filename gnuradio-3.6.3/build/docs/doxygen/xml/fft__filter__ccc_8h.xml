@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="fft__filter__ccc_8h" kind="file">
+    <compoundname>fft_filter_ccc.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes refid="gr__sync__decimator_8h" local="no">gr_sync_decimator.h</includes>
+    <includedby refid="fft__filter__ccc__impl_8h" local="no">fft_filter_ccc_impl.h</includedby>
+    <incdepgraph>
+      <node id="41263">
+        <label>gr_sync_decimator.h</label>
+        <link refid="gr__sync__decimator_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41265" relation="include">
+        </childnode>
+      </node>
+      <node id="41296">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="41275">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41270" relation="include">
+        </childnode>
+      </node>
+      <node id="41298">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="41270">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="41268">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41269" relation="include">
+        </childnode>
+      </node>
+      <node id="41264">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="41262" relation="include">
+        </childnode>
+      </node>
+      <node id="41282">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="41299">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="41273">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="41274" relation="include">
+        </childnode>
+      </node>
+      <node id="41261">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="41262" relation="include">
+        </childnode>
+      </node>
+      <node id="41289">
+        <label>stdexcept</label>
+      </node>
+      <node id="41295">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="41285">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="41286" relation="include">
+        </childnode>
+        <childnode refid="41287" relation="include">
+        </childnode>
+      </node>
+      <node id="41284">
+        <label>string</label>
+      </node>
+      <node id="41267">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41268" relation="include">
+        </childnode>
+        <childnode refid="41275" relation="include">
+        </childnode>
+        <childnode refid="41276" relation="include">
+        </childnode>
+        <childnode refid="41277" relation="include">
+        </childnode>
+        <childnode refid="41278" relation="include">
+        </childnode>
+        <childnode refid="41284" relation="include">
+        </childnode>
+        <childnode refid="41291" relation="include">
+        </childnode>
+        <childnode refid="41292" relation="include">
+        </childnode>
+        <childnode refid="41293" relation="include">
+        </childnode>
+        <childnode refid="41294" relation="include">
+        </childnode>
+        <childnode refid="41299" relation="include">
+        </childnode>
+        <childnode refid="41298" relation="include">
+        </childnode>
+        <childnode refid="41300" relation="include">
+        </childnode>
+      </node>
+      <node id="41292">
+        <label>map</label>
+      </node>
+      <node id="41272">
+        <label>stddef.h</label>
+      </node>
+      <node id="41293">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41268" relation="include">
+        </childnode>
+      </node>
+      <node id="41277">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="41286">
+        <label>limits.h</label>
+      </node>
+      <node id="41266">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41267" relation="include">
+        </childnode>
+        <childnode refid="41301" relation="include">
+        </childnode>
+      </node>
+      <node id="41283">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="41260">
+        <label>fft_filter_ccc.h</label>
+        <link refid="fft_filter_ccc.h"/>
+        <childnode refid="41261" relation="include">
+        </childnode>
+        <childnode refid="41263" relation="include">
+        </childnode>
+      </node>
+      <node id="41279">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="41280" relation="include">
+        </childnode>
+        <childnode refid="41281" relation="include">
+        </childnode>
+        <childnode refid="41270" relation="include">
+        </childnode>
+      </node>
+      <node id="41287">
+        <label>wchar.h</label>
+      </node>
+      <node id="41297">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="41290">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="41301">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41281" relation="include">
+        </childnode>
+      </node>
+      <node id="41271">
+        <label>vector</label>
+      </node>
+      <node id="41278">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41279" relation="include">
+        </childnode>
+        <childnode refid="41281" relation="include">
+        </childnode>
+      </node>
+      <node id="41276">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="41265">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41266" relation="include">
+        </childnode>
+      </node>
+      <node id="41288">
+        <label>iosfwd</label>
+      </node>
+      <node id="41281">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="41280" relation="include">
+        </childnode>
+        <childnode refid="41282" relation="include">
+        </childnode>
+        <childnode refid="41270" relation="include">
+        </childnode>
+        <childnode refid="41283" relation="include">
+        </childnode>
+        <childnode refid="41274" relation="include">
+        </childnode>
+        <childnode refid="41284" relation="include">
+        </childnode>
+        <childnode refid="41285" relation="include">
+        </childnode>
+        <childnode refid="41288" relation="include">
+        </childnode>
+        <childnode refid="41289" relation="include">
+        </childnode>
+        <childnode refid="41271" relation="include">
+        </childnode>
+        <childnode refid="41290" relation="include">
+        </childnode>
+      </node>
+      <node id="41300">
+        <label>iostream</label>
+      </node>
+      <node id="41291">
+        <label>deque</label>
+      </node>
+      <node id="41294">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="41280" relation="include">
+        </childnode>
+        <childnode refid="41295" relation="include">
+        </childnode>
+        <childnode refid="41296" relation="include">
+        </childnode>
+        <childnode refid="41297" relation="include">
+        </childnode>
+        <childnode refid="41298" relation="include">
+        </childnode>
+      </node>
+      <node id="41262">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="41274">
+        <label>complex</label>
+      </node>
+      <node id="41269">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="41264" relation="include">
+        </childnode>
+        <childnode refid="41270" relation="include">
+        </childnode>
+        <childnode refid="41271" relation="include">
+        </childnode>
+        <childnode refid="41272" relation="include">
+        </childnode>
+        <childnode refid="41273" relation="include">
+        </childnode>
+      </node>
+      <node id="41280">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="41262" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="41303">
+        <label>fft_filter_ccc_impl.h</label>
+        <link refid="fft__filter__ccc__impl_8h"/>
+      </node>
+      <node id="41302">
+        <label>fft_filter_ccc.h</label>
+        <link refid="fft_filter_ccc.h"/>
+        <childnode refid="41303" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1fft__filter__ccc" prot="public">gr::filter::fft_filter_ccc</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/fft_filter_ccc.h"/>
+  </compounddef>
+</doxygen>

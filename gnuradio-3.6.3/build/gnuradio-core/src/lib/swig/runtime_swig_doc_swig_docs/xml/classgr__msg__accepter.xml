@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr__msg__accepter" kind="class" prot="public">
+    <compoundname>gr_msg_accepter</compoundname>
+    <derivedcompoundref refid="classgr__basic__block" prot="public" virt="non-virtual">gr_basic_block</derivedcompoundref>
+    <includes refid="gr__msg__accepter_8h" local="no">gr_msg_accepter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr__msg__accepter_1a0482adcd6e89d2a441c8768737b68c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_accepter::gr_msg_accepter</definition>
+        <argsstring>()</argsstring>
+        <name>gr_msg_accepter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__accepter_1ad2ee9c687b775b08ce0e27e913ed8a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr_msg_accepter::~gr_msg_accepter</definition>
+        <argsstring>()</argsstring>
+        <name>~gr_msg_accepter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr__msg__accepter_1a466d3e63bc7272aee4d65a3f8be721b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr_msg_accepter::post</definition>
+        <argsstring>(pmt::pmt_t which_port, pmt::pmt_t msg)</argsstring>
+        <name>post</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>which_port</declname>
+        </param>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Accepts messages and inserts them into a message queue, then notifies subclass <ref refid="classgr__basic__block" kindref="compound">gr_basic_block</ref> there is a message pending. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="423">
+        <label>gr_msg_accepter</label>
+        <link refid="classgr__msg__accepter"/>
+      </node>
+      <node id="426">
+        <label>gr_sync_block</label>
+        <link refid="classgr__sync__block"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>gr_sync_decimator</label>
+        <link refid="classgr__sync__decimator"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>gr_block</label>
+        <link refid="classgr__block"/>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>gr_hier_block2</label>
+        <link refid="classgr__hier__block2"/>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>gr_sync_interpolator</label>
+        <link refid="classgr__sync__interpolator"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>gr_top_block</label>
+        <link refid="classgr__top__block"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>gr_basic_block</label>
+        <link refid="classgr__basic__block"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_msg_accepter.h" bodystart="33" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr__msg__accepter_1a0482adcd6e89d2a441c8768737b68c21" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>gr_msg_accepter</name></member>
+      <member refid="classgr__msg__accepter_1a466d3e63bc7272aee4d65a3f8be721b3" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>post</name></member>
+      <member refid="classgr__msg__accepter_1ad2ee9c687b775b08ce0e27e913ed8a7d" prot="public" virt="non-virtual"><scope>gr_msg_accepter</scope><name>~gr_msg_accepter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

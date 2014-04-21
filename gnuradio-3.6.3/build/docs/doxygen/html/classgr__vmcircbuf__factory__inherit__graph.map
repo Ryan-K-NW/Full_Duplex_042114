@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classgr__vmcircbuf__createfilemapping__factory.html" title="concrete factory for circular buffers built using mmap and shm_open" alt="" coords="197,5,453,35"/>
+<area shape="rect" id="node5" href="$classgr__vmcircbuf__mmap__shm__open__factory.html" title="concrete factory for circular buffers built using mmap and shm_open" alt="" coords="197,58,453,89"/>
+<area shape="rect" id="node7" href="$classgr__vmcircbuf__mmap__tmpfile__factory.html" title="concrete factory for circular buffers built using mmap and shm_open" alt="" coords="209,111,441,142"/>
+<area shape="rect" id="node9" href="$classgr__vmcircbuf__sysv__shm__factory.html" title="concrete factory for circular buffers built using mmap and shm_open" alt="" coords="220,165,431,195"/>
+</map>

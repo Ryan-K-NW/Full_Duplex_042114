@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl" kind="class" prot="public">
+    <compoundname>gr::analog::probe_avg_mag_sqrd_cf_impl</compoundname>
+    <includes refid="probe__avg__mag__sqrd__cf__impl_8h" local="no">probe_avg_mag_sqrd_cf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a636def74e2ddac59672929dd71e4cc6d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::probe_avg_mag_sqrd_cf_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a53ead46d0bb9337d64eeba773c9e90cf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::analog::probe_avg_mag_sqrd_cf_impl::d_unmuted</definition>
+        <argsstring></argsstring>
+        <name>d_unmuted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1acba9d63eebdbd58e1a876f8002162271" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::probe_avg_mag_sqrd_cf_impl::d_level</definition>
+        <argsstring></argsstring>
+        <name>d_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="37" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1aca768890bd478aa8ab14cfbad04c5de2" prot="private" static="no" mutable="no">
+        <type>filter::single_pole_iir&lt; double, double, double &gt;</type>
+        <definition>filter::single_pole_iir&lt;double,double,double&gt; gr::analog::probe_avg_mag_sqrd_cf_impl::d_iir</definition>
+        <argsstring></argsstring>
+        <name>d_iir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="38" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a3b974382b27ebe156a22b366de739d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::probe_avg_mag_sqrd_cf_impl::probe_avg_mag_sqrd_cf_impl</definition>
+        <argsstring>(double threshold_db, double alpha)</argsstring>
+        <name>probe_avg_mag_sqrd_cf_impl</name>
+        <param>
+          <type>double</type>
+          <declname>threshold_db</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac200b26b906a93144f54013611a7e733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::probe_avg_mag_sqrd_cf_impl::~probe_avg_mag_sqrd_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~probe_avg_mag_sqrd_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a6a21ecf74597b37c6724390c3a6b35de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::probe_avg_mag_sqrd_cf_impl::unmuted</definition>
+        <argsstring>() const </argsstring>
+        <name>unmuted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="44" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ae096e7816d561c0dd263e09e6e13952b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::probe_avg_mag_sqrd_cf_impl::level</definition>
+        <argsstring>() const </argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="45" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a58238516ba72c31d72c484287e41c10b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::probe_avg_mag_sqrd_cf_impl::threshold</definition>
+        <argsstring>() const </argsstring>
+        <name>threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1adb017ec67079b24121c67f8d3b118eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::probe_avg_mag_sqrd_cf_impl::set_alpha</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>set_alpha</name>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a560ff1ef313344d71205b16dcd23a7b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::probe_avg_mag_sqrd_cf_impl::set_threshold</definition>
+        <argsstring>(double decibels)</argsstring>
+        <name>set_threshold</name>
+        <param>
+          <type>double</type>
+          <declname>decibels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac6e2ba9c02f30e33534475b527660911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::probe_avg_mag_sqrd_cf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" line="33" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/probe_avg_mag_sqrd_cf_impl.h" bodystart="32" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1aca768890bd478aa8ab14cfbad04c5de2" prot="private" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>d_iir</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1acba9d63eebdbd58e1a876f8002162271" prot="private" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>d_level</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a636def74e2ddac59672929dd71e4cc6d" prot="private" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a53ead46d0bb9337d64eeba773c9e90cf" prot="private" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>d_unmuted</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ae096e7816d561c0dd263e09e6e13952b" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>level</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a3b974382b27ebe156a22b366de739d0f" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>probe_avg_mag_sqrd_cf_impl</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1adb017ec67079b24121c67f8d3b118eb3" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a560ff1ef313344d71205b16dcd23a7b5" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a58238516ba72c31d72c484287e41c10b" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>threshold</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1a6a21ecf74597b37c6724390c3a6b35de" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>unmuted</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac6e2ba9c02f30e33534475b527660911" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl_1ac200b26b906a93144f54013611a7e733" prot="public" virt="non-virtual"><scope>gr::analog::probe_avg_mag_sqrd_cf_impl</scope><name>~probe_avg_mag_sqrd_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

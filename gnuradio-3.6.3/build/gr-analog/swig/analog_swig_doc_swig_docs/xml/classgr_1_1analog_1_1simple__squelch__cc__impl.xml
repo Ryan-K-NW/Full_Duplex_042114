@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1simple__squelch__cc__impl" kind="class" prot="public">
+    <compoundname>gr::analog::simple_squelch_cc_impl</compoundname>
+    <includes refid="simple__squelch__cc__impl_8h" local="no">simple_squelch_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a51a5729ca6d346c71e8dd4e1581e888d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::simple_squelch_cc_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a3ab6812fe81a45e089bce3a74465a083" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::analog::simple_squelch_cc_impl::d_unmuted</definition>
+        <argsstring></argsstring>
+        <name>d_unmuted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="36" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a58def4056393bc8e87cfb692e976e129" prot="private" static="no" mutable="no">
+        <type>filter::single_pole_iir&lt; double, double, double &gt;</type>
+        <definition>filter::single_pole_iir&lt;double,double,double&gt; gr::analog::simple_squelch_cc_impl::d_iir</definition>
+        <argsstring></argsstring>
+        <name>d_iir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="37" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1af94175ca0538464be1ef3bb8c95809a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::simple_squelch_cc_impl::simple_squelch_cc_impl</definition>
+        <argsstring>(double threshold_db, double alpha)</argsstring>
+        <name>simple_squelch_cc_impl</name>
+        <param>
+          <type>double</type>
+          <declname>threshold_db</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1aaf0ee094a6cd5fb2524ba27d41ecbea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::simple_squelch_cc_impl::~simple_squelch_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~simple_squelch_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a65774f87a40dc35613e291b12cf38dcd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::analog::simple_squelch_cc_impl::unmuted</definition>
+        <argsstring>() const </argsstring>
+        <name>unmuted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="43" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a8c48ba83e0d86dfa541fe893b88c4a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::simple_squelch_cc_impl::set_alpha</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>set_alpha</name>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a19e3231d686924746bf87b3c18f1d6d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::simple_squelch_cc_impl::set_threshold</definition>
+        <argsstring>(double decibels)</argsstring>
+        <name>set_threshold</name>
+        <param>
+          <type>double</type>
+          <declname>decibels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a387d7d06bdbe7abc6d3488169412051d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::simple_squelch_cc_impl::threshold</definition>
+        <argsstring>() const </argsstring>
+        <name>threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1a9c67feb63bc21a9b695f6c12ec761567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::analog::simple_squelch_cc_impl::squelch_range</definition>
+        <argsstring>() const </argsstring>
+        <name>squelch_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1simple__squelch__cc__impl_1aacda37651725cedcdfcf800da7c42b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::simple_squelch_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" line="33" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/simple_squelch_cc_impl.h" bodystart="32" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a58def4056393bc8e87cfb692e976e129" prot="private" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>d_iir</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a51a5729ca6d346c71e8dd4e1581e888d" prot="private" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a3ab6812fe81a45e089bce3a74465a083" prot="private" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>d_unmuted</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a8c48ba83e0d86dfa541fe893b88c4a22" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>set_alpha</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a19e3231d686924746bf87b3c18f1d6d1" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1af94175ca0538464be1ef3bb8c95809a6" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>simple_squelch_cc_impl</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a9c67feb63bc21a9b695f6c12ec761567" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>squelch_range</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a387d7d06bdbe7abc6d3488169412051d" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>threshold</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1a65774f87a40dc35613e291b12cf38dcd" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>unmuted</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1aacda37651725cedcdfcf800da7c42b14" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1simple__squelch__cc__impl_1aaf0ee094a6cd5fb2524ba27d41ecbea5" prot="public" virt="non-virtual"><scope>gr::analog::simple_squelch_cc_impl</scope><name>~simple_squelch_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

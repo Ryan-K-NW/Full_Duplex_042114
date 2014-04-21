@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="group__level__blk" kind="group">
+    <compoundname>level_blk</compoundname>
+    <title>Signal Level Control (AGC)</title>
+    <innerclass refid="classgr__agc2__cc" prot="public">gr_agc2_cc</innerclass>
+    <innerclass refid="classgr__agc2__ff" prot="public">gr_agc2_ff</innerclass>
+    <innerclass refid="classgr__agc__cc" prot="public">gr_agc_cc</innerclass>
+    <innerclass refid="classgr__agc__ff" prot="public">gr_agc_ff</innerclass>
+    <innerclass refid="classgr__ctcss__squelch__ff" prot="public">gr_ctcss_squelch_ff</innerclass>
+    <innerclass refid="classgr__dpll__bb" prot="public">gr_dpll_bb</innerclass>
+    <innerclass refid="classgr__feedforward__agc__cc" prot="public">gr_feedforward_agc_cc</innerclass>
+    <innerclass refid="classgr__peak__detector2__fb" prot="public">gr_peak_detector2_fb</innerclass>
+    <innerclass refid="classgr__pwr__squelch__cc" prot="public">gr_pwr_squelch_cc</innerclass>
+    <innerclass refid="classgr__pwr__squelch__ff" prot="public">gr_pwr_squelch_ff</innerclass>
+    <innerclass refid="classgr__regenerate__bb" prot="public">gr_regenerate_bb</innerclass>
+    <innerclass refid="classgr__simple__squelch__cc" prot="public">gr_simple_squelch_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc2__cc" prot="public">gr::analog::agc2_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc2__ff" prot="public">gr::analog::agc2_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc__cc" prot="public">gr::analog::agc_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1agc__ff" prot="public">gr::analog::agc_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1ctcss__squelch__ff" prot="public">gr::analog::ctcss_squelch_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1dpll__bb" prot="public">gr::analog::dpll_bb</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1feedforward__agc__cc" prot="public">gr::analog::feedforward_agc_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pwr__squelch__cc" prot="public">gr::analog::pwr_squelch_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1pwr__squelch__ff" prot="public">gr::analog::pwr_squelch_ff</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1simple__squelch__cc" prot="public">gr::analog::simple_squelch_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1squelch__base__cc" prot="public">gr::analog::squelch_base_cc</innerclass>
+    <innerclass refid="classgr_1_1analog_1_1squelch__base__ff" prot="public">gr::analog::squelch_base_ff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

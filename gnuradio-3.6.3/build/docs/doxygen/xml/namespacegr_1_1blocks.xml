@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1blocks" kind="namespace">
+    <compoundname>gr::blocks</compoundname>
+    <innerclass refid="classgr_1_1blocks_1_1add__ff" prot="public">gr::blocks::add_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float" prot="public">gr::blocks::char_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short" prot="public">gr::blocks::char_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg" prot="public">gr::blocks::complex_to_arg</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float" prot="public">gr::blocks::complex_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag" prot="public">gr::blocks::complex_to_imag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short" prot="public">gr::blocks::complex_to_interleaved_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag" prot="public">gr::blocks::complex_to_mag</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared" prot="public">gr::blocks::complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real" prot="public">gr::blocks::complex_to_real</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc" prot="public">gr::blocks::conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave" prot="public">gr::blocks::deinterleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink" prot="public">gr::blocks::file_meta_sink</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source" prot="public">gr::blocks::file_meta_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source" prot="public">gr::blocks::file_source</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char" prot="public">gr::blocks::float_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex" prot="public">gr::blocks::float_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int" prot="public">gr::blocks::float_to_int</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short" prot="public">gr::blocks::float_to_short</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar" prot="public">gr::blocks::float_to_uchar</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float" prot="public">gr::blocks::int_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave" prot="public">gr::blocks::interleave</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex" prot="public">gr::blocks::interleaved_short_to_complex</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n" prot="public">gr::blocks::keep_m_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n" prot="public">gr::blocks::keep_one_in_n</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__cc" prot="public">gr::blocks::multiply_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc" prot="public">gr::blocks::multiply_conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc" prot="public">gr::blocks::multiply_const_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff" prot="public">gr::blocks::multiply_const_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__ff" prot="public">gr::blocks::multiply_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff" prot="public">gr::blocks::nlog10_ff</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver" prot="public">gr::blocks::patterned_interleaver</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat" prot="public">gr::blocks::repeat</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char" prot="public">gr::blocks::short_to_char</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float" prot="public">gr::blocks::short_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux" prot="public">gr::blocks::stream_mux</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams" prot="public">gr::blocks::stream_to_streams</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector" prot="public">gr::blocks::stream_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream" prot="public">gr::blocks::streams_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector" prot="public">gr::blocks::streams_to_vector</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float" prot="public">gr::blocks::uchar_to_float</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream" prot="public">gr::blocks::vector_to_stream</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams" prot="public">gr::blocks::vector_to_streams</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1add__ff__impl" prot="public">gr::blocks::add_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__float__impl" prot="public">gr::blocks::char_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1char__to__short__impl" prot="public">gr::blocks::char_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg__impl" prot="public">gr::blocks::complex_to_arg_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__float__impl" prot="public">gr::blocks::complex_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__imag__impl" prot="public">gr::blocks::complex_to_imag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__interleaved__short__impl" prot="public">gr::blocks::complex_to_interleaved_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__impl" prot="public">gr::blocks::complex_to_mag_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" prot="public">gr::blocks::complex_to_mag_squared_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__real__impl" prot="public">gr::blocks::complex_to_real_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1deinterleave__impl" prot="public">gr::blocks::deinterleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__sink__impl" prot="public">gr::blocks::file_meta_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__meta__source__impl" prot="public">gr::blocks::file_meta_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1file__source__impl" prot="public">gr::blocks::file_source_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__char__impl" prot="public">gr::blocks::float_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__complex__impl" prot="public">gr::blocks::float_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__int__impl" prot="public">gr::blocks::float_to_int_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__short__impl" prot="public">gr::blocks::float_to_short_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1float__to__uchar__impl" prot="public">gr::blocks::float_to_uchar_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1int__to__float__impl" prot="public">gr::blocks::int_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleave__impl" prot="public">gr::blocks::interleave_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1interleaved__short__to__complex__impl" prot="public">gr::blocks::interleaved_short_to_complex_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__m__in__n__impl" prot="public">gr::blocks::keep_m_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1keep__one__in__n__impl" prot="public">gr::blocks::keep_one_in_n_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__cc__impl" prot="public">gr::blocks::multiply_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__conjugate__cc__impl" prot="public">gr::blocks::multiply_conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__cc__impl" prot="public">gr::blocks::multiply_const_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__const__ff__impl" prot="public">gr::blocks::multiply_const_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__ff__impl" prot="public">gr::blocks::multiply_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1nlog10__ff__impl" prot="public">gr::blocks::nlog10_ff_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1patterned__interleaver__impl" prot="public">gr::blocks::patterned_interleaver_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1repeat__impl" prot="public">gr::blocks::repeat_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__char__impl" prot="public">gr::blocks::short_to_char_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1short__to__float__impl" prot="public">gr::blocks::short_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__mux__impl" prot="public">gr::blocks::stream_mux_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__streams__impl" prot="public">gr::blocks::stream_to_streams_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1stream__to__vector__impl" prot="public">gr::blocks::stream_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__stream__impl" prot="public">gr::blocks::streams_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1streams__to__vector__impl" prot="public">gr::blocks::streams_to_vector_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1uchar__to__float__impl" prot="public">gr::blocks::uchar_to_float_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__stream__impl" prot="public">gr::blocks::vector_to_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1vector__to__streams__impl" prot="public">gr::blocks::vector_to_streams_impl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6" prot="public" static="no">
+        <name>gr_file_types</name>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a0ccdd1487ca349aea3efde7daecaef65" prot="public">
+          <name>GR_FILE_BYTE</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a9398c5264fb25d5aa2a9d08f1e68ad79" prot="public">
+          <name>GR_FILE_CHAR</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6af08508c6dd7fc2dfb9529a9d82d6164f" prot="public">
+          <name>GR_FILE_SHORT</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6ad98b7975f581d3864006ca663aee722d" prot="public">
+          <name>GR_FILE_INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a07ad82268bf96f539676f8545be40ec8" prot="public">
+          <name>GR_FILE_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6aeba7eac37ba5a0ab76cf12efae97e39a" prot="public">
+          <name>GR_FILE_LONG_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6acc39a9c09fab2b114ddb5ac6ec3a63f9" prot="public">
+          <name>GR_FILE_FLOAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1blocks_1aaf04a89b376fbc06cb75effeb40111b6a59bbff58dc3f23afa79642d7c9e09a14" prot="public">
+          <name>GR_FILE_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" bodystart="35" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1aa3ab382f8014358ed9a5f35d8f79f885" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char gr::blocks::METADATA_VERSION</definition>
+        <argsstring></argsstring>
+        <name>METADATA_VERSION</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" line="32" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1blocks_1a9b8c10e9339bb3094d0b5fd2cf2d3f53" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t gr::blocks::METADATA_HEADER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>METADATA_HEADER_SIZE</name>
+        <initializer> 149</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" line="33" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/file_meta_sink.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-blocks/include/blocks/add_ff.h" line="30"/>
+  </compounddef>
+</doxygen>

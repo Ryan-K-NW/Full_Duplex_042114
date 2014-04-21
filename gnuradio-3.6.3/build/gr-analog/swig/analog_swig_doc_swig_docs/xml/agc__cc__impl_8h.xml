@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="agc__cc__impl_8h" kind="file">
+    <compoundname>agc_cc_impl.h</compoundname>
+    <includes local="no">analog/agc_cc.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>analog/agc_cc.h</label>
+      </node>
+      <node id="6">
+        <label>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/agc_cc_impl.h</label>
+        <link refid="agc_cc_impl.h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1analog_1_1agc__cc__impl" prot="public">gr::analog::agc_cc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1analog">gr::analog</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2006,2012<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_ANALOG_AGC_CC_IMPL_H</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_ANALOG_AGC_CC_IMPL_H</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;analog/agc_cc.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gr<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">analog<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classgr_1_1analog_1_1agc__cc__impl" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr_1_1analog_1_1agc__cc__impl" kindref="compound">agc_cc_impl</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>agc_cc,<sp/>kernel::agc_cc</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a37b87f54f20a4429cdb891c5b13ba302" kindref="member">agc_cc_impl</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" kindref="member">rate</ref><sp/>=<sp/>1e-4,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" kindref="member">reference</ref><sp/>=<sp/>1.0,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" kindref="member">gain</ref><sp/>=<sp/>1.0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" kindref="member">max_gain</ref><sp/>=<sp/>0.0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a888261451b478d22f2fda0716267273e" kindref="member">~agc_cc_impl</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" kindref="member">rate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" kindref="member">kernel::agc_cc::rate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="39" refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" kindref="member">reference</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" kindref="member">kernel::agc_cc::reference</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="40" refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" kindref="member">gain</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" kindref="member">kernel::agc_cc::gain</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="41" refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" kindref="member">max_gain</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" kindref="member">kernel::agc_cc::max_gain</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classgr_1_1analog_1_1agc__cc__impl_1aa3d1263611e57f3556e10084f15b0e50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1aa3d1263611e57f3556e10084f15b0e50" kindref="member">set_rate</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a0b80b2e9351fc3e0ece2d30bf2084721" kindref="member">rate</ref>)<sp/>{<sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1aa3d1263611e57f3556e10084f15b0e50" kindref="member">kernel::agc_cc::set_rate</ref>(rate);<sp/>}</highlight></codeline>
+<codeline lineno="44" refid="classgr_1_1analog_1_1agc__cc__impl_1a9d5c33ab5099364915f592843745900c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a9d5c33ab5099364915f592843745900c" kindref="member">set_reference</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a643d0ada381896718fd3a2c93f79133b" kindref="member">reference</ref>)<sp/>{<sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a9d5c33ab5099364915f592843745900c" kindref="member">kernel::agc_cc::set_reference</ref>(reference);<sp/>}</highlight></codeline>
+<codeline lineno="45" refid="classgr_1_1analog_1_1agc__cc__impl_1ae34acc4e1aa5cf434ba581621660c124" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1ae34acc4e1aa5cf434ba581621660c124" kindref="member">set_gain</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a2e146d288e5086118b59e8cef927a375" kindref="member">gain</ref>)<sp/>{<sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1ae34acc4e1aa5cf434ba581621660c124" kindref="member">kernel::agc_cc::set_gain</ref>(gain);<sp/>}</highlight></codeline>
+<codeline lineno="46" refid="classgr_1_1analog_1_1agc__cc__impl_1aaec03fb0c5abf0892852c755393cad76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1aaec03fb0c5abf0892852c755393cad76" kindref="member">set_max_gain</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1afd9bcb604747d2bad5cb55282a92043f" kindref="member">max_gain</ref>)<sp/>{<sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1aaec03fb0c5abf0892852c755393cad76" kindref="member">kernel::agc_cc::set_max_gain</ref>(max_gain);<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1analog_1_1agc__cc__impl_1a149ad1160dcf36c0f390725d758d3dd8" kindref="member">work</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>noutput_items,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_vector_const_void_star<sp/>&amp;input_items,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_vector_void_star<sp/>&amp;output_items);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>analog<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>gr<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_ANALOG_AGC_CC_IMPL_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/agc_cc_impl.h"/>
+  </compounddef>
+</doxygen>

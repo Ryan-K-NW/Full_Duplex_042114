@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1frequency__modulator__fc__impl" kind="class" prot="public">
+    <compoundname>gr::analog::frequency_modulator_fc_impl</compoundname>
+    <includes refid="frequency__modulator__fc__impl_8h" local="no">frequency_modulator_fc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a4b803faacf2d646bbcfc2f10fc1d3e5e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::frequency_modulator_fc_impl::d_sensitivity</definition>
+        <argsstring></argsstring>
+        <name>d_sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab619ba226f814f56d48f58841c3b1709" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::analog::frequency_modulator_fc_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a68eea4cb81fb0e04737e43103fd0aea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::frequency_modulator_fc_impl::frequency_modulator_fc_impl</definition>
+        <argsstring>(double sensitivity)</argsstring>
+        <name>frequency_modulator_fc_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sensitivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a3c91c64b539de04204aa9f30d6d28599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::frequency_modulator_fc_impl::~frequency_modulator_fc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~frequency_modulator_fc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a9ba9d0b52b5b30a335172dc49c32aef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::frequency_modulator_fc_impl::set_sensitivity</definition>
+        <argsstring>(float sens)</argsstring>
+        <name>set_sensitivity</name>
+        <param>
+          <type>float</type>
+          <declname>sens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="41" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a622271df80f6a81f988c83f6ef61f413" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::analog::frequency_modulator_fc_impl::sensitivity</definition>
+        <argsstring>() const </argsstring>
+        <name>sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="42" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab5a3ce239cfdf399b6fe0b618dc3c86a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::frequency_modulator_fc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" line="32" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/frequency_modulator_fc_impl.h" bodystart="31" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab619ba226f814f56d48f58841c3b1709" prot="private" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a4b803faacf2d646bbcfc2f10fc1d3e5e" prot="private" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>d_sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a68eea4cb81fb0e04737e43103fd0aea7" prot="public" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>frequency_modulator_fc_impl</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a622271df80f6a81f988c83f6ef61f413" prot="public" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a9ba9d0b52b5b30a335172dc49c32aef8" prot="public" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>set_sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1ab5a3ce239cfdf399b6fe0b618dc3c86a" prot="public" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1frequency__modulator__fc__impl_1a3c91c64b539de04204aa9f30d6d28599" prot="public" virt="non-virtual"><scope>gr::analog::frequency_modulator_fc_impl</scope><name>~frequency_modulator_fc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

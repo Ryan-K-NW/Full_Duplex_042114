@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__block__gateway_8h" kind="file">
+    <compoundname>gr_block_gateway.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <includes refid="gr__feval_8h" local="no">gr_feval.h</includes>
+    <incdepgraph>
+      <node id="44762">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="44741">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44736" relation="include">
+        </childnode>
+      </node>
+      <node id="44764">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="44736">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="44734">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44735" relation="include">
+        </childnode>
+      </node>
+      <node id="44730">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="44731" relation="include">
+        </childnode>
+      </node>
+      <node id="44748">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="44765">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="44739">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="44740" relation="include">
+        </childnode>
+      </node>
+      <node id="44755">
+        <label>stdexcept</label>
+      </node>
+      <node id="44761">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="44751">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="44752" relation="include">
+        </childnode>
+        <childnode refid="44753" relation="include">
+        </childnode>
+      </node>
+      <node id="44750">
+        <label>string</label>
+      </node>
+      <node id="44733">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44734" relation="include">
+        </childnode>
+        <childnode refid="44741" relation="include">
+        </childnode>
+        <childnode refid="44742" relation="include">
+        </childnode>
+        <childnode refid="44743" relation="include">
+        </childnode>
+        <childnode refid="44744" relation="include">
+        </childnode>
+        <childnode refid="44750" relation="include">
+        </childnode>
+        <childnode refid="44757" relation="include">
+        </childnode>
+        <childnode refid="44758" relation="include">
+        </childnode>
+        <childnode refid="44759" relation="include">
+        </childnode>
+        <childnode refid="44760" relation="include">
+        </childnode>
+        <childnode refid="44765" relation="include">
+        </childnode>
+        <childnode refid="44764" relation="include">
+        </childnode>
+        <childnode refid="44766" relation="include">
+        </childnode>
+      </node>
+      <node id="44758">
+        <label>map</label>
+      </node>
+      <node id="44738">
+        <label>stddef.h</label>
+      </node>
+      <node id="44759">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44734" relation="include">
+        </childnode>
+      </node>
+      <node id="44743">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="44752">
+        <label>limits.h</label>
+      </node>
+      <node id="44732">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44733" relation="include">
+        </childnode>
+        <childnode refid="44767" relation="include">
+        </childnode>
+      </node>
+      <node id="44749">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="44745">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="44746" relation="include">
+        </childnode>
+        <childnode refid="44747" relation="include">
+        </childnode>
+        <childnode refid="44736" relation="include">
+        </childnode>
+      </node>
+      <node id="44753">
+        <label>wchar.h</label>
+      </node>
+      <node id="44763">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="44756">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="44767">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44747" relation="include">
+        </childnode>
+      </node>
+      <node id="44737">
+        <label>vector</label>
+      </node>
+      <node id="44729">
+        <label>gr_block_gateway.h</label>
+        <link refid="gr_block_gateway.h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44732" relation="include">
+        </childnode>
+        <childnode refid="44768" relation="include">
+        </childnode>
+      </node>
+      <node id="44744">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44745" relation="include">
+        </childnode>
+        <childnode refid="44747" relation="include">
+        </childnode>
+      </node>
+      <node id="44742">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="44754">
+        <label>iosfwd</label>
+      </node>
+      <node id="44747">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="44746" relation="include">
+        </childnode>
+        <childnode refid="44748" relation="include">
+        </childnode>
+        <childnode refid="44736" relation="include">
+        </childnode>
+        <childnode refid="44749" relation="include">
+        </childnode>
+        <childnode refid="44740" relation="include">
+        </childnode>
+        <childnode refid="44750" relation="include">
+        </childnode>
+        <childnode refid="44751" relation="include">
+        </childnode>
+        <childnode refid="44754" relation="include">
+        </childnode>
+        <childnode refid="44755" relation="include">
+        </childnode>
+        <childnode refid="44737" relation="include">
+        </childnode>
+        <childnode refid="44756" relation="include">
+        </childnode>
+      </node>
+      <node id="44766">
+        <label>iostream</label>
+      </node>
+      <node id="44757">
+        <label>deque</label>
+      </node>
+      <node id="44768">
+        <label>gr_feval.h</label>
+        <link refid="gr__feval_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44739" relation="include">
+        </childnode>
+      </node>
+      <node id="44760">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="44746" relation="include">
+        </childnode>
+        <childnode refid="44761" relation="include">
+        </childnode>
+        <childnode refid="44762" relation="include">
+        </childnode>
+        <childnode refid="44763" relation="include">
+        </childnode>
+        <childnode refid="44764" relation="include">
+        </childnode>
+      </node>
+      <node id="44731">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="44740">
+        <label>complex</label>
+      </node>
+      <node id="44735">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="44730" relation="include">
+        </childnode>
+        <childnode refid="44736" relation="include">
+        </childnode>
+        <childnode refid="44737" relation="include">
+        </childnode>
+        <childnode refid="44738" relation="include">
+        </childnode>
+        <childnode refid="44739" relation="include">
+        </childnode>
+      </node>
+      <node id="44746">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="44731" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgr__block__gw__message__type" prot="public">gr_block_gw_message_type</innerclass>
+    <innerclass refid="classgr__block__gateway" prot="public">gr_block_gateway</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dcc" prot="public" static="no">
+        <name>gr_block_gw_work_type</name>
+        <enumvalue id="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dccae675f6a975118bef09376597b2135a4a" prot="public">
+          <name>GR_BLOCK_GW_WORK_GENERAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dcca7cd86914ddb4e2b58ec126dcac1f8b5e" prot="public">
+          <name>GR_BLOCK_GW_WORK_SYNC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dccae68b9a368f4c8f24f6650f21a5ea44c5" prot="public">
+          <name>GR_BLOCK_GW_WORK_DECIM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dccaf71bb4297772df563228b2f5df5a1438" prot="public">
+          <name>GR_BLOCK_GW_WORK_INTERP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The work type enum tells the gateway what kind of block to implement. The choices are familiar gnuradio block overloads (sync, decim, interp). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_block_gateway.h" line="33" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_block_gateway.h" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__block__gateway_8h_1aedaa4b37c82a87e98714ca04134377d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classgr__block__gateway" kindref="compound">gr_block_gateway</ref> &gt;</type>
+        <definition>GR_CORE_API boost::shared_ptr&lt;gr_block_gateway&gt; gr_make_block_gateway</definition>
+        <argsstring>(gr_feval_ll *handler, const std::string &amp;name, gr_io_signature_sptr in_sig, gr_io_signature_sptr out_sig, const gr_block_gw_work_type work_type, const unsigned factor)</argsstring>
+        <name>gr_make_block_gateway</name>
+        <param>
+          <type><ref refid="classgr__feval__ll" kindref="compound">gr_feval_ll</ref> *</type>
+          <declname>handler</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_io_signature_sptr</ref></type>
+          <declname>in_sig</declname>
+        </param>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">gr_io_signature_sptr</ref></type>
+          <declname>out_sig</declname>
+        </param>
+        <param>
+          <type>const <ref refid="gr__block__gateway_8h_1a2c3dd80094ed70d765ebe51b00cc5dcc" kindref="member">gr_block_gw_work_type</ref></type>
+          <declname>work_type</declname>
+        </param>
+        <param>
+          <type>const unsigned</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make a new gateway block. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the swig director object with callback </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the block (Ex: &quot;Shirley&quot;) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>in_sig</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the input signature for this block </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_sig</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output signature for this block </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>work_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the type of block overload to implement </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the decimation or interpolation factor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new gateway block </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_block_gateway.h" line="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_block_gateway.h"/>
+  </compounddef>
+</doxygen>

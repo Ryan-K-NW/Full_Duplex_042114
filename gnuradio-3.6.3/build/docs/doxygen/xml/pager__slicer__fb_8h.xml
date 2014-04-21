@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pager__slicer__fb_8h" kind="file">
+    <compoundname>pager_slicer_fb.h</compoundname>
+    <includes refid="pager__api_8h" local="no">pager_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="59562">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="59541">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59536" relation="include">
+        </childnode>
+      </node>
+      <node id="59564">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="59536">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="59534">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59535" relation="include">
+        </childnode>
+      </node>
+      <node id="59531">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="59529" relation="include">
+        </childnode>
+      </node>
+      <node id="59548">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="59528">
+        <label>pager_api.h</label>
+        <link refid="pager__api_8h"/>
+        <childnode refid="59529" relation="include">
+        </childnode>
+      </node>
+      <node id="59565">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="59539">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="59540" relation="include">
+        </childnode>
+      </node>
+      <node id="59555">
+        <label>stdexcept</label>
+      </node>
+      <node id="59561">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="59551">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="59552" relation="include">
+        </childnode>
+        <childnode refid="59553" relation="include">
+        </childnode>
+      </node>
+      <node id="59550">
+        <label>string</label>
+      </node>
+      <node id="59533">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59534" relation="include">
+        </childnode>
+        <childnode refid="59541" relation="include">
+        </childnode>
+        <childnode refid="59542" relation="include">
+        </childnode>
+        <childnode refid="59543" relation="include">
+        </childnode>
+        <childnode refid="59544" relation="include">
+        </childnode>
+        <childnode refid="59550" relation="include">
+        </childnode>
+        <childnode refid="59557" relation="include">
+        </childnode>
+        <childnode refid="59558" relation="include">
+        </childnode>
+        <childnode refid="59559" relation="include">
+        </childnode>
+        <childnode refid="59560" relation="include">
+        </childnode>
+        <childnode refid="59565" relation="include">
+        </childnode>
+        <childnode refid="59564" relation="include">
+        </childnode>
+        <childnode refid="59566" relation="include">
+        </childnode>
+      </node>
+      <node id="59558">
+        <label>map</label>
+      </node>
+      <node id="59538">
+        <label>stddef.h</label>
+      </node>
+      <node id="59559">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59534" relation="include">
+        </childnode>
+      </node>
+      <node id="59543">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="59552">
+        <label>limits.h</label>
+      </node>
+      <node id="59532">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59533" relation="include">
+        </childnode>
+        <childnode refid="59567" relation="include">
+        </childnode>
+      </node>
+      <node id="59549">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="59545">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="59546" relation="include">
+        </childnode>
+        <childnode refid="59547" relation="include">
+        </childnode>
+        <childnode refid="59536" relation="include">
+        </childnode>
+      </node>
+      <node id="59553">
+        <label>wchar.h</label>
+      </node>
+      <node id="59563">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="59556">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="59567">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59547" relation="include">
+        </childnode>
+      </node>
+      <node id="59537">
+        <label>vector</label>
+      </node>
+      <node id="59527">
+        <label>pager_slicer_fb.h</label>
+        <link refid="pager_slicer_fb.h"/>
+        <childnode refid="59528" relation="include">
+        </childnode>
+        <childnode refid="59530" relation="include">
+        </childnode>
+      </node>
+      <node id="59544">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59545" relation="include">
+        </childnode>
+        <childnode refid="59547" relation="include">
+        </childnode>
+      </node>
+      <node id="59542">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="59530">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59532" relation="include">
+        </childnode>
+      </node>
+      <node id="59554">
+        <label>iosfwd</label>
+      </node>
+      <node id="59547">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="59546" relation="include">
+        </childnode>
+        <childnode refid="59548" relation="include">
+        </childnode>
+        <childnode refid="59536" relation="include">
+        </childnode>
+        <childnode refid="59549" relation="include">
+        </childnode>
+        <childnode refid="59540" relation="include">
+        </childnode>
+        <childnode refid="59550" relation="include">
+        </childnode>
+        <childnode refid="59551" relation="include">
+        </childnode>
+        <childnode refid="59554" relation="include">
+        </childnode>
+        <childnode refid="59555" relation="include">
+        </childnode>
+        <childnode refid="59537" relation="include">
+        </childnode>
+        <childnode refid="59556" relation="include">
+        </childnode>
+      </node>
+      <node id="59566">
+        <label>iostream</label>
+      </node>
+      <node id="59557">
+        <label>deque</label>
+      </node>
+      <node id="59560">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="59546" relation="include">
+        </childnode>
+        <childnode refid="59561" relation="include">
+        </childnode>
+        <childnode refid="59562" relation="include">
+        </childnode>
+        <childnode refid="59563" relation="include">
+        </childnode>
+        <childnode refid="59564" relation="include">
+        </childnode>
+      </node>
+      <node id="59529">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="59540">
+        <label>complex</label>
+      </node>
+      <node id="59535">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="59531" relation="include">
+        </childnode>
+        <childnode refid="59536" relation="include">
+        </childnode>
+        <childnode refid="59537" relation="include">
+        </childnode>
+        <childnode refid="59538" relation="include">
+        </childnode>
+        <childnode refid="59539" relation="include">
+        </childnode>
+      </node>
+      <node id="59546">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="59529" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classpager__slicer__fb" prot="public">pager_slicer_fb</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pager__slicer__fb_8h_1a9cabf9d58dc0283924b2ddb1a398d1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="pager__api_8h_1a0466fe431406887375cfa789a185150e" kindref="member">PAGER_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">pager_slicer_fb_sptr</ref></type>
+        <definition>PAGER_API pager_slicer_fb_sptr pager_make_slicer_fb</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>pager_make_slicer_fb</name>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-pager/lib/pager_slicer_fb.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-pager/lib/pager_slicer_fb.h"/>
+  </compounddef>
+</doxygen>

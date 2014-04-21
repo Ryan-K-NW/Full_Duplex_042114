@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="pm__remez_8h" kind="file">
+    <compoundname>pm_remez.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes refid="gr__types_8h" local="no">gr_types.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">stdexcept</includes>
+    <incdepgraph>
+      <node id="60575">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="60574">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="60572" relation="include">
+        </childnode>
+      </node>
+      <node id="60578">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="60579" relation="include">
+        </childnode>
+      </node>
+      <node id="60571">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="60572" relation="include">
+        </childnode>
+      </node>
+      <node id="60581">
+        <label>stdexcept</label>
+      </node>
+      <node id="60580">
+        <label>string</label>
+      </node>
+      <node id="60577">
+        <label>stddef.h</label>
+      </node>
+      <node id="60576">
+        <label>vector</label>
+      </node>
+      <node id="60572">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="60579">
+        <label>complex</label>
+      </node>
+      <node id="60573">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="60574" relation="include">
+        </childnode>
+        <childnode refid="60575" relation="include">
+        </childnode>
+        <childnode refid="60576" relation="include">
+        </childnode>
+        <childnode refid="60577" relation="include">
+        </childnode>
+        <childnode refid="60578" relation="include">
+        </childnode>
+      </node>
+      <node id="60570">
+        <label>pm_remez.h</label>
+        <link refid="pm_remez.h"/>
+        <childnode refid="60571" relation="include">
+        </childnode>
+        <childnode refid="60573" relation="include">
+        </childnode>
+        <childnode refid="60580" relation="include">
+        </childnode>
+        <childnode refid="60581" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/pm_remez.h"/>
+  </compounddef>
+</doxygen>

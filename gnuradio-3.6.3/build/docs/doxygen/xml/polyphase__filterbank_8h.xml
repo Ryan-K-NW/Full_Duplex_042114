@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="polyphase__filterbank_8h" kind="file">
+    <compoundname>polyphase_filterbank.h</compoundname>
+    <includes refid="gr-filter_2include_2filter_2api_8h" local="no">filter/api.h</includes>
+    <includes refid="fir__filter_8h" local="no">filter/fir_filter.h</includes>
+    <includes refid="gr-fft_2include_2fft_2fft_8h" local="no">fft/fft.h</includes>
+    <includedby refid="pfb__channelizer__ccf__impl_8h" local="no">pfb_channelizer_ccf_impl.h</includedby>
+    <includedby refid="pfb__decimator__ccf__impl_8h" local="no">pfb_decimator_ccf_impl.h</includedby>
+    <includedby refid="pfb__interpolator__ccf__impl_8h" local="no">pfb_interpolator_ccf_impl.h</includedby>
+    <incdepgraph>
+      <node id="61623">
+        <label>fft/api.h</label>
+        <link refid="gr-fft_2include_2fft_2api_8h"/>
+        <childnode refid="61617" relation="include">
+        </childnode>
+      </node>
+      <node id="61618">
+        <label>filter/fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="61616" relation="include">
+        </childnode>
+        <childnode refid="61619" relation="include">
+        </childnode>
+        <childnode refid="61620" relation="include">
+        </childnode>
+      </node>
+      <node id="61620">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="61621" relation="include">
+        </childnode>
+      </node>
+      <node id="61616">
+        <label>filter/api.h</label>
+        <link refid="gr-filter_2include_2filter_2api_8h"/>
+        <childnode refid="61617" relation="include">
+        </childnode>
+      </node>
+      <node id="61615">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase_filterbank.h"/>
+        <childnode refid="61616" relation="include">
+        </childnode>
+        <childnode refid="61618" relation="include">
+        </childnode>
+        <childnode refid="61622" relation="include">
+        </childnode>
+      </node>
+      <node id="61624">
+        <label>boost/thread.hpp</label>
+      </node>
+      <node id="61622">
+        <label>fft/fft.h</label>
+        <link refid="gr-fft_2include_2fft_2fft_8h"/>
+        <childnode refid="61623" relation="include">
+        </childnode>
+        <childnode refid="61620" relation="include">
+        </childnode>
+        <childnode refid="61624" relation="include">
+        </childnode>
+      </node>
+      <node id="61619">
+        <label>vector</label>
+      </node>
+      <node id="61617">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="61621">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="61625">
+        <label>polyphase_filterbank.h</label>
+        <link refid="polyphase_filterbank.h"/>
+        <childnode refid="61626" relation="include">
+        </childnode>
+        <childnode refid="61627" relation="include">
+        </childnode>
+        <childnode refid="61628" relation="include">
+        </childnode>
+      </node>
+      <node id="61627">
+        <label>pfb_decimator_ccf_impl.h</label>
+        <link refid="pfb__decimator__ccf__impl_8h"/>
+      </node>
+      <node id="61628">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="61626">
+        <label>pfb_channelizer_ccf_impl.h</label>
+        <link refid="pfb__channelizer__ccf__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1polyphase__filterbank" prot="public">gr::filter::kernel::polyphase_filterbank</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter_1_1kernel">gr::filter::kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-filter/include/filter/polyphase_filterbank.h"/>
+  </compounddef>
+</doxygen>

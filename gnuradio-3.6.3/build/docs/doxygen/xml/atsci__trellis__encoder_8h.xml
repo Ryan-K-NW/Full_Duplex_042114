@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="atsci__trellis__encoder_8h" kind="file">
+    <compoundname>atsci_trellis_encoder.h</compoundname>
+    <includes refid="atsc__api_8h" local="no">atsc_api.h</includes>
+    <includes refid="atsci__basic__trellis__encoder_8h" local="no">atsci_basic_trellis_encoder.h</includes>
+    <includes refid="atsc__types_8h" local="no">atsc_types.h</includes>
+    <includedby refid="atsc__trellis__encoder_8h" local="no">atsc_trellis_encoder.h</includedby>
+    <incdepgraph>
+      <node id="36209">
+        <label>assert.h</label>
+      </node>
+      <node id="36206">
+        <label>atsc_api.h</label>
+        <link refid="atsc__api_8h"/>
+        <childnode refid="36207" relation="include">
+        </childnode>
+      </node>
+      <node id="36211">
+        <label>atsc_consts.h</label>
+        <link refid="atsc__consts_8h"/>
+      </node>
+      <node id="36213">
+        <label>cassert</label>
+      </node>
+      <node id="36205">
+        <label>atsci_trellis_encoder.h</label>
+        <link refid="atsci_trellis_encoder.h"/>
+        <childnode refid="36206" relation="include">
+        </childnode>
+        <childnode refid="36208" relation="include">
+        </childnode>
+        <childnode refid="36210" relation="include">
+        </childnode>
+      </node>
+      <node id="36210">
+        <label>atsc_types.h</label>
+        <link refid="atsc__types_8h"/>
+        <childnode refid="36211" relation="include">
+        </childnode>
+        <childnode refid="36212" relation="include">
+        </childnode>
+        <childnode refid="36213" relation="include">
+        </childnode>
+      </node>
+      <node id="36207">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="36208">
+        <label>atsci_basic_trellis_encoder.h</label>
+        <link refid="atsci__basic__trellis__encoder_8h"/>
+        <childnode refid="36206" relation="include">
+        </childnode>
+        <childnode refid="36209" relation="include">
+        </childnode>
+      </node>
+      <node id="36212">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="36214">
+        <label>atsci_trellis_encoder.h</label>
+        <link refid="atsci_trellis_encoder.h"/>
+        <childnode refid="36215" relation="include">
+        </childnode>
+      </node>
+      <node id="36215">
+        <label>atsc_trellis_encoder.h</label>
+        <link refid="atsc__trellis__encoder_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classatsci__trellis__encoder" prot="public">atsci_trellis_encoder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-atsc/src/lib/atsci_trellis_encoder.h"/>
+  </compounddef>
+</doxygen>

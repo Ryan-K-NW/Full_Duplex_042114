@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_bdaf0fd74db843e53e88dbcae096bd60" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/</compoundname>
+    <innerdir refid="dir_785d771d1e56d266b6f9136b9715017f">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/alsa/</innerdir>
+    <innerdir refid="dir_a075ba5c1d9e4d9bc712de1c9ce2aca8">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/jack/</innerdir>
+    <innerdir refid="dir_fff96dde5798d0e8a85b784b67644942">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/oss/</innerdir>
+    <innerdir refid="dir_34e60935ce2830328fbc85be66a1cdb0">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/osx/</innerdir>
+    <innerdir refid="dir_c736d6cc7247f28e6e55ab38803f0869">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/portaudio/</innerdir>
+    <innerdir refid="dir_e51ee665a0101c452053fad8b70cc4ed">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/windows/</innerdir>
+    <innerfile refid="gr__audio__registry_8h">gr_audio_registry.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-audio/lib/"/>
+  </compounddef>
+</doxygen>

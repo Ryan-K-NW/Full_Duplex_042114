@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__ctcss__squelch__ff_8h" kind="file">
+    <compoundname>gr_ctcss_squelch_ff.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__squelch__base__ff_8h" local="no">gr_squelch_base_ff.h</includes>
+    <includes refid="gri__goertzel_8h" local="no">gri_goertzel.h</includes>
+    <incdepgraph>
+      <node id="46570">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="46549">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46544" relation="include">
+        </childnode>
+      </node>
+      <node id="46572">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="46544">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="46542">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46543" relation="include">
+        </childnode>
+      </node>
+      <node id="46537">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="46538" relation="include">
+        </childnode>
+      </node>
+      <node id="46556">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="46573">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="46547">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="46548" relation="include">
+        </childnode>
+      </node>
+      <node id="46563">
+        <label>stdexcept</label>
+      </node>
+      <node id="46569">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="46559">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="46560" relation="include">
+        </childnode>
+        <childnode refid="46561" relation="include">
+        </childnode>
+      </node>
+      <node id="46558">
+        <label>string</label>
+      </node>
+      <node id="46541">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46542" relation="include">
+        </childnode>
+        <childnode refid="46549" relation="include">
+        </childnode>
+        <childnode refid="46550" relation="include">
+        </childnode>
+        <childnode refid="46551" relation="include">
+        </childnode>
+        <childnode refid="46552" relation="include">
+        </childnode>
+        <childnode refid="46558" relation="include">
+        </childnode>
+        <childnode refid="46565" relation="include">
+        </childnode>
+        <childnode refid="46566" relation="include">
+        </childnode>
+        <childnode refid="46567" relation="include">
+        </childnode>
+        <childnode refid="46568" relation="include">
+        </childnode>
+        <childnode refid="46573" relation="include">
+        </childnode>
+        <childnode refid="46572" relation="include">
+        </childnode>
+        <childnode refid="46574" relation="include">
+        </childnode>
+      </node>
+      <node id="46566">
+        <label>map</label>
+      </node>
+      <node id="46546">
+        <label>stddef.h</label>
+      </node>
+      <node id="46567">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46542" relation="include">
+        </childnode>
+      </node>
+      <node id="46551">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="46560">
+        <label>limits.h</label>
+      </node>
+      <node id="46540">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46541" relation="include">
+        </childnode>
+        <childnode refid="46575" relation="include">
+        </childnode>
+      </node>
+      <node id="46557">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="46553">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="46554" relation="include">
+        </childnode>
+        <childnode refid="46555" relation="include">
+        </childnode>
+        <childnode refid="46544" relation="include">
+        </childnode>
+      </node>
+      <node id="46561">
+        <label>wchar.h</label>
+      </node>
+      <node id="46571">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="46564">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="46575">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46555" relation="include">
+        </childnode>
+      </node>
+      <node id="46545">
+        <label>vector</label>
+      </node>
+      <node id="46539">
+        <label>gr_squelch_base_ff.h</label>
+        <link refid="gr__squelch__base__ff_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46540" relation="include">
+        </childnode>
+      </node>
+      <node id="46536">
+        <label>gr_ctcss_squelch_ff.h</label>
+        <link refid="gr_ctcss_squelch_ff.h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46539" relation="include">
+        </childnode>
+        <childnode refid="46576" relation="include">
+        </childnode>
+      </node>
+      <node id="46552">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46553" relation="include">
+        </childnode>
+        <childnode refid="46555" relation="include">
+        </childnode>
+      </node>
+      <node id="46550">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="46562">
+        <label>iosfwd</label>
+      </node>
+      <node id="46555">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="46554" relation="include">
+        </childnode>
+        <childnode refid="46556" relation="include">
+        </childnode>
+        <childnode refid="46544" relation="include">
+        </childnode>
+        <childnode refid="46557" relation="include">
+        </childnode>
+        <childnode refid="46548" relation="include">
+        </childnode>
+        <childnode refid="46558" relation="include">
+        </childnode>
+        <childnode refid="46559" relation="include">
+        </childnode>
+        <childnode refid="46562" relation="include">
+        </childnode>
+        <childnode refid="46563" relation="include">
+        </childnode>
+        <childnode refid="46545" relation="include">
+        </childnode>
+        <childnode refid="46564" relation="include">
+        </childnode>
+      </node>
+      <node id="46574">
+        <label>iostream</label>
+      </node>
+      <node id="46565">
+        <label>deque</label>
+      </node>
+      <node id="46576">
+        <label>gri_goertzel.h</label>
+        <link refid="gri__goertzel_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46543" relation="include">
+        </childnode>
+      </node>
+      <node id="46568">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="46554" relation="include">
+        </childnode>
+        <childnode refid="46569" relation="include">
+        </childnode>
+        <childnode refid="46570" relation="include">
+        </childnode>
+        <childnode refid="46571" relation="include">
+        </childnode>
+        <childnode refid="46572" relation="include">
+        </childnode>
+      </node>
+      <node id="46538">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="46548">
+        <label>complex</label>
+      </node>
+      <node id="46543">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="46537" relation="include">
+        </childnode>
+        <childnode refid="46544" relation="include">
+        </childnode>
+        <childnode refid="46545" relation="include">
+        </childnode>
+        <childnode refid="46546" relation="include">
+        </childnode>
+        <childnode refid="46547" relation="include">
+        </childnode>
+      </node>
+      <node id="46554">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="46538" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr__ctcss__squelch__ff" prot="public">gr_ctcss_squelch_ff</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__ctcss__squelch__ff_8h_1a320e483ce8d9ecab3aa7603b66aedf8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__core__api_8h_1a8b8937b0c61edd85ab57ce8203543248" kindref="member">GR_CORE_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">gr_ctcss_squelch_ff_sptr</ref></type>
+        <definition>GR_CORE_API gr_ctcss_squelch_ff_sptr gr_make_ctcss_squelch_ff</definition>
+        <argsstring>(int rate, float freq, float level=0.01, int len=0, int ramp=0, bool gate=false)</argsstring>
+        <name>gr_make_ctcss_squelch_ff</name>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+          <defval>0.01</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ramp</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gate</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_ctcss_squelch_ff.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/gr_ctcss_squelch_ff.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__hier__block2_8h" kind="file">
+    <compoundname>gr_hier_block2.h</compoundname>
+    <includes local="no">gr_core_api.h</includes>
+    <includes refid="gr__basic__block_8h" local="no">gr_basic_block.h</includes>
+    <includedby refid="gr__hier__block2__detail_8h" local="no">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2_detail.h</includedby>
+    <includedby refid="gr__top__block_8h" local="no">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_top_block.h</includedby>
+    <incdepgraph>
+      <node id="238">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="233">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="231">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="236">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>string</label>
+      </node>
+      <node id="230">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>map</label>
+      </node>
+      <node id="248">
+        <label>gruel/thread.h</label>
+      </node>
+      <node id="235">
+        <label>stddef.h</label>
+      </node>
+      <node id="247">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="229">
+        <label>gr_core_api.h</label>
+      </node>
+      <node id="234">
+        <label>vector</label>
+      </node>
+      <node id="243">
+        <label>gruel/pmt.h</label>
+      </node>
+      <node id="241">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="251">
+        <label>iostream</label>
+      </node>
+      <node id="245">
+        <label>deque</label>
+      </node>
+      <node id="242">
+        <label>gruel/msg_accepter.h</label>
+      </node>
+      <node id="237">
+        <label>complex</label>
+      </node>
+      <node id="232">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h</label>
+        <link refid="gr_hier_block2.h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="254">
+        <label>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_top_block.h</label>
+        <link refid="gr__top__block_8h"/>
+      </node>
+      <node id="253">
+        <label>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2_detail.h</label>
+        <link refid="gr__hier__block2__detail_8h"/>
+      </node>
+      <node id="252">
+        <label>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h</label>
+        <link refid="gr_hier_block2.h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__hier__block2" prot="public">gr_hier_block2</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__hier__block2_8h_1a4208bfce645e916d5b58b8e7b57e7649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GR_CORE_API <ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref></type>
+        <definition>GR_CORE_API gr_hier_block2_sptr gr_make_hier_block2</definition>
+        <argsstring>(const std::string &amp;name, gr_io_signature_sptr input_signature, gr_io_signature_sptr output_signature)</argsstring>
+        <name>gr_make_hier_block2</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>input_signature</declname>
+        </param>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref></type>
+          <declname>output_signature</declname>
+        </param>
+        <briefdescription>
+<para>public constructor for <ref refid="classgr__hier__block2" kindref="compound">gr_hier_block2</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="gr__hier__block2_8h_1aa737e452e59ee3142fdd0ade424fbd67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref></type>
+        <definition>gr_hier_block2_sptr cast_to_hier_block2_sptr</definition>
+        <argsstring>(gr_basic_block_sptr block)</argsstring>
+        <name>cast_to_hier_block2_sptr</name>
+        <param>
+          <type><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h" line="204" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h" bodystart="204" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2006,2007,2008,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_GR_HIER_BLOCK2_H</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_GR_HIER_BLOCK2_H</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_core_api.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="gr__basic__block_8h" kindref="compound">gr_basic_block.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">GR_CORE_API<sp/><ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref><sp/><ref refid="gr__hier__block2_8h_1a4208bfce645e916d5b58b8e7b57e7649" kindref="member" tooltip="public constructor for gr_hier_block2">gr_make_hier_block2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>input_signature,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>output_signature);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__hier__block2__detail" kindref="compound">gr_hier_block2_detail</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classgr__hier__block2" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">GR_CORE_API<sp/><ref refid="classgr__hier__block2" kindref="compound" tooltip="Hierarchical container class for gr_block&amp;#39;s and gr_hier_block2&amp;#39;s.">gr_hier_block2</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47" refid="classgr__hier__block2_1aabe5bf6b2754d0b512345d26eea22d9f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgr__hier__block2__detail" kindref="compound">gr_hier_block2_detail</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>GR_CORE_API<sp/><ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref><sp/><ref refid="gr__hier__block2_8h_1a4208bfce645e916d5b58b8e7b57e7649" kindref="member" tooltip="public constructor for gr_hier_block2">gr_make_hier_block2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>input_signature,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>output_signature);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="classgr__hier__block2__detail" kindref="compound">gr_hier_block2_detail</ref><sp/>*d_detail;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58" refid="classgr__hier__block2_1a9f065335f42852256617ccddcf12946e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classgr__hier__block2_1a9f065335f42852256617ccddcf12946e" kindref="member">gr_hier_block2</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){}<sp/></highlight><highlight class="comment">//allows<sp/>pure<sp/>virtual<sp/>interface<sp/>sub-classes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="classgr__hier__block2" kindref="compound" tooltip="Hierarchical container class for gr_block&amp;#39;s and gr_hier_block2&amp;#39;s.">gr_hier_block2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>input_signature,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a17582361e91523de033c893f29cae653" kindref="member">gr_io_signature_sptr</ref><sp/>output_signature);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classgr__hier__block2" kindref="compound" tooltip="Hierarchical container class for gr_block&amp;#39;s and gr_hier_block2&amp;#39;s.">gr_hier_block2</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classgr__hier__block2_1a39c600cf628c730eba5bd32cb7ccc861" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/><sp/><sp/><ref refid="classgr__hier__block2_1a39c600cf628c730eba5bd32cb7ccc861" kindref="member" tooltip="typedef for object returned from self().">opaque_self</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><ref refid="classgr__hier__block2_1a39c600cf628c730eba5bd32cb7ccc861" kindref="member" tooltip="typedef for object returned from self().">opaque_self</ref><sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1ad33539482e34829c0efbee60a2bf657b" kindref="member">connect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>block);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1ad33539482e34829c0efbee60a2bf657b" kindref="member">connect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_port,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_port);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a8c5bb7975b4a3342e605512071ff7e09" kindref="member">msg_connect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/>pmt::pmt_t<sp/>srcport,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/>pmt::pmt_t<sp/>dstport);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a8c5bb7975b4a3342e605512071ff7e09" kindref="member">msg_connect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/>std::string<sp/>srcport,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/>std::string<sp/>dstport);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a52adcef75dcc5fca7b305d4a77f77c7d" kindref="member">msg_disconnect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/>pmt::pmt_t<sp/>srcport,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/>pmt::pmt_t<sp/>dstport);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a52adcef75dcc5fca7b305d4a77f77c7d" kindref="member">msg_disconnect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/>std::string<sp/>srcport,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/>std::string<sp/>dstport);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1af8875b90708dffc2981ec06644a6f6d1" kindref="member">disconnect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>block);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1af8875b90708dffc2981ec06644a6f6d1" kindref="member">disconnect</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_port,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_port);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a19f2246a54dbf483251c15c2fa478ddd" kindref="member">disconnect_all</ref>();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1ace9e4500e6ebec5717f86838be28e2da" kindref="member">lock</ref>();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2__detail_1a26e471819d12d14115533458afc88fa1" kindref="member">unlock</ref>();</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>public<sp/>method<sp/>for<sp/>ease<sp/>of<sp/>code<sp/>organization,<sp/>but<sp/>should<sp/>be</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>ignored<sp/>by<sp/>the<sp/>user.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a00654833ab8b07aacb3b6472acdf486c" kindref="member">gr_flat_flowgraph_sptr</ref><sp/>flatten()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref><sp/>to_hier_block2();<sp/></highlight><highlight class="comment">//<sp/>Needed<sp/>for<sp/>Python<sp/>type<sp/>coercion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="classgr__hier__block2_1a5b44d6a9cb53a41f10969d2f0e86c617" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1a5b44d6a9cb53a41f10969d2f0e86c617" kindref="member">has_msg_port</ref>(pmt::pmt_t<sp/>which_port){</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1a2db8b61c8c009e150e6a847279a18c39" kindref="member">message_port_is_hier</ref>(which_port)<sp/>||<sp/><ref refid="classgr__basic__block_1a61553a9c10e556cd480aa63ab30848e2" kindref="member">gr_basic_block::has_msg_port</ref>(which_port);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="174" refid="classgr__hier__block2_1a335237d6dff99d52414a29518c11f303" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1a335237d6dff99d52414a29518c11f303" kindref="member">message_port_is_hier</ref>(pmt::pmt_t<sp/>port_id){</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgr__basic__block_1aab4dc769345018c146be60394c198774" kindref="member">message_port_is_hier_in</ref>(port_id)<sp/>||<sp/><ref refid="classgr__basic__block_1a1076c46a515aa65abb921d5307ef190c" kindref="member">message_port_is_hier_out</ref>(port_id);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177" refid="classgr__hier__block2_1a37e01a8e690640902017ab08a12061f5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1a37e01a8e690640902017ab08a12061f5" kindref="member">message_port_is_hier_in</ref>(pmt::pmt_t<sp/>port_id){</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pmt::pmt_list_has(hier_message_ports_in,<sp/>port_id);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180" refid="classgr__hier__block2_1ab4c80eb5f0ed73a9c2a9d35231426993" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1ab4c80eb5f0ed73a9c2a9d35231426993" kindref="member">message_port_is_hier_out</ref>(pmt::pmt_t<sp/>port_id){</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pmt::pmt_list_has(hier_message_ports_out,<sp/>port_id);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="classgr__hier__block2_1a23a29338e35aa4fc45eaacbff084bdd0" refkind="member"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr__hier__block2_1a23a29338e35aa4fc45eaacbff084bdd0" kindref="member">hier_message_ports_in</ref>;</highlight></codeline>
+<codeline lineno="185" refid="classgr__hier__block2_1abde3825f28c5b4546cbd38b97f05a8e8" refkind="member"><highlight class="normal"><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr__hier__block2_1abde3825f28c5b4546cbd38b97f05a8e8" kindref="member">hier_message_ports_out</ref>;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="classgr__hier__block2_1a90a0916c98376d5c75c571d05d0c5fca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1a90a0916c98376d5c75c571d05d0c5fca" kindref="member">message_port_register_hier_in</ref>(pmt::pmt_t<sp/>port_id){</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pmt::pmt_list_has(hier_message_ports_in,<sp/>port_id))</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;hier<sp/>msg<sp/>in<sp/>port<sp/>by<sp/>this<sp/>name<sp/>already<sp/>registered&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(msg_queue.find(port_id)<sp/>!=<sp/>msg_queue.end())</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;block<sp/>already<sp/>has<sp/>a<sp/>primitive<sp/>input<sp/>port<sp/>by<sp/>this<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>hier_message_ports_in<sp/>=<sp/>pmt::pmt_list_add(hier_message_ports_in,<sp/>port_id);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194" refid="classgr__hier__block2_1aec3ebaed3ed4f3e8c73e05503b4cb2cb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr__hier__block2_1aec3ebaed3ed4f3e8c73e05503b4cb2cb" kindref="member">message_port_register_hier_out</ref>(pmt::pmt_t<sp/>port_id){</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pmt::pmt_list_has(hier_message_ports_out,<sp/>port_id))</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;hier<sp/>msg<sp/>out<sp/>port<sp/>by<sp/>this<sp/>name<sp/>already<sp/>registered&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pmt::pmt_dict_has_key(message_subscribers,<sp/>port_id))</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(</highlight><highlight class="stringliteral">&quot;block<sp/>already<sp/>has<sp/>a<sp/>primitive<sp/>output<sp/>port<sp/>by<sp/>this<sp/>name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>hier_message_ports_out<sp/>=<sp/>pmt::pmt_list_add(hier_message_ports_out,<sp/>port_id);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="gr__hier__block2_8h_1aa737e452e59ee3142fdd0ade424fbd67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="gr__runtime__types_8h_1a85ffc2b58fc1d568d5c2d514088a3d07" kindref="member">gr_hier_block2_sptr</ref><sp/><ref refid="gr__hier__block2_8h_1aa737e452e59ee3142fdd0ade424fbd67" kindref="member">cast_to_hier_block2_sptr</ref>(<ref refid="gr__runtime__types_8h_1a23ef33c86a39e7aefe87abcb2c7bede5" kindref="member">gr_basic_block_sptr</ref><sp/>block)<sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boost::dynamic_pointer_cast&lt;<ref refid="classgr__hier__block2" kindref="compound" tooltip="Hierarchical container class for gr_block&amp;#39;s and gr_hier_block2&amp;#39;s.">gr_hier_block2</ref>,<sp/><ref refid="classgr__basic__block" kindref="compound" tooltip="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ...">gr_basic_block</ref>&gt;(block);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_GR_HIER_BLOCK2_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_hier_block2.h"/>
+  </compounddef>
+</doxygen>

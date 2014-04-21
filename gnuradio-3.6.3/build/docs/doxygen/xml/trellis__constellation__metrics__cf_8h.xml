@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="trellis__constellation__metrics__cf_8h" kind="file">
+    <compoundname>trellis_constellation_metrics_cf.h</compoundname>
+    <includes refid="trellis__api_8h" local="no">trellis_api.h</includes>
+    <includes refid="gr__block_8h" local="no">gr_block.h</includes>
+    <includes refid="digital__constellation_8h" local="no">digital_constellation.h</includes>
+    <includes refid="digital__metric__type_8h" local="no">digital_metric_type.h</includes>
+    <incdepgraph>
+      <node id="64966">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="64945">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64940" relation="include">
+        </childnode>
+      </node>
+      <node id="64968">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="64940">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="64938">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64939" relation="include">
+        </childnode>
+      </node>
+      <node id="64936">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="64934" relation="include">
+        </childnode>
+      </node>
+      <node id="64952">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="64969">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="64943">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="64944" relation="include">
+        </childnode>
+      </node>
+      <node id="64959">
+        <label>stdexcept</label>
+      </node>
+      <node id="64965">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="64973">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="64934" relation="include">
+        </childnode>
+      </node>
+      <node id="64955">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="64956" relation="include">
+        </childnode>
+        <childnode refid="64957" relation="include">
+        </childnode>
+      </node>
+      <node id="64954">
+        <label>string</label>
+      </node>
+      <node id="64937">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64938" relation="include">
+        </childnode>
+        <childnode refid="64945" relation="include">
+        </childnode>
+        <childnode refid="64946" relation="include">
+        </childnode>
+        <childnode refid="64947" relation="include">
+        </childnode>
+        <childnode refid="64948" relation="include">
+        </childnode>
+        <childnode refid="64954" relation="include">
+        </childnode>
+        <childnode refid="64961" relation="include">
+        </childnode>
+        <childnode refid="64962" relation="include">
+        </childnode>
+        <childnode refid="64963" relation="include">
+        </childnode>
+        <childnode refid="64964" relation="include">
+        </childnode>
+        <childnode refid="64969" relation="include">
+        </childnode>
+        <childnode refid="64968" relation="include">
+        </childnode>
+        <childnode refid="64970" relation="include">
+        </childnode>
+      </node>
+      <node id="64962">
+        <label>map</label>
+      </node>
+      <node id="64942">
+        <label>stddef.h</label>
+      </node>
+      <node id="64975">
+        <label>digital_metric_type.h</label>
+        <link refid="digital__metric__type_8h"/>
+      </node>
+      <node id="64963">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64938" relation="include">
+        </childnode>
+      </node>
+      <node id="64947">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="64956">
+        <label>limits.h</label>
+      </node>
+      <node id="64935">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64937" relation="include">
+        </childnode>
+        <childnode refid="64971" relation="include">
+        </childnode>
+      </node>
+      <node id="64953">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="64933">
+        <label>trellis_api.h</label>
+        <link refid="trellis__api_8h"/>
+        <childnode refid="64934" relation="include">
+        </childnode>
+      </node>
+      <node id="64949">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="64950" relation="include">
+        </childnode>
+        <childnode refid="64951" relation="include">
+        </childnode>
+        <childnode refid="64940" relation="include">
+        </childnode>
+      </node>
+      <node id="64957">
+        <label>wchar.h</label>
+      </node>
+      <node id="64967">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="64960">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="64971">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64951" relation="include">
+        </childnode>
+      </node>
+      <node id="64941">
+        <label>vector</label>
+      </node>
+      <node id="64948">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64949" relation="include">
+        </childnode>
+        <childnode refid="64951" relation="include">
+        </childnode>
+      </node>
+      <node id="64946">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="64974">
+        <label>math.h</label>
+      </node>
+      <node id="64958">
+        <label>iosfwd</label>
+      </node>
+      <node id="64951">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="64950" relation="include">
+        </childnode>
+        <childnode refid="64952" relation="include">
+        </childnode>
+        <childnode refid="64940" relation="include">
+        </childnode>
+        <childnode refid="64953" relation="include">
+        </childnode>
+        <childnode refid="64944" relation="include">
+        </childnode>
+        <childnode refid="64954" relation="include">
+        </childnode>
+        <childnode refid="64955" relation="include">
+        </childnode>
+        <childnode refid="64958" relation="include">
+        </childnode>
+        <childnode refid="64959" relation="include">
+        </childnode>
+        <childnode refid="64941" relation="include">
+        </childnode>
+        <childnode refid="64960" relation="include">
+        </childnode>
+      </node>
+      <node id="64970">
+        <label>iostream</label>
+      </node>
+      <node id="64961">
+        <label>deque</label>
+      </node>
+      <node id="64964">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="64950" relation="include">
+        </childnode>
+        <childnode refid="64965" relation="include">
+        </childnode>
+        <childnode refid="64966" relation="include">
+        </childnode>
+        <childnode refid="64967" relation="include">
+        </childnode>
+        <childnode refid="64968" relation="include">
+        </childnode>
+      </node>
+      <node id="64934">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="64932">
+        <label>trellis_constellation_metrics_cf.h</label>
+        <link refid="trellis_constellation_metrics_cf.h"/>
+        <childnode refid="64933" relation="include">
+        </childnode>
+        <childnode refid="64935" relation="include">
+        </childnode>
+        <childnode refid="64972" relation="include">
+        </childnode>
+        <childnode refid="64975" relation="include">
+        </childnode>
+      </node>
+      <node id="64944">
+        <label>complex</label>
+      </node>
+      <node id="64972">
+        <label>digital_constellation.h</label>
+        <link refid="digital__constellation_8h"/>
+        <childnode refid="64973" relation="include">
+        </childnode>
+        <childnode refid="64941" relation="include">
+        </childnode>
+        <childnode refid="64974" relation="include">
+        </childnode>
+        <childnode refid="64943" relation="include">
+        </childnode>
+        <childnode refid="64946" relation="include">
+        </childnode>
+        <childnode refid="64975" relation="include">
+        </childnode>
+      </node>
+      <node id="64939">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="64936" relation="include">
+        </childnode>
+        <childnode refid="64940" relation="include">
+        </childnode>
+        <childnode refid="64941" relation="include">
+        </childnode>
+        <childnode refid="64942" relation="include">
+        </childnode>
+        <childnode refid="64943" relation="include">
+        </childnode>
+      </node>
+      <node id="64950">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="64934" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtrellis__constellation__metrics__cf" prot="public">trellis_constellation_metrics_cf</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="trellis__constellation__metrics__cf_8h_1ab6d204cf3ba82f61bba778d6d1b73c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="trellis__api_8h_1a127b54fd15c5829a93039ece2d5467b0" kindref="member">TRELLIS_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">trellis_constellation_metrics_cf_sptr</ref></type>
+        <definition>TRELLIS_API trellis_constellation_metrics_cf_sptr trellis_make_constellation_metrics_cf</definition>
+        <argsstring>(digital_constellation_sptr constellation, trellis_metric_type_t TYPE)</argsstring>
+        <name>trellis_make_constellation_metrics_cf</name>
+        <param>
+          <type><ref refid="classboost_1_1shared__ptr" kindref="compound">digital_constellation_sptr</ref></type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type><ref refid="digital__metric__type_8h_1a730999483daebb08342eb009b2c77ad1" kindref="member">trellis_metric_type_t</ref></type>
+          <declname>TYPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/src/lib/trellis_constellation_metrics_cf.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/src/lib/trellis_constellation_metrics_cf.h"/>
+  </compounddef>
+</doxygen>

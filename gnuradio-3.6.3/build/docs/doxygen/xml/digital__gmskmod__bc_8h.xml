@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="digital__gmskmod__bc_8h" kind="file">
+    <compoundname>digital_gmskmod_bc.h</compoundname>
+    <includes refid="digital__api_8h" local="no">digital_api.h</includes>
+    <includes refid="digital__cpmmod__bc_8h" local="no">digital_cpmmod_bc.h</includes>
+    <incdepgraph>
+      <node id="40037">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="40016">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40011" relation="include">
+        </childnode>
+      </node>
+      <node id="40039">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="40011">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="40009">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40010" relation="include">
+        </childnode>
+      </node>
+      <node id="40007">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="40004" relation="include">
+        </childnode>
+      </node>
+      <node id="40023">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="40046">
+        <label>gr_interp_fir_filter_fff.h</label>
+      </node>
+      <node id="40040">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="40014">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="40015" relation="include">
+        </childnode>
+      </node>
+      <node id="40030">
+        <label>stdexcept</label>
+      </node>
+      <node id="40036">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="40003">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="40004" relation="include">
+        </childnode>
+      </node>
+      <node id="40026">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="40027" relation="include">
+        </childnode>
+        <childnode refid="40028" relation="include">
+        </childnode>
+      </node>
+      <node id="40025">
+        <label>string</label>
+      </node>
+      <node id="40008">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40009" relation="include">
+        </childnode>
+        <childnode refid="40016" relation="include">
+        </childnode>
+        <childnode refid="40017" relation="include">
+        </childnode>
+        <childnode refid="40018" relation="include">
+        </childnode>
+        <childnode refid="40019" relation="include">
+        </childnode>
+        <childnode refid="40025" relation="include">
+        </childnode>
+        <childnode refid="40032" relation="include">
+        </childnode>
+        <childnode refid="40033" relation="include">
+        </childnode>
+        <childnode refid="40034" relation="include">
+        </childnode>
+        <childnode refid="40035" relation="include">
+        </childnode>
+        <childnode refid="40040" relation="include">
+        </childnode>
+        <childnode refid="40039" relation="include">
+        </childnode>
+        <childnode refid="40041" relation="include">
+        </childnode>
+      </node>
+      <node id="40033">
+        <label>map</label>
+      </node>
+      <node id="40013">
+        <label>stddef.h</label>
+      </node>
+      <node id="40034">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40009" relation="include">
+        </childnode>
+      </node>
+      <node id="40018">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="40027">
+        <label>limits.h</label>
+      </node>
+      <node id="40044">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40008" relation="include">
+        </childnode>
+        <childnode refid="40045" relation="include">
+        </childnode>
+      </node>
+      <node id="40024">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="40020">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="40021" relation="include">
+        </childnode>
+        <childnode refid="40022" relation="include">
+        </childnode>
+        <childnode refid="40011" relation="include">
+        </childnode>
+      </node>
+      <node id="40048">
+        <label>gr_cpm.h</label>
+        <link refid="gr__cpm_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40012" relation="include">
+        </childnode>
+      </node>
+      <node id="40028">
+        <label>wchar.h</label>
+      </node>
+      <node id="40038">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="40031">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="40045">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40022" relation="include">
+        </childnode>
+      </node>
+      <node id="40012">
+        <label>vector</label>
+      </node>
+      <node id="40002">
+        <label>digital_gmskmod_bc.h</label>
+        <link refid="digital_gmskmod_bc.h"/>
+        <childnode refid="40003" relation="include">
+        </childnode>
+        <childnode refid="40005" relation="include">
+        </childnode>
+      </node>
+      <node id="40019">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40020" relation="include">
+        </childnode>
+        <childnode refid="40022" relation="include">
+        </childnode>
+      </node>
+      <node id="40017">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="40043">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40044" relation="include">
+        </childnode>
+      </node>
+      <node id="40029">
+        <label>iosfwd</label>
+      </node>
+      <node id="40022">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="40021" relation="include">
+        </childnode>
+        <childnode refid="40023" relation="include">
+        </childnode>
+        <childnode refid="40011" relation="include">
+        </childnode>
+        <childnode refid="40024" relation="include">
+        </childnode>
+        <childnode refid="40015" relation="include">
+        </childnode>
+        <childnode refid="40025" relation="include">
+        </childnode>
+        <childnode refid="40026" relation="include">
+        </childnode>
+        <childnode refid="40029" relation="include">
+        </childnode>
+        <childnode refid="40030" relation="include">
+        </childnode>
+        <childnode refid="40012" relation="include">
+        </childnode>
+        <childnode refid="40031" relation="include">
+        </childnode>
+      </node>
+      <node id="40041">
+        <label>iostream</label>
+      </node>
+      <node id="40042">
+        <label>gr_char_to_float.h</label>
+        <link refid="gr__char__to__float_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40043" relation="include">
+        </childnode>
+      </node>
+      <node id="40032">
+        <label>deque</label>
+      </node>
+      <node id="40005">
+        <label>digital_cpmmod_bc.h</label>
+        <link refid="digital__cpmmod__bc_8h"/>
+        <childnode refid="40003" relation="include">
+        </childnode>
+        <childnode refid="40006" relation="include">
+        </childnode>
+        <childnode refid="40042" relation="include">
+        </childnode>
+        <childnode refid="40046" relation="include">
+        </childnode>
+        <childnode refid="40047" relation="include">
+        </childnode>
+        <childnode refid="40048" relation="include">
+        </childnode>
+      </node>
+      <node id="40047">
+        <label>gr_frequency_modulator_fc.h</label>
+        <link refid="gr__frequency__modulator__fc_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40043" relation="include">
+        </childnode>
+      </node>
+      <node id="40035">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="40021" relation="include">
+        </childnode>
+        <childnode refid="40036" relation="include">
+        </childnode>
+        <childnode refid="40037" relation="include">
+        </childnode>
+        <childnode refid="40038" relation="include">
+        </childnode>
+        <childnode refid="40039" relation="include">
+        </childnode>
+      </node>
+      <node id="40004">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="40015">
+        <label>complex</label>
+      </node>
+      <node id="40010">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40011" relation="include">
+        </childnode>
+        <childnode refid="40012" relation="include">
+        </childnode>
+        <childnode refid="40013" relation="include">
+        </childnode>
+        <childnode refid="40014" relation="include">
+        </childnode>
+      </node>
+      <node id="40021">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="40004" relation="include">
+        </childnode>
+      </node>
+      <node id="40006">
+        <label>gr_hier_block2.h</label>
+        <link refid="gr__hier__block2_8h"/>
+        <childnode refid="40007" relation="include">
+        </childnode>
+        <childnode refid="40008" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classdigital__gmskmod__bc" prot="public">digital_gmskmod_bc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="digital__gmskmod__bc_8h_1a078f841a05d417a5c1aa0aed438f8040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="digital__api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">digital_gmskmod_bc_sptr</ref></type>
+        <definition>DIGITAL_API digital_gmskmod_bc_sptr digital_make_gmskmod_bc</definition>
+        <argsstring>(unsigned samples_per_sym=2, double bt=0.3, unsigned L=4)</argsstring>
+        <name>digital_make_gmskmod_bc</name>
+        <param>
+          <type>unsigned</type>
+          <declname>samples_per_sym</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bt</declname>
+          <defval>0.3</defval>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>L</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_gmskmod_bc.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_gmskmod_bc.h"/>
+  </compounddef>
+</doxygen>

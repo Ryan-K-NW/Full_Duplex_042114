@@ -1,0 +1,5 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__block.html" title="All C++ blocks that can be used in GR graphs are listed here or in the subcategories below..." alt="" coords="5,69,285,99"/>
+<area shape="rect" id="node2" href="$group__ofdm__blk.html" title="OFDM Blocks" alt="" coords="744,6,851,37"/>
+<area shape="rect" id="node3" href="$group__digital.html" title="Digital Modulation Blocks" alt="" coords="711,130,884,161"/>
+</map>

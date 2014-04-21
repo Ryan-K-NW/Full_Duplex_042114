@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="vocoder__g723__24__encode__sb_8h" kind="file">
+    <compoundname>vocoder_g723_24_encode_sb.h</compoundname>
+    <includes refid="vocoder__api_8h" local="no">vocoder_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="65919">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="65885">
+        <label>vocoder_api.h</label>
+        <link refid="vocoder__api_8h"/>
+        <childnode refid="65886" relation="include">
+        </childnode>
+      </node>
+      <node id="65898">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65893" relation="include">
+        </childnode>
+      </node>
+      <node id="65921">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="65893">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="65891">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65892" relation="include">
+        </childnode>
+      </node>
+      <node id="65888">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="65886" relation="include">
+        </childnode>
+      </node>
+      <node id="65905">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="65922">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="65896">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="65897" relation="include">
+        </childnode>
+      </node>
+      <node id="65912">
+        <label>stdexcept</label>
+      </node>
+      <node id="65918">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="65908">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="65909" relation="include">
+        </childnode>
+        <childnode refid="65910" relation="include">
+        </childnode>
+      </node>
+      <node id="65907">
+        <label>string</label>
+      </node>
+      <node id="65890">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65891" relation="include">
+        </childnode>
+        <childnode refid="65898" relation="include">
+        </childnode>
+        <childnode refid="65899" relation="include">
+        </childnode>
+        <childnode refid="65900" relation="include">
+        </childnode>
+        <childnode refid="65901" relation="include">
+        </childnode>
+        <childnode refid="65907" relation="include">
+        </childnode>
+        <childnode refid="65914" relation="include">
+        </childnode>
+        <childnode refid="65915" relation="include">
+        </childnode>
+        <childnode refid="65916" relation="include">
+        </childnode>
+        <childnode refid="65917" relation="include">
+        </childnode>
+        <childnode refid="65922" relation="include">
+        </childnode>
+        <childnode refid="65921" relation="include">
+        </childnode>
+        <childnode refid="65923" relation="include">
+        </childnode>
+      </node>
+      <node id="65915">
+        <label>map</label>
+      </node>
+      <node id="65895">
+        <label>stddef.h</label>
+      </node>
+      <node id="65916">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65891" relation="include">
+        </childnode>
+      </node>
+      <node id="65900">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="65909">
+        <label>limits.h</label>
+      </node>
+      <node id="65889">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65890" relation="include">
+        </childnode>
+        <childnode refid="65924" relation="include">
+        </childnode>
+      </node>
+      <node id="65906">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="65902">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="65903" relation="include">
+        </childnode>
+        <childnode refid="65904" relation="include">
+        </childnode>
+        <childnode refid="65893" relation="include">
+        </childnode>
+      </node>
+      <node id="65910">
+        <label>wchar.h</label>
+      </node>
+      <node id="65920">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="65913">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="65924">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65904" relation="include">
+        </childnode>
+      </node>
+      <node id="65894">
+        <label>vector</label>
+      </node>
+      <node id="65901">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65902" relation="include">
+        </childnode>
+        <childnode refid="65904" relation="include">
+        </childnode>
+      </node>
+      <node id="65899">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="65887">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65889" relation="include">
+        </childnode>
+      </node>
+      <node id="65911">
+        <label>iosfwd</label>
+      </node>
+      <node id="65904">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="65903" relation="include">
+        </childnode>
+        <childnode refid="65905" relation="include">
+        </childnode>
+        <childnode refid="65893" relation="include">
+        </childnode>
+        <childnode refid="65906" relation="include">
+        </childnode>
+        <childnode refid="65897" relation="include">
+        </childnode>
+        <childnode refid="65907" relation="include">
+        </childnode>
+        <childnode refid="65908" relation="include">
+        </childnode>
+        <childnode refid="65911" relation="include">
+        </childnode>
+        <childnode refid="65912" relation="include">
+        </childnode>
+        <childnode refid="65894" relation="include">
+        </childnode>
+        <childnode refid="65913" relation="include">
+        </childnode>
+      </node>
+      <node id="65923">
+        <label>iostream</label>
+      </node>
+      <node id="65914">
+        <label>deque</label>
+      </node>
+      <node id="65917">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="65903" relation="include">
+        </childnode>
+        <childnode refid="65918" relation="include">
+        </childnode>
+        <childnode refid="65919" relation="include">
+        </childnode>
+        <childnode refid="65920" relation="include">
+        </childnode>
+        <childnode refid="65921" relation="include">
+        </childnode>
+      </node>
+      <node id="65886">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="65897">
+        <label>complex</label>
+      </node>
+      <node id="65892">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="65888" relation="include">
+        </childnode>
+        <childnode refid="65893" relation="include">
+        </childnode>
+        <childnode refid="65894" relation="include">
+        </childnode>
+        <childnode refid="65895" relation="include">
+        </childnode>
+        <childnode refid="65896" relation="include">
+        </childnode>
+      </node>
+      <node id="65903">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="65886" relation="include">
+        </childnode>
+      </node>
+      <node id="65884">
+        <label>vocoder_g723_24_encode_sb.h</label>
+        <link refid="vocoder_g723_24_encode_sb.h"/>
+        <childnode refid="65885" relation="include">
+        </childnode>
+        <childnode refid="65887" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classvocoder__g723__24__encode__sb" prot="public">vocoder_g723_24_encode_sb</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vocoder__g723__24__encode__sb_8h_1aba7a59dc8c70ea8f8cf7839f0f1ae5cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="vocoder__api_8h_1a8a56d8b0d26cf75df04dcad9064a0aeb" kindref="member">VOCODER_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">vocoder_g723_24_encode_sb_sptr</ref></type>
+        <definition>VOCODER_API vocoder_g723_24_encode_sb_sptr vocoder_make_g723_24_encode_sb</definition>
+        <argsstring>()</argsstring>
+        <name>vocoder_make_g723_24_encode_sb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-vocoder/include/vocoder_g723_24_encode_sb.h" line="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-vocoder/include/vocoder_g723_24_encode_sb.h"/>
+  </compounddef>
+</doxygen>

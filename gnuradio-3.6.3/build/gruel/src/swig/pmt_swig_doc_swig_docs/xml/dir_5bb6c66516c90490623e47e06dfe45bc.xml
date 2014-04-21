@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_5bb6c66516c90490623e47e06dfe45bc" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/build/gruel/src/include/</compoundname>
+    <innerdir refid="dir_689463ffaa2c55f4b7a53a1fe3b1cfd3">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/build/gruel/src/include/gruel/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/build/gruel/src/include/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+FILE(REMOVE_RECURSE
+  "vocoder_swigPYTHON_wrap.cxx"
+  "vocoder_swig.py"
+  "CMakeFiles/pygen_gr_vocoder_swig_7c065"
+  "vocoder_swig.pyc"
+  "vocoder_swig.pyo"
+  "vocoder_swigPYTHON_wrap.cxx"
+  "vocoder_swig.py"
+  "vocoder_swig.tag"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/pygen_gr_vocoder_swig_7c065.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

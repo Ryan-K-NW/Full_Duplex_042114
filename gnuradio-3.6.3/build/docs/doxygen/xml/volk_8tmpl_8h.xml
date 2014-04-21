@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk_8tmpl_8h" kind="file">
+    <compoundname>volk.tmpl.h</compoundname>
+    <includes refid="volk__typedefs_8h" local="no">volk/volk_typedefs.h</includes>
+    <includes refid="volk__config__fixed_8h" local="no">volk/volk_config_fixed.h</includes>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="volk__complex_8h" local="no">volk/volk_complex.h</includes>
+    <incdepgraph>
+      <node id="66193">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66194" relation="include">
+        </childnode>
+      </node>
+      <node id="66192">
+        <label>volk/volk_typedefs.h</label>
+        <link refid="volk__typedefs_8h"/>
+        <childnode refid="66193" relation="include">
+        </childnode>
+        <childnode refid="66197" relation="include">
+        </childnode>
+      </node>
+      <node id="66200">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="66193" relation="include">
+        </childnode>
+      </node>
+      <node id="66194">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66195" relation="include">
+        </childnode>
+        <childnode refid="66196" relation="include">
+        </childnode>
+      </node>
+      <node id="66195">
+        <label>limits.h</label>
+      </node>
+      <node id="66199">
+        <label>volk/volk_config_fixed.h</label>
+        <link refid="volk__config__fixed_8h"/>
+      </node>
+      <node id="66196">
+        <label>wchar.h</label>
+      </node>
+      <node id="66198">
+        <label>complex.h</label>
+      </node>
+      <node id="66197">
+        <label>volk/volk_complex.h</label>
+        <link refid="volk__complex_8h"/>
+        <childnode refid="66198" relation="include">
+        </childnode>
+      </node>
+      <node id="66191">
+        <label>volk.tmpl.h</label>
+        <link refid="volk.tmpl.h"/>
+        <childnode refid="66192" relation="include">
+        </childnode>
+        <childnode refid="66199" relation="include">
+        </childnode>
+        <childnode refid="66200" relation="include">
+        </childnode>
+        <childnode refid="66197" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structvolk__func__desc" prot="public">volk_func_desc</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="volk_8tmpl_8h_1ace3ce91bc48f67ffceaeed6831ee2c57" prot="public" static="no" mutable="no">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> $<ref refid="volk__typedefs_8tmpl_8h_1a0dcdb3a7dd616396603c4c979589e115" kindref="member">kern</ref> pname $<ref refid="volk__typedefs_8tmpl_8h_1a0dcdb3a7dd616396603c4c979589e115" kindref="member">kern</ref></type>
+        <definition>VOLK_API $kern pname $kern name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" line="41"/>
+        <referencedby refid="classgruel_1_1thread__body__wrapper_1ad7604718c4881adbbf0a7085004755b2" compoundref="thread__body__wrapper_8h" startline="42" endline="43">gruel::thread_body_wrapper&lt; F &gt;::thread_body_wrapper</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="volk_8tmpl_8h_1a67d51f263e40e30e3a17a4af18551894" prot="public" static="no" mutable="no">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> const char *</type>
+        <definition>VOLK_API const char* arch</definition>
+        <argsstring></argsstring>
+        <name>arch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" line="42" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="volk_8tmpl_8h_1a1bedaae028349fdd660fe18343f4d941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> unsigned int</type>
+        <definition>VOLK_API unsigned int volk_get_alignment</definition>
+        <argsstring>(void)</argsstring>
+        <name>volk_get_alignment</name>
+        <param>
+          <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref></type>
+        <definition>VOLK_API void</definition>
+        <argsstring>(kern.name) _manual($kern.arglist_namedefs</argsstring>
+        <name>void</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" line="42"/>
+        <referencedby refid="classgr__basic__block_1a50a714df9c3ce8c03854a09ac84e589b" compoundref="gr__basic__block_8h" startline="227" endline="227">gr_basic_block::check_topology</referencedby>
+        <referencedby refid="gr__complex_8h_1a2ea72f70accbd7fefca28b2690eda735" compoundref="gr__complex_8h" startline="30" endline="30">is_complex</referencedby>
+        <referencedby refid="classgr__basic__block_1a2db8b61c8c009e150e6a847279a18c39" compoundref="gr__basic__block_8h" startline="145" endline="145">gr_basic_block::message_port_is_hier</referencedby>
+        <referencedby refid="classgr__basic__block_1aab4dc769345018c146be60394c198774" compoundref="gr__basic__block_8h" startline="146" endline="146">gr_basic_block::message_port_is_hier_in</referencedby>
+        <referencedby refid="classgr__basic__block_1a1076c46a515aa65abb921d5307ef190c" compoundref="gr__basic__block_8h" startline="147" endline="147">gr_basic_block::message_port_is_hier_out</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="volk_8tmpl_8h_1a098cb5b65fb4e69a68ecd5fb2142e973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="volk__common_8h_1aad4656ebd3cf8ae30363d8bc205a72be" kindref="member">VOLK_API</ref> struct</type>
+        <definition>VOLK_API struct volk_func_desc</definition>
+        <argsstring>(kern.name) _get_func_desc(void)</argsstring>
+        <name>volk_func_desc</name>
+        <param>
+          <type>kern.</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/tmpl/volk.tmpl.h"/>
+  </compounddef>
+</doxygen>

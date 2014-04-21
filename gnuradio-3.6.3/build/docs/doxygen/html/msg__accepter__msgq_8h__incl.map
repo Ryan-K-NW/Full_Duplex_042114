@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$gruel_2src_2include_2gruel_2api_8h.html" title="gruel/api.h" alt="" coords="1163,246,1245,277"/>
+<area shape="rect" id="node7" href="$msg__accepter_8h.html" title="gruel/msg_accepter.h" alt="" coords="867,86,1016,117"/>
+<area shape="rect" id="node38" href="$msg__queue_8h.html" title="gruel/msg_queue.h" alt="" coords="1163,86,1299,117"/>
+<area shape="rect" id="node5" href="$attributes_8h.html" title="gruel/attributes.h" alt="" coords="1145,326,1263,357"/>
+<area shape="rect" id="node10" href="$pmt_8h.html" title="gruel/pmt.h" alt="" coords="719,166,804,197"/>
+<area shape="rect" id="node23" href="$stdint_8h.html" title="stdint.h" alt="" coords="176,246,237,277"/>
+<area shape="rect" id="node35" href="$pmt__sugar_8h.html" title="gruel/pmt_sugar.h" alt="" coords="533,246,661,277"/>
+<area shape="rect" id="node41" href="$thread_8h.html" title="gruel/thread.h" alt="" coords="1403,166,1507,197"/>
+</map>

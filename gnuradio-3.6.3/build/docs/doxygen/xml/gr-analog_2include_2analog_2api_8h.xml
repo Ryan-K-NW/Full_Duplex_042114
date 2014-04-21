@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr-analog_2include_2analog_2api_8h" kind="file">
+    <compoundname>gr-analog/include/analog/api.h</compoundname>
+    <includes refid="attributes_8h" local="no">gruel/attributes.h</includes>
+    <includedby refid="agc_8h" local="no">agc.h</includedby>
+    <includedby refid="agc2_8h" local="no">agc2.h</includedby>
+    <includedby refid="agc2__cc_8h" local="no">agc2_cc.h</includedby>
+    <includedby refid="agc2__ff_8h" local="no">agc2_ff.h</includedby>
+    <includedby refid="agc__cc_8h" local="no">agc_cc.h</includedby>
+    <includedby refid="agc__ff_8h" local="no">agc_ff.h</includedby>
+    <includedby refid="cpfsk__bc_8h" local="no">cpfsk_bc.h</includedby>
+    <includedby refid="cpm_8h" local="no">cpm.h</includedby>
+    <includedby refid="ctcss__squelch__ff_8h" local="no">ctcss_squelch_ff.h</includedby>
+    <includedby refid="dpll__bb_8h" local="no">dpll_bb.h</includedby>
+    <includedby refid="feedforward__agc__cc_8h" local="no">feedforward_agc_cc.h</includedby>
+    <includedby refid="fmdet__cf_8h" local="no">fmdet_cf.h</includedby>
+    <includedby refid="frequency__modulator__fc_8h" local="no">frequency_modulator_fc.h</includedby>
+    <includedby refid="lfsr_8h" local="no">lfsr.h</includedby>
+    <includedby refid="phase__modulator__fc_8h" local="no">phase_modulator_fc.h</includedby>
+    <includedby refid="pll__carriertracking__cc_8h" local="no">pll_carriertracking_cc.h</includedby>
+    <includedby refid="pll__freqdet__cf_8h" local="no">pll_freqdet_cf.h</includedby>
+    <includedby refid="pll__refout__cc_8h" local="no">pll_refout_cc.h</includedby>
+    <includedby refid="probe__avg__mag__sqrd__c_8h" local="no">probe_avg_mag_sqrd_c.h</includedby>
+    <includedby refid="probe__avg__mag__sqrd__cf_8h" local="no">probe_avg_mag_sqrd_cf.h</includedby>
+    <includedby refid="probe__avg__mag__sqrd__f_8h" local="no">probe_avg_mag_sqrd_f.h</includedby>
+    <includedby refid="pwr__squelch__cc_8h" local="no">pwr_squelch_cc.h</includedby>
+    <includedby refid="pwr__squelch__ff_8h" local="no">pwr_squelch_ff.h</includedby>
+    <includedby refid="quadrature__demod__cf_8h" local="no">quadrature_demod_cf.h</includedby>
+    <includedby refid="rail__ff_8h" local="no">rail_ff.h</includedby>
+    <includedby refid="rotator_8h" local="no">rotator.h</includedby>
+    <includedby refid="simple__squelch__cc_8h" local="no">simple_squelch_cc.h</includedby>
+    <includedby refid="sincos_8h" local="no">sincos.h</includedby>
+    <includedby refid="squelch__base__cc_8h" local="no">squelch_base_cc.h</includedby>
+    <includedby refid="squelch__base__ff_8h" local="no">squelch_base_ff.h</includedby>
+    <incdepgraph>
+      <node id="34402">
+        <label>api.h</label>
+        <link refid="gr-analog/include/analog/api.h"/>
+        <childnode refid="34403" relation="include">
+        </childnode>
+      </node>
+      <node id="34403">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="34426">
+        <label>frequency_modulator_fc.h</label>
+        <link refid="frequency__modulator__fc_8h"/>
+        <childnode refid="34427" relation="include">
+        </childnode>
+      </node>
+      <node id="34427">
+        <label>frequency_modulator_fc_impl.h</label>
+        <link refid="frequency__modulator__fc__impl_8h"/>
+      </node>
+      <node id="34415">
+        <label>cpfsk_bc.h</label>
+        <link refid="cpfsk__bc_8h"/>
+        <childnode refid="34416" relation="include">
+        </childnode>
+      </node>
+      <node id="34456">
+        <label>simple_squelch_cc_impl.h</label>
+        <link refid="simple__squelch__cc__impl_8h"/>
+      </node>
+      <node id="34434">
+        <label>pll_carriertracking_cc.h</label>
+        <link refid="pll__carriertracking__cc_8h"/>
+        <childnode refid="34435" relation="include">
+        </childnode>
+      </node>
+      <node id="34443">
+        <label>probe_avg_mag_sqrd_cf_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__cf__impl_8h"/>
+      </node>
+      <node id="34425">
+        <label>fmdet_cf_impl.h</label>
+        <link refid="fmdet__cf__impl_8h"/>
+      </node>
+      <node id="34450">
+        <label>quadrature_demod_cf.h</label>
+        <link refid="quadrature__demod__cf_8h"/>
+        <childnode refid="34451" relation="include">
+        </childnode>
+      </node>
+      <node id="34447">
+        <label>pwr_squelch_cc_impl.h</label>
+        <link refid="pwr__squelch__cc__impl_8h"/>
+      </node>
+      <node id="34417">
+        <label>cpm.h</label>
+        <link refid="cpm_8h"/>
+      </node>
+      <node id="34405">
+        <label>agc.h</label>
+        <link refid="agc_8h"/>
+        <childnode refid="34406" relation="include">
+        </childnode>
+        <childnode refid="34408" relation="include">
+        </childnode>
+      </node>
+      <node id="34459">
+        <label>squelch_base_cc_impl.h</label>
+        <link refid="squelch__base__cc__impl_8h"/>
+        <childnode refid="34447" relation="include">
+        </childnode>
+      </node>
+      <node id="34428">
+        <label>lfsr.h</label>
+        <link refid="lfsr_8h"/>
+        <childnode refid="34429" relation="include">
+        </childnode>
+        <childnode refid="34430" relation="include">
+        </childnode>
+        <childnode refid="34431" relation="include">
+        </childnode>
+      </node>
+      <node id="34433">
+        <label>phase_modulator_fc_impl.h</label>
+        <link refid="phase__modulator__fc__impl_8h"/>
+      </node>
+      <node id="34412">
+        <label>agc2_cc_impl.h</label>
+        <link refid="agc2__cc__impl_8h"/>
+      </node>
+      <node id="34404">
+        <label>api.h</label>
+        <link refid="gr-analog/include/analog/api.h"/>
+        <childnode refid="34405" relation="include">
+        </childnode>
+        <childnode refid="34410" relation="include">
+        </childnode>
+        <childnode refid="34411" relation="include">
+        </childnode>
+        <childnode refid="34413" relation="include">
+        </childnode>
+        <childnode refid="34406" relation="include">
+        </childnode>
+        <childnode refid="34408" relation="include">
+        </childnode>
+        <childnode refid="34415" relation="include">
+        </childnode>
+        <childnode refid="34417" relation="include">
+        </childnode>
+        <childnode refid="34418" relation="include">
+        </childnode>
+        <childnode refid="34420" relation="include">
+        </childnode>
+        <childnode refid="34422" relation="include">
+        </childnode>
+        <childnode refid="34424" relation="include">
+        </childnode>
+        <childnode refid="34426" relation="include">
+        </childnode>
+        <childnode refid="34428" relation="include">
+        </childnode>
+        <childnode refid="34432" relation="include">
+        </childnode>
+        <childnode refid="34434" relation="include">
+        </childnode>
+        <childnode refid="34436" relation="include">
+        </childnode>
+        <childnode refid="34438" relation="include">
+        </childnode>
+        <childnode refid="34440" relation="include">
+        </childnode>
+        <childnode refid="34442" relation="include">
+        </childnode>
+        <childnode refid="34444" relation="include">
+        </childnode>
+        <childnode refid="34446" relation="include">
+        </childnode>
+        <childnode refid="34448" relation="include">
+        </childnode>
+        <childnode refid="34450" relation="include">
+        </childnode>
+        <childnode refid="34452" relation="include">
+        </childnode>
+        <childnode refid="34454" relation="include">
+        </childnode>
+        <childnode refid="34455" relation="include">
+        </childnode>
+        <childnode refid="34457" relation="include">
+        </childnode>
+        <childnode refid="34458" relation="include">
+        </childnode>
+        <childnode refid="34460" relation="include">
+        </childnode>
+      </node>
+      <node id="34422">
+        <label>feedforward_agc_cc.h</label>
+        <link refid="feedforward__agc__cc_8h"/>
+        <childnode refid="34423" relation="include">
+        </childnode>
+      </node>
+      <node id="34431">
+        <label>digital_scrambler_bb.h</label>
+        <link refid="digital__scrambler__bb_8h"/>
+      </node>
+      <node id="34460">
+        <label>squelch_base_ff.h</label>
+        <link refid="squelch__base__ff_8h"/>
+        <childnode refid="34418" relation="include">
+        </childnode>
+        <childnode refid="34448" relation="include">
+        </childnode>
+        <childnode refid="34461" relation="include">
+        </childnode>
+      </node>
+      <node id="34457">
+        <label>sincos.h</label>
+        <link refid="sincos_8h"/>
+      </node>
+      <node id="34407">
+        <label>agc_cc_impl.h</label>
+        <link refid="agc__cc__impl_8h"/>
+      </node>
+      <node id="34429">
+        <label>digital_additive_scrambler_bb.h</label>
+        <link refid="digital__additive__scrambler__bb_8h"/>
+      </node>
+      <node id="34436">
+        <label>pll_freqdet_cf.h</label>
+        <link refid="pll__freqdet__cf_8h"/>
+        <childnode refid="34437" relation="include">
+        </childnode>
+      </node>
+      <node id="34435">
+        <label>pll_carriertracking_cc_impl.h</label>
+        <link refid="pll__carriertracking__cc__impl_8h"/>
+      </node>
+      <node id="34455">
+        <label>simple_squelch_cc.h</label>
+        <link refid="simple__squelch__cc_8h"/>
+        <childnode refid="34456" relation="include">
+        </childnode>
+      </node>
+      <node id="34446">
+        <label>pwr_squelch_cc.h</label>
+        <link refid="pwr__squelch__cc_8h"/>
+        <childnode refid="34447" relation="include">
+        </childnode>
+      </node>
+      <node id="34449">
+        <label>pwr_squelch_ff_impl.h</label>
+        <link refid="pwr__squelch__ff__impl_8h"/>
+      </node>
+      <node id="34444">
+        <label>probe_avg_mag_sqrd_f.h</label>
+        <link refid="probe__avg__mag__sqrd__f_8h"/>
+        <childnode refid="34445" relation="include">
+        </childnode>
+      </node>
+      <node id="34442">
+        <label>probe_avg_mag_sqrd_cf.h</label>
+        <link refid="probe__avg__mag__sqrd__cf_8h"/>
+        <childnode refid="34443" relation="include">
+        </childnode>
+      </node>
+      <node id="34448">
+        <label>pwr_squelch_ff.h</label>
+        <link refid="pwr__squelch__ff_8h"/>
+        <childnode refid="34449" relation="include">
+        </childnode>
+      </node>
+      <node id="34439">
+        <label>pll_refout_cc_impl.h</label>
+        <link refid="pll__refout__cc__impl_8h"/>
+      </node>
+      <node id="34416">
+        <label>cpfsk_bc_impl.h</label>
+        <link refid="cpfsk__bc__impl_8h"/>
+      </node>
+      <node id="34414">
+        <label>agc2_ff_impl.h</label>
+        <link refid="agc2__ff__impl_8h"/>
+      </node>
+      <node id="34461">
+        <label>squelch_base_ff_impl.h</label>
+        <link refid="squelch__base__ff__impl_8h"/>
+        <childnode refid="34419" relation="include">
+        </childnode>
+        <childnode refid="34449" relation="include">
+        </childnode>
+      </node>
+      <node id="34418">
+        <label>ctcss_squelch_ff.h</label>
+        <link refid="ctcss__squelch__ff_8h"/>
+        <childnode refid="34419" relation="include">
+        </childnode>
+      </node>
+      <node id="34423">
+        <label>feedforward_agc_cc_impl.h</label>
+        <link refid="feedforward__agc__cc__impl_8h"/>
+      </node>
+      <node id="34413">
+        <label>agc2_ff.h</label>
+        <link refid="agc2__ff_8h"/>
+        <childnode refid="34414" relation="include">
+        </childnode>
+      </node>
+      <node id="34420">
+        <label>dpll_bb.h</label>
+        <link refid="dpll__bb_8h"/>
+        <childnode refid="34421" relation="include">
+        </childnode>
+      </node>
+      <node id="34452">
+        <label>rail_ff.h</label>
+        <link refid="rail__ff_8h"/>
+        <childnode refid="34453" relation="include">
+        </childnode>
+      </node>
+      <node id="34411">
+        <label>agc2_cc.h</label>
+        <link refid="agc2__cc_8h"/>
+        <childnode refid="34412" relation="include">
+        </childnode>
+      </node>
+      <node id="34453">
+        <label>rail_ff_impl.h</label>
+        <link refid="rail__ff__impl_8h"/>
+      </node>
+      <node id="34458">
+        <label>squelch_base_cc.h</label>
+        <link refid="squelch__base__cc_8h"/>
+        <childnode refid="34446" relation="include">
+        </childnode>
+        <childnode refid="34459" relation="include">
+        </childnode>
+      </node>
+      <node id="34440">
+        <label>probe_avg_mag_sqrd_c.h</label>
+        <link refid="probe__avg__mag__sqrd__c_8h"/>
+        <childnode refid="34441" relation="include">
+        </childnode>
+      </node>
+      <node id="34408">
+        <label>agc_ff.h</label>
+        <link refid="agc__ff_8h"/>
+        <childnode refid="34409" relation="include">
+        </childnode>
+      </node>
+      <node id="34424">
+        <label>fmdet_cf.h</label>
+        <link refid="fmdet__cf_8h"/>
+        <childnode refid="34425" relation="include">
+        </childnode>
+      </node>
+      <node id="34430">
+        <label>digital_descrambler_bb.h</label>
+        <link refid="digital__descrambler__bb_8h"/>
+      </node>
+      <node id="34454">
+        <label>rotator.h</label>
+        <link refid="rotator_8h"/>
+      </node>
+      <node id="34441">
+        <label>probe_avg_mag_sqrd_c_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__c__impl_8h"/>
+      </node>
+      <node id="34419">
+        <label>ctcss_squelch_ff_impl.h</label>
+        <link refid="ctcss__squelch__ff__impl_8h"/>
+      </node>
+      <node id="34445">
+        <label>probe_avg_mag_sqrd_f_impl.h</label>
+        <link refid="probe__avg__mag__sqrd__f__impl_8h"/>
+      </node>
+      <node id="34421">
+        <label>dpll_bb_impl.h</label>
+        <link refid="dpll__bb__impl_8h"/>
+      </node>
+      <node id="34410">
+        <label>agc2.h</label>
+        <link refid="agc2_8h"/>
+        <childnode refid="34411" relation="include">
+        </childnode>
+        <childnode refid="34413" relation="include">
+        </childnode>
+      </node>
+      <node id="34432">
+        <label>phase_modulator_fc.h</label>
+        <link refid="phase__modulator__fc_8h"/>
+        <childnode refid="34433" relation="include">
+        </childnode>
+      </node>
+      <node id="34406">
+        <label>agc_cc.h</label>
+        <link refid="agc__cc_8h"/>
+        <childnode refid="34407" relation="include">
+        </childnode>
+      </node>
+      <node id="34451">
+        <label>quadrature_demod_cf_impl.h</label>
+        <link refid="quadrature__demod__cf__impl_8h"/>
+      </node>
+      <node id="34437">
+        <label>pll_freqdet_cf_impl.h</label>
+        <link refid="pll__freqdet__cf__impl_8h"/>
+      </node>
+      <node id="34409">
+        <label>agc_ff_impl.h</label>
+        <link refid="agc__ff__impl_8h"/>
+      </node>
+      <node id="34438">
+        <label>pll_refout_cc.h</label>
+        <link refid="pll__refout__cc_8h"/>
+        <childnode refid="34439" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gr-analog_2include_2analog_2api_8h_1ac77788e8b327e9d938ec9fddac5a372e" prot="public" static="no">
+        <name>ANALOG_API</name>
+        <initializer><ref refid="attributes_8h_1a17b9cb3c185c92af4799ec9b0a38f3c1" kindref="member">__GR_ATTR_IMPORT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/api.h" line="30" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/api.h"/>
+  </compounddef>
+</doxygen>

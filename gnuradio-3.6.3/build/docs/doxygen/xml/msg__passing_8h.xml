@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="msg__passing_8h" kind="file">
+    <compoundname>msg_passing.h</compoundname>
+    <includes refid="gruel_2src_2include_2gruel_2api_8h" local="no">gruel/api.h</includes>
+    <includes refid="pmt_8h" local="no">gruel/pmt.h</includes>
+    <includes refid="msg__accepter_8h" local="no">gruel/msg_accepter.h</includes>
+    <incdepgraph>
+      <node id="58692">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="58691">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="58687">
+        <label>msg_passing.h</label>
+        <link refid="msg_passing.h"/>
+        <childnode refid="58688" relation="include">
+        </childnode>
+        <childnode refid="58690" relation="include">
+        </childnode>
+        <childnode refid="58703" relation="include">
+        </childnode>
+      </node>
+      <node id="58700">
+        <label>stdexcept</label>
+      </node>
+      <node id="58696">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="58697" relation="include">
+        </childnode>
+        <childnode refid="58698" relation="include">
+        </childnode>
+      </node>
+      <node id="58695">
+        <label>string</label>
+      </node>
+      <node id="58697">
+        <label>limits.h</label>
+      </node>
+      <node id="58693">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="58703">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="58688" relation="include">
+        </childnode>
+        <childnode refid="58690" relation="include">
+        </childnode>
+        <childnode refid="58692" relation="include">
+        </childnode>
+      </node>
+      <node id="58698">
+        <label>wchar.h</label>
+      </node>
+      <node id="58702">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="58701">
+        <label>vector</label>
+      </node>
+      <node id="58699">
+        <label>iosfwd</label>
+      </node>
+      <node id="58690">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="58688" relation="include">
+        </childnode>
+        <childnode refid="58691" relation="include">
+        </childnode>
+        <childnode refid="58692" relation="include">
+        </childnode>
+        <childnode refid="58693" relation="include">
+        </childnode>
+        <childnode refid="58694" relation="include">
+        </childnode>
+        <childnode refid="58695" relation="include">
+        </childnode>
+        <childnode refid="58696" relation="include">
+        </childnode>
+        <childnode refid="58699" relation="include">
+        </childnode>
+        <childnode refid="58700" relation="include">
+        </childnode>
+        <childnode refid="58701" relation="include">
+        </childnode>
+        <childnode refid="58702" relation="include">
+        </childnode>
+      </node>
+      <node id="58689">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="58694">
+        <label>complex</label>
+      </node>
+      <node id="58688">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="58689" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegruel">gruel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gruel/src/include/gruel/msg_passing.h"/>
+  </compounddef>
+</doxygen>

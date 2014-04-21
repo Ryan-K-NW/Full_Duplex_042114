@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classdigital__constellation__receiver__cb.html" title="This block takes care of receiving generic modulated signals through phase, frequency, and symbol synchronization.This block takes care of receiving generic modulated signals through phase, frequency, and symbol synchronization. It performs carrier frequency and phase locking as well as symbol timing recovery." alt="" coords="188,5,404,35"/>
+<area shape="rect" id="node5" href="$classdigital__costas__loop__cc.html" title="Carrier tracking PLL for QPSKinput: complex; output: complex &#160;The Costas loop can have two output str..." alt="" coords="217,58,375,89"/>
+<area shape="rect" id="node7" href="$classdigital__fll__band__edge__cc.html" title="Frequency Lock Loop using band&#45;edge filters." alt="" coords="211,111,381,142"/>
+<area shape="rect" id="node9" href="$classdigital__mpsk__receiver__cc.html" title="This block takes care of receiving M&#45;PSK modulated signals through phase, frequency, and symbol synchronization.This block takes care of receiving M&#45;PSK modulated signals through phase, frequency, and symbol synchronization. It performs carrier frequency and phase locking as well as symbol timing recovery. It works with (D)BPSK, (D)QPSK, and (D)8PSK as tested currently. It should also work for OQPSK and PI/4 DQPSK." alt="" coords="209,165,383,195"/>
+<area shape="rect" id="node11" href="$classgr_1_1analog_1_1pll__carriertracking__cc__impl.html" title="gr::analog::pll_carriertracking_cc_impl" alt="" coords="172,218,420,249"/>
+<area shape="rect" id="node13" href="$classgr_1_1analog_1_1pll__freqdet__cf__impl.html" title="gr::analog::pll_freqdet_cf_impl" alt="" coords="195,271,397,302"/>
+<area shape="rect" id="node15" href="$classgr_1_1analog_1_1pll__refout__cc__impl.html" title="gr::analog::pll_refout_cc_impl" alt="" coords="197,325,395,355"/>
+<area shape="rect" id="node17" href="$classgr__pll__carriertracking__cc.html" title="Implements a PLL which locks to the input frequency and outputs the input signal mixed with that carr..." alt="" coords="213,378,379,409"/>
+<area shape="rect" id="node19" href="$classgr__pll__freqdet__cf.html" title="Implements a PLL which locks to the input frequency and outputs an estimate of that frequency..." alt="" coords="236,431,356,462"/>
+<area shape="rect" id="node21" href="$classgr__pll__refout__cc.html" title="Implements a PLL which locks to the input frequency and outputs a carrierinput: stream of complex; ou..." alt="" coords="239,485,353,515"/>
+</map>

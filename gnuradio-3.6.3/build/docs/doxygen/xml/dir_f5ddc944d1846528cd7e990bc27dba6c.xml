@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_f5ddc944d1846528cd7e990bc27dba6c" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/</compoundname>
+    <innerdir refid="dir_e56fd07bd2530295ada92223139d27e7">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/filter/</innerdir>
+    <innerdir refid="dir_ef29df5c1c20571550d28d7659248ce4">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/general/</innerdir>
+    <innerdir refid="dir_82967e66caa34fc12948a0fba7f81b82">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/gengen/</innerdir>
+    <innerdir refid="dir_99133d5e2d52bfc64d0502e70f794aeb">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/hier/</innerdir>
+    <innerdir refid="dir_cc6f4169b26907d00a625299304987e5">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/io/</innerdir>
+    <innerdir refid="dir_267cf99e487ebca25a350d5dc34707e9">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/missing/</innerdir>
+    <innerdir refid="dir_88e251169dd1c003f2191e828fe718e7">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/reed-solomon/</innerdir>
+    <innerdir refid="dir_42f5f5b541d17703e8cd31f3ac2fee96">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/</innerdir>
+    <innerdir refid="dir_071b589bf408a7821427d485ac83a019">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/swig/</innerdir>
+    <innerdir refid="dir_0e349ee94b5db74926237f37b7fe0d8c">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/viterbi/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/"/>
+  </compounddef>
+</doxygen>

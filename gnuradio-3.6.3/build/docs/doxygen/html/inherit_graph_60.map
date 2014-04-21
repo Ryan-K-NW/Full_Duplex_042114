@@ -1,0 +1,490 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classgr_1_1analog_1_1kernel_1_1agc2__cc.html" title="high performance Automatic Gain Control class" alt="" coords="1059,5,1245,35"/>
+<area shape="rect" id="node3" href="$classgr_1_1analog_1_1agc2__cc__impl.html" title="gr::analog::agc2_cc_impl" alt="" coords="1381,257,1555,287"/>
+<area shape="rect" id="node4" href="$classgr_1_1analog_1_1kernel_1_1agc2__ff.html" title="gr::analog::kernel::agc2_ff" alt="" coords="1063,4210,1241,4241"/>
+<area shape="rect" id="node6" href="$classgr_1_1analog_1_1agc2__ff__impl.html" title="gr::analog::agc2_ff_impl" alt="" coords="1385,4530,1551,4561"/>
+<area shape="rect" id="node7" href="$classgr_1_1analog_1_1kernel_1_1agc__cc.html" title="high performance Automatic Gain Control class for complex signals." alt="" coords="1061,5437,1243,5467"/>
+<area shape="rect" id="node9" href="$classgr_1_1analog_1_1agc__cc__impl.html" title="gr::analog::agc_cc_impl" alt="" coords="1385,5423,1551,5454"/>
+<area shape="rect" id="node10" href="$classgr_1_1analog_1_1kernel_1_1agc__ff.html" title="high performance Automatic Gain Control class for float signals." alt="" coords="1065,5490,1239,5521"/>
+<area shape="rect" id="node12" href="$classgr_1_1analog_1_1agc__ff__impl.html" title="gr::analog::agc_ff_impl" alt="" coords="1389,5503,1547,5534"/>
+<area shape="rect" id="node13" href="$classgr_1_1filter_1_1kernel_1_1fir__filter__ccc.html" title="gr::filter::kernel::fir_filter_ccc" alt="" coords="1375,12687,1561,12718"/>
+<area shape="rect" id="node15" href="$classgr_1_1filter_1_1adaptive__fir__ccc__impl.html" title="gr::filter::adaptive_fir_ccc_impl" alt="" coords="1704,12714,1907,12745"/>
+<area shape="rect" id="node16" href="$classgr_1_1filter_1_1kernel_1_1fir__filter__ccf.html" title="gr::filter::kernel::fir_filter_ccf" alt="" coords="1376,12847,1560,12878"/>
+<area shape="rect" id="node18" href="$classgr_1_1filter_1_1adaptive__fir__ccf__impl.html" title="gr::filter::adaptive_fir_ccf_impl" alt="" coords="1707,12861,1904,12891"/>
+<area shape="rect" id="node19" href="$classgr__file__sink__base.html" title="Common base class for file sinks." alt="" coords="801,375,927,406"/>
+<area shape="rect" id="node21" href="$classgr__file__sink.html" title="Write stream to file." alt="" coords="1108,375,1196,406"/>
+<area shape="rect" id="node22" href="$classgri__agc2__cc.html" title="high performance Automatic Gain Control class" alt="" coords="817,429,911,459"/>
+<area shape="rect" id="node24" href="$classgr__agc2__cc.html" title="high performance Automatic Gain Control classFor Power the absolute value of the complex number is us..." alt="" coords="1107,429,1197,459"/>
+<area shape="rect" id="node25" href="$classgri__agc2__ff.html" title="high performance Automatic Gain Control class with attack and decay rate" alt="" coords="821,482,907,513"/>
+<area shape="rect" id="node27" href="$classgr__agc2__ff.html" title="high performance Automatic Gain Control class" alt="" coords="1111,482,1193,513"/>
+<area shape="rect" id="node28" href="$classgri__agc__cc.html" title="high performance Automatic Gain Control class" alt="" coords="820,535,908,566"/>
+<area shape="rect" id="node30" href="$classgr__agc__cc.html" title="high performance Automatic Gain Control classFor Power the absolute value of the complex number is us..." alt="" coords="1109,535,1195,566"/>
+<area shape="rect" id="node31" href="$classgri__agc__ff.html" title="high performance Automatic Gain Control class" alt="" coords="824,589,904,619"/>
+<area shape="rect" id="node33" href="$classgr__agc__ff.html" title="high performance Automatic Gain Control classPower is approximated by absolute value" alt="" coords="1113,589,1191,619"/>
+<area shape="rect" id="node34" href="$classgri__control__loop.html" title="gri_control_loop" alt="" coords="805,1173,923,1203"/>
+<area shape="rect" id="node36" href="$classdigital__constellation__receiver__cb.html" title="This block takes care of receiving generic modulated signals through phase, frequency, and symbol synchronization.This block takes care of receiving generic modulated signals through phase, frequency, and symbol synchronization. It performs carrier frequency and phase locking as well as symbol timing recovery." alt="" coords="1044,218,1260,249"/>
+<area shape="rect" id="node38" href="$classdigital__costas__loop__cc.html" title="Carrier tracking PLL for QPSKinput: complex; output: complex &#160;The Costas loop can have two output str..." alt="" coords="1073,743,1231,774"/>
+<area shape="rect" id="node40" href="$classdigital__fll__band__edge__cc.html" title="Frequency Lock Loop using band&#45;edge filters." alt="" coords="1067,903,1237,934"/>
+<area shape="rect" id="node42" href="$classdigital__mpsk__receiver__cc.html" title="This block takes care of receiving M&#45;PSK modulated signals through phase, frequency, and symbol synchronization.This block takes care of receiving M&#45;PSK modulated signals through phase, frequency, and symbol synchronization. It performs carrier frequency and phase locking as well as symbol timing recovery. It works with (D)BPSK, (D)QPSK, and (D)8PSK as tested currently. It should also work for OQPSK and PI/4 DQPSK." alt="" coords="1065,271,1239,302"/>
+<area shape="rect" id="node44" href="$classgr_1_1analog_1_1pll__carriertracking__cc__impl.html" title="gr::analog::pll_carriertracking_cc_impl" alt="" coords="1344,813,1592,843"/>
+<area shape="rect" id="node46" href="$classgr_1_1analog_1_1pll__freqdet__cf__impl.html" title="gr::analog::pll_freqdet_cf_impl" alt="" coords="1367,1173,1569,1203"/>
+<area shape="rect" id="node48" href="$classgr_1_1analog_1_1pll__refout__cc__impl.html" title="gr::analog::pll_refout_cc_impl" alt="" coords="1369,1841,1567,1871"/>
+<area shape="rect" id="node50" href="$classgr__pll__carriertracking__cc.html" title="Implements a PLL which locks to the input frequency and outputs the input signal mixed with that carr..." alt="" coords="1069,797,1235,827"/>
+<area shape="rect" id="node52" href="$classgr__pll__freqdet__cf.html" title="Implements a PLL which locks to the input frequency and outputs an estimate of that frequency..." alt="" coords="1092,850,1212,881"/>
+<area shape="rect" id="node54" href="$classgr__pll__refout__cc.html" title="Implements a PLL which locks to the input frequency and outputs a carrierinput: stream of complex; ou..." alt="" coords="1095,957,1209,987"/>
+<area shape="rect" id="node55" href="$classgruel_1_1msg__accepter.html" title="Virtual base class that accepts messages." alt="" coords="7,14363,151,14394"/>
+<area shape="rect" id="node57" href="$classgr__msg__accepter.html" title="Accepts messages and inserts them into a message queue, then notifies subclass gr_basic_block there i..." alt="" coords="231,14337,356,14367"/>
+<area shape="rect" id="node988" href="$classgruel_1_1msg__accepter__msgq.html" title="Concrete class that accepts messages and inserts them into a message queue." alt="" coords="200,14390,387,14421"/>
+<area shape="rect" id="node59" href="$classgr__basic__block.html" title="The abstract base class for all signal processing blocks.Basic blocks are the bare abstraction of an ..." alt="" coords="435,14337,547,14367"/>
+<area shape="rect" id="node61" href="$classgr__block.html" title="The abstract base class for all &#39;terminal&#39; processing blocks.A signal processing flow is constructed ..." alt="" coords="613,13538,685,13569"/>
+<area shape="rect" id="node970" href="$classgr__hier__block2.html" title="Hierarchical container class for gr_block&#39;s and gr_hier_block2&#39;s." alt="" coords="595,15162,704,15193"/>
+<area shape="rect" id="node63" href="$classatsc__bit__timing__loop.html" title="ATSC BitTimingLoop3This class accepts a single real input and produces two outputs, the raw symbol (float) and the tag (atsc_syminfo)" alt="" coords="793,12743,935,12774"/>
+<area shape="rect" id="node65" href="$classatsc__field__sync__demux.html" title="ATSC Field Sync Demux." alt="" coords="784,12797,944,12827"/>
+<area shape="rect" id="node67" href="$classdigital__clock__recovery__mm__cc.html" title="Mueller and Müller (M&amp;M) based clock recovery block with complex input, complex output.This implements the Mueller and Müller (M&amp;M) discrete&#45;time error&#45;tracking synchronizer." alt="" coords="761,12850,967,12881"/>
+<area shape="rect" id="node69" href="$classdigital__clock__recovery__mm__ff.html" title="Mueller and Müller (M&amp;M) based clock recovery block with float input, float output.This implements the Mueller and Müller (M&amp;M) discrete&#45;time error&#45;tracking synchronizer." alt="" coords="765,12903,963,12934"/>
+<area shape="rect" id="node71" href="$classdigital__constellation__decoder__cb.html" title="Constellation Decoder." alt="" coords="755,12957,973,12987"/>
+<area shape="rect" id="node75" href="$classdigital__ofdm__frame__acquisition.html" title="take a vector of complex constellation points in from an FFT and performs a correlation and equalizat..." alt="" coords="761,13010,967,13041"/>
+<area shape="rect" id="node77" href="$classdigital__ofdm__insert__preamble.html" title="insert &quot;pre&#45;modulated&quot; preamble symbols before each payload." alt="" coords="765,13063,963,13094"/>
+<area shape="rect" id="node79" href="$classdigital__ofdm__sampler.html" title="does the rest of the OFDM stuff" alt="" coords="789,13117,939,13147"/>
+<area shape="rect" id="node81" href="$classdigital__pfb__clock__sync__ccf.html" title="Timing synchronizer using polyphase filterbanks." alt="" coords="775,13170,953,13201"/>
+<area shape="rect" id="node83" href="$classdigital__pfb__clock__sync__fff.html" title="Timing synchronizer using polyphase filterbanks." alt="" coords="779,13223,949,13254"/>
+<area shape="rect" id="node85" href="$classdigital__simple__framer.html" title="add sync field, seq number and command field to payloadTakes in enough samples to create a full outpu..." alt="" coords="789,13277,939,13307"/>
+<area shape="rect" id="node87" href="$classgr_1_1analog_1_1ctcss__squelch__ff.html" title="gate or zero output if ctcss tone not present" alt="" coords="1057,13434,1247,13465"/>
+<area shape="rect" id="node91" href="$classgr_1_1analog_1_1pwr__squelch__cc.html" title="gate or zero output when input power below threshold" alt="" coords="1059,13914,1245,13945"/>
+<area shape="rect" id="node95" href="$classgr_1_1analog_1_1pwr__squelch__ff.html" title="gate or zero output when input power below threshold" alt="" coords="1063,13541,1241,13571"/>
+<area shape="rect" id="node99" href="$classgr_1_1analog_1_1squelch__base__cc.html" title="basic squelch block; to be subclassed for other squelches." alt="" coords="765,13805,963,13835"/>
+<area shape="rect" id="node105" href="$classgr_1_1analog_1_1squelch__base__ff.html" title="basic squelch block; to be subclassed for other squelches." alt="" coords="769,13434,959,13465"/>
+<area shape="rect" id="node113" href="$classgr_1_1blocks_1_1keep__m__in__n.html" title="decimate a stream, keeping one item out of every n." alt="" coords="780,13538,948,13569"/>
+<area shape="rect" id="node117" href="$classgr_1_1blocks_1_1keep__one__in__n.html" title="decimate a stream, keeping one item out of every n." alt="" coords="775,13591,953,13622"/>
+<area shape="rect" id="node121" href="$classgr_1_1blocks_1_1patterned__interleaver.html" title="gr::blocks::patterned_interleaver" alt="" coords="757,13645,971,13675"/>
+<area shape="rect" id="node125" href="$classgr_1_1blocks_1_1stream__mux.html" title="Stream muxing block to multiplex many streams into one with a specified format." alt="" coords="783,13698,945,13729"/>
+<area shape="rect" id="node129" href="$classgr_1_1filter_1_1fractional__interpolator__cc.html" title="Interpolating MMSE filter with complex input, complex output." alt="" coords="753,13751,975,13782"/>
+<area shape="rect" id="node133" href="$classgr_1_1filter_1_1fractional__interpolator__ff.html" title="Interpolating MMSE filter with float input, float output." alt="" coords="757,13909,971,13939"/>
+<area shape="rect" id="node137" href="$classgr_1_1filter_1_1pfb__arb__resampler__ccf.html" title="Polyphase filterbank arbitrary resampler with gr_complex input, gr_complex output and float taps..." alt="" coords="760,13962,968,13993"/>
+<area shape="rect" id="node141" href="$classgr_1_1filter_1_1pfb__arb__resampler__fff.html" title="Polyphase filterbank arbitrary resampler with float input, float output and float taps..." alt="" coords="764,14015,964,14046"/>
+<area shape="rect" id="node145" href="$classgr_1_1filter_1_1pfb__channelizer__ccf.html" title="Polyphase filterbank channelizer with gr_complex input, gr_complex output and float taps..." alt="" coords="769,13330,959,13361"/>
+<area shape="rect" id="node149" href="$classgr__align__on__samplenumbers__ss.html" title="gr_align_on_samplenumbers_ss" alt="" coords="757,14069,971,14099"/>
+<area shape="rect" id="node151" href="$classgr__block__gateway.html" title="gr_block_gateway" alt="" coords="799,14122,929,14153"/>
+<area shape="rect" id="node153" href="$classgr__copy.html" title="output[i] = input[i]When enabled (default), this block copies its input to its output. When disabled, this block drops its input on the floor." alt="" coords="829,14175,899,14206"/>
+<area shape="rect" id="node155" href="$classgr__delay.html" title="delay the input by a certain number of samples" alt="" coords="827,14229,901,14259"/>
+<area shape="rect" id="node157" href="$classgr__fractional__interpolator__cc.html" title="Interpolating mmse filter with gr_complex input, gr_complex output." alt="" coords="769,14282,959,14313"/>
+<area shape="rect" id="node159" href="$classgr__fractional__interpolator__ff.html" title="Interpolating mmse filter with float input, float output." alt="" coords="773,14335,955,14366"/>
+<area shape="rect" id="node161" href="$classgr__keep__m__in__n.html" title="decimate a stream, keeping one item out of every n." alt="" coords="804,14389,924,14419"/>
+<area shape="rect" id="node163" href="$classgr__keep__one__in__n.html" title="decimate a stream, keeping one item out of every n." alt="" coords="799,14442,929,14473"/>
+<area shape="rect" id="node165" href="$classgr__message__strobe.html" title="Send message at defined interval." alt="" coords="793,14495,935,14526"/>
+<area shape="rect" id="node167" href="$classgr__nop.html" title="Does nothing. Used for testing only." alt="" coords="833,14549,895,14579"/>
+<area shape="rect" id="node169" href="$classgr__ofdm__bpsk__demapper.html" title="take a vector of complex constellation points in from an FFT and demodulate to a stream of bits..." alt="" coords="777,14602,951,14633"/>
+<area shape="rect" id="node171" href="$classgr__pfb__arb__resampler__ccf.html" title="Polyphase filterbank arbitrary resampler with gr_complex input, gr_complex output and float taps..." alt="" coords="777,14655,951,14686"/>
+<area shape="rect" id="node173" href="$classgr__pfb__arb__resampler__fff.html" title="Polyphase filterbank arbitrary resampler with float input, float output and float taps..." alt="" coords="781,14709,947,14739"/>
+<area shape="rect" id="node175" href="$classgr__pfb__channelizer__ccf.html" title="Polyphase filterbank channelizer with gr_complex input, gr_complex output and float taps..." alt="" coords="785,14762,943,14793"/>
+<area shape="rect" id="node177" href="$classgr__pfb__clock__sync__ccf.html" title="Timing synchronizer using polyphase filterbanks." alt="" coords="787,14815,941,14846"/>
+<area shape="rect" id="node179" href="$classgr__pfb__clock__sync__fff.html" title="Timing synchronizer using polyphase filterbanks." alt="" coords="791,14869,937,14899"/>
+<area shape="rect" id="node181" href="$classgr__simple__correlator.html" title="inverse of gr_simple_framer (more or less)" alt="" coords="792,14922,936,14953"/>
+<area shape="rect" id="node183" href="$classgr__simple__framer.html" title="add sync field, seq number and command field to payload" alt="" coords="801,14975,927,15006"/>
+<area shape="rect" id="node185" href="$classgr__skiphead.html" title="skips the first N items, from then on copies items to the outputUseful for building test cases and so..." alt="" coords="816,15029,912,15059"/>
+<area shape="rect" id="node187" href="$classgr__squelch__base__cc.html" title="gr_squelch_base_cc" alt="" coords="791,85,937,115"/>
+<area shape="rect" id="node191" href="$classgr__squelch__base__ff.html" title="gr_squelch_base_ff" alt="" coords="795,165,933,195"/>
+<area shape="rect" id="node197" href="$classgr__stream__mux.html" title="Stream muxing block to multiplex many streams into one with a specified format." alt="" coords="807,642,921,673"/>
+<area shape="rect" id="node199" href="$classgr__sync__block.html" title="synchronous 1:1 input to output with historyOverride work to provide the signal processing implementa..." alt="" coords="811,7037,917,7067"/>
+<area shape="rect" id="node954" href="$classgr__test.html" title="Test class for testing runtime system (setting up buffers and such.)This block does not do any useful..." alt="" coords="833,695,895,726"/>
+<area shape="rect" id="node956" href="$classnoaa__hrpt__deframer.html" title="noaa_hrpt_deframer" alt="" coords="793,749,935,779"/>
+<area shape="rect" id="node958" href="$classpager__flex__sync.html" title="flex sync description" alt="" coords="805,802,923,833"/>
+<area shape="rect" id="node960" href="$classqtgui__sink__c.html" title="A graphical sink to display freq, spec, time, and const plots.This is a QT&#45;based graphical sink the t..." alt="" coords="816,855,912,886"/>
+<area shape="rect" id="node962" href="$classqtgui__sink__f.html" title="A graphical sink to display freq, spec, and time.This is a QT&#45;based graphical sink the takes a float ..." alt="" coords="819,909,909,939"/>
+<area shape="rect" id="node964" href="$classtrellis__constellation__metrics__cf.html" title="Evaluate metrics for use by the Viterbi algorithm." alt="" coords="763,962,965,993"/>
+<area shape="rect" id="node966" href="$classtrellis__siso__combined__f.html" title="trellis_siso_combined_f" alt="" coords="784,1015,944,1046"/>
+<area shape="rect" id="node968" href="$classtrellis__siso__f.html" title="trellis_siso_f" alt="" coords="817,1069,911,1099"/>
+<area shape="rect" id="node89" href="$classgr_1_1analog_1_1ctcss__squelch__ff__impl.html" title="gr::analog::ctcss_squelch_ff_impl" alt="" coords="1357,14021,1579,14051"/>
+<area shape="rect" id="node93" href="$classgr_1_1analog_1_1pwr__squelch__cc__impl.html" title="gr::analog::pwr_squelch_cc_impl" alt="" coords="1359,14127,1577,14158"/>
+<area shape="rect" id="node97" href="$classgr_1_1analog_1_1pwr__squelch__ff__impl.html" title="gr::analog::pwr_squelch_ff_impl" alt="" coords="1363,14074,1573,14105"/>
+<area shape="rect" id="node102" href="$classgr_1_1analog_1_1squelch__base__cc__impl.html" title="gr::analog::squelch_base_cc_impl" alt="" coords="1039,13861,1265,13891"/>
+<area shape="rect" id="node109" href="$classgr_1_1analog_1_1squelch__base__ff__impl.html" title="gr::analog::squelch_base_ff_impl" alt="" coords="1043,13487,1261,13518"/>
+<area shape="rect" id="node115" href="$classgr_1_1blocks_1_1keep__m__in__n__impl.html" title="gr::blocks::keep_m_in_n_impl" alt="" coords="1053,13594,1251,13625"/>
+<area shape="rect" id="node119" href="$classgr_1_1blocks_1_1keep__one__in__n__impl.html" title="gr::blocks::keep_one_in_n_impl" alt="" coords="1047,13647,1257,13678"/>
+<area shape="rect" id="node123" href="$classgr_1_1blocks_1_1patterned__interleaver__impl.html" title="gr::blocks::patterned_interleaver_impl" alt="" coords="1029,13701,1275,13731"/>
+<area shape="rect" id="node127" href="$classgr_1_1blocks_1_1stream__mux__impl.html" title="gr::blocks::stream_mux_impl" alt="" coords="1056,13754,1248,13785"/>
+<area shape="rect" id="node131" href="$classgr_1_1filter_1_1fractional__interpolator__cc__impl.html" title="gr::filter::fractional_interpolator_cc_impl" alt="" coords="1025,13807,1279,13838"/>
+<area shape="rect" id="node135" href="$classgr_1_1filter_1_1fractional__interpolator__ff__impl.html" title="gr::filter::fractional_interpolator_ff_impl" alt="" coords="1029,13967,1275,13998"/>
+<area shape="rect" id="node139" href="$classgr_1_1filter_1_1pfb__arb__resampler__ccf__impl.html" title="gr::filter::pfb_arb_resampler_ccf_impl" alt="" coords="1033,14021,1271,14051"/>
+<area shape="rect" id="node143" href="$classgr_1_1filter_1_1pfb__arb__resampler__fff__impl.html" title="gr::filter::pfb_arb_resampler_fff_impl" alt="" coords="1037,14074,1267,14105"/>
+<area shape="rect" id="node147" href="$classgr_1_1filter_1_1pfb__channelizer__ccf__impl.html" title="gr::filter::pfb_channelizer_ccf_impl" alt="" coords="1357,9143,1579,9174"/>
+<area shape="rect" id="node189" href="$classgr__pwr__squelch__cc.html" title="gate or zero output when input power below threshold" alt="" coords="1084,58,1220,89"/>
+<area shape="rect" id="node193" href="$classgr__ctcss__squelch__ff.html" title="gate or zero output if ctcss tone not present" alt="" coords="1083,111,1221,142"/>
+<area shape="rect" id="node195" href="$classgr__pwr__squelch__ff.html" title="gate or zero output when input power below threshold" alt="" coords="1088,165,1216,195"/>
+<area shape="rect" id="node201" href="$classatsc__deinterleaver.html" title="Deinterleave RS encoded ATSC data ( atsc_mpeg_packet_rs_encoded &#45;&#45;&gt; atsc_mpeg_packet_rs_encoded)input..." alt="" coords="1085,3357,1219,3387"/>
+<area shape="rect" id="node203" href="$classatsc__derandomizer.html" title="&quot;dewhiten&quot; incoming mpeg transport stream packetsinput: atsc_mpeg_packet_no_sync; output: atsc_mpeg_p..." alt="" coords="1083,3410,1221,3441"/>
+<area shape="rect" id="node205" href="$classatsc__ds__to__softds.html" title="Debug glue routine (atsc_data_segment &#45;&#45;&gt; atsc_soft_data_segment)input: atsc_data_segment; output: at..." alt="" coords="1087,3463,1217,3494"/>
+<area shape="rect" id="node207" href="$classatsc__equalizer.html" title="ATSC equalizer (float,syminfo &#45;&#45;&gt; float,syminfo)first inputs are data samples, second inputs are tags..." alt="" coords="1097,3517,1207,3547"/>
+<area shape="rect" id="node209" href="$classatsc__field__sync__mux.html" title="Insert ATSC Field Syncs as required (atsc_data_segment &#45;&#45;&gt; atsc_data_segment)input: atsc_data_segment..." alt="" coords="1080,3570,1224,3601"/>
+<area shape="rect" id="node211" href="$classatsc__fpll.html" title="ATSC FPLL (2nd Version)A/D &#45;&#45;&gt; GrFIRfilterFFF &#45;&#45;&#45;&#45;&gt; GrAtscFPLL &#45;&#45;&#45;&#45;&gt;" alt="" coords="1117,3623,1187,3654"/>
+<area shape="rect" id="node213" href="$classatsc__fs__checker.html" title="ATSC field sync checker (float,syminfo &#45;&#45;&gt; float,syminfo)first output is delayed version of input..." alt="" coords="1093,3677,1211,3707"/>
+<area shape="rect" id="node215" href="$classatsc__interleaver.html" title="Interleave RS encoded ATSC data ( atsc_mpeg_packet_rs_encoded &#45;&#45;&gt; atsc_mpeg_packet_rs_encoded)*input:..." alt="" coords="1093,3730,1211,3761"/>
+<area shape="rect" id="node217" href="$classatsc__randomizer.html" title="&quot;Whiten&quot; incoming mpeg transport stream packetsinput: atsc_mpeg_packet; output: atsc_mpeg_packet_no_s..." alt="" coords="1091,3783,1213,3814"/>
+<area shape="rect" id="node219" href="$classatsc__rs__decoder.html" title="Reed&#45;Solomon decoder for ATSCinput: atsc_mpeg_packet_rs_encoded; output: atsc_mpeg_packet_no_sync." alt="" coords="1091,3837,1213,3867"/>
+<area shape="rect" id="node221" href="$classatsc__rs__encoder.html" title="Reed&#45;Solomon encoder for ATSCinput: atsc_mpeg_packet_no_sync; output: atsc_mpeg_packet_rs_encoded." alt="" coords="1091,3890,1213,3921"/>
+<area shape="rect" id="node223" href="$classatsc__trellis__encoder.html" title="ATSC 12&#45;way interleaved trellis encoder (atsc_mpeg_packet_rs_encoded &#45;&#45;&gt; atsc_data_segment)input: ats..." alt="" coords="1081,3943,1223,3974"/>
+<area shape="rect" id="node225" href="$classatsc__viterbi__decoder.html" title="ATSC 12&#45;way interleaved viterbi decoder (atsc_soft_data_segment &#45;&#45;&gt; atsc_mpeg_packet_rs_encoded)input..." alt="" coords="1079,3997,1225,4027"/>
+<area shape="rect" id="node227" href="$classaudio__sink.html" title="Creates a sink from an audio device." alt="" coords="1109,4050,1195,4081"/>
+<area shape="rect" id="node241" href="$classaudio__source.html" title="Creates a source from an audio device." alt="" coords="1100,4103,1204,4134"/>
+<area shape="rect" id="node255" href="$classcomedi__sink__s.html" title="sink using COMEDI" alt="" coords="1096,4157,1208,4187"/>
+<area shape="rect" id="node257" href="$classcomedi__source__s.html" title="source using COMEDI" alt="" coords="1088,4263,1216,4294"/>
+<area shape="rect" id="node259" href="$classdigital__additive__scrambler__bb.html" title="digital_additive_scrambler_bb" alt="" coords="1052,4370,1252,4401"/>
+<area shape="rect" id="node261" href="$classdigital__binary__slicer__fb.html" title="slice float binary symbol outputting 1 bit outputx &lt; 0 &#45;&#45;&gt; 0 x &gt;= 0 &#45;&#45;&gt; 1" alt="" coords="1073,4477,1231,4507"/>
+<area shape="rect" id="node263" href="$classdigital__correlate__access__code__bb.html" title="Examine input for specified access code, one bit at a time.input: stream of bits, 1 bit per input byt..." alt="" coords="1039,4530,1265,4561"/>
+<area shape="rect" id="node265" href="$classdigital__correlate__access__code__tag__bb.html" title="Examine input for specified access code, one bit at a time.input: stream of bits, 1 bit per input byt..." alt="" coords="1025,4583,1279,4614"/>
+<area shape="rect" id="node268" href="$classdigital__descrambler__bb.html" title="digital_descrambler_bb" alt="" coords="1072,4637,1232,4667"/>
+<area shape="rect" id="node270" href="$classdigital__diff__decoder__bb.html" title="y[0] = (x[0] &#45; x[&#45;1]) % MUses current and previous symbols and the alphabet modulus to perform differ..." alt="" coords="1072,4690,1232,4721"/>
+<area shape="rect" id="node272" href="$classdigital__diff__encoder__bb.html" title="y[0] = (x[0] + y[&#45;1]) % MUses current and previous symbols and the alphabet modulus to perform differ..." alt="" coords="1072,4743,1232,4774"/>
+<area shape="rect" id="node274" href="$classdigital__diff__phasor__cc.html" title="digital_diff_phasor_cc" alt="" coords="1077,4797,1227,4827"/>
+<area shape="rect" id="node277" href="$classdigital__framer__sink__1.html" title="Given a stream of bits and access_code flags, assemble packets.input: stream of bytes from gr_correla..." alt="" coords="1079,4850,1225,4881"/>
+<area shape="rect" id="node279" href="$classdigital__glfsr__source__b.html" title="Galois LFSR pseudo&#45;random source." alt="" coords="1076,4903,1228,4934"/>
+<area shape="rect" id="node281" href="$classdigital__glfsr__source__f.html" title="Galois LFSR pseudo&#45;random source generating float outputs &#45;1.0 &#45; 1.0." alt="" coords="1079,4957,1225,4987"/>
+<area shape="rect" id="node283" href="$classdigital__map__bb.html" title="output[i] = map[input[i]]This block maps an incoming signal to the value in the map. The block expects that the incoming signal has a maximum value of len(map)&#45;1." alt="" coords="1096,5010,1208,5041"/>
+<area shape="rect" id="node285" href="$classdigital__mpsk__snr__est__cc.html" title="A block for computing SNR of a signal." alt="" coords="1068,5063,1236,5094"/>
+<area shape="rect" id="node287" href="$classdigital__ofdm__frame__sink.html" title="Takes an OFDM symbol in, demaps it into bits of 0&#39;s and 1&#39;s, packs them into packets, and sends to to a message queue sink.NOTE: The mod input parameter simply chooses a pre&#45;defined demapper/slicer. Eventually, we want to be able to pass in a reference to an object to do the demapping and slicing for a given modulation type." alt="" coords="1069,5117,1235,5147"/>
+<area shape="rect" id="node289" href="$classdigital__ofdm__mapper__bcv.html" title="take a stream of bytes in and map to a vector of complex constellation points suitable for IFFT input..." alt="" coords="1065,5170,1239,5201"/>
+<area shape="rect" id="node291" href="$classdigital__packet__sink.html" title="process received bits looking for packet sync, header, and process bits into packetinput: stream of s..." alt="" coords="1084,5223,1220,5254"/>
+<area shape="rect" id="node293" href="$classdigital__probe__density__b.html" title="digital_probe_density_b" alt="" coords="1071,5277,1233,5307"/>
+<area shape="rect" id="node295" href="$classdigital__probe__mpsk__snr__est__c.html" title="A probe for computing SNR of a signal." alt="" coords="1051,5330,1253,5361"/>
+<area shape="rect" id="node297" href="$classdigital__scrambler__bb.html" title="digital_scrambler_bb" alt="" coords="1080,5383,1224,5414"/>
+<area shape="rect" id="node299" href="$classgr_1_1analog_1_1agc2__cc.html" title="high performance Automatic Gain Control classFor Power the absolute value of the complex number is us..." alt="" coords="1081,1010,1223,1041"/>
+<area shape="rect" id="node302" href="$classgr_1_1analog_1_1agc2__ff.html" title="high performance Automatic Gain Control class" alt="" coords="1085,4317,1219,4347"/>
+<area shape="rect" id="node305" href="$classgr_1_1analog_1_1agc__cc.html" title="high performance Automatic Gain Control classFor Power the absolute value of the complex number is us..." alt="" coords="1084,4423,1220,4454"/>
+<area shape="rect" id="node308" href="$classgr_1_1analog_1_1agc__ff.html" title="high performance Automatic Gain Control classPower is approximated by absolute value" alt="" coords="1088,5543,1216,5574"/>
+<area shape="rect" id="node311" href="$classgr_1_1analog_1_1dpll__bb.html" title="Detect the peak of a signalIf a peak is detected, this block outputs a 1, or it outputs 0&#39;s..." alt="" coords="1085,5757,1219,5787"/>
+<area shape="rect" id="node315" href="$classgr_1_1analog_1_1feedforward__agc__cc.html" title="Non&#45;causal AGC which computes required gain based on max absolute value over nsamples." alt="" coords="1045,5810,1259,5841"/>
+<area shape="rect" id="node319" href="$classgr_1_1analog_1_1fmdet__cf.html" title="Implements an IQ slope detector." alt="" coords="1081,5863,1223,5894"/>
+<area shape="rect" id="node323" href="$classgr_1_1analog_1_1frequency__modulator__fc.html" title="Frequency modulator blockfloat input; complex baseband output." alt="" coords="1035,5917,1269,5947"/>
+<area shape="rect" id="node327" href="$classgr_1_1analog_1_1phase__modulator__fc.html" title="Phase modulator blockoutput = complex(cos(in*sensitivity), sin(in*sensitivity))" alt="" coords="1045,5970,1259,6001"/>
+<area shape="rect" id="node331" href="$classgr_1_1analog_1_1pll__carriertracking__cc.html" title="Implements a PLL which locks to the input frequency and outputs the input signal mixed with that carr..." alt="" coords="1043,1063,1261,1094"/>
+<area shape="rect" id="node334" href="$classgr_1_1analog_1_1pll__freqdet__cf.html" title="Implements a PLL which locks to the input frequency and outputs an estimate of that frequency..." alt="" coords="1067,2717,1237,2747"/>
+<area shape="rect" id="node337" href="$classgr_1_1analog_1_1pll__refout__cc.html" title="Implements a PLL which locks to the input frequency and outputs a carrierInput stream 0: complex Outp..." alt="" coords="1069,2770,1235,2801"/>
+<area shape="rect" id="node340" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__c.html" title="compute avg magnitude squared.Input stream 0: complex" alt="" coords="1033,6023,1271,6054"/>
+<area shape="rect" id="node344" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__cf.html" title="compute avg magnitude squared.Input stream 0: complex Output stream 0: float" alt="" coords="1032,6077,1272,6107"/>
+<area shape="rect" id="node348" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__f.html" title="compute avg magnitude squared.input stream 0: float" alt="" coords="1035,6130,1269,6161"/>
+<area shape="rect" id="node352" href="$classgr_1_1analog_1_1quadrature__demod__cf.html" title="quadrature demodulator: complex in, float outThis can be used to demod FM, FSK, GMSK, etc. The input is complex baseband." alt="" coords="1040,6183,1264,6214"/>
+<area shape="rect" id="node356" href="$classgr_1_1analog_1_1rail__ff.html" title="clips input values to min, max" alt="" coords="1091,6237,1213,6267"/>
+<area shape="rect" id="node360" href="$classgr_1_1analog_1_1simple__squelch__cc.html" title="simple squelch block based on average signal power and threshold in dB." alt="" coords="1049,6290,1255,6321"/>
+<area shape="rect" id="node364" href="$classgr_1_1blocks_1_1add__ff.html" title="gr::blocks::add_ff" alt="" coords="1089,6343,1215,6374"/>
+<area shape="rect" id="node368" href="$classgr_1_1blocks_1_1char__to__float.html" title="Convert stream of chars to a stream of float." alt="" coords="1069,6397,1235,6427"/>
+<area shape="rect" id="node372" href="$classgr_1_1blocks_1_1char__to__short.html" title="Convert stream of chars to a stream of short." alt="" coords="1068,6450,1236,6481"/>
+<area shape="rect" id="node376" href="$classgr_1_1blocks_1_1complex__to__arg.html" title="complex in, arg out (float)" alt="" coords="1060,6503,1244,6534"/>
+<area shape="rect" id="node380" href="$classgr_1_1blocks_1_1complex__to__float.html" title="convert a stream of gr_complex to 1 or 2 streams of float" alt="" coords="1057,6557,1247,6587"/>
+<area shape="rect" id="node384" href="$classgr_1_1blocks_1_1complex__to__imag.html" title="complex in, imag out (float)" alt="" coords="1055,6610,1249,6641"/>
+<area shape="rect" id="node388" href="$classgr_1_1blocks_1_1complex__to__mag.html" title="complex in, magnitude out (float)" alt="" coords="1056,6663,1248,6694"/>
+<area shape="rect" id="node392" href="$classgr_1_1blocks_1_1complex__to__mag__squared.html" title="complex in, magnitude squared out (float)" alt="" coords="1028,6717,1276,6747"/>
+<area shape="rect" id="node396" href="$classgr_1_1blocks_1_1complex__to__real.html" title="complex in, real out (float)" alt="" coords="1059,6770,1245,6801"/>
+<area shape="rect" id="node400" href="$classgr_1_1blocks_1_1conjugate__cc.html" title="output = complex conjugate of input" alt="" coords="1068,6823,1236,6854"/>
+<area shape="rect" id="node404" href="$classgr_1_1blocks_1_1file__meta__sink.html" title="Write stream to file with meta&#45;data headers.These files represent data as binary information in betwe..." alt="" coords="1065,6877,1239,6907"/>
+<area shape="rect" id="node408" href="$classgr_1_1blocks_1_1file__meta__source.html" title="Reads stream from file with meta&#45;data headers. Headers are parsed into tags.The information in the me..." alt="" coords="1057,6930,1247,6961"/>
+<area shape="rect" id="node412" href="$classgr_1_1blocks_1_1file__source.html" title="Read stream from file." alt="" coords="1075,6983,1229,7014"/>
+<area shape="rect" id="node416" href="$classgr_1_1blocks_1_1float__to__char.html" title="Convert stream of floats to a stream of char." alt="" coords="1069,7037,1235,7067"/>
+<area shape="rect" id="node420" href="$classgr_1_1blocks_1_1float__to__complex.html" title="one or two floats in, complex out" alt="" coords="1057,7090,1247,7121"/>
+<area shape="rect" id="node424" href="$classgr_1_1blocks_1_1float__to__int.html" title="Convert stream of floats to a stream of char." alt="" coords="1076,7143,1228,7174"/>
+<area shape="rect" id="node428" href="$classgr_1_1blocks_1_1float__to__short.html" title="Convert stream of floats to a stream of shorts." alt="" coords="1068,7197,1236,7227"/>
+<area shape="rect" id="node432" href="$classgr_1_1blocks_1_1float__to__uchar.html" title="Convert stream of floats to a stream of unsigned chars." alt="" coords="1067,7250,1237,7281"/>
+<area shape="rect" id="node436" href="$classgr_1_1blocks_1_1int__to__float.html" title="Convert stream of ints to a stream of floats." alt="" coords="1076,7303,1228,7334"/>
+<area shape="rect" id="node440" href="$classgr_1_1blocks_1_1multiply__cc.html" title="gr::blocks::multiply_cc" alt="" coords="1075,7357,1229,7387"/>
+<area shape="rect" id="node444" href="$classgr_1_1blocks_1_1multiply__conjugate__cc.html" title="gr::blocks::multiply_conjugate_cc" alt="" coords="1043,7410,1261,7441"/>
+<area shape="rect" id="node448" href="$classgr_1_1blocks_1_1multiply__const__cc.html" title="output = input * complex constant" alt="" coords="1056,7463,1248,7494"/>
+<area shape="rect" id="node452" href="$classgr_1_1blocks_1_1multiply__const__ff.html" title="output = input * real constant" alt="" coords="1060,7517,1244,7547"/>
+<area shape="rect" id="node456" href="$classgr_1_1blocks_1_1multiply__ff.html" title="gr::blocks::multiply_ff" alt="" coords="1079,7570,1225,7601"/>
+<area shape="rect" id="node460" href="$classgr_1_1blocks_1_1nlog10__ff.html" title="output = n*log10(input) + k" alt="" coords="1081,7623,1223,7654"/>
+<area shape="rect" id="node464" href="$classgr_1_1blocks_1_1short__to__char.html" title="Convert stream of shorts to a stream of chars." alt="" coords="1068,7677,1236,7707"/>
+<area shape="rect" id="node468" href="$classgr_1_1blocks_1_1short__to__float.html" title="Convert stream of shorts to a stream of floats." alt="" coords="1068,7730,1236,7761"/>
+<area shape="rect" id="node472" href="$classgr_1_1blocks_1_1streams__to__vector.html" title="convert N streams of items to 1 stream of vector length N" alt="" coords="1053,7783,1251,7814"/>
+<area shape="rect" id="node476" href="$classgr_1_1blocks_1_1uchar__to__float.html" title="Convert stream of unsigned chars to a stream of floats." alt="" coords="1067,7837,1237,7867"/>
+<area shape="rect" id="node480" href="$classgr_1_1blocks_1_1vector__to__streams.html" title="Convert 1 stream of vectors of length N to N streams of items." alt="" coords="1053,7890,1251,7921"/>
+<area shape="rect" id="node484" href="$classgr_1_1fft_1_1fft__vcc.html" title="gr::fft::fft_vcc" alt="" coords="1104,7943,1200,7974"/>
+<area shape="rect" id="node488" href="$classgr_1_1fft_1_1fft__vfc.html" title="gr::fft::fft_vfc" alt="" coords="1107,7997,1197,8027"/>
+<area shape="rect" id="node492" href="$classgr_1_1filter_1_1dc__blocker__cc.html" title="gr::filter::dc_blocker_cc" alt="" coords="1072,8050,1232,8081"/>
+<area shape="rect" id="node496" href="$classgr_1_1filter_1_1dc__blocker__ff.html" title="gr::filter::dc_blocker_ff" alt="" coords="1076,8103,1228,8134"/>
+<area shape="rect" id="node500" href="$classgr_1_1filter_1_1filter__delay__fc.html" title="gr::filter::filter_delay_fc" alt="" coords="1075,8157,1229,8187"/>
+<area shape="rect" id="node504" href="$classgr_1_1filter_1_1hilbert__fc.html" title="gr::filter::hilbert_fc" alt="" coords="1089,8210,1215,8241"/>
+<area shape="rect" id="node508" href="$classgr_1_1filter_1_1iir__filter__ffd.html" title="IIR filter with float input, float output and double tapsThis filter uses the Direct Form I implement..." alt="" coords="1084,8263,1220,8294"/>
+<area shape="rect" id="node512" href="$classgr_1_1filter_1_1pfb__decimator__ccf.html" title="Polyphase filterbank bandpass decimator with gr_complex input, gr_complex output and float taps..." alt="" coords="1061,2877,1243,2907"/>
+<area shape="rect" id="node516" href="$classgr_1_1filter_1_1single__pole__iir__filter__cc.html" title="single pole IIR filter with complex input, complex outputThe input and output satisfy a difference eq..." alt="" coords="1047,8317,1257,8347"/>
+<area shape="rect" id="node520" href="$classgr_1_1filter_1_1single__pole__iir__filter__ff.html" title="single pole IIR filter with float input, float outputThe input and output satisfy a difference equati..." alt="" coords="1051,9970,1253,10001"/>
+<area shape="rect" id="node524" href="$classgr__add__ff.html" title="Add streams of complex values." alt="" coords="1113,8370,1191,8401"/>
+<area shape="rect" id="node526" href="$classgr__additive__scrambler__bb.html" title="gr_additive_scrambler_bb" alt="" coords="1064,8423,1240,8454"/>
+<area shape="rect" id="node532" href="$classgr__annotator__1to1.html" title="1&#45;to&#45;1 stream annotator testing block. FOR TESTING PURPOSES ONLY." alt="" coords="1088,8477,1216,8507"/>
+<area shape="rect" id="node534" href="$classgr__annotator__alltoall.html" title="All&#45;to&#45;all stream annotator testing block. FOR TESTING PURPOSES ONLY." alt="" coords="1081,8530,1223,8561"/>
+<area shape="rect" id="node536" href="$classgr__annotator__raw.html" title="raw stream annotator testing block." alt="" coords="1089,8583,1215,8614"/>
+<area shape="rect" id="node538" href="$classgr__bin__statistics__f.html" title="control scanning and record frequency domain statistics" alt="" coords="1089,8637,1215,8667"/>
+<area shape="rect" id="node540" href="$classgr__burst__tagger.html" title="output[i] = input[i]" alt="" coords="1095,8690,1209,8721"/>
+<area shape="rect" id="node542" href="$classgr__char__to__float.html" title="Convert stream of chars to a stream of float." alt="" coords="1093,8743,1211,8774"/>
+<area shape="rect" id="node544" href="$classgr__char__to__short.html" title="Convert stream of chars to a stream of float." alt="" coords="1092,8797,1212,8827"/>
+<area shape="rect" id="node546" href="$classgr__check__counting__s.html" title="sink that checks if its input stream consists of a counting sequence." alt="" coords="1079,8850,1225,8881"/>
+<area shape="rect" id="node548" href="$classgr__check__lfsr__32k__s.html" title="sink that checks if its input stream consists of a lfsr_32k sequence.This sink is typically used alon..." alt="" coords="1081,8903,1223,8934"/>
+<area shape="rect" id="node550" href="$classgr__complex__to__arg.html" title="complex in, angle out (float)" alt="" coords="1084,8957,1220,8987"/>
+<area shape="rect" id="node552" href="$classgr__complex__to__float.html" title="convert a stream of gr_complex to 1 or 2 streams of float" alt="" coords="1081,9010,1223,9041"/>
+<area shape="rect" id="node554" href="$classgr__complex__to__imag.html" title="complex in, imaginary out (float)" alt="" coords="1079,9063,1225,9094"/>
+<area shape="rect" id="node556" href="$classgr__complex__to__mag.html" title="complex in, magnitude out (float)" alt="" coords="1080,9117,1224,9147"/>
+<area shape="rect" id="node558" href="$classgr__complex__to__mag__squared.html" title="complex in, magnitude squared out (float)" alt="" coords="1052,9170,1252,9201"/>
+<area shape="rect" id="node560" href="$classgr__complex__to__real.html" title="complex in, real out (float)" alt="" coords="1083,9223,1221,9254"/>
+<area shape="rect" id="node562" href="$classgr__conjugate__cc.html" title="output = complex conjugate of input" alt="" coords="1092,9277,1212,9307"/>
+<area shape="rect" id="node564" href="$classgr__correlate__access__code__tag__bb.html" title="Examine input for specified access code, one bit at a time.input: stream of bits, 1 bit per input byt..." alt="" coords="1037,9330,1267,9361"/>
+<area shape="rect" id="node566" href="$classgr__dc__blocker__cc.html" title="a computationally efficient controllable DC blocker" alt="" coords="1088,9383,1216,9414"/>
+<area shape="rect" id="node568" href="$classgr__dc__blocker__ff.html" title="a computationally efficient controllable DC blocker" alt="" coords="1092,9437,1212,9467"/>
+<area shape="rect" id="node570" href="$classgr__descrambler__bb.html" title="gr_descrambler_bb" alt="" coords="1084,9490,1220,9521"/>
+<area shape="rect" id="node572" href="$classgr__diff__decoder__bb.html" title="y[0] = (x[0] &#45; x[&#45;1]) % MDifferential decoder" alt="" coords="1084,9543,1220,9574"/>
+<area shape="rect" id="node574" href="$classgr__diff__encoder__bb.html" title="y[0] = (x[0] + y[&#45;1]) % MDifferential encoder" alt="" coords="1084,9597,1220,9627"/>
+<area shape="rect" id="node576" href="$classgr__diff__phasor__cc.html" title="gr_diff_phasor_cc" alt="" coords="1089,9650,1215,9681"/>
+<area shape="rect" id="node578" href="$classgr__dpll__bb.html" title="Detect the peak of a signalIf a peak is detected, this block outputs a 1, or it outputs 0&#39;s..." alt="" coords="1111,9703,1193,9734"/>
+<area shape="rect" id="node580" href="$classgr__endian__swap.html" title="Convert stream of items into thier byte swapped version." alt="" coords="1092,9757,1212,9787"/>
+<area shape="rect" id="node582" href="$classgr__fake__channel__decoder__pp.html" title="remove fake padding from packetinput: stream of byte vectors; output: stream of byte vectors..." alt="" coords="1052,9810,1252,9841"/>
+<area shape="rect" id="node584" href="$classgr__fake__channel__encoder__pp.html" title="pad packet with alternating 1,0 pattern.input: stream of byte vectors; output: stream of byte vectors..." alt="" coords="1053,9863,1251,9894"/>
+<area shape="rect" id="node586" href="$classgr__feedforward__agc__cc.html" title="Non&#45;causal AGC which computes required gain based on max absolute value over nsamples." alt="" coords="1071,9917,1233,9947"/>
+<area shape="rect" id="node588" href="$classgr__fft__vcc.html" title="Compute forward or reverse FFT. complex vector in / complex vector out.Abstract base class..." alt="" coords="1113,11943,1191,11974"/>
+<area shape="rect" id="node592" href="$classgr__fft__vfc.html" title="Compute forward FFT. float vector in / complex vector out." alt="" coords="1115,10023,1189,10054"/>
+<area shape="rect" id="node594" href="$classgr__file__descriptor__sink.html" title="Write stream to file descriptor." alt="" coords="1075,10077,1229,10107"/>
+<area shape="rect" id="node596" href="$classgr__file__descriptor__source.html" title="Read stream from file descriptor." alt="" coords="1067,10130,1237,10161"/>
+<area shape="rect" id="node599" href="$classgr__file__source.html" title="Read stream from file." alt="" coords="1099,10183,1205,10214"/>
+<area shape="rect" id="node601" href="$classgr__filter__delay__fc.html" title="Filter&#45;Delay Combination Block.The block takes one or two float stream and outputs a complex stream..." alt="" coords="1091,10237,1213,10267"/>
+<area shape="rect" id="node603" href="$classgr__float__to__char.html" title="Convert stream of float to a stream of char." alt="" coords="1093,10290,1211,10321"/>
+<area shape="rect" id="node605" href="$classgr__float__to__complex.html" title="Convert 1 or 2 streams of float to a stream of gr_complex." alt="" coords="1081,10343,1223,10374"/>
+<area shape="rect" id="node607" href="$classgr__float__to__int.html" title="Convert stream of float to a stream of short." alt="" coords="1100,10397,1204,10427"/>
+<area shape="rect" id="node609" href="$classgr__float__to__short.html" title="Convert stream of float to a stream of short." alt="" coords="1092,10450,1212,10481"/>
+<area shape="rect" id="node611" href="$classgr__float__to__uchar.html" title="Convert stream of float to a stream of unsigned char." alt="" coords="1091,10503,1213,10534"/>
+<area shape="rect" id="node613" href="$classgr__fmdet__cf.html" title="Implements an IQ slope detector." alt="" coords="1107,10557,1197,10587"/>
+<area shape="rect" id="node615" href="$classgr__framer__sink__1.html" title="Given a stream of bits and access_code flags, assemble packets.input: stream of bytes from gr_correla..." alt="" coords="1091,10610,1213,10641"/>
+<area shape="rect" id="node617" href="$classgr__frequency__modulator__fc.html" title="Frequency modulator blockfloat input; complex baseband output." alt="" coords="1060,10663,1244,10694"/>
+<area shape="rect" id="node619" href="$classgr__glfsr__source__b.html" title="Galois LFSR pseudo&#45;random source." alt="" coords="1088,10717,1216,10747"/>
+<area shape="rect" id="node621" href="$classgr__glfsr__source__f.html" title="Galois LFSR pseudo&#45;random source generating float outputs &#45;1.0 &#45; 1.0." alt="" coords="1091,10770,1213,10801"/>
+<area shape="rect" id="node623" href="$classgr__head.html" title="copies the first N items to the output then signals doneUseful for building test cases" alt="" coords="1116,10823,1188,10854"/>
+<area shape="rect" id="node625" href="$classgr__hilbert__fc.html" title="Hilbert transformer.real output is input appropriately delayed. imaginary output is hilbert filtered ..." alt="" coords="1105,10877,1199,10907"/>
+<area shape="rect" id="node627" href="$classgr__histo__sink__f.html" title="Histogram module." alt="" coords="1097,10930,1207,10961"/>
+<area shape="rect" id="node629" href="$classgr__iir__filter__ffd.html" title="IIR filter with float input, float output and double tapsThis filter uses the Direct Form I implement..." alt="" coords="1101,10983,1203,11014"/>
+<area shape="rect" id="node631" href="$classgr__int__to__float.html" title="Convert stream of int to a stream of float." alt="" coords="1100,11037,1204,11067"/>
+<area shape="rect" id="node633" href="$classgr__iqcomp__cc.html" title="gr_iqcomp_cc" alt="" coords="1099,11090,1205,11121"/>
+<area shape="rect" id="node635" href="$classgr__kludge__copy.html" title="output[i] = input[i]This is a short term kludge to work around a problem with the hierarchical block ..." alt="" coords="1093,11143,1211,11174"/>
+<area shape="rect" id="node637" href="$classgr__lfsr__32k__source__s.html" title="LFSR pseudo&#45;random source with period of 2^15 bits (2^11 shorts)This source is typically used along w..." alt="" coords="1079,11197,1225,11227"/>
+<area shape="rect" id="node639" href="$classgr__map__bb.html" title="output[i] = map[input[i]]" alt="" coords="1108,11250,1196,11281"/>
+<area shape="rect" id="node641" href="$classgr__message__burst__source.html" title="Turn received messages into a stream and tag them for UHD to send." alt="" coords="1061,11303,1243,11334"/>
+<area shape="rect" id="node643" href="$classgr__message__sink.html" title="Gather received items into messages and insert into msgq." alt="" coords="1088,11357,1216,11387"/>
+<area shape="rect" id="node645" href="$classgr__message__source.html" title="Turn received messages into a stream." alt="" coords="1079,11410,1225,11441"/>
+<area shape="rect" id="node647" href="$classgr__multiply__cc.html" title="Multiply streams of complex values." alt="" coords="1099,11463,1205,11494"/>
+<area shape="rect" id="node649" href="$classgr__multiply__conjugate__cc.html" title="Multiplies a stream by the conjugate of the second stream." alt="" coords="1067,11517,1237,11547"/>
+<area shape="rect" id="node651" href="$classgr__multiply__const__cc.html" title="Multiply stream of complex values with a constant k." alt="" coords="1080,11570,1224,11601"/>
+<area shape="rect" id="node653" href="$classgr__multiply__const__ff.html" title="Multiply stream of float values with a constant k." alt="" coords="1084,11623,1220,11654"/>
+<area shape="rect" id="node655" href="$classgr__multiply__ff.html" title="Multiply streams of complex values." alt="" coords="1103,11677,1201,11707"/>
+<area shape="rect" id="node657" href="$classgr__nlog10__ff.html" title="output = n*log10(input) + k" alt="" coords="1105,11730,1199,11761"/>
+<area shape="rect" id="node659" href="$classgr__null__sink.html" title="Bit bucket." alt="" coords="1107,11783,1197,11814"/>
+<area shape="rect" id="node661" href="$classgr__null__source.html" title="A source of zeros." alt="" coords="1097,11837,1207,11867"/>
+<area shape="rect" id="node663" href="$classgr__ofdm__frame__sink2.html" title="Takes an OFDM symbol in, demaps it into bits of 0&#39;s and 1&#39;s, packs them into packets, and sends to to a message queue sink.NOTE: The mod input parameter simply chooses a pre&#45;defined demapper/slicer. Eventually, we want to be able to pass in a reference to an object to do the demapping and slicing for a given modulation type." alt="" coords="1077,11890,1227,11921"/>
+<area shape="rect" id="node665" href="$classgr__oscope__sink__x.html" title="Abstract class for python oscilloscope module.Don&#39;t instantiate this. Use gr_oscope_sink_f or gr_osco..." alt="" coords="1087,13117,1217,13147"/>
+<area shape="rect" id="node669" href="$classgr__pa__2x2__phase__combiner.html" title="pa_2x2 phase combinerAnntenas are arranged like this:" alt="" coords="1057,11997,1247,12027"/>
+<area shape="rect" id="node671" href="$classgr__packet__sink.html" title="process received bits looking for packet sync, header, and process bits into packet" alt="" coords="1096,12050,1208,12081"/>
+<area shape="rect" id="node673" href="$classgr__pdu__to__tagged__stream.html" title="Turn received messages into a stream." alt="" coords="1063,12103,1241,12134"/>
+<area shape="rect" id="node675" href="$classgr__peak__detector2__fb.html" title="Detect the peak of a signalIf a peak is detected, this block outputs a 1, or it outputs 0&#39;s..." alt="" coords="1077,12157,1227,12187"/>
+<area shape="rect" id="node677" href="$classgr__pfb__decimator__ccf.html" title="Polyphase filterbank bandpass decimator with gr_complex input, gr_complex output and float taps..." alt="" coords="1077,12210,1227,12241"/>
+<area shape="rect" id="node679" href="$classgr__phase__modulator__fc.html" title="Phase modulator blockoutput=complex(cos(in*sensitivity),sin(in*sensitivity))" alt="" coords="1071,12263,1233,12294"/>
+<area shape="rect" id="node684" href="$classgr__probe__avg__mag__sqrd__c.html" title="compute avg magnitude squared.input: gr_complex" alt="" coords="1059,12317,1245,12347"/>
+<area shape="rect" id="node686" href="$classgr__probe__avg__mag__sqrd__cf.html" title="compute avg magnitude squared.input: gr_complex output: gr_float" alt="" coords="1057,12370,1247,12401"/>
+<area shape="rect" id="node688" href="$classgr__probe__avg__mag__sqrd__f.html" title="compute avg magnitude squared.input: float" alt="" coords="1061,12423,1243,12454"/>
+<area shape="rect" id="node690" href="$classgr__probe__density__b.html" title="gr_probe_density_b" alt="" coords="1083,12477,1221,12507"/>
+<area shape="rect" id="node692" href="$classgr__quadrature__demod__cf.html" title="quadrature demodulator: complex in, float outThis can be used to demod FM, FSK, GMSK, etc. The input is complex baseband." alt="" coords="1065,12530,1239,12561"/>
+<area shape="rect" id="node694" href="$classgr__rail__ff.html" title="gr_rail_ff" alt="" coords="1116,12583,1188,12614"/>
+<area shape="rect" id="node696" href="$classgr__regenerate__bb.html" title="Detect the peak of a signal and repeat every period samplesIf a peak is detected, this block outputs ..." alt="" coords="1088,12637,1216,12667"/>
+<area shape="rect" id="node698" href="$classgr__rms__cf.html" title="RMS average power." alt="" coords="1112,12690,1192,12721"/>
+<area shape="rect" id="node700" href="$classgr__rms__ff.html" title="RMS average power." alt="" coords="1115,12743,1189,12774"/>
+<area shape="rect" id="node702" href="$classgr__scrambler__bb.html" title="gr_scrambler_bb" alt="" coords="1092,12797,1212,12827"/>
+<area shape="rect" id="node704" href="$classgr__short__to__char.html" title="Convert stream of short to a stream of float." alt="" coords="1092,12850,1212,12881"/>
+<area shape="rect" id="node706" href="$classgr__short__to__float.html" title="Convert stream of short to a stream of float." alt="" coords="1092,12903,1212,12934"/>
+<area shape="rect" id="node708" href="$classgr__simple__squelch__cc.html" title="simple squelch block based on average signal power and threshold in dB." alt="" coords="1075,12957,1229,12987"/>
+<area shape="rect" id="node710" href="$classgr__single__pole__iir__filter__cc.html" title="single pole IIR filter with complex input, complex outputThe input and output satisfy a difference eq..." alt="" coords="1063,13010,1241,13041"/>
+<area shape="rect" id="node712" href="$classgr__single__pole__iir__filter__ff.html" title="single pole IIR filter with float input, float outputThe input and output satisfy a difference equati..." alt="" coords="1067,13063,1237,13094"/>
+<area shape="rect" id="node714" href="$classgr__stream__pdu__base.html" title="Gather received items into messages and insert into msgq." alt="" coords="1079,13327,1225,13358"/>
+<area shape="rect" id="node718" href="$classgr__streams__to__vector.html" title="convert N streams of items to 1 stream of vector length N" alt="" coords="1077,13170,1227,13201"/>
+<area shape="rect" id="node720" href="$classgr__stretch__ff.html" title="gr_stretch_ff" alt="" coords="1105,13223,1199,13254"/>
+<area shape="rect" id="node722" href="$classgr__sync__decimator.html" title="synchronous N:1 input to output with historyOverride work to provide the signal processing implementa..." alt="" coords="1085,13381,1219,13411"/>
+<area shape="rect" id="node800" href="$classgr__sync__interpolator.html" title="synchronous 1:N input to output with historyOverride work to provide the signal processing implementa..." alt="" coords="1081,3303,1223,3334"/>
+<area shape="rect" id="node868" href="$classgr__tagged__file__sink.html" title="Write stream to file descriptor." alt="" coords="1083,1117,1221,1147"/>
+<area shape="rect" id="node870" href="$classgr__tagged__stream__to__pdu.html" title="Turn received messages into a stream." alt="" coords="1063,1170,1241,1201"/>
+<area shape="rect" id="node872" href="$classgr__threshold__ff.html" title="Please fix my documentation." alt="" coords="1097,1223,1207,1254"/>
+<area shape="rect" id="node874" href="$classgr__throttle.html" title="throttle flow of samples such that the average rate does not exceed samples_per_sec.input: one stream of itemsize; output: one stream of itemsize" alt="" coords="1112,1277,1192,1307"/>
+<area shape="rect" id="node876" href="$classgr__transcendental.html" title="A block that performs various transcendental math operations." alt="" coords="1088,1330,1216,1361"/>
+<area shape="rect" id="node878" href="$classgr__uchar__to__float.html" title="Convert stream of unsigned chars to a stream of float." alt="" coords="1091,1383,1213,1414"/>
+<area shape="rect" id="node880" href="$classgr__udp__sink.html" title="Write stream to an UDP socket." alt="" coords="1105,1437,1199,1467"/>
+<area shape="rect" id="node882" href="$classgr__udp__source.html" title="Read stream from an UDP socket." alt="" coords="1097,1490,1207,1521"/>
+<area shape="rect" id="node884" href="$classgr__vco__f.html" title="VCO &#45; Voltage controlled oscillatorinput: float stream of control voltages; output: float oscillator ..." alt="" coords="1116,1543,1188,1574"/>
+<area shape="rect" id="node886" href="$classgr__vector__map.html" title="Maps elements from a set of input vectors to a set of output vectors." alt="" coords="1097,1597,1207,1627"/>
+<area shape="rect" id="node888" href="$classgr__vector__to__streams.html" title="Convert 1 stream of vectors of length N to N streams of items." alt="" coords="1077,1650,1227,1681"/>
+<area shape="rect" id="node890" href="$classgr__wavfile__sink.html" title="Write stream to a Microsoft PCM (.wav) file." alt="" coords="1095,1703,1209,1734"/>
+<area shape="rect" id="node892" href="$classgr__wavfile__source.html" title="Read stream from a Microsoft PCM (.wav) file, output floats." alt="" coords="1087,1757,1217,1787"/>
+<area shape="rect" id="node894" href="$classnoaa__hrpt__decoder.html" title="noaa_hrpt_decoder" alt="" coords="1083,1810,1221,1841"/>
+<area shape="rect" id="node896" href="$classnoaa__hrpt__pll__cf.html" title="noaa_hrpt_pll_cf" alt="" coords="1093,1863,1211,1894"/>
+<area shape="rect" id="node898" href="$classpager__slicer__fb.html" title="slicer description" alt="" coords="1096,1917,1208,1947"/>
+<area shape="rect" id="node900" href="$classqtgui__time__sink__c.html" title="A graphical sink to display multiple signals in time.This is a QT&#45;based graphical sink the takes set ..." alt="" coords="1088,1970,1216,2001"/>
+<area shape="rect" id="node902" href="$classqtgui__time__sink__f.html" title="A graphical sink to display multiple signals in time.This is a QT&#45;based graphical sink the takes set ..." alt="" coords="1091,2023,1213,2054"/>
+<area shape="rect" id="node904" href="$classshd__smini__sink.html" title="shd_smini_sink" alt="" coords="1096,2077,1208,2107"/>
+<area shape="rect" id="node906" href="$classshd__smini__source.html" title="shd_smini_source" alt="" coords="1087,2130,1217,2161"/>
+<area shape="rect" id="node908" href="$classtag__sink__demo.html" title="tag_sink_demo" alt="" coords="1095,2183,1209,2214"/>
+<area shape="rect" id="node910" href="$classtag__source__demo.html" title="tag_source_demo" alt="" coords="1087,2237,1217,2267"/>
+<area shape="rect" id="node912" href="$classtrellis__permutation.html" title="Permutation." alt="" coords="1088,2290,1216,2321"/>
+<area shape="rect" id="node914" href="$classuhd__usrp__sink.html" title="uhd_usrp_sink" alt="" coords="1099,2343,1205,2374"/>
+<area shape="rect" id="node916" href="$classuhd__usrp__source.html" title="uhd_usrp_source" alt="" coords="1091,2397,1213,2427"/>
+<area shape="rect" id="node918" href="$classvideo__sdl__sink__s.html" title="video sink using SDL" alt="" coords="1089,2450,1215,2481"/>
+<area shape="rect" id="node920" href="$classvideo__sdl__sink__uc.html" title="video sink using SDL" alt="" coords="1085,2503,1219,2534"/>
+<area shape="rect" id="node922" href="$classvocoder__alaw__decode__bs.html" title="This block performs alaw audio decoding." alt="" coords="1061,2557,1243,2587"/>
+<area shape="rect" id="node924" href="$classvocoder__alaw__encode__sb.html" title="This block performs g.711 alaw audio encoding." alt="" coords="1061,2610,1243,2641"/>
+<area shape="rect" id="node926" href="$classvocoder__g721__decode__bs.html" title="This block performs g721 audio decoding." alt="" coords="1061,2663,1243,2694"/>
+<area shape="rect" id="node928" href="$classvocoder__g721__encode__sb.html" title="This block performs g721 audio encoding." alt="" coords="1061,2823,1243,2854"/>
+<area shape="rect" id="node930" href="$classvocoder__g723__24__decode__bs.html" title="This block performs g723_24 audio decoding." alt="" coords="1051,2930,1253,2961"/>
+<area shape="rect" id="node932" href="$classvocoder__g723__24__encode__sb.html" title="This block performs g723_24 audio encoding." alt="" coords="1051,2983,1253,3014"/>
+<area shape="rect" id="node934" href="$classvocoder__g723__40__decode__bs.html" title="This block performs g723_40 audio decoding." alt="" coords="1051,3090,1253,3121"/>
+<area shape="rect" id="node936" href="$classvocoder__g723__40__encode__sb.html" title="This block performs g723_40 audio encoding." alt="" coords="1051,3143,1253,3174"/>
+<area shape="rect" id="node938" href="$classvocoder__ulaw__decode__bs.html" title="This block performs ulaw audio decoding." alt="" coords="1061,3197,1243,3227"/>
+<area shape="rect" id="node940" href="$classvocoder__ulaw__encode__sb.html" title="This block performs g.711 ulaw audio encoding." alt="" coords="1061,3250,1243,3281"/>
+<area shape="rect" id="node942" href="$classwavelet__squash__ff.html" title="wavelet_squash_ff" alt="" coords="1085,5597,1219,5627"/>
+<area shape="rect" id="node946" href="$classwavelet__wavelet__ff.html" title="compute wavelet transform using gsl routines" alt="" coords="1084,5650,1220,5681"/>
+<area shape="rect" id="node950" href="$classwavelet__wvps__ff.html" title="computes the Wavelet Power Spectrum from a set of wavelet coefficients" alt="" coords="1092,5703,1212,5734"/>
+<area shape="rect" id="node229" href="$classaudio__alsa__sink.html" title="audio sink using ALSAThe sink has N input streams of floats, where N depends on the hardware characte..." alt="" coords="1408,4050,1528,4081"/>
+<area shape="rect" id="node231" href="$classaudio__jack__sink.html" title="audio sink using JACKThe sink has one input stream of floats." alt="" coords="1409,4103,1527,4134"/>
+<area shape="rect" id="node233" href="$classaudio__oss__sink.html" title="audio sink using OSSinput signature is one or two streams of floats. Input samples must be in the ran..." alt="" coords="1411,4157,1525,4187"/>
+<area shape="rect" id="node235" href="$classaudio__osx__sink.html" title="audio sink using OSXinput signature is one or two streams of floats. Input samples must be in the ran..." alt="" coords="1411,3890,1525,3921"/>
+<area shape="rect" id="node237" href="$classaudio__portaudio__sink.html" title="Audio sink using PORTAUDIOInput samples must be in the range [&#45;1,1]." alt="" coords="1393,3943,1543,3974"/>
+<area shape="rect" id="node239" href="$classaudio__windows__sink.html" title="audio sink using winmm mmsystem (win32 only)input signature is one or two streams of floats..." alt="" coords="1395,3997,1541,4027"/>
+<area shape="rect" id="node243" href="$classaudio__alsa__source.html" title="audio source using ALSAThe source has between 1 and N input streams of floats, where N is depends on ..." alt="" coords="1400,4370,1536,4401"/>
+<area shape="rect" id="node245" href="$classaudio__jack__source.html" title="audio source using JACKThe source has one input stream of floats." alt="" coords="1400,4423,1536,4454"/>
+<area shape="rect" id="node247" href="$classaudio__oss__source.html" title="audio source using OSSOutput signature is one or two streams of floats. Output samples will be in the..." alt="" coords="1401,4477,1535,4507"/>
+<area shape="rect" id="node249" href="$classaudio__osx__source.html" title="audio source using OSXInput signature is one or two streams of floats. Samples must be in the range [..." alt="" coords="1403,4210,1533,4241"/>
+<area shape="rect" id="node251" href="$classaudio__portaudio__source.html" title="Audio source using PORTAUDIOInput samples must be in the range [&#45;1,1]." alt="" coords="1385,4263,1551,4294"/>
+<area shape="rect" id="node253" href="$classaudio__windows__source.html" title="audio source using winmm mmsystem (win32 only)Output signature is one or two streams of floats..." alt="" coords="1387,4317,1549,4347"/>
+<area shape="rect" id="node313" href="$classgr_1_1analog_1_1dpll__bb__impl.html" title="gr::analog::dpll_bb_impl" alt="" coords="1385,5757,1551,5787"/>
+<area shape="rect" id="node317" href="$classgr_1_1analog_1_1feedforward__agc__cc__impl.html" title="gr::analog::feedforward_agc_cc_impl" alt="" coords="1345,5810,1591,5841"/>
+<area shape="rect" id="node321" href="$classgr_1_1analog_1_1fmdet__cf__impl.html" title="gr::analog::fmdet_cf_impl" alt="" coords="1381,5863,1555,5894"/>
+<area shape="rect" id="node325" href="$classgr_1_1analog_1_1frequency__modulator__fc__impl.html" title="gr::analog::frequency_modulator_fc_impl" alt="" coords="1335,5917,1601,5947"/>
+<area shape="rect" id="node329" href="$classgr_1_1analog_1_1phase__modulator__fc__impl.html" title="gr::analog::phase_modulator_fc_impl" alt="" coords="1347,5970,1589,6001"/>
+<area shape="rect" id="node342" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__c__impl.html" title="gr::analog::probe_avg_mag_sqrd_c_impl" alt="" coords="1333,6023,1603,6054"/>
+<area shape="rect" id="node346" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__cf__impl.html" title="gr::analog::probe_avg_mag_sqrd_cf_impl" alt="" coords="1332,6077,1604,6107"/>
+<area shape="rect" id="node350" href="$classgr_1_1analog_1_1probe__avg__mag__sqrd__f__impl.html" title="gr::analog::probe_avg_mag_sqrd_f_impl" alt="" coords="1336,6130,1600,6161"/>
+<area shape="rect" id="node354" href="$classgr_1_1analog_1_1quadrature__demod__cf__impl.html" title="gr::analog::quadrature_demod_cf_impl" alt="" coords="1341,6183,1595,6214"/>
+<area shape="rect" id="node358" href="$classgr_1_1analog_1_1rail__ff__impl.html" title="gr::analog::rail_ff_impl" alt="" coords="1391,6237,1545,6267"/>
+<area shape="rect" id="node362" href="$classgr_1_1analog_1_1simple__squelch__cc__impl.html" title="gr::analog::simple_squelch_cc_impl" alt="" coords="1349,6290,1587,6321"/>
+<area shape="rect" id="node366" href="$classgr_1_1blocks_1_1add__ff__impl.html" title="gr::blocks::add_ff_impl" alt="" coords="1389,6343,1547,6374"/>
+<area shape="rect" id="node370" href="$classgr_1_1blocks_1_1char__to__float__impl.html" title="gr::blocks::char_to_float_impl" alt="" coords="1371,6397,1565,6427"/>
+<area shape="rect" id="node374" href="$classgr_1_1blocks_1_1char__to__short__impl.html" title="gr::blocks::char_to_short_impl" alt="" coords="1368,6450,1568,6481"/>
+<area shape="rect" id="node378" href="$classgr_1_1blocks_1_1complex__to__arg__impl.html" title="gr::blocks::complex_to_arg_impl" alt="" coords="1360,6503,1576,6534"/>
+<area shape="rect" id="node382" href="$classgr_1_1blocks_1_1complex__to__float__impl.html" title="gr::blocks::complex_to_float_impl" alt="" coords="1357,6557,1579,6587"/>
+<area shape="rect" id="node386" href="$classgr_1_1blocks_1_1complex__to__imag__impl.html" title="gr::blocks::complex_to_imag_impl" alt="" coords="1355,6610,1581,6641"/>
+<area shape="rect" id="node390" href="$classgr_1_1blocks_1_1complex__to__mag__impl.html" title="gr::blocks::complex_to_mag_impl" alt="" coords="1357,6663,1579,6694"/>
+<area shape="rect" id="node394" href="$classgr_1_1blocks_1_1complex__to__mag__squared__impl.html" title="gr::blocks::complex_to_mag_squared_impl" alt="" coords="1328,6717,1608,6747"/>
+<area shape="rect" id="node398" href="$classgr_1_1blocks_1_1complex__to__real__impl.html" title="gr::blocks::complex_to_real_impl" alt="" coords="1359,6770,1577,6801"/>
+<area shape="rect" id="node402" href="$classgr_1_1blocks_1_1conjugate__cc__impl.html" title="gr::blocks::conjugate_cc_impl" alt="" coords="1368,6823,1568,6854"/>
+<area shape="rect" id="node406" href="$classgr_1_1blocks_1_1file__meta__sink__impl.html" title="gr::blocks::file_meta_sink_impl" alt="" coords="1365,6877,1571,6907"/>
+<area shape="rect" id="node410" href="$classgr_1_1blocks_1_1file__meta__source__impl.html" title="gr::blocks::file_meta_source_impl" alt="" coords="1357,6930,1579,6961"/>
+<area shape="rect" id="node414" href="$classgr_1_1blocks_1_1file__source__impl.html" title="gr::blocks::file_source_impl" alt="" coords="1376,6983,1560,7014"/>
+<area shape="rect" id="node418" href="$classgr_1_1blocks_1_1float__to__char__impl.html" title="gr::blocks::float_to_char_impl" alt="" coords="1371,7037,1565,7067"/>
+<area shape="rect" id="node422" href="$classgr_1_1blocks_1_1float__to__complex__impl.html" title="gr::blocks::float_to_complex_impl" alt="" coords="1357,7090,1579,7121"/>
+<area shape="rect" id="node426" href="$classgr_1_1blocks_1_1float__to__int__impl.html" title="gr::blocks::float_to_int_impl" alt="" coords="1377,7143,1559,7174"/>
+<area shape="rect" id="node430" href="$classgr_1_1blocks_1_1float__to__short__impl.html" title="gr::blocks::float_to_short_impl" alt="" coords="1369,7197,1567,7227"/>
+<area shape="rect" id="node434" href="$classgr_1_1blocks_1_1float__to__uchar__impl.html" title="gr::blocks::float_to_uchar_impl" alt="" coords="1367,7250,1569,7281"/>
+<area shape="rect" id="node438" href="$classgr_1_1blocks_1_1int__to__float__impl.html" title="gr::blocks::int_to_float_impl" alt="" coords="1377,7303,1559,7334"/>
+<area shape="rect" id="node442" href="$classgr_1_1blocks_1_1multiply__cc__impl.html" title="gr::blocks::multiply_cc_impl" alt="" coords="1376,7357,1560,7387"/>
+<area shape="rect" id="node446" href="$classgr_1_1blocks_1_1multiply__conjugate__cc__impl.html" title="gr::blocks::multiply_conjugate_cc_impl" alt="" coords="1343,7410,1593,7441"/>
+<area shape="rect" id="node450" href="$classgr_1_1blocks_1_1multiply__const__cc__impl.html" title="gr::blocks::multiply_const_cc_impl" alt="" coords="1356,7463,1580,7494"/>
+<area shape="rect" id="node454" href="$classgr_1_1blocks_1_1multiply__const__ff__impl.html" title="gr::blocks::multiply_const_ff_impl" alt="" coords="1360,7517,1576,7547"/>
+<area shape="rect" id="node458" href="$classgr_1_1blocks_1_1multiply__ff__impl.html" title="gr::blocks::multiply_ff_impl" alt="" coords="1380,7570,1556,7601"/>
+<area shape="rect" id="node462" href="$classgr_1_1blocks_1_1nlog10__ff__impl.html" title="gr::blocks::nlog10_ff_impl" alt="" coords="1381,7623,1555,7654"/>
+<area shape="rect" id="node466" href="$classgr_1_1blocks_1_1short__to__char__impl.html" title="gr::blocks::short_to_char_impl" alt="" coords="1368,7677,1568,7707"/>
+<area shape="rect" id="node470" href="$classgr_1_1blocks_1_1short__to__float__impl.html" title="gr::blocks::short_to_float_impl" alt="" coords="1369,7730,1567,7761"/>
+<area shape="rect" id="node474" href="$classgr_1_1blocks_1_1streams__to__vector__impl.html" title="gr::blocks::streams_to_vector_impl" alt="" coords="1353,7783,1583,7814"/>
+<area shape="rect" id="node478" href="$classgr_1_1blocks_1_1uchar__to__float__impl.html" title="gr::blocks::uchar_to_float_impl" alt="" coords="1367,7837,1569,7867"/>
+<area shape="rect" id="node482" href="$classgr_1_1blocks_1_1vector__to__streams__impl.html" title="gr::blocks::vector_to_streams_impl" alt="" coords="1353,7890,1583,7921"/>
+<area shape="rect" id="node486" href="$classgr_1_1fft_1_1fft__vcc__fftw.html" title="gr::fft::fft_vcc_fftw" alt="" coords="1407,7943,1529,7974"/>
+<area shape="rect" id="node490" href="$classgr_1_1fft_1_1fft__vfc__fftw.html" title="gr::fft::fft_vfc_fftw" alt="" coords="1409,7997,1527,8027"/>
+<area shape="rect" id="node494" href="$classgr_1_1filter_1_1dc__blocker__cc__impl.html" title="gr::filter::dc_blocker_cc_impl" alt="" coords="1372,8050,1564,8081"/>
+<area shape="rect" id="node498" href="$classgr_1_1filter_1_1dc__blocker__ff__impl.html" title="gr::filter::dc_blocker_ff_impl" alt="" coords="1376,8103,1560,8134"/>
+<area shape="rect" id="node502" href="$classgr_1_1filter_1_1filter__delay__fc__impl.html" title="gr::filter::filter_delay_fc_impl" alt="" coords="1375,8157,1561,8187"/>
+<area shape="rect" id="node506" href="$classgr_1_1filter_1_1hilbert__fc__impl.html" title="gr::filter::hilbert_fc_impl" alt="" coords="1389,8210,1547,8241"/>
+<area shape="rect" id="node510" href="$classgr_1_1filter_1_1iir__filter__ffd__impl.html" title="gr::filter::iir_filter_ffd_impl" alt="" coords="1385,8263,1551,8294"/>
+<area shape="rect" id="node514" href="$classgr_1_1filter_1_1pfb__decimator__ccf__impl.html" title="gr::filter::pfb_decimator_ccf_impl" alt="" coords="1361,2453,1575,2483"/>
+<area shape="rect" id="node518" href="$classgr_1_1filter_1_1single__pole__iir__filter__cc__impl.html" title="gr::filter::single_pole_iir_filter_cc_impl" alt="" coords="1347,8317,1589,8347"/>
+<area shape="rect" id="node522" href="$classgr_1_1filter_1_1single__pole__iir__filter__ff__impl.html" title="gr::filter::single_pole_iir_filter_ff_impl" alt="" coords="1351,9970,1585,10001"/>
+<area shape="rect" id="node590" href="$classgr__fft__vcc__fftw.html" title="Compute forward or reverse FFT. complex vector in / complex vector out.Concrete class that uses FFTW..." alt="" coords="1416,11943,1520,11974"/>
+<area shape="rect" id="node667" href="$classgr__oscope__sink__f.html" title="Building block for python oscilloscope module.Accepts multiple float streams." alt="" coords="1405,12367,1531,12398"/>
+<area shape="rect" id="node716" href="$classgr__socket__pdu.html" title="Gather received items into messages and insert into msgq." alt="" coords="1413,12421,1523,12451"/>
+<area shape="rect" id="node724" href="$classatsc__pad.html" title="pad mpeg ts packets from 188 byte char to to 256 byte atsc_mpeg_packetinput: unsigned char; output: a..." alt="" coords="1429,13861,1507,13891"/>
+<area shape="rect" id="node726" href="$classdigital__pn__correlator__cc.html" title="PN code sequential search correlator." alt="" coords="1387,13914,1549,13945"/>
+<area shape="rect" id="node728" href="$classgr_1_1blocks_1_1deinterleave.html" title="deinterleave a single input into N outputs" alt="" coords="1387,13967,1549,13998"/>
+<area shape="rect" id="node732" href="$classgr_1_1blocks_1_1interleaved__short__to__complex.html" title="Convert stream of interleaved shorts to a stream of complex." alt="" coords="1335,12474,1601,12505"/>
+<area shape="rect" id="node736" href="$classgr_1_1blocks_1_1stream__to__streams.html" title="convert a stream of items into a N streams of itemsConverts a stream of N items into N streams of 1 i..." alt="" coords="1367,12527,1569,12558"/>
+<area shape="rect" id="node740" href="$classgr_1_1blocks_1_1stream__to__vector.html" title="convert a stream of items into a stream of blocks containing nitems_per_block" alt="" coords="1372,12581,1564,12611"/>
+<area shape="rect" id="node744" href="$classgr_1_1fft_1_1goertzel__fc.html" title="gr::fft::goertzel_fc" alt="" coords="1405,12634,1531,12665"/>
+<area shape="rect" id="node748" href="$classgr_1_1filter_1_1adaptive__fir__ccc.html" title="Adaptive FIR filter with gr_complex input, gr_complex output and gr_complex tapsThis is a base class ..." alt="" coords="1383,12741,1553,12771"/>
+<area shape="rect" id="node751" href="$classgr_1_1filter_1_1adaptive__fir__ccf.html" title="Adaptive FIR filter with gr_complex input, gr_complex output and float tapsThis is a base class to im..." alt="" coords="1385,12901,1551,12931"/>
+<area shape="rect" id="node754" href="$classgr_1_1filter_1_1fft__filter__ccc.html" title="gr::filter::fft_filter_ccc" alt="" coords="1397,12794,1539,12825"/>
+<area shape="rect" id="node758" href="$classgr_1_1filter_1_1fft__filter__fff.html" title="gr::filter::fft_filter_fff" alt="" coords="1403,12954,1533,12985"/>
+<area shape="rect" id="node762" href="$classgr__adaptive__fir__ccc.html" title="Adaptive FIR filter with gr_complex input, gr_complex output and float taps." alt="" coords="1399,13007,1537,13038"/>
+<area shape="rect" id="node770" href="$classgr__adaptive__fir__ccf.html" title="Adaptive FIR filter with gr_complex input, gr_complex output and float taps." alt="" coords="1401,13061,1535,13091"/>
+<area shape="rect" id="node772" href="$classgr__decode__ccsds__27__fb.html" title="A rate 1/2, k=7 convolutional decoder for the CCSDS standardThis block performs soft&#45;decision convolu..." alt="" coords="1384,13114,1552,13145"/>
+<area shape="rect" id="node774" href="$classgr__deinterleave.html" title="deinterleave a single input into N outputs" alt="" coords="1411,13167,1525,13198"/>
+<area shape="rect" id="node776" href="$classgr__fft__filter__ccc.html" title="Fast FFT filter with gr_complex input, gr_complex output and gr_complex taps." alt="" coords="1413,13221,1523,13251"/>
+<area shape="rect" id="node778" href="$classgr__fft__filter__fff.html" title="Fast FFT filter with float input, float output and float taps." alt="" coords="1420,13274,1516,13305"/>
+<area shape="rect" id="node780" href="$classgr__goertzel__fc.html" title="Goertzel single&#45;bin DFT calculation." alt="" coords="1415,13327,1521,13358"/>
+<area shape="rect" id="node782" href="$classgr__interleaved__short__to__complex.html" title="Convert stream of interleaved shorts to a stream of complex." alt="" coords="1359,13381,1577,13411"/>
+<area shape="rect" id="node784" href="$classgr__pack__k__bits__bb.html" title="Converts a stream of bytes with 1 bit in the LSB to a byte with k relevent bits." alt="" coords="1403,13434,1533,13465"/>
+<area shape="rect" id="node786" href="$classgr__pn__correlator__cc.html" title="PN code sequential search correlator." alt="" coords="1399,13487,1537,13518"/>
+<area shape="rect" id="node788" href="$classgr__stream__to__streams.html" title="convert a stream of items into a N streams of itemsConverts a stream of N items into N streams of 1 i..." alt="" coords="1391,13541,1545,13571"/>
+<area shape="rect" id="node790" href="$classgr__stream__to__vector.html" title="convert a stream of items into a stream of blocks containing nitems_per_block" alt="" coords="1396,13594,1540,13625"/>
+<area shape="rect" id="node792" href="$classpager__flex__deinterleave.html" title="flex deinterleave description" alt="" coords="1385,13647,1551,13678"/>
+<area shape="rect" id="node794" href="$classvocoder__codec2__encode__sp.html" title="CODEC2 Vocoder Encoder." alt="" coords="1369,13701,1567,13731"/>
+<area shape="rect" id="node796" href="$classvocoder__cvsd__encode__sb.html" title="This block performs CVSD audio encoding. Its design and implementation is modeled after the CVSD enco..." alt="" coords="1377,13754,1559,13785"/>
+<area shape="rect" id="node798" href="$classvocoder__gsm__fr__encode__sp.html" title="GSM 06.10 Full Rate Vocoder Encodershorts in; 33 byte packets out." alt="" coords="1372,13807,1564,13838"/>
+<area shape="rect" id="node730" href="$classgr_1_1blocks_1_1deinterleave__impl.html" title="gr::blocks::deinterleave_impl" alt="" coords="1708,13967,1903,13998"/>
+<area shape="rect" id="node734" href="$classgr_1_1blocks_1_1interleaved__short__to__complex__impl.html" title="gr::blocks::interleaved_short_to_complex_impl" alt="" coords="1656,12474,1955,12505"/>
+<area shape="rect" id="node738" href="$classgr_1_1blocks_1_1stream__to__streams__impl.html" title="gr::blocks::stream_to_streams_impl" alt="" coords="1688,12527,1923,12558"/>
+<area shape="rect" id="node742" href="$classgr_1_1blocks_1_1stream__to__vector__impl.html" title="gr::blocks::stream_to_vector_impl" alt="" coords="1695,12581,1916,12611"/>
+<area shape="rect" id="node746" href="$classgr_1_1fft_1_1goertzel__fc__impl.html" title="gr::fft::goertzel_fc_impl" alt="" coords="1728,12634,1883,12665"/>
+<area shape="rect" id="node756" href="$classgr_1_1filter_1_1fft__filter__ccc__impl.html" title="gr::filter::fft_filter_ccc_impl" alt="" coords="1719,12794,1892,12825"/>
+<area shape="rect" id="node760" href="$classgr_1_1filter_1_1fft__filter__fff__impl.html" title="gr::filter::fft_filter_fff_impl" alt="" coords="1725,12941,1885,12971"/>
+<area shape="rect" id="node764" href="$classdigital__cma__equalizer__cc.html" title="Implements constant modulus adaptive filter on complex streamThe error value and tap update equations..." alt="" coords="1719,13101,1892,13131"/>
+<area shape="rect" id="node766" href="$classdigital__kurtotic__equalizer__cc.html" title="Implements a kurtosis&#45;based adaptive equalizer on complex stream&quot;Y. Guo, J. Zhao, Y..." alt="" coords="1711,12994,1900,13025"/>
+<area shape="rect" id="node768" href="$classdigital__lms__dd__equalizer__cc.html" title="Least&#45;Mean&#45;Square Decision Directed Equalizer (complex in/out)This block implements an LMS&#45;based deci..." alt="" coords="1709,13047,1901,13078"/>
+<area shape="rect" id="node802" href="$classatsc__depad.html" title="depad mpeg ts packets from 256 byte atsc_mpeg_packet to 188 byte charinput: atsc_mpeg_packet; output:..." alt="" coords="1421,2983,1515,3014"/>
+<area shape="rect" id="node804" href="$classdigital__bytes__to__syms.html" title="Convert stream of bytes to stream of +/&#45; 1 symbolsinput: stream of bytes; output: stream of float..." alt="" coords="1392,3037,1544,3067"/>
+<area shape="rect" id="node806" href="$classdigital__ofdm__cyclic__prefixer.html" title="adds a cyclic prefix vector to an input size long ofdm symbol(vector) and converts vector to a stream..." alt="" coords="1375,3090,1561,3121"/>
+<area shape="rect" id="node808" href="$classgr_1_1analog_1_1cpfsk__bc.html" title="Perform continuous phase 2&#45;level frequency shift keying modulation on an input stream of unpacked bit..." alt="" coords="1396,3143,1540,3174"/>
+<area shape="rect" id="node812" href="$classgr_1_1blocks_1_1complex__to__interleaved__short.html" title="Convert stream of complex to a stream of interleaved shorts." alt="" coords="1335,3197,1601,3227"/>
+<area shape="rect" id="node816" href="$classgr_1_1blocks_1_1interleave.html" title="interleave N inputs into a single output" alt="" coords="1395,3250,1541,3281"/>
+<area shape="rect" id="node820" href="$classgr_1_1blocks_1_1repeat.html" title="repeat each input &#39;interp&#39; times" alt="" coords="1405,3303,1531,3334"/>
+<area shape="rect" id="node824" href="$classgr_1_1blocks_1_1streams__to__stream.html" title="Convert N streams of 1 item into a 1 stream of N itemsConvert N streams of 1 item into 1 stream of N ..." alt="" coords="1367,3357,1569,3387"/>
+<area shape="rect" id="node828" href="$classgr_1_1blocks_1_1vector__to__stream.html" title="convert a stream of blocks of nitems_per_block items into a stream of items" alt="" coords="1372,3410,1564,3441"/>
+<area shape="rect" id="node832" href="$classgr_1_1filter_1_1pfb__interpolator__ccf.html" title="gr::filter::pfb_interpolator_ccf" alt="" coords="1375,2557,1561,2587"/>
+<area shape="rect" id="node836" href="$classgr_1_1filter_1_1pfb__synthesizer__ccf.html" title="Polyphase synthesis filterbank with gr_complex input, gr_complex output and float taps..." alt="" coords="1373,3463,1563,3494"/>
+<area shape="rect" id="node840" href="$classgr__bytes__to__syms.html" title="Convert stream of bytes to stream of +/&#45; 1 symbolsinput: stream of bytes; output: stream of float..." alt="" coords="1404,3517,1532,3547"/>
+<area shape="rect" id="node842" href="$classgr__complex__to__interleaved__short.html" title="Convert stream of complex to a stream of interleaved shorts." alt="" coords="1359,3570,1577,3601"/>
+<area shape="rect" id="node844" href="$classgr__cpfsk__bc.html" title="Perform continuous phase 2&#45;level frequency shift keying modulation on an input stream of unpacked bit..." alt="" coords="1421,3623,1515,3654"/>
+<area shape="rect" id="node846" href="$classgr__encode__ccsds__27__bb.html" title="A rate 1/2, k=7 convolutional encoder for the CCSDS standardThis block performs convolutional encodin..." alt="" coords="1383,3677,1553,3707"/>
+<area shape="rect" id="node848" href="$classgr__interleave.html" title="interleave N inputs to a single output" alt="" coords="1419,3730,1517,3761"/>
+<area shape="rect" id="node850" href="$classgr__pfb__interpolator__ccf.html" title="Polyphase filterbank interpolator with gr_complex input, gr_complex output and float taps..." alt="" coords="1391,3783,1545,3814"/>
+<area shape="rect" id="node852" href="$classgr__pfb__synthesizer__ccf.html" title="Polyphase synthesis filterbank with gr_complex input, gr_complex output and float taps..." alt="" coords="1391,3837,1545,3867"/>
+<area shape="rect" id="node854" href="$classgr__repeat.html" title="Repeat a sample &#39;interp&#39; times in output stream." alt="" coords="1429,2610,1507,2641"/>
+<area shape="rect" id="node856" href="$classgr__streams__to__stream.html" title="Convert N streams of 1 item into a 1 stream of N itemsConvert N streams of 1 item into 1 stream of N ..." alt="" coords="1391,2663,1545,2694"/>
+<area shape="rect" id="node858" href="$classgr__unpack__k__bits__bb.html" title="Converts a byte with k relevent bits to k output bytes with 1 bit in the LSB." alt="" coords="1395,2717,1541,2747"/>
+<area shape="rect" id="node860" href="$classgr__vector__to__stream.html" title="convert a stream of blocks of nitems_per_block items into a stream of items" alt="" coords="1396,2770,1540,2801"/>
+<area shape="rect" id="node862" href="$classvocoder__codec2__decode__ps.html" title="CODEC2 Vocoder Decoder." alt="" coords="1369,2823,1567,2854"/>
+<area shape="rect" id="node864" href="$classvocoder__cvsd__decode__bs.html" title="This block performs CVSD audio decoding. Its design and implementation is modeled after the CVSD enco..." alt="" coords="1377,2877,1559,2907"/>
+<area shape="rect" id="node866" href="$classvocoder__gsm__fr__decode__ps.html" title="GSM 06.10 Full Rate Vocoder Decoder." alt="" coords="1371,2930,1565,2961"/>
+<area shape="rect" id="node810" href="$classgr_1_1analog_1_1cpfsk__bc__impl.html" title="gr::analog::cpfsk_bc_impl" alt="" coords="1719,3143,1892,3174"/>
+<area shape="rect" id="node814" href="$classgr_1_1blocks_1_1complex__to__interleaved__short__impl.html" title="gr::blocks::complex_to_interleaved_short_impl" alt="" coords="1656,3197,1955,3227"/>
+<area shape="rect" id="node818" href="$classgr_1_1blocks_1_1interleave__impl.html" title="gr::blocks::interleave_impl" alt="" coords="1716,3250,1895,3281"/>
+<area shape="rect" id="node822" href="$classgr_1_1blocks_1_1repeat__impl.html" title="gr::blocks::repeat_impl" alt="" coords="1727,3303,1884,3334"/>
+<area shape="rect" id="node826" href="$classgr_1_1blocks_1_1streams__to__stream__impl.html" title="gr::blocks::streams_to_stream_impl" alt="" coords="1688,3357,1923,3387"/>
+<area shape="rect" id="node830" href="$classgr_1_1blocks_1_1vector__to__stream__impl.html" title="gr::blocks::vector_to_stream_impl" alt="" coords="1695,3410,1916,3441"/>
+<area shape="rect" id="node834" href="$classgr_1_1filter_1_1pfb__interpolator__ccf__impl.html" title="gr::filter::pfb_interpolator_ccf_impl" alt="" coords="1696,2531,1915,2562"/>
+<area shape="rect" id="node838" href="$classgr_1_1filter_1_1pfb__synthesizer__ccf__impl.html" title="gr::filter::pfb_synthesizer_ccf_impl" alt="" coords="1696,3463,1915,3494"/>
+<area shape="rect" id="node944" href="$classwavelet__squash__ff__impl.html" title="wavelet_squash_ff_impl" alt="" coords="1387,5597,1549,5627"/>
+<area shape="rect" id="node948" href="$classwavelet__wavelet__ff__impl.html" title="wavelet_wavelet_ff_impl" alt="" coords="1385,5650,1551,5681"/>
+<area shape="rect" id="node952" href="$classwavelet__wvps__ff__impl.html" title="wavelet_wvps_ff_impl" alt="" coords="1393,5703,1543,5734"/>
+<area shape="rect" id="node972" href="$classdigital__cpmmod__bc.html" title="Generic CPM modulator." alt="" coords="795,15295,933,15326"/>
+<area shape="rect" id="node976" href="$classfcd__source__c.html" title="Funcube Dongle source block." alt="" coords="813,15082,915,15113"/>
+<area shape="rect" id="node980" href="$classgr_1_1filter_1_1channel__model.html" title="channel simulatorThis block implements a basic channel model simulator that can be used to help evalu..." alt="" coords="781,15135,947,15166"/>
+<area shape="rect" id="node984" href="$classgr__channel__model.html" title="channel simulator" alt="" coords="797,15189,931,15219"/>
+<area shape="rect" id="node986" href="$classgr__top__block.html" title="Top&#45;level hierarchical block representing a flowgraph." alt="" coords="815,15242,913,15273"/>
+<area shape="rect" id="node974" href="$classdigital__gmskmod__bc.html" title="GMSK modulator." alt="" coords="1079,15295,1225,15326"/>
+<area shape="rect" id="node978" href="$classfcd__source__c__impl.html" title="fcd_source_c_impl" alt="" coords="1085,15082,1219,15113"/>
+<area shape="rect" id="node982" href="$classgr_1_1filter_1_1channel__model__impl.html" title="gr::filter::channel_model_impl" alt="" coords="1053,15135,1251,15166"/>
+<area shape="rect" id="node989" href="$classgr_1_1filter_1_1kernel_1_1polyphase__filterbank.html" title="Polyphase filterbank parent class." alt="" coords="1032,3037,1272,3067"/>
+</map>

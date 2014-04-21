@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$patterned__interleaver_8h.html" title="blocks/patterned_interleaver.h" alt="" coords="2337,86,2537,117"/>
+<area shape="rect" id="node5" href="$gr-blocks_2include_2blocks_2api_8h.html" title="blocks/api.h" alt="" coords="2444,246,2537,277"/>
+<area shape="rect" id="node9" href="$gr__block_8h.html" title="gr_block.h" alt="" coords="2041,166,2124,197"/>
+<area shape="rect" id="node7" href="$attributes_8h.html" title="gruel/attributes.h" alt="" coords="1435,646,1552,677"/>
+<area shape="rect" id="node11" href="$gr__core__api_8h.html" title="gr_core_api.h" alt="" coords="1443,566,1544,597"/>
+<area shape="rect" id="node14" href="$gr__basic__block_8h.html" title="gr_basic_block.h" alt="" coords="1744,246,1867,277"/>
+<area shape="rect" id="node100" href="$gr__tags_8h.html" title="gr_tags.h" alt="" coords="683,406,760,437"/>
+<area shape="rect" id="node17" href="$gr__runtime__types_8h.html" title="gr_runtime_types.h" alt="" coords="1163,406,1296,437"/>
+<area shape="rect" id="node33" href="$gr__sptr__magic_8h_source.html" title="gr_sptr_magic.h" alt="" coords="1180,486,1295,517"/>
+<area shape="rect" id="node41" href="$gr__msg__accepter_8h.html" title="gr_msg_accepter.h" alt="" coords="895,326,1031,357"/>
+<area shape="rect" id="node80" href="$gr__io__signature_8h.html" title="gr_io_signature.h" alt="" coords="1211,326,1333,357"/>
+<area shape="rect" id="node84" href="$thread_8h.html" title="gruel/thread.h" alt="" coords="1357,326,1461,357"/>
+<area shape="rect" id="node20" href="$gr__types_8h.html" title="gr_types.h" alt="" coords="1073,486,1156,517"/>
+<area shape="rect" id="node29" href="$gr__complex_8h.html" title="gr_complex.h" alt="" coords="1224,566,1325,597"/>
+<area shape="rect" id="node44" href="$msg__accepter_8h.html" title="gruel/msg_accepter.h" alt="" coords="835,406,984,437"/>
+<area shape="rect" id="node49" href="$pmt_8h.html" title="gruel/pmt.h" alt="" coords="683,486,768,517"/>
+<area shape="rect" id="node46" href="$gruel_2src_2include_2gruel_2api_8h.html" title="gruel/api.h" alt="" coords="864,566,947,597"/>
+<area shape="rect" id="node60" href="$stdint_8h.html" title="stdint.h" alt="" coords="387,566,448,597"/>
+<area shape="rect" id="node71" href="$pmt__sugar_8h.html" title="gruel/pmt_sugar.h" alt="" coords="661,566,789,597"/>
+</map>

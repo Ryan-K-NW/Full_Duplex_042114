@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1phase__modulator__fc__impl" kind="class" prot="public">
+    <compoundname>gr::analog::phase_modulator_fc_impl</compoundname>
+    <includes refid="phase__modulator__fc__impl_8h" local="no">phase_modulator_fc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a456b45852db91b53786ce427c5966488" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::phase_modulator_fc_impl::d_sensitivity</definition>
+        <argsstring></argsstring>
+        <name>d_sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1ae3d243938b25d85bf020954a7c1f5203" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::analog::phase_modulator_fc_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="35" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a1c8b0731aea6b307ac3a2e6ba57d6d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::phase_modulator_fc_impl::phase_modulator_fc_impl</definition>
+        <argsstring>(double sensitivity)</argsstring>
+        <name>phase_modulator_fc_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sensitivity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a43bc6e4bdc9f75424370008e841c7af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::phase_modulator_fc_impl::~phase_modulator_fc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~phase_modulator_fc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a6d02b4b5ef474b0f3451496c26706206" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::phase_modulator_fc_impl::sensitivity</definition>
+        <argsstring>() const </argsstring>
+        <name>sensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="41" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1aa0b5eda637b2489047e1c5152a2d4ec2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::analog::phase_modulator_fc_impl::phase</definition>
+        <argsstring>() const </argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="42" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1ab285c2ab49d318d2e1f8bf7b453341f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::phase_modulator_fc_impl::set_sensitivity</definition>
+        <argsstring>(double s)</argsstring>
+        <name>set_sensitivity</name>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="44" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a629e4f9829b88da637559765095c68f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::analog::phase_modulator_fc_impl::set_phase</definition>
+        <argsstring>(double p)</argsstring>
+        <name>set_phase</name>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="45" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1phase__modulator__fc__impl_1a680237e1e3592eb66a4d6d553cb54818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::phase_modulator_fc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" line="32" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/lib/phase_modulator_fc_impl.h" bodystart="31" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1ae3d243938b25d85bf020954a7c1f5203" prot="private" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a456b45852db91b53786ce427c5966488" prot="private" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>d_sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1aa0b5eda637b2489047e1c5152a2d4ec2" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a1c8b0731aea6b307ac3a2e6ba57d6d8b" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>phase_modulator_fc_impl</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a6d02b4b5ef474b0f3451496c26706206" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a629e4f9829b88da637559765095c68f4" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1ab285c2ab49d318d2e1f8bf7b453341f0" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>set_sensitivity</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a680237e1e3592eb66a4d6d553cb54818" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1analog_1_1phase__modulator__fc__impl_1a43bc6e4bdc9f75424370008e841c7af9" prot="public" virt="non-virtual"><scope>gr::analog::phase_modulator_fc_impl</scope><name>~phase_modulator_fc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="volk__16i__max__star__horizontal__16i__a_8h" kind="file">
+    <compoundname>volk_16i_max_star_horizontal_16i_a.h</compoundname>
+    <includes refid="volk__common_8h" local="no">volk/volk_common.h</includes>
+    <includes refid="inttypes_8h" local="no">inttypes.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="66240">
+        <label>inttypes.h</label>
+        <link refid="inttypes_8h"/>
+        <childnode refid="66241" relation="include">
+        </childnode>
+      </node>
+      <node id="66239">
+        <label>volk/volk_common.h</label>
+        <link refid="volk__common_8h"/>
+        <childnode refid="66240" relation="include">
+        </childnode>
+      </node>
+      <node id="66241">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="66242" relation="include">
+        </childnode>
+        <childnode refid="66243" relation="include">
+        </childnode>
+      </node>
+      <node id="66242">
+        <label>limits.h</label>
+      </node>
+      <node id="66243">
+        <label>wchar.h</label>
+      </node>
+      <node id="66238">
+        <label>volk_16i_max_star_horizontal_16i_a.h</label>
+        <link refid="volk_16i_max_star_horizontal_16i_a.h"/>
+        <childnode refid="66239" relation="include">
+        </childnode>
+        <childnode refid="66240" relation="include">
+        </childnode>
+        <childnode refid="66244" relation="include">
+        </childnode>
+      </node>
+      <node id="66244">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/volk/include/volk/volk_16i_max_star_horizontal_16i_a.h"/>
+  </compounddef>
+</doxygen>

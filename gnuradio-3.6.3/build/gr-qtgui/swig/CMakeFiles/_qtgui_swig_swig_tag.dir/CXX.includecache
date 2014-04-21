@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/build/gr-qtgui/swig/_qtgui_swig_swig_tag.cpp
+

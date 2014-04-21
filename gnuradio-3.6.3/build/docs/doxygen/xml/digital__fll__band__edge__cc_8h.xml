@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="digital__fll__band__edge__cc_8h" kind="file">
+    <compoundname>digital_fll_band_edge_cc.h</compoundname>
+    <includes refid="digital__api_8h" local="no">digital_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes refid="gri__control__loop_8h" local="no">gri_control_loop.h</includes>
+    <includes local="no">gr_fir_util.h</includes>
+    <includes local="no">gr_fir_ccc.h</includes>
+    <incdepgraph>
+      <node id="39863">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="39842">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39837" relation="include">
+        </childnode>
+      </node>
+      <node id="39865">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="39837">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="39835">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39836" relation="include">
+        </childnode>
+      </node>
+      <node id="39832">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="39830" relation="include">
+        </childnode>
+      </node>
+      <node id="39849">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="39866">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="39869">
+        <label>gri_control_loop.h</label>
+        <link refid="gri__control__loop_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+      </node>
+      <node id="39828">
+        <label>digital_fll_band_edge_cc.h</label>
+        <link refid="digital_fll_band_edge_cc.h"/>
+        <childnode refid="39829" relation="include">
+        </childnode>
+        <childnode refid="39831" relation="include">
+        </childnode>
+        <childnode refid="39869" relation="include">
+        </childnode>
+        <childnode refid="39870" relation="include">
+        </childnode>
+        <childnode refid="39871" relation="include">
+        </childnode>
+      </node>
+      <node id="39840">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="39841" relation="include">
+        </childnode>
+      </node>
+      <node id="39856">
+        <label>stdexcept</label>
+      </node>
+      <node id="39862">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="39829">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="39830" relation="include">
+        </childnode>
+      </node>
+      <node id="39852">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="39853" relation="include">
+        </childnode>
+        <childnode refid="39854" relation="include">
+        </childnode>
+      </node>
+      <node id="39851">
+        <label>string</label>
+      </node>
+      <node id="39834">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39835" relation="include">
+        </childnode>
+        <childnode refid="39842" relation="include">
+        </childnode>
+        <childnode refid="39843" relation="include">
+        </childnode>
+        <childnode refid="39844" relation="include">
+        </childnode>
+        <childnode refid="39845" relation="include">
+        </childnode>
+        <childnode refid="39851" relation="include">
+        </childnode>
+        <childnode refid="39858" relation="include">
+        </childnode>
+        <childnode refid="39859" relation="include">
+        </childnode>
+        <childnode refid="39860" relation="include">
+        </childnode>
+        <childnode refid="39861" relation="include">
+        </childnode>
+        <childnode refid="39866" relation="include">
+        </childnode>
+        <childnode refid="39865" relation="include">
+        </childnode>
+        <childnode refid="39867" relation="include">
+        </childnode>
+      </node>
+      <node id="39859">
+        <label>map</label>
+      </node>
+      <node id="39839">
+        <label>stddef.h</label>
+      </node>
+      <node id="39860">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39835" relation="include">
+        </childnode>
+      </node>
+      <node id="39844">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="39853">
+        <label>limits.h</label>
+      </node>
+      <node id="39833">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39834" relation="include">
+        </childnode>
+        <childnode refid="39868" relation="include">
+        </childnode>
+      </node>
+      <node id="39850">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="39846">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="39847" relation="include">
+        </childnode>
+        <childnode refid="39848" relation="include">
+        </childnode>
+        <childnode refid="39837" relation="include">
+        </childnode>
+      </node>
+      <node id="39854">
+        <label>wchar.h</label>
+      </node>
+      <node id="39864">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="39857">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="39868">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39848" relation="include">
+        </childnode>
+      </node>
+      <node id="39838">
+        <label>vector</label>
+      </node>
+      <node id="39871">
+        <label>gr_fir_ccc.h</label>
+      </node>
+      <node id="39845">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39846" relation="include">
+        </childnode>
+        <childnode refid="39848" relation="include">
+        </childnode>
+      </node>
+      <node id="39843">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="39831">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39833" relation="include">
+        </childnode>
+      </node>
+      <node id="39855">
+        <label>iosfwd</label>
+      </node>
+      <node id="39870">
+        <label>gr_fir_util.h</label>
+      </node>
+      <node id="39848">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="39847" relation="include">
+        </childnode>
+        <childnode refid="39849" relation="include">
+        </childnode>
+        <childnode refid="39837" relation="include">
+        </childnode>
+        <childnode refid="39850" relation="include">
+        </childnode>
+        <childnode refid="39841" relation="include">
+        </childnode>
+        <childnode refid="39851" relation="include">
+        </childnode>
+        <childnode refid="39852" relation="include">
+        </childnode>
+        <childnode refid="39855" relation="include">
+        </childnode>
+        <childnode refid="39856" relation="include">
+        </childnode>
+        <childnode refid="39838" relation="include">
+        </childnode>
+        <childnode refid="39857" relation="include">
+        </childnode>
+      </node>
+      <node id="39867">
+        <label>iostream</label>
+      </node>
+      <node id="39858">
+        <label>deque</label>
+      </node>
+      <node id="39861">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="39847" relation="include">
+        </childnode>
+        <childnode refid="39862" relation="include">
+        </childnode>
+        <childnode refid="39863" relation="include">
+        </childnode>
+        <childnode refid="39864" relation="include">
+        </childnode>
+        <childnode refid="39865" relation="include">
+        </childnode>
+      </node>
+      <node id="39830">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="39841">
+        <label>complex</label>
+      </node>
+      <node id="39836">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="39832" relation="include">
+        </childnode>
+        <childnode refid="39837" relation="include">
+        </childnode>
+        <childnode refid="39838" relation="include">
+        </childnode>
+        <childnode refid="39839" relation="include">
+        </childnode>
+        <childnode refid="39840" relation="include">
+        </childnode>
+      </node>
+      <node id="39847">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="39830" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classdigital__fll__band__edge__cc" prot="public">digital_fll_band_edge_cc</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="digital__fll__band__edge__cc_8h_1a4d91f5a4fac143277a0f04081f37d7e2" prot="public" static="no">
+        <type>gr_fir_ccc *(*</type>
+        <definition>typedef gr_fir_ccc*(* fir_maker_t)(const std::vector&lt; gr_complex &gt; &amp;taps)</definition>
+        <argsstring>)(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>fir_maker_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h" line="33" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="digital__fll__band__edge__cc_8h_1a3b36aca954c220920c2a05ca5e15c41d" prot="public" static="no">
+        <type>gr_fir_ccc</type>
+        <definition>typedef gr_fir_ccc filter_t</definition>
+        <argsstring></argsstring>
+        <name>filter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h" line="34" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="digital__fll__band__edge__cc_8h_1a0cf093022a5ef839fdb4308261c78594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="digital__api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">digital_fll_band_edge_cc_sptr</ref></type>
+        <definition>DIGITAL_API digital_fll_band_edge_cc_sptr digital_make_fll_band_edge_cc</definition>
+        <argsstring>(float samps_per_sym, float rolloff, int filter_size, float bandwidth)</argsstring>
+        <name>digital_make_fll_band_edge_cc</name>
+        <param>
+          <type>float</type>
+          <declname>samps_per_sym</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rolloff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>filter_size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bandwidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the FLL <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samps_per_sym</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Number of samples per symbol of signal </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rolloff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Rolloff factor of signal </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(int) Size (in taps) of the filter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bandwidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(float) Loop bandwidth </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_fll_band_edge_cc.h"/>
+  </compounddef>
+</doxygen>

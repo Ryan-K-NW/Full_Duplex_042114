@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_625c770d503a0cbf7ee970bd2b4c5b0a" kind="dir">
+    <compoundname>/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/</compoundname>
+    <innerdir refid="dir_5a183b432e79f89f81d09abe3abd9db6">/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/"/>
+  </compounddef>
+</doxygen>

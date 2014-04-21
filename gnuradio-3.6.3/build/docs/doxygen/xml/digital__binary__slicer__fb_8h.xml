@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="digital__binary__slicer__fb_8h" kind="file">
+    <compoundname>digital_binary_slicer_fb.h</compoundname>
+    <includes refid="digital__api_8h" local="no">digital_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="39186">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="39165">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39160" relation="include">
+        </childnode>
+      </node>
+      <node id="39188">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="39160">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="39158">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39159" relation="include">
+        </childnode>
+      </node>
+      <node id="39155">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="39153" relation="include">
+        </childnode>
+      </node>
+      <node id="39172">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="39189">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="39163">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="39164" relation="include">
+        </childnode>
+      </node>
+      <node id="39179">
+        <label>stdexcept</label>
+      </node>
+      <node id="39185">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="39152">
+        <label>digital_api.h</label>
+        <link refid="digital__api_8h"/>
+        <childnode refid="39153" relation="include">
+        </childnode>
+      </node>
+      <node id="39175">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="39176" relation="include">
+        </childnode>
+        <childnode refid="39177" relation="include">
+        </childnode>
+      </node>
+      <node id="39174">
+        <label>string</label>
+      </node>
+      <node id="39157">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39158" relation="include">
+        </childnode>
+        <childnode refid="39165" relation="include">
+        </childnode>
+        <childnode refid="39166" relation="include">
+        </childnode>
+        <childnode refid="39167" relation="include">
+        </childnode>
+        <childnode refid="39168" relation="include">
+        </childnode>
+        <childnode refid="39174" relation="include">
+        </childnode>
+        <childnode refid="39181" relation="include">
+        </childnode>
+        <childnode refid="39182" relation="include">
+        </childnode>
+        <childnode refid="39183" relation="include">
+        </childnode>
+        <childnode refid="39184" relation="include">
+        </childnode>
+        <childnode refid="39189" relation="include">
+        </childnode>
+        <childnode refid="39188" relation="include">
+        </childnode>
+        <childnode refid="39190" relation="include">
+        </childnode>
+      </node>
+      <node id="39182">
+        <label>map</label>
+      </node>
+      <node id="39162">
+        <label>stddef.h</label>
+      </node>
+      <node id="39183">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39158" relation="include">
+        </childnode>
+      </node>
+      <node id="39167">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="39176">
+        <label>limits.h</label>
+      </node>
+      <node id="39156">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39157" relation="include">
+        </childnode>
+        <childnode refid="39191" relation="include">
+        </childnode>
+      </node>
+      <node id="39173">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="39169">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="39170" relation="include">
+        </childnode>
+        <childnode refid="39171" relation="include">
+        </childnode>
+        <childnode refid="39160" relation="include">
+        </childnode>
+      </node>
+      <node id="39177">
+        <label>wchar.h</label>
+      </node>
+      <node id="39187">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="39180">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="39191">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39171" relation="include">
+        </childnode>
+      </node>
+      <node id="39151">
+        <label>digital_binary_slicer_fb.h</label>
+        <link refid="digital_binary_slicer_fb.h"/>
+        <childnode refid="39152" relation="include">
+        </childnode>
+        <childnode refid="39154" relation="include">
+        </childnode>
+      </node>
+      <node id="39161">
+        <label>vector</label>
+      </node>
+      <node id="39168">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39169" relation="include">
+        </childnode>
+        <childnode refid="39171" relation="include">
+        </childnode>
+      </node>
+      <node id="39166">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="39154">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39156" relation="include">
+        </childnode>
+      </node>
+      <node id="39178">
+        <label>iosfwd</label>
+      </node>
+      <node id="39171">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="39170" relation="include">
+        </childnode>
+        <childnode refid="39172" relation="include">
+        </childnode>
+        <childnode refid="39160" relation="include">
+        </childnode>
+        <childnode refid="39173" relation="include">
+        </childnode>
+        <childnode refid="39164" relation="include">
+        </childnode>
+        <childnode refid="39174" relation="include">
+        </childnode>
+        <childnode refid="39175" relation="include">
+        </childnode>
+        <childnode refid="39178" relation="include">
+        </childnode>
+        <childnode refid="39179" relation="include">
+        </childnode>
+        <childnode refid="39161" relation="include">
+        </childnode>
+        <childnode refid="39180" relation="include">
+        </childnode>
+      </node>
+      <node id="39190">
+        <label>iostream</label>
+      </node>
+      <node id="39181">
+        <label>deque</label>
+      </node>
+      <node id="39184">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="39170" relation="include">
+        </childnode>
+        <childnode refid="39185" relation="include">
+        </childnode>
+        <childnode refid="39186" relation="include">
+        </childnode>
+        <childnode refid="39187" relation="include">
+        </childnode>
+        <childnode refid="39188" relation="include">
+        </childnode>
+      </node>
+      <node id="39153">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="39164">
+        <label>complex</label>
+      </node>
+      <node id="39159">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="39155" relation="include">
+        </childnode>
+        <childnode refid="39160" relation="include">
+        </childnode>
+        <childnode refid="39161" relation="include">
+        </childnode>
+        <childnode refid="39162" relation="include">
+        </childnode>
+        <childnode refid="39163" relation="include">
+        </childnode>
+      </node>
+      <node id="39170">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="39153" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classdigital__binary__slicer__fb" prot="public">digital_binary_slicer_fb</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="digital__binary__slicer__fb_8h_1a86e7dcebbc7fe38c4eb1b7ebe36bf754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="digital__api_8h_1ae14969f36ec69051c4b2f13a0db7e9ba" kindref="member">DIGITAL_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">digital_binary_slicer_fb_sptr</ref></type>
+        <definition>DIGITAL_API digital_binary_slicer_fb_sptr digital_make_binary_slicer_fb</definition>
+        <argsstring>()</argsstring>
+        <name>digital_make_binary_slicer_fb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_binary_slicer_fb.h" line="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-digital/include/digital_binary_slicer_fb.h"/>
+  </compounddef>
+</doxygen>

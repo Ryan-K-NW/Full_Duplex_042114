@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1analog_1_1lfsr" kind="class" prot="public">
+    <compoundname>gr::analog::lfsr</compoundname>
+    <includes refid="lfsr_8h" local="no">lfsr.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1analog_1_1lfsr_1aa1eab2ecfed3d9dc5fbdbb372a779c2e" prot="private" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t gr::analog::lfsr::d_shift_register</definition>
+        <argsstring></argsstring>
+        <name>d_shift_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="92" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1lfsr_1aa0cfa225345e6fcb975ebf5dd0497926" prot="private" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t gr::analog::lfsr::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="93" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1lfsr_1a0ae93f456f65386e29d8a77f3bc7b8ae" prot="private" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t gr::analog::lfsr::d_seed</definition>
+        <argsstring></argsstring>
+        <name>d_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="94" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1analog_1_1lfsr_1ae513dfe58147659efd85b568d827d14c" prot="private" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t gr::analog::lfsr::d_shift_register_length</definition>
+        <argsstring></argsstring>
+        <name>d_shift_register_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="95" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a76961cb5d5fd50448f5ce8ec5f93c585" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>static uint32_t gr::analog::lfsr::popCount</definition>
+        <argsstring>(uint32_t x)</argsstring>
+        <name>popCount</name>
+        <param>
+          <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="99" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="98" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a020534809c77f796f0b1ba31bca2a001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gr::analog::lfsr::lfsr</definition>
+        <argsstring>(uint32_t mask, uint32_t seed, uint32_t reg_len)</argsstring>
+        <name>lfsr</name>
+        <param>
+          <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+          <declname>reg_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="111" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a473d4e2fd9422486fa8e7e825ad8c8e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::analog::lfsr::next_bit</definition>
+        <argsstring>()</argsstring>
+        <name>next_bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="117" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="116" bodyend="122"/>
+        <referencedby refid="classgr_1_1analog_1_1lfsr_1a0bb7e05f6d6bf6f815251148ca25847d" compoundref="lfsr_8h" startline="149" endline="154">pre_shift</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a31dfc404ba747404a982e4674b6c38fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::analog::lfsr::next_bit_scramble</definition>
+        <argsstring>(unsigned char input)</argsstring>
+        <name>next_bit_scramble</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="125" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a11fd6a4c5c2305a448f7469613e300e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::analog::lfsr::next_bit_descramble</definition>
+        <argsstring>(unsigned char input)</argsstring>
+        <name>next_bit_descramble</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="133" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a06fefe2df0e652dd7cac9657a9b2ebad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::lfsr::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset shift register to initial seed value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="143" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a0bb7e05f6d6bf6f815251148ca25847d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="volk_8tmpl_8h_1a8dc2b7da310a28e667530ba0e8ca4cc4" kindref="member">void</ref></type>
+        <definition>void gr::analog::lfsr::pre_shift</definition>
+        <argsstring>(int num)</argsstring>
+        <name>pre_shift</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rotate the register through x number of bits where we are just throwing away the results to get queued up correctly </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="150" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="149" bodyend="154"/>
+        <references refid="classgr_1_1analog_1_1lfsr_1a473d4e2fd9422486fa8e7e825ad8c8e4" compoundref="lfsr_8h" startline="116" endline="122">next_bit</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1analog_1_1lfsr_1a79298d93a2b55146f701e65870316b2c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::analog::lfsr::mask</definition>
+        <argsstring>() const </argsstring>
+        <name>mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="156" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fibonacci Linear Feedback Shift Register using specified polynomial mask</para><para>Generates a maximal length pseudo-random sequence of length 2^degree-1. </para>    </briefdescription>
+    <detaileddescription>
+<para>Constructor: analog::lfsr(int mask, int seed, int reg_len);</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- polynomial coefficients representing the locations of feedback taps from a shift register which are xor&apos;ed together to form the new high order bit.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Some common masks might be: x^4 + x^3 + x^0 = 0x19 x^5 + x^3 + x^0 = 0x29 x^6 + x^5 + x^0 = 0x61</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the initialization vector placed into the register durring initialization. Low order bit corresponds to x^0 coefficient -- the first to be shifted as output.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- specifies the length of the feedback shift register to be used. Durring each iteration, the register is rightshifted one and the new bit is placed in bit reg_len. reg_len should generally be at least order(mask) + 1</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+see <ulink url="http://en.wikipedia.org/wiki/Linear_feedback_shift_register">http://en.wikipedia.org/wiki/Linear_feedback_shift_register</ulink> for more explanation.</para><para><ref refid="classgr_1_1analog_1_1lfsr_1a473d4e2fd9422486fa8e7e825ad8c8e4" kindref="member">next_bit()</ref> - Standard LFSR operation</para><para>Perform one cycle of the LFSR. The output bit is taken from the shift register LSB. The shift register MSB is assigned from the modulo 2 sum of the masked shift register.</para><para><ref refid="classgr_1_1analog_1_1lfsr_1a31dfc404ba747404a982e4674b6c38fe" kindref="member">next_bit_scramble(unsigned char input)</ref> - Scramble an input stream</para><para>Perform one cycle of the LFSR. The output bit is taken from the shift register LSB. The shift register MSB is assigned from the modulo 2 sum of the masked shift register and the input LSB.</para><para><ref refid="classgr_1_1analog_1_1lfsr_1a11fd6a4c5c2305a448f7469613e300e6" kindref="member">next_bit_descramble(unsigned char input)</ref> - Descramble an input stream</para><para>Perform one cycle of the LFSR. The output bit is taken from the modulo 2 sum of the masked shift register and the input LSB. The shift register MSB is assigned from the LSB of the input.</para><para>See <ulink url="http://en.wikipedia.org/wiki/Scrambler">http://en.wikipedia.org/wiki/Scrambler</ulink> for operation of these last two functions (see multiplicative scrambler.) </para>    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" line="90" bodyfile="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-analog/include/analog/lfsr.h" bodystart="89" bodyend="157"/>
+    <listofallmembers>
+      <member refid="classgr_1_1analog_1_1lfsr_1aa0cfa225345e6fcb975ebf5dd0497926" prot="private" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a0ae93f456f65386e29d8a77f3bc7b8ae" prot="private" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>d_seed</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1aa1eab2ecfed3d9dc5fbdbb372a779c2e" prot="private" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>d_shift_register</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1ae513dfe58147659efd85b568d827d14c" prot="private" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>d_shift_register_length</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a020534809c77f796f0b1ba31bca2a001" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>lfsr</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a79298d93a2b55146f701e65870316b2c" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>mask</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a473d4e2fd9422486fa8e7e825ad8c8e4" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>next_bit</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a11fd6a4c5c2305a448f7469613e300e6" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>next_bit_descramble</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a31dfc404ba747404a982e4674b6c38fe" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>next_bit_scramble</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a76961cb5d5fd50448f5ce8ec5f93c585" prot="private" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>popCount</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a0bb7e05f6d6bf6f815251148ca25847d" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>pre_shift</name></member>
+      <member refid="classgr_1_1analog_1_1lfsr_1a06fefe2df0e652dd7cac9657a9b2ebad" prot="public" virt="non-virtual"><scope>gr::analog::lfsr</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="microtune__4937_8h" kind="file">
+    <compoundname>microtune_4937.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="microtune__xxxx_8h" local="no">microtune_xxxx.h</includes>
+    <incdepgraph>
+      <node id="58118">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="58115">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="58116" relation="include">
+        </childnode>
+      </node>
+      <node id="58114">
+        <label>microtune_4937.h</label>
+        <link refid="microtune_4937.h"/>
+        <childnode refid="58115" relation="include">
+        </childnode>
+        <childnode refid="58117" relation="include">
+        </childnode>
+      </node>
+      <node id="58117">
+        <label>microtune_xxxx.h</label>
+        <link refid="microtune__xxxx_8h"/>
+        <childnode refid="58115" relation="include">
+        </childnode>
+        <childnode refid="58118" relation="include">
+        </childnode>
+      </node>
+      <node id="58116">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classmicrotune__4937" prot="public">microtune_4937</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/io/microtune_4937.h"/>
+  </compounddef>
+</doxygen>

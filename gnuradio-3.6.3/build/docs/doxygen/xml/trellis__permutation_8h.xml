@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="trellis__permutation_8h" kind="file">
+    <compoundname>trellis_permutation.h</compoundname>
+    <includes refid="trellis__api_8h" local="no">trellis_api.h</includes>
+    <includes local="no">vector</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="65012">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="64991">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64987" relation="include">
+        </childnode>
+      </node>
+      <node id="65014">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="64987">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="64985">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64986" relation="include">
+        </childnode>
+      </node>
+      <node id="64982">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="64979" relation="include">
+        </childnode>
+      </node>
+      <node id="64998">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="65015">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="64989">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="64990" relation="include">
+        </childnode>
+      </node>
+      <node id="65005">
+        <label>stdexcept</label>
+      </node>
+      <node id="65011">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="65001">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="65002" relation="include">
+        </childnode>
+        <childnode refid="65003" relation="include">
+        </childnode>
+      </node>
+      <node id="65000">
+        <label>string</label>
+      </node>
+      <node id="64984">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64985" relation="include">
+        </childnode>
+        <childnode refid="64991" relation="include">
+        </childnode>
+        <childnode refid="64992" relation="include">
+        </childnode>
+        <childnode refid="64993" relation="include">
+        </childnode>
+        <childnode refid="64994" relation="include">
+        </childnode>
+        <childnode refid="65000" relation="include">
+        </childnode>
+        <childnode refid="65007" relation="include">
+        </childnode>
+        <childnode refid="65008" relation="include">
+        </childnode>
+        <childnode refid="65009" relation="include">
+        </childnode>
+        <childnode refid="65010" relation="include">
+        </childnode>
+        <childnode refid="65015" relation="include">
+        </childnode>
+        <childnode refid="65014" relation="include">
+        </childnode>
+        <childnode refid="65016" relation="include">
+        </childnode>
+      </node>
+      <node id="65008">
+        <label>map</label>
+      </node>
+      <node id="64988">
+        <label>stddef.h</label>
+      </node>
+      <node id="65009">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64985" relation="include">
+        </childnode>
+      </node>
+      <node id="64993">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="65002">
+        <label>limits.h</label>
+      </node>
+      <node id="64983">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64984" relation="include">
+        </childnode>
+        <childnode refid="65017" relation="include">
+        </childnode>
+      </node>
+      <node id="64999">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="64978">
+        <label>trellis_api.h</label>
+        <link refid="trellis__api_8h"/>
+        <childnode refid="64979" relation="include">
+        </childnode>
+      </node>
+      <node id="64995">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="64996" relation="include">
+        </childnode>
+        <childnode refid="64997" relation="include">
+        </childnode>
+        <childnode refid="64987" relation="include">
+        </childnode>
+      </node>
+      <node id="65003">
+        <label>wchar.h</label>
+      </node>
+      <node id="65013">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="65006">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="65017">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64997" relation="include">
+        </childnode>
+      </node>
+      <node id="64980">
+        <label>vector</label>
+      </node>
+      <node id="64994">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64995" relation="include">
+        </childnode>
+        <childnode refid="64997" relation="include">
+        </childnode>
+      </node>
+      <node id="64992">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="64981">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64983" relation="include">
+        </childnode>
+      </node>
+      <node id="65004">
+        <label>iosfwd</label>
+      </node>
+      <node id="64997">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="64996" relation="include">
+        </childnode>
+        <childnode refid="64998" relation="include">
+        </childnode>
+        <childnode refid="64987" relation="include">
+        </childnode>
+        <childnode refid="64999" relation="include">
+        </childnode>
+        <childnode refid="64990" relation="include">
+        </childnode>
+        <childnode refid="65000" relation="include">
+        </childnode>
+        <childnode refid="65001" relation="include">
+        </childnode>
+        <childnode refid="65004" relation="include">
+        </childnode>
+        <childnode refid="65005" relation="include">
+        </childnode>
+        <childnode refid="64980" relation="include">
+        </childnode>
+        <childnode refid="65006" relation="include">
+        </childnode>
+      </node>
+      <node id="65016">
+        <label>iostream</label>
+      </node>
+      <node id="65007">
+        <label>deque</label>
+      </node>
+      <node id="64977">
+        <label>trellis_permutation.h</label>
+        <link refid="trellis_permutation.h"/>
+        <childnode refid="64978" relation="include">
+        </childnode>
+        <childnode refid="64980" relation="include">
+        </childnode>
+        <childnode refid="64981" relation="include">
+        </childnode>
+      </node>
+      <node id="65010">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="64996" relation="include">
+        </childnode>
+        <childnode refid="65011" relation="include">
+        </childnode>
+        <childnode refid="65012" relation="include">
+        </childnode>
+        <childnode refid="65013" relation="include">
+        </childnode>
+        <childnode refid="65014" relation="include">
+        </childnode>
+      </node>
+      <node id="64979">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="64990">
+        <label>complex</label>
+      </node>
+      <node id="64986">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="64982" relation="include">
+        </childnode>
+        <childnode refid="64987" relation="include">
+        </childnode>
+        <childnode refid="64980" relation="include">
+        </childnode>
+        <childnode refid="64988" relation="include">
+        </childnode>
+        <childnode refid="64989" relation="include">
+        </childnode>
+      </node>
+      <node id="64996">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="64979" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classtrellis__permutation" prot="public">trellis_permutation</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="trellis__permutation_8h_1aba04666dc84acb89e799c76f29c42bce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="trellis__api_8h_1a127b54fd15c5829a93039ece2d5467b0" kindref="member">TRELLIS_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">trellis_permutation_sptr</ref></type>
+        <definition>TRELLIS_API trellis_permutation_sptr trellis_make_permutation</definition>
+        <argsstring>(int K, const std::vector&lt; int &gt; &amp;TABLE, int SYMS_PER_BLOCK, size_t BYTES_PER_SYMBOL)</argsstring>
+        <name>trellis_make_permutation</name>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>TABLE</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SYMS_PER_BLOCK</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>BYTES_PER_SYMBOL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/src/lib/trellis_permutation.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-trellis/src/lib/trellis_permutation.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$gr__core__api_8h.html" title="gr_core_api.h" alt="" coords="1039,486,1140,517"/>
+<area shape="rect" id="node7" href="$gr__block_8h.html" title="gr_block.h" alt="" coords="895,86,977,117"/>
+<area shape="rect" id="node5" href="$attributes_8h.html" title="gruel/attributes.h" alt="" coords="1088,566,1205,597"/>
+<area shape="rect" id="node10" href="$gr__basic__block_8h.html" title="gr_basic_block.h" alt="" coords="875,166,997,197"/>
+<area shape="rect" id="node96" href="$gr__tags_8h.html" title="gr_tags.h" alt="" coords="1611,326,1688,357"/>
+<area shape="rect" id="node13" href="$gr__runtime__types_8h.html" title="gr_runtime_types.h" alt="" coords="1179,326,1312,357"/>
+<area shape="rect" id="node29" href="$gr__sptr__magic_8h_source.html" title="gr_sptr_magic.h" alt="" coords="1229,406,1344,437"/>
+<area shape="rect" id="node37" href="$gr__msg__accepter_8h.html" title="gr_msg_accepter.h" alt="" coords="1416,246,1552,277"/>
+<area shape="rect" id="node76" href="$gr__io__signature_8h.html" title="gr_io_signature.h" alt="" coords="1139,246,1261,277"/>
+<area shape="rect" id="node80" href="$thread_8h.html" title="gruel/thread.h" alt="" coords="1011,246,1115,277"/>
+<area shape="rect" id="node16" href="$gr__types_8h.html" title="gr_types.h" alt="" coords="1520,406,1603,437"/>
+<area shape="rect" id="node25" href="$gr__complex_8h.html" title="gr_complex.h" alt="" coords="1364,486,1465,517"/>
+<area shape="rect" id="node40" href="$msg__accepter_8h.html" title="gruel/msg_accepter.h" alt="" coords="1437,326,1587,357"/>
+<area shape="rect" id="node45" href="$pmt_8h.html" title="gruel/pmt.h" alt="" coords="1852,406,1937,437"/>
+<area shape="rect" id="node42" href="$gruel_2src_2include_2gruel_2api_8h.html" title="gruel/api.h" alt="" coords="1164,486,1247,517"/>
+<area shape="rect" id="node56" href="$stdint_8h.html" title="stdint.h" alt="" coords="2439,486,2500,517"/>
+<area shape="rect" id="node67" href="$pmt__sugar_8h.html" title="gruel/pmt_sugar.h" alt="" coords="2236,486,2364,517"/>
+</map>

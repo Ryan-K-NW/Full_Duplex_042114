@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__sync__interpolator_8h" kind="file">
+    <compoundname>gr_sync_interpolator.h</compoundname>
+    <includes refid="gr__core__api_8h" local="no">gr_core_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includedby refid="gr__pfb__interpolator__ccf_8h" local="no">gr_pfb_interpolator_ccf.h</includedby>
+    <includedby refid="gr__pfb__synthesizer__ccf_8h" local="no">gr_pfb_synthesizer_ccf.h</includedby>
+    <includedby refid="gr__bytes__to__syms_8h" local="no">gr_bytes_to_syms.h</includedby>
+    <includedby refid="gr__complex__to__interleaved__short_8h" local="no">gr_complex_to_interleaved_short.h</includedby>
+    <includedby refid="gr__cpfsk__bc_8h" local="no">gr_cpfsk_bc.h</includedby>
+    <includedby refid="gr__encode__ccsds__27__bb_8h" local="no">gr_encode_ccsds_27_bb.h</includedby>
+    <includedby refid="gr__interleave_8h" local="no">gr_interleave.h</includedby>
+    <includedby refid="gr__repeat_8h" local="no">gr_repeat.h</includedby>
+    <includedby refid="gr__streams__to__stream_8h" local="no">gr_streams_to_stream.h</includedby>
+    <includedby refid="gr__streams__to__vector_8h" local="no">gr_streams_to_vector.h</includedby>
+    <includedby refid="gr__unpack__k__bits__bb_8h" local="no">gr_unpack_k_bits_bb.h</includedby>
+    <includedby refid="gr__vector__map_8h" local="no">gr_vector_map.h</includedby>
+    <includedby refid="gr__vector__to__stream_8h" local="no">gr_vector_to_stream.h</includedby>
+    <includedby refid="gr__vector__to__streams_8h" local="no">gr_vector_to_streams.h</includedby>
+    <includedby refid="cpfsk__bc_8h" local="no">cpfsk_bc.h</includedby>
+    <includedby refid="atsc__depad_8h" local="no">atsc_depad.h</includedby>
+    <includedby refid="complex__to__interleaved__short_8h" local="no">complex_to_interleaved_short.h</includedby>
+    <includedby refid="interleave_8h" local="no">interleave.h</includedby>
+    <includedby refid="repeat_8h" local="no">repeat.h</includedby>
+    <includedby refid="streams__to__stream_8h" local="no">streams_to_stream.h</includedby>
+    <includedby refid="vector__to__stream_8h" local="no">vector_to_stream.h</includedby>
+    <includedby refid="digital__bytes__to__syms_8h" local="no">digital_bytes_to_syms.h</includedby>
+    <includedby refid="digital__ofdm__cyclic__prefixer_8h" local="no">digital_ofdm_cyclic_prefixer.h</includedby>
+    <includedby refid="pfb__interpolator__ccf_8h" local="no">pfb_interpolator_ccf.h</includedby>
+    <includedby refid="pfb__synthesizer__ccf_8h" local="no">pfb_synthesizer_ccf.h</includedby>
+    <includedby refid="vocoder__codec2__decode__ps_8h" local="no">vocoder_codec2_decode_ps.h</includedby>
+    <includedby refid="vocoder__cvsd__decode__bs_8h" local="no">vocoder_cvsd_decode_bs.h</includedby>
+    <includedby refid="vocoder__gsm__fr__decode__ps_8h" local="no">vocoder_gsm_fr_decode_ps.h</includedby>
+    <incdepgraph>
+      <node id="54893">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="54872">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54867" relation="include">
+        </childnode>
+      </node>
+      <node id="54895">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="54867">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="54865">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54866" relation="include">
+        </childnode>
+      </node>
+      <node id="54860">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="54861" relation="include">
+        </childnode>
+      </node>
+      <node id="54879">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="54896">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="54870">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="54871" relation="include">
+        </childnode>
+      </node>
+      <node id="54886">
+        <label>stdexcept</label>
+      </node>
+      <node id="54892">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="54882">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="54883" relation="include">
+        </childnode>
+        <childnode refid="54884" relation="include">
+        </childnode>
+      </node>
+      <node id="54881">
+        <label>string</label>
+      </node>
+      <node id="54864">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54865" relation="include">
+        </childnode>
+        <childnode refid="54872" relation="include">
+        </childnode>
+        <childnode refid="54873" relation="include">
+        </childnode>
+        <childnode refid="54874" relation="include">
+        </childnode>
+        <childnode refid="54875" relation="include">
+        </childnode>
+        <childnode refid="54881" relation="include">
+        </childnode>
+        <childnode refid="54888" relation="include">
+        </childnode>
+        <childnode refid="54889" relation="include">
+        </childnode>
+        <childnode refid="54890" relation="include">
+        </childnode>
+        <childnode refid="54891" relation="include">
+        </childnode>
+        <childnode refid="54896" relation="include">
+        </childnode>
+        <childnode refid="54895" relation="include">
+        </childnode>
+        <childnode refid="54897" relation="include">
+        </childnode>
+      </node>
+      <node id="54889">
+        <label>map</label>
+      </node>
+      <node id="54869">
+        <label>stddef.h</label>
+      </node>
+      <node id="54890">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54865" relation="include">
+        </childnode>
+      </node>
+      <node id="54874">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="54883">
+        <label>limits.h</label>
+      </node>
+      <node id="54863">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54864" relation="include">
+        </childnode>
+        <childnode refid="54898" relation="include">
+        </childnode>
+      </node>
+      <node id="54880">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="54876">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="54877" relation="include">
+        </childnode>
+        <childnode refid="54878" relation="include">
+        </childnode>
+        <childnode refid="54867" relation="include">
+        </childnode>
+      </node>
+      <node id="54884">
+        <label>wchar.h</label>
+      </node>
+      <node id="54859">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr_sync_interpolator.h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54862" relation="include">
+        </childnode>
+      </node>
+      <node id="54894">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="54887">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="54898">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54878" relation="include">
+        </childnode>
+      </node>
+      <node id="54868">
+        <label>vector</label>
+      </node>
+      <node id="54875">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54876" relation="include">
+        </childnode>
+        <childnode refid="54878" relation="include">
+        </childnode>
+      </node>
+      <node id="54873">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="54862">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54863" relation="include">
+        </childnode>
+      </node>
+      <node id="54885">
+        <label>iosfwd</label>
+      </node>
+      <node id="54878">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="54877" relation="include">
+        </childnode>
+        <childnode refid="54879" relation="include">
+        </childnode>
+        <childnode refid="54867" relation="include">
+        </childnode>
+        <childnode refid="54880" relation="include">
+        </childnode>
+        <childnode refid="54871" relation="include">
+        </childnode>
+        <childnode refid="54881" relation="include">
+        </childnode>
+        <childnode refid="54882" relation="include">
+        </childnode>
+        <childnode refid="54885" relation="include">
+        </childnode>
+        <childnode refid="54886" relation="include">
+        </childnode>
+        <childnode refid="54868" relation="include">
+        </childnode>
+        <childnode refid="54887" relation="include">
+        </childnode>
+      </node>
+      <node id="54897">
+        <label>iostream</label>
+      </node>
+      <node id="54888">
+        <label>deque</label>
+      </node>
+      <node id="54891">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="54877" relation="include">
+        </childnode>
+        <childnode refid="54892" relation="include">
+        </childnode>
+        <childnode refid="54893" relation="include">
+        </childnode>
+        <childnode refid="54894" relation="include">
+        </childnode>
+        <childnode refid="54895" relation="include">
+        </childnode>
+      </node>
+      <node id="54861">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="54871">
+        <label>complex</label>
+      </node>
+      <node id="54866">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="54860" relation="include">
+        </childnode>
+        <childnode refid="54867" relation="include">
+        </childnode>
+        <childnode refid="54868" relation="include">
+        </childnode>
+        <childnode refid="54869" relation="include">
+        </childnode>
+        <childnode refid="54870" relation="include">
+        </childnode>
+      </node>
+      <node id="54877">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="54861" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="54914">
+        <label>cpfsk_bc.h</label>
+        <link refid="cpfsk__bc_8h"/>
+        <childnode refid="54915" relation="include">
+        </childnode>
+      </node>
+      <node id="54901">
+        <label>gr_pfb_synthesizer_ccf.h</label>
+        <link refid="gr__pfb__synthesizer__ccf_8h"/>
+      </node>
+      <node id="54933">
+        <label>vocoder_codec2_decode_ps.h</label>
+        <link refid="vocoder__codec2__decode__ps_8h"/>
+      </node>
+      <node id="54928">
+        <label>digital_ofdm_cyclic_prefixer.h</label>
+        <link refid="digital__ofdm__cyclic__prefixer_8h"/>
+      </node>
+      <node id="54918">
+        <label>complex_to_interleaved_short_impl.h</label>
+        <link refid="complex__to__interleaved__short__impl_8h"/>
+      </node>
+      <node id="54932">
+        <label>pfb_synthesizer_ccf_impl.h</label>
+        <link refid="pfb__synthesizer__ccf__impl_8h"/>
+      </node>
+      <node id="54923">
+        <label>streams_to_stream.h</label>
+        <link refid="streams__to__stream_8h"/>
+        <childnode refid="54924" relation="include">
+        </childnode>
+      </node>
+      <node id="54908">
+        <label>gr_streams_to_stream.h</label>
+        <link refid="gr__streams__to__stream_8h"/>
+      </node>
+      <node id="54927">
+        <label>digital_bytes_to_syms.h</label>
+        <link refid="digital__bytes__to__syms_8h"/>
+      </node>
+      <node id="54911">
+        <label>gr_vector_map.h</label>
+        <link refid="gr__vector__map_8h"/>
+      </node>
+      <node id="54931">
+        <label>pfb_synthesizer_ccf.h</label>
+        <link refid="pfb__synthesizer__ccf_8h"/>
+        <childnode refid="54932" relation="include">
+        </childnode>
+      </node>
+      <node id="54905">
+        <label>gr_encode_ccsds_27_bb.h</label>
+        <link refid="gr__encode__ccsds__27__bb_8h"/>
+      </node>
+      <node id="54922">
+        <label>repeat_impl.h</label>
+        <link refid="repeat__impl_8h"/>
+      </node>
+      <node id="54910">
+        <label>gr_unpack_k_bits_bb.h</label>
+        <link refid="gr__unpack__k__bits__bb_8h"/>
+      </node>
+      <node id="54924">
+        <label>streams_to_stream_impl.h</label>
+        <link refid="streams__to__stream__impl_8h"/>
+      </node>
+      <node id="54903">
+        <label>gr_complex_to_interleaved_short.h</label>
+        <link refid="gr__complex__to__interleaved__short_8h"/>
+      </node>
+      <node id="54929">
+        <label>pfb_interpolator_ccf.h</label>
+        <link refid="pfb__interpolator__ccf_8h"/>
+        <childnode refid="54930" relation="include">
+        </childnode>
+      </node>
+      <node id="54919">
+        <label>interleave.h</label>
+        <link refid="interleave_8h"/>
+        <childnode refid="54920" relation="include">
+        </childnode>
+      </node>
+      <node id="54915">
+        <label>cpfsk_bc_impl.h</label>
+        <link refid="cpfsk__bc__impl_8h"/>
+      </node>
+      <node id="54899">
+        <label>gr_sync_interpolator.h</label>
+        <link refid="gr_sync_interpolator.h"/>
+        <childnode refid="54900" relation="include">
+        </childnode>
+        <childnode refid="54901" relation="include">
+        </childnode>
+        <childnode refid="54902" relation="include">
+        </childnode>
+        <childnode refid="54903" relation="include">
+        </childnode>
+        <childnode refid="54904" relation="include">
+        </childnode>
+        <childnode refid="54905" relation="include">
+        </childnode>
+        <childnode refid="54906" relation="include">
+        </childnode>
+        <childnode refid="54907" relation="include">
+        </childnode>
+        <childnode refid="54908" relation="include">
+        </childnode>
+        <childnode refid="54909" relation="include">
+        </childnode>
+        <childnode refid="54910" relation="include">
+        </childnode>
+        <childnode refid="54911" relation="include">
+        </childnode>
+        <childnode refid="54912" relation="include">
+        </childnode>
+        <childnode refid="54913" relation="include">
+        </childnode>
+        <childnode refid="54914" relation="include">
+        </childnode>
+        <childnode refid="54916" relation="include">
+        </childnode>
+        <childnode refid="54917" relation="include">
+        </childnode>
+        <childnode refid="54919" relation="include">
+        </childnode>
+        <childnode refid="54921" relation="include">
+        </childnode>
+        <childnode refid="54923" relation="include">
+        </childnode>
+        <childnode refid="54925" relation="include">
+        </childnode>
+        <childnode refid="54927" relation="include">
+        </childnode>
+        <childnode refid="54928" relation="include">
+        </childnode>
+        <childnode refid="54929" relation="include">
+        </childnode>
+        <childnode refid="54931" relation="include">
+        </childnode>
+        <childnode refid="54933" relation="include">
+        </childnode>
+        <childnode refid="54934" relation="include">
+        </childnode>
+        <childnode refid="54935" relation="include">
+        </childnode>
+      </node>
+      <node id="54935">
+        <label>vocoder_gsm_fr_decode_ps.h</label>
+        <link refid="vocoder__gsm__fr__decode__ps_8h"/>
+      </node>
+      <node id="54926">
+        <label>vector_to_stream_impl.h</label>
+        <link refid="vector__to__stream__impl_8h"/>
+      </node>
+      <node id="54900">
+        <label>gr_pfb_interpolator_ccf.h</label>
+        <link refid="gr__pfb__interpolator__ccf_8h"/>
+      </node>
+      <node id="54907">
+        <label>gr_repeat.h</label>
+        <link refid="gr__repeat_8h"/>
+      </node>
+      <node id="54904">
+        <label>gr_cpfsk_bc.h</label>
+        <link refid="gr__cpfsk__bc_8h"/>
+      </node>
+      <node id="54920">
+        <label>interleave_impl.h</label>
+        <link refid="interleave__impl_8h"/>
+      </node>
+      <node id="54930">
+        <label>pfb_interpolator_ccf_impl.h</label>
+        <link refid="pfb__interpolator__ccf__impl_8h"/>
+      </node>
+      <node id="54913">
+        <label>gr_vector_to_streams.h</label>
+        <link refid="gr__vector__to__streams_8h"/>
+      </node>
+      <node id="54912">
+        <label>gr_vector_to_stream.h</label>
+        <link refid="gr__vector__to__stream_8h"/>
+      </node>
+      <node id="54921">
+        <label>repeat.h</label>
+        <link refid="repeat_8h"/>
+        <childnode refid="54922" relation="include">
+        </childnode>
+      </node>
+      <node id="54906">
+        <label>gr_interleave.h</label>
+        <link refid="gr__interleave_8h"/>
+      </node>
+      <node id="54902">
+        <label>gr_bytes_to_syms.h</label>
+        <link refid="gr__bytes__to__syms_8h"/>
+      </node>
+      <node id="54934">
+        <label>vocoder_cvsd_decode_bs.h</label>
+        <link refid="vocoder__cvsd__decode__bs_8h"/>
+      </node>
+      <node id="54909">
+        <label>gr_streams_to_vector.h</label>
+        <link refid="gr__streams__to__vector_8h"/>
+      </node>
+      <node id="54916">
+        <label>atsc_depad.h</label>
+        <link refid="atsc__depad_8h"/>
+      </node>
+      <node id="54925">
+        <label>vector_to_stream.h</label>
+        <link refid="vector__to__stream_8h"/>
+        <childnode refid="54926" relation="include">
+        </childnode>
+      </node>
+      <node id="54917">
+        <label>complex_to_interleaved_short.h</label>
+        <link refid="complex__to__interleaved__short_8h"/>
+        <childnode refid="54918" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr__sync__interpolator" prot="public">gr_sync_interpolator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/lib/runtime/gr_sync_interpolator.h"/>
+  </compounddef>
+</doxygen>

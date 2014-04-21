@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gr__shd__smini__source_8h" kind="file">
+    <compoundname>gr_shd_smini_source.h</compoundname>
+    <includes refid="gr__shd__api_8h" local="no">gr_shd_api.h</includes>
+    <includes refid="gr__sync__block_8h" local="no">gr_sync_block.h</includes>
+    <includes local="no">shd/xmini/multi_xmini.hpp</includes>
+    <incdepgraph>
+      <node id="53050">
+        <label>boost/thread/mutex.hpp</label>
+      </node>
+      <node id="53029">
+        <label>gr_sptr_magic.h</label>
+        <link refid="gr__sptr__magic_8h_source"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53024" relation="include">
+        </childnode>
+      </node>
+      <node id="53052">
+        <label>boost/thread/condition_variable.hpp</label>
+      </node>
+      <node id="53024">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="53022">
+        <label>gr_runtime_types.h</label>
+        <link refid="gr__runtime__types_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53023" relation="include">
+        </childnode>
+      </node>
+      <node id="53018">
+        <label>gr_core_api.h</label>
+        <link refid="gr__core__api_8h"/>
+        <childnode refid="53019" relation="include">
+        </childnode>
+      </node>
+      <node id="53036">
+        <label>boost/intrusive_ptr.hpp</label>
+      </node>
+      <node id="53053">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="53027">
+        <label>gr_complex.h</label>
+        <link refid="gr__complex_8h"/>
+        <childnode refid="53028" relation="include">
+        </childnode>
+      </node>
+      <node id="53043">
+        <label>stdexcept</label>
+      </node>
+      <node id="53049">
+        <label>boost/thread/thread.hpp</label>
+      </node>
+      <node id="53014">
+        <label>gr_shd_smini_source.h</label>
+        <link refid="gr_shd_smini_source.h"/>
+        <childnode refid="53015" relation="include">
+        </childnode>
+        <childnode refid="53017" relation="include">
+        </childnode>
+        <childnode refid="53056" relation="include">
+        </childnode>
+      </node>
+      <node id="53039">
+        <label>stdint.h</label>
+        <link refid="stdint_8h"/>
+        <childnode refid="53040" relation="include">
+        </childnode>
+        <childnode refid="53041" relation="include">
+        </childnode>
+      </node>
+      <node id="53038">
+        <label>string</label>
+      </node>
+      <node id="53021">
+        <label>gr_basic_block.h</label>
+        <link refid="gr__basic__block_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53022" relation="include">
+        </childnode>
+        <childnode refid="53029" relation="include">
+        </childnode>
+        <childnode refid="53030" relation="include">
+        </childnode>
+        <childnode refid="53031" relation="include">
+        </childnode>
+        <childnode refid="53032" relation="include">
+        </childnode>
+        <childnode refid="53038" relation="include">
+        </childnode>
+        <childnode refid="53045" relation="include">
+        </childnode>
+        <childnode refid="53046" relation="include">
+        </childnode>
+        <childnode refid="53047" relation="include">
+        </childnode>
+        <childnode refid="53048" relation="include">
+        </childnode>
+        <childnode refid="53053" relation="include">
+        </childnode>
+        <childnode refid="53052" relation="include">
+        </childnode>
+        <childnode refid="53054" relation="include">
+        </childnode>
+      </node>
+      <node id="53046">
+        <label>map</label>
+      </node>
+      <node id="53016">
+        <label>shd/config.hpp</label>
+      </node>
+      <node id="53026">
+        <label>stddef.h</label>
+      </node>
+      <node id="53047">
+        <label>gr_io_signature.h</label>
+        <link refid="gr__io__signature_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53022" relation="include">
+        </childnode>
+      </node>
+      <node id="53056">
+        <label>shd/xmini/multi_xmini.hpp</label>
+      </node>
+      <node id="53031">
+        <label>boost/function.hpp</label>
+      </node>
+      <node id="53040">
+        <label>limits.h</label>
+      </node>
+      <node id="53020">
+        <label>gr_block.h</label>
+        <link refid="gr__block_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53021" relation="include">
+        </childnode>
+        <childnode refid="53055" relation="include">
+        </childnode>
+      </node>
+      <node id="53037">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="53033">
+        <label>gruel/msg_accepter.h</label>
+        <link refid="msg__accepter_8h"/>
+        <childnode refid="53034" relation="include">
+        </childnode>
+        <childnode refid="53035" relation="include">
+        </childnode>
+        <childnode refid="53024" relation="include">
+        </childnode>
+      </node>
+      <node id="53041">
+        <label>wchar.h</label>
+      </node>
+      <node id="53051">
+        <label>boost/thread/locks.hpp</label>
+      </node>
+      <node id="53044">
+        <label>gruel/pmt_sugar.h</label>
+        <link refid="pmt__sugar_8h"/>
+      </node>
+      <node id="53055">
+        <label>gr_tags.h</label>
+        <link refid="gr__tags_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53035" relation="include">
+        </childnode>
+      </node>
+      <node id="53025">
+        <label>vector</label>
+      </node>
+      <node id="53032">
+        <label>gr_msg_accepter.h</label>
+        <link refid="gr__msg__accepter_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53033" relation="include">
+        </childnode>
+        <childnode refid="53035" relation="include">
+        </childnode>
+      </node>
+      <node id="53030">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="53017">
+        <label>gr_sync_block.h</label>
+        <link refid="gr__sync__block_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53020" relation="include">
+        </childnode>
+      </node>
+      <node id="53042">
+        <label>iosfwd</label>
+      </node>
+      <node id="53035">
+        <label>gruel/pmt.h</label>
+        <link refid="pmt_8h"/>
+        <childnode refid="53034" relation="include">
+        </childnode>
+        <childnode refid="53036" relation="include">
+        </childnode>
+        <childnode refid="53024" relation="include">
+        </childnode>
+        <childnode refid="53037" relation="include">
+        </childnode>
+        <childnode refid="53028" relation="include">
+        </childnode>
+        <childnode refid="53038" relation="include">
+        </childnode>
+        <childnode refid="53039" relation="include">
+        </childnode>
+        <childnode refid="53042" relation="include">
+        </childnode>
+        <childnode refid="53043" relation="include">
+        </childnode>
+        <childnode refid="53025" relation="include">
+        </childnode>
+        <childnode refid="53044" relation="include">
+        </childnode>
+      </node>
+      <node id="53054">
+        <label>iostream</label>
+      </node>
+      <node id="53045">
+        <label>deque</label>
+      </node>
+      <node id="53048">
+        <label>gruel/thread.h</label>
+        <link refid="thread_8h"/>
+        <childnode refid="53034" relation="include">
+        </childnode>
+        <childnode refid="53049" relation="include">
+        </childnode>
+        <childnode refid="53050" relation="include">
+        </childnode>
+        <childnode refid="53051" relation="include">
+        </childnode>
+        <childnode refid="53052" relation="include">
+        </childnode>
+      </node>
+      <node id="53019">
+        <label>gruel/attributes.h</label>
+        <link refid="attributes_8h"/>
+      </node>
+      <node id="53015">
+        <label>gr_shd_api.h</label>
+        <link refid="gr__shd__api_8h"/>
+        <childnode refid="53016" relation="include">
+        </childnode>
+      </node>
+      <node id="53028">
+        <label>complex</label>
+      </node>
+      <node id="53023">
+        <label>gr_types.h</label>
+        <link refid="gr__types_8h"/>
+        <childnode refid="53018" relation="include">
+        </childnode>
+        <childnode refid="53024" relation="include">
+        </childnode>
+        <childnode refid="53025" relation="include">
+        </childnode>
+        <childnode refid="53026" relation="include">
+        </childnode>
+        <childnode refid="53027" relation="include">
+        </childnode>
+      </node>
+      <node id="53034">
+        <label>gruel/api.h</label>
+        <link refid="gruel_2src_2include_2gruel_2api_8h"/>
+        <childnode refid="53019" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classshd__smini__source" prot="public">shd_smini_source</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gr__shd__smini__source_8h_1a37edc989bf51fb450aa1d6735de82ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="gr__shd__api_8h_1a1e91b818c68d1ee304cbb27e0acef65b" kindref="member">GR_SHD_API</ref> <ref refid="classboost_1_1shared__ptr" kindref="compound">boost::shared_ptr</ref>&lt; <ref refid="classshd__smini__source" kindref="compound">shd_smini_source</ref> &gt;</type>
+        <definition>GR_SHD_API boost::shared_ptr&lt;shd_smini_source&gt; shd_make_smini_source</definition>
+        <argsstring>(const shd::device_addr_t &amp;device_addr, const shd::io_type_t &amp;io_type, size_t num_channels)</argsstring>
+        <name>shd_make_smini_source</name>
+        <param>
+          <type>const shd::device_addr_t &amp;</type>
+          <declname>device_addr</declname>
+        </param>
+        <param>
+          <type>const shd::io_type_t &amp;</type>
+          <declname>io_type</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-shd/include/gr_shd_smini_source.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gr-shd/include/gr_shd_smini_source.h"/>
+  </compounddef>
+</doxygen>

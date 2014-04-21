@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../gnuradio-core/src/lib/general/gr_core_api.h
+gruel/attributes.h
+-
+
+../gnuradio-core/src/lib/runtime/gr_vmcircbuf.h
+gr_core_api.h
+-
+vector
+-
+
+../gruel/src/include/gruel/attributes.h
+
+/home/eecs/Ryan/Full_Duplex_042114/gnuradio-3.6.3/gnuradio-core/src/tests/test_vmcircbuf.cc
+gr_vmcircbuf.h
+-
+stdio.h
+-
+
