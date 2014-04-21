@@ -34,6 +34,7 @@
 #include <stdlib.h>
 #include <float.h>
 #include <stdexcept>
+#include <stdio.h> 
 
 #define M_TWOPI (2*M_PI)
 #define SQRT_TWO 0.707107
@@ -50,6 +51,7 @@ digital_constellation::digital_constellation (std::vector<gr_complex> constellat
   d_dimensionality(dimensionality)
 {
   // Scale constellation points so that average magnitude is 1.
+  // (Ryan K) may need to adjust this part of the code so that the magnitude is not average of 1 (unsure)
   float summed_mag = 0;
   unsigned int constsize = d_constellation.size();
   for (unsigned int i=0; i<constsize; i++) {
@@ -393,10 +395,15 @@ digital_make_constellation_bpsk()
 
 digital_constellation_bpsk::digital_constellation_bpsk ()
 {
-  d_constellation.resize(2);
+  /* (Ryan K) Add 0 in as an option to the constellation.  Now symbol can be 1,0,-1.  Not sure if this will work*/
+
+  printf("Building Constellation with 0 added to BPSK");
+
+  d_constellation.resize(3);
   d_constellation[0] = gr_complex(-1, 0);
-  d_constellation[1] = gr_complex(1, 0);
-  d_rotational_symmetry = 2;
+  d_constellation[1] = gr_complex(1,0);
+  d_constellation[2] = gr_complex(0, 0);
+  d_rotational_symmetry = 3;
   d_dimensionality = 1;
   calc_arity();
 }
@@ -404,7 +411,17 @@ digital_constellation_bpsk::digital_constellation_bpsk ()
 unsigned int
 digital_constellation_bpsk::decision_maker(const gr_complex *sample)
 {
-  return (real(*sample) > 0);
+  /* (Ryan K) added in more decision options.  Arbitrary thresholds set, may need to tweak these. */
+
+  float pos_thresh = .02;
+  float neg_thresh = -.02;
+  if ((real(*sample) > pos_thresh))
+     return 1;
+  else if ((real(*sample) < neg_thresh))
+     return 0;
+  else
+     return 2;
+  /*return (real(*sample) > 0); */
 }
 
 
