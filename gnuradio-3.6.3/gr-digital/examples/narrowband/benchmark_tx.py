@@ -140,7 +140,7 @@ def main():
             else:
                 print "Sending 0 packets"
                 zero_count = zero_count + 1;
-                data = (pkt_size -2) * chr(0 & 0x00)
+                data = (pkt_size -2) * chr(0x0000)
                 # check to see if we have added enough 0 packets
                 if zero_count > 19:
                     duty_cycle = duty_cycle + 40 
@@ -148,9 +148,11 @@ def main():
         else:
             data = source_file.read(pkt_size - 2)
             if data == '':
+		print "Opps we ran out of data"
                 break;
 
         payload = struct.pack('!H', pktno & 0xffff) + data
+        #print "The Payload is: %s" % (payload)
         send_pkt(payload)
         n += len(payload)
         sys.stderr.write('.')
