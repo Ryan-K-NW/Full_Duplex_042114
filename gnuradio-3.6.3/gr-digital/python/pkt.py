@@ -96,7 +96,7 @@ class mod_pkts(gr.hier_block2):
             msg = gr.message_from_string(pkt)
             if self._use_whitener_offset is True:
                 self._whitener_offset = (self._whitener_offset + 1) % 16
-                
+        print "Complex Modulated Baseband Signal: %s" % (msg)        
         self._pkt_input.msgq().insert_tail(msg)
 
 

@@ -146,6 +146,7 @@ def make_packet(payload, samples_per_symbol, bits_per_symbol,
         pkt = pkt + (_npadding_bytes(len(pkt), int(samples_per_symbol), bits_per_symbol) * '\x55')
 
     #print "make_packet: len(pkt) =", len(pkt)
+    print "This is the packet: %s" % (pkt)
     return pkt
 
 def _npadding_bytes(pkt_byte_len, samples_per_symbol, bits_per_symbol):
