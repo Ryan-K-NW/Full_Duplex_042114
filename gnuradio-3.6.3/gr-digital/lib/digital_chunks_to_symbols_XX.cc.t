@@ -31,6 +31,7 @@
 #include <assert.h>
 #include <iostream>
 #include <string.h>
+#include <stdio.h>
 
 @SPTR_NAME@
 digital_make_@BASE_NAME@ (const std::vector<@O_TYPE@> &symbol_table, const int D)
@@ -63,6 +64,8 @@ int
 
     // per stream processing
     for (int i = 0; i < noutput_items / d_D; i++){
+      printf ("The input to chuncks2sym is: %u \n", ((unsigned int)in[i]*d_D)); 
+      printf ("Dimension of symbol table is: %i", d_symbol_table.size());
       assert (((unsigned int)in[i]*d_D+d_D) <= d_symbol_table.size());
       memcpy(out, &d_symbol_table[(unsigned int)in[i]*d_D], d_D*sizeof(@O_TYPE@));
       out+=d_D;
