@@ -30,6 +30,7 @@
 #include <gr_io_signature.h>
 #include <assert.h>
 #include <gr_log2_const.h>
+#include <stdio.h>
 
 static const unsigned int BITS_PER_TYPE = sizeof(@I_TYPE@) * 8;
 static const unsigned int LOG2_L_TYPE = gr_log2_const<sizeof(@I_TYPE@) * 8>();
@@ -88,6 +89,7 @@ int
 					gr_vector_void_star &output_items)
 {
   unsigned int index_tmp = d_index;
+  int i;
 
   assert (input_items.size() == output_items.size());
   int nstreams = input_items.size();
@@ -102,9 +104,10 @@ int
     switch (d_endianness){
 
     case GR_MSB_FIRST:
-      for (int i = 0; i < noutput_items; i++){
+      for (i = 0; i < noutput_items; i++){
 	//printf("here msb %d\n",i);
 	@O_TYPE@ x = 0;
+        printf("Input at b2c is %u\n", in[i]);
 	for(unsigned int j=0; j<d_bits_per_chunk; j++, index_tmp++)
 	  x = (x<<1) | get_bit_be(in, index_tmp);
 	out[i] = x;
